@@ -1,0 +1,5178 @@
+{
+  "gra1": {
+    "l1": [{
+      "m": "N1 là N2.\nThể khẳng định, hiện tại hoặc tương lai.\nN2 ở đây thể hiện 1 thuộc tính của N1.\n\nれい：\n・ミンさんは　がくせいです。\nMinh là học sinh.\n・クァンさんは　ベトナムじんです。\nQuang là người Việt Nam.\n・マイさんは　じゅうはっさいです。\nMai 18 tuổi.\n",
+      "n": "N1は　N2です"
+    }, {
+      "m": "はい、N2です。\nいいえ、N2では／じゃありません。\n\nれい：\n・ミンさんは　せんせいですか。\nMinh là giáo viên phải không?\n・・・はい、せんせいです。\nĐúng, là giáo viên.\n・・・いいえ、せんせいでは／じゃありません。\nKhông, không phải là giáo viên.\n",
+      "n": "N1は　N2ですか。"
+    }, {
+      "m": "N là nước nào, khi nào, cái gì?\n・どちら：có thể dùng hỏi đất nước, công ty, tập đoàn, hãng sản xuất…\n・いつ：hỏi thời gian, lúc nào, khi nào\n・なん：hỏi cái gì\n\nれい：\n・おくには　どちらですか。\nĐất nước／ quê hương của bạn là gì?\n・たんじょうには　いつですか。\nSinh nhật của bạn là khi nào?\n・しゅみは　なんですか。\nSở thích của bạn là gì?\n",
+      "n": "Nは　どちら／いつ／なんですか。"
+    }, {
+      "m": "Dịch là N2 của N1.\nN2 ở đây là thuộc sở hữu của N1, hoặc là 1 bộ phận, 1 nhánh, 1 phần nhỏ hơn của N1.\n\nれい：\n・ハノイは　ベトナムのしゅとです。\nHà Nội là thủ đô của Việt Nam.\n・わたしは　FPTだいがくの　がくせいです。\nTôi là sinh viên của trường ĐH FPT.\n",
+      "n": "N1の　N2"
+    }, {
+      "m": "N1 và N2. \nと ở đây dùng như AND của tiếng Anh.\n\nれい：\n・ナムさんのしゅみは　りょこうと　どくしょです。\nSở thích của Nam là du lịch và đọc sách.\n",
+      "n": "N1と　N2"
+    }, {
+      "m": "Cũng\n\nれい：\n・わたしはFPTだいがくの　がくせいです。ミンさんも　FPTだいがくの　がくせいです。\nTôi là sv ĐH FPT, Minh cũng là sv ĐH FPT.\n",
+      "n": "Nも"
+    }],
+    "l2": [{
+      "m": "Cái này／ cái đó／ cái kia\nこの được dùng khi vật ở gần người nói, xa người nghe.\nその được dùng khi vật ở gần người nghe xa người nói. \nあの được dùng khi vật ở xa cả người nói và người nghe.\n\nれい：\n・これは　にほんごのほんです。\nĐây là quyển sách tiếng nhật.\n・それは　えんぴつです。\nĐó là cái bút chì.\n・あれは　けいたいでんわです。\nKia là cái điện thoại di động.\n",
+      "n": "これ／それ／あれ"
+    }, {
+      "m": "Cái N này／ đó／ kia\nDùng như この／その／あの nhưng vật ở đây được chỉ rõ ra bằng danh từ N.\n\nれい：\n・このほんは　ナムさんのほんです。\nQuyển sách này là sách của Nam.\n・そのほんは　にほんごのほんです。\nQuyển sách đó là sách tiếng Nhật.\n・あのぺんは　わたしのぺんです。\nCây bút kia là bút của tôi.\n",
+      "n": "この／その／あの　N"
+    }, {
+      "m": "どこ／どちら ở đây được dùng để hỏi địa điểm của danh từ N.\nここ／そこ／あそこ  : ở đây ／ ở đó ／ ở kia.\nこちら／そちら／あちら  : hướng này ／ hướng đó ／ hướng kia.\n\n例（れい）：\nA：　Bさん、きょうしつは　どこですか。\n          B ơi, lớp học ở đâu thế?\nB：　きょうしつは　あそこです。 \n          Lớp học ở đằng kia.\n----\n  　      A：　すみません、トイレは　どこですか。\n　　　　　　Xin lỗi cho tôi hỏi WC ở đâu thế?\nてんいん：　トイレは　あちらです。\n　　　　　　WC ở đằng kia.\n-----\nA：　せんせいは　どこですか。\n　　　Thầy giáo đang ở đâu thế?\nB：　きょうしつです。\n　　　Thầy giáo đang ở trong lớp.\nLưu ý không dịch: Thầy giáo là lớp học.\nCâu hỏi どこですか。Có câu trả lời là những từ ngữ chỉ vị trí như: ここ／そこ／あそこ\nNhưng lúc người trả lời muốn nói 1 cách lịch sự thì sẽ dùng　こちら／そちら／あちら　thay thế.\nNgoài ra còn có thể trả lời bằng những danh từ chỉ địa điểm như lớp học, nhà ăn,....\n",
+      "n": "Nは　どこですか。\nここ／そこ／あそこ \nこちら／そちら／あちら"
+    }, {
+      "m": "Giá bao nhiêu?\n\nれい：\n・そのほんは　いくらですか。\nQuyển sách đó giá bao nhiêu?\n・５５００えんです。\n5500 Yên.\n・これは　いくらですか。\nCái này bao nhiêu tiền thế?\n・それは　１まんえんです。\nCái đó giá 10000Yên.\nSố đếm + えん　＝　～Yên\nSố đếm + ドル　＝　～Dolla\nSố đếm + ドン　＝　～VNĐ\n",
+      "n": "いくらですか。"
+    }, {
+      "m": "Thể hiện sự sở hữu\n・これは　だれのほんですか。\nĐây là quyển sách của ai?\n・これは　Nguyenさんのほんです。\nĐây là quyển sách của Nguyên\n----\n・こちらは　だれのこいびと／だれ　ですか。\nĐây là người yêu của ai／ là ai?\n・わたしの　こいびとです。\nLà người yêu của tôi.\n",
+      "n": "だれの　N　ですか。"
+    }, {
+      "m": "Thể hiện nguồn gốc, xuất xứ, hãng… của đồ vật\n\nれい：\n・これは　どこのけいたいでんわですか。\nCái này là đt của hãng nào／ nước nào?\n・これは　APPLEの（けいたいでんわ）です。\nCái này là(smartphone) của Apple.\n・これは　どこのくつですか。\nĐây là đôi giày của nước nào／ hãng nào?\n・このくつは　日本のです。\nĐôi giày này là của Nhật.\n",
+      "n": "どこの　Nですか。"
+    }, {
+      "m": "Thể hiện thuộc tính, chủng loại, lĩnh vực… của sự vật\n\nれい：\n・これは　なんの　ざっしですか。\nĐây là tạp chí về cái gì?\n・これは　コンピューターの　ざっしです。\nĐây là quyển tạp chí về máy tính.\n",
+      "n": "なんの　Nですか。"
+    }, {
+      "m": "Cho tôi  ～ cái　N\n\nれい：\n　　　A：すみません、　ちゅうもんをおねがいします。\nてんいん：はい、どうぞ。\n　　　A：カレーを　ひとつ（１つ）ください。\nてんいん：はい。\nDịch:\nA： Xin lỗi, vui lòng cho tôi gọi món.\nNhân viên： Vâng, xin mời.\nA： Cho tôi 1 Cà-ri.\nNhân viên： Vâng.\n----\n　　　A：　すみません、　ちゅうもんをおねがいします。\nてんいん：　はい、どうぞ。\n　　　A：　このビールは　どこのビールですか。\nてんいん：　ドイツのビールです。\n　　　A：　じゃ、カレーを　ふたつ（２つ）と　ビールを　みっつ（３つ）　ください。\nてんいん：　カレーを２つとビールを３つですね。しょうしょうおまちください。\nDịch：\nA： Xin lỗi, vui lòng cho tôi gọi món.\nNhân viên：Vâng, xin mời.\nA： Bia này là bia của nước nào vậy?\nNhân viên： Bia của Đức.\nA： Vậy cho tôi 2 Cà-ri và 3 bia.\nNhân viên： 2 cà-ri và 3 bia đúng không nhỉ. Xin vui lòng chờ 1 chút.\n",
+      "n": "N  を　（～つ）ください。"
+    }, {
+      "m": "Trong ngôn ngữ ～ \n\nれい：\n・ぶたにくは　えいごで　なんですか。\nThịt lợn trong tiếng Anh là gì?\n・「Pork」 です。Là Pork\n----\n・「Beef」は　にほんごで　なんですか。\nBeef trong tiếng nhật là gì?\n\n・「ぎゅうにく」です。\nLà thịt bò (ぎゅうにく).\n",
+      "n": "N(～ご)で　～"
+    }],
+    "l3": [{
+      "m": "Thực hiện hành động V tại thời điểm N.\nTrợ từ に dịch là vào, vào lúc.\nĐứng sau thời gian cụ thể, như giờ cụ thể, hoặc ngày cụ thể( những mốc thời gian có số) để thể hiện thời điểm hành động xảy ra.\nKhông dùng trợ từ に sau những thời gian k có số đi kèm.\nTrường hợp đặc biệt:\nVới các ngày trong tuần ～ようび　và kì nghỉ như kì nghỉ hè   なつやすみ　thì tùy vào ngữ cảnh của câu có thể là thời gian cụ thể ( T2 tuần này, kì nghỉ hè năm nay...) hoặc không, cho nên có thể có に ở phía sau hay không có đều được.\n\nれい：\n・わたしは　まいあさ　ろくじに　おきます\nMỗi buổi sáng tôi thức dậy lúc 6h.\n・わたしは　まいばん　じゅういちじに　ねます。\nMỗi tối tôi đi ngủ lúc 11h.\nỞ 2 câu trên thì sau   まいああさ   và   まいばん　thì không có   に　mặc dù chúng đều là từ chỉ thời gian, vì chúng không chỉ thời gian cụ thể ( không có số).\nLưu ý bảng cách đếm giờ và đếm ngày ở trang 286 sách   できるにほんご   quyển 1.\n",
+      "n": "N（じかん）に　Vます"
+    }, {
+      "m": "Từ thời điểm (giờ ／ ngày) đến thời điểm (giờ ／ ngày)\n\nれい：\n・みどりゆうびんきょくは　ごぜんくじから　ごご　ごじまでです。\nBưu điện Xanh hoạt động từ 9h sáng đến 5h chiều.\n",
+      "n": "N（じかん・ようび）から　N（じかん・ようび）まで"
+    }, {
+      "m": "Động từ thể khẳng định／ phủ định.\n\nれい：\n・アンさんは　まいにち、あさごはんをたべますか。\nMỗi buổi sáng An có ăn sáng không?\n・・・はい、たべます。\nCó, có ăn.\n・・・いいえ、たべません。\nKhông, không ăn.\n",
+      "n": "Vます／ません"
+    }, {
+      "m": "N (Địa điểm)  へ　Động từ di chuyển.\nへ：trợ từ đi kèm với các động từ di chuyển, chỉ đứng sau các danh từ chỉ địa điểm hoặc hướng, chỉ hướng đến của hành động.\nへ　いきます　：đi\nへ　きます　　：đến\nへ　かえります：về\n\nれい：\n・わたしは　まいにち　がっこうへ　いきます。\nMỗi ngày tôi đi tới trường (đi học).\n・わたしは　まいばん　へやへ　かえります。\nMỗi tối tôi trở về phòng.\n・わたしは　まいあさ　がっこうへ　きます。\nMỗi ngày tôi đến trường (đi học)\nLưu ý ví dụ 3 được nói lúc đang đứng ở trường, còn ví dụ số 1 thì có được nói lúc không ở trường.\n",
+      "n": "N（ばしょ）へ    Vます"
+    }, {
+      "m": "Động từ V tác động trực tiếp lên sự vật, đối tượng N. \nCác động từ này đi kèm với trợ từ　を　(đọc là ô).\nMột số động từ đi kèm trợ từ 　を：\nたべます：　　　　ăn\nのみます：　　　　uống\nみます：　　　　　xem\nします：　　　　　làm／chơi\nべんきょうします：học\nかきます：　　　　viết／ vẽ\nよみます：　　　　đọc….\nMột số danh từ chỉ hành động đi kèm với　します　trở thành danh động từ\nサッカーを　します：　đá bóng\nダンスを　　します：　nhảy\nしょくじを　します：　ăn, dùng bữa\nテニスを　　します：　chơi tennis\nスポッツを　します：　chơi thể thao\n\nれい：\n・まいあさ　わたしは　パンを　たべます。\nMỗi sáng tôi ăn bánh mì.\n・まいばん　わたしは　はちじに　にっきを　かきます。\nMỗi tối tôi đều viết nhật kí vào lúc 8h.\n・あした　わたしは　サッカを　します。\nNgày mai tôi sẽ chơi đá bóng.\n",
+      "n": "N　を　Vます"
+    }, {
+      "m": "Nào là N1, nào là N2, Nào là N1, nào là N2, vânvân\n\nれい：\n・わたしは　まいあさ　パンや　サラダなどを　たべます。\nMỗi sáng tôi ăn nào là bánh mì, salad….\n・わたしは　サッカーや　テニスなどを　します。\nTôi chơi nào là bóng đá, tennis…..\n",
+      "n": "N1や N2など"
+    }, {
+      "m": "Không làm hành động V gì cả. Dịch là : không V gì cả\n何(なに)も　しません　　　　Không làm gì cả\n何も　たべません　　　　　　Không ăn gì cả\n何も　のみません　　　　　　Không uống gì cả\n何も　べんきょうしません　　Không học gì cả\n-----\nTương tự với những động từ khác, đây là mẫu câu không làm gì cả.\nTrợ từ 　を　được chuyển thành trợ từ　も.\n\n\nれい：\n・わたしは　なつやすみに　何(なに)も　べんきょうしません。\nVào kì nghỉ hè tôi không học gì cả.\n・私は　きょう　なにも　たべません。\nHôm nay tôi không ăn gì cả.\n- Với những động từ sử dụng trợ từ へ\nどこ(へ)も　いきません　　Không đi đâu cả\nどこ(へ)も　きません　　　Không đến đâu cả\nどこ(へ)も　かえりません　Không về đâu cả\n-----\nỞ đây có へ　hay không  có　へ　đều được.\n\nれい：\n・わたしは　しゅうまつ　どこ（へ）も　いきません。Cuối tuần tôi không đi đâu cả.\n",
+      "n": "なにも／どこ（へ）も　Vません"
+    }, {
+      "m": "Làm hành động V ở địa điểm N.\nDịch là ở, tại...\nで ở đây là chỉ địa điểm xảy ra hành động, cũng đứng sau danh từ chỉ địa điểm.\n\nれい：\n・まいにち　わたしは　くじから　じゅうにじまで　きょうしつで　にほんごを　べんきょうします。\nMỗi ngày tôi học Tiếng Nhật từ 9h đến 12h ở lớp học.\n・わたしは　しゅうまつ　あさから　よるまで　ハノイで　えいがを　みます。\nCuối tuần tôi xem phim ở Hà nội từ sáng đến tối.\n",
+      "n": "N（ばしょ）で    Vます"
+    }],
+    "l4": [{
+      "m": "- Dùng tính từ A để miêu tả danh từ N.\nTrong tiếng Nhật có 2 loại tính từ là tính từ đuôi　い　và tính từ đuôi　な.\nTất cả tính từ đuôi　い　đều có 　い　ở cuối, phần còn lại là tính từ đuôi　な, trừ 1 vài từ đặc biệt có　い　ở cuối nhưng vẫn là tính từ đuôi　な　như　きれい(な)、きらい(な),...\n- Một số tính từ đuôi　い　thường dùng:\nあたらしい　　　　mới\nふるい　　　　　　cũ\nいい　　　　　　　tốt\nわるい　　　　　　xấu\nおおい　　　　　　nhiều\nおおきい　　　　　to\nちいさい　　　　　nhỏ\nたかい　　　　　　cao\nひくい　　　　　　thấp\n- Một số tính từ đuôi　な　thường dùng:\nきれい（な）　　　đẹp, sạch\nしずか（な）　　　yên tĩnh\nにぎやか（な）　　nhộn nhịp\nゆうめい（な）　　nổi tiếng\nひま（な）　　　　rảnh rỗi\n- Tính từ đuôi　な　lúc sử dụng thường không có　な, chỉ có　な　lúc ghép với danh từ hoặc trong một số mẫu câu đặc biệt hay có thể thông thường.\n- Nは　N1が　Aです：N ở đây là chủ ngữ, một người, vật hay chủ thể nào đó.\nN1 là một thuộc tính của N và có tính chất A (như ví dụ 1 bên dưới).\n- Nは　イA (bỏ い) くないです：thể phủ định của tính từ đuôi　い.\n- Nは　ナA じゃありません：thể phủ định của tính từ đuôi　な.\n\nれい：\n・わたしのまちは　みどりが　おおいです。\nThành phố của tôi có rất nhiều màu xanh(cây xanh).\n・このりょうりは　からくないです。\nMón ăn này không cay.\n・わたしのまちは　にぎやかじゃありません。\nThành phố của tôi không nhộn nhịp.\n",
+      "n": "Nは　Aです。\nNは　イA (bỏ い) くないです。\nNは　ナA 　じゃ／では　ありません。"
+    }, {
+      "m": "Ghép tính từ với danh từ để bổ nghĩa cho danh từ.\nVới tính từ đuôi　な　ở trường hợp này thì có　な.\n\nれい：\n・わたしのこいびとは　ゆうめいなひとです。\nNgười yêu của tôi là một người nổi tiếng.\n・ハイさんのこいびとは　かわいいおんなです。\nNgười yêu của Hải là một cô bé dễ thương.\n",
+      "n": "イA　　＋　N\nナAな　＋　N"
+    }, {
+      "m": "Danh từ (đất nước, thành phố nào đó) là ／ thì vào (mùa ／ tháng ／ trong 1 năm) có tính chất A.\nDịch là: Ở đất nước ／ thành phố N vào mùa~／ tháng~／ trong năm thì như thế này~(tính chất A).\n\nれい： \n・とうきょうは　６げつ、あめが　おいいです。\nỞ Tokyo thì vào tháng 6 mưa rất nhiều.\n・ベトナムは　はる、てんきが　いいです。\nỞ Việt Nam vào mùa xuân thì thời tiết rất đẹp.\n",
+      "n": "N（くに・まち）は　(はる・～げつ・いちねんじゅう)、Aです"
+    }, {
+      "m": "とても：　　　　rất, lắm\nたいへん：　　　cực kì, vô cùng\nあまり：　　　　không ~ lắm\nぜんぜん：　　　hoàn toàn không\nすこし／ちょっと：một chút, một ít, hơi, hơi hơi\nĐây là các phó từ thường đứng trước tính từ và động từ để bổ nghĩa cho chúng.\nLưu ý　あまり　và　ぜんぜん　luôn đi với các động từ ở thể phủ định.\n\nれい：\n・ベトナムは　ふゆ、とても　さむいです。\nViệt Nam vào mùa đông thì rất lạnh.\n・とうきょうは　たいへん　にぎやかです。\nTokyo vô cùng nhộn nhịp.\n・このこうえんは　あまり　おおきくないです。\nCông viên này không to lắm.\n・わたしのせんせいは　ぜんぜん　ハンサムじゃありません。\nThầy giáo tôi hoàn toàn không đẹp trai.\n・このへやは　すこし　ふるいです。\nCăn phòng này hơi cũ.\n",
+      "n": "とても／たいへん　Aです。\nあまり／ぜんぜん　イAくないです／ナAじゃ　ありません。\nすこし／ちょっと　Aです。"
+    }, {
+      "m": "Ở vị trí N1 có vật thể N2.\n\nれい：\n・わたしのまちに　きれいなかわが　あります。\nỞ thành phố của tôi có con sông đẹp.\n",
+      "n": "N1（ばしょ）に　N2が　あります"
+    }, {
+      "m": "Thành phố N1 nằm ở phía (Đông ／ Tây ／ Bắc ／ Nam) của đất nước N2.\n\nれい：\n・ハノイは　ベトナムのきたです。\nHà Nội là ở phía Bắc Việt Nam.\n・フェは　べとなむのまんなかです。\nHuế là ở ngay chính giữa Việt Nam.\n",
+      "n": "N1（まち）は　N2（くに）の(ひがし・にし・みなみ・きた・まんなか)　です"
+    }, {
+      "m": "-Từ địa điểm N1 đến địa điểm N2 là khoảng bao lâu?\n-Từ địa điểm N1 đến địa điểm N2 là khoảng ~ thời gian／ phút, giờ…\n\nれい：\n・ハノイから　ホチミンし　まで　どのぐらいですか。\nTừ Hà Nội đến Tp HCM mất bao lâu?\n・ハノイから　ホチミンし　まで　２じかんはんぐらいです。\nTừ Hà Nội đến Tp HCM mất khoảng 2 tiếng rưỡi.\n",
+      "n": "N（ばしょ１）から　N（ばしょ２）まで　どのぐらいですか／　どのぐらいかかりますか。\nN（ばしょ１）から　N（ばしょ２）まで　(～じかん・ふん)です。"
+    }, {
+      "m": "Bằng phương tiện N\n\nれい：\n・ハノイから　ホアラクまで　バスで　１じかんぐらいかかります。\nTừ Hà Nội đến Hòa Lạc mất khoảng 1 tiếng đi bằng xe bus.\n",
+      "n": "N（のりもの）　で"
+    }, {
+      "m": "Cả 2 mẫu này đều là như thế nào ／ thế nào.\nNhưng　どう　thì đứng một mình còn　どんな　thì đi kèm với danh từ.\n\nれい：\n・ハノイは　どうですか。\nHà Nội thế nào?\n・・・ハノイは　あついです。\nHà Nội nóng!\n・ハノイは　どんなところですか。\nHà Nội là nơi như thế nào?\n・・・ハノイは　とてもあついところです。\nHà nội là 1 nơi rất nóng.\n",
+      "n": "どうですか。\nどんな　Nですか。"
+    }, {
+      "m": "Và ／ hơn nữa.\n\nれい：\n・このまちは　しずかです。そして　きれいです。\nThành phố này yên tĩnh và đẹp.\n",
+      "n": "そして"
+    }, {
+      "m": "～　nhưng　～\n\nれい：\n・わたしのまちは　おおきくないですが、いいところです。\nThành phố của tôi không lớn, nhưng mà là một nơi tốt.\n",
+      "n": "_________が、____________"
+    }, {
+      "m": "～ nhỉ\n\nれい：\n・あつですね。\nNóng nhỉ!!\n・そうですね。\nUhm, nóng thật.\n",
+      "n": "___________ね"
+    }],
+    "l5": [{
+      "m": "はい、N2です。\nいいえ、N2では／じゃありません。\n\nれい：\n・ミンさんは　せんせいですか。\nMinh là giáo viên phải không?\n・・・はい、せんせいです。\nĐúng, là giáo viên.\n・・・いいえ、せんせいでは／じゃありません。\nKhông, không phải là giáo viên.\n",
+      "n": "N1は　N2ですか。"
+    }, {
+      "m": "N là nước nào, khi nào, cái gì?\n・どちら：có thể dùng hỏi đất nước, công ty, tập đoàn, hãng sản xuất…\n・いつ：hỏi thời gian, lúc nào, khi nào\n・なん：hỏi cái gì\n\nれい：\n・おくには　どちらですか。\nĐất nước／ quê hương của bạn là gì?\n・たんじょうには　いつですか。\nSinh nhật của bạn là khi nào?\n・しゅみは　なんですか。\nSở thích của bạn là gì?\n",
+      "n": "Nは　どちら／いつ／なんですか。"
+    }, {
+      "m": "どこ／どちら ở đây được dùng để hỏi địa điểm của danh từ N.\nここ／そこ／あそこ  : ở đây ／ ở đó ／ ở kia.\nこちら／そちら／あちら  : hướng này ／ hướng đó ／ hướng kia.\n\n例（れい）：\nA：　Bさん、きょうしつは　どこですか。\n          B ơi, lớp học ở đâu thế?\nB：　きょうしつは　あそこです。 \n          Lớp học ở đằng kia.\n----\n  　      A：　すみません、トイレは　どこですか。\n　　　　　　Xin lỗi cho tôi hỏi WC ở đâu thế?\nてんいん：　トイレは　あちらです。\n　　　　　　WC ở đằng kia.\n-----\nA：　せんせいは　どこですか。\n　　　Thầy giáo đang ở đâu thế?\nB：　きょうしつです。\n　　　Thầy giáo đang ở trong lớp.\nLưu ý không dịch: Thầy giáo là lớp học.\nCâu hỏi どこですか。Có câu trả lời là những từ ngữ chỉ vị trí như: ここ／そこ／あそこ\nNhưng lúc người trả lời muốn nói 1 cách lịch sự thì sẽ dùng　こちら／そちら／あちら　thay thế.\nNgoài ra còn có thể trả lời bằng những danh từ chỉ địa điểm như lớp học, nhà ăn,....\n",
+      "n": "Nは　どこですか。\nここ／そこ／あそこ \nこちら／そちら／あちら"
+    }, {
+      "m": "Cả 2 mẫu này đều là như thế nào ／ thế nào.\nNhưng　どう　thì đứng một mình còn　どんな　thì đi kèm với danh từ.\n\nれい：\n・ハノイは　どうですか。\nHà Nội thế nào?\n・・・ハノイは　あついです。\nHà Nội nóng!\n・ハノイは　どんなところですか。\nHà Nội là nơi như thế nào?\n・・・ハノイは　とてもあついところです。\nHà nội là 1 nơi rất nóng.\n",
+      "n": "どうですか。\nどんな　Nですか。"
+    }, {
+      "m": "Và ／ hơn nữa.\n\nれい：\n・このまちは　しずかです。そして　きれいです。\nThành phố này yên tĩnh và đẹp.\n",
+      "n": "そして"
+    }, {
+      "m": "Thể hiện thuộc tính, chủng loại, lĩnh vực… của sự vật\n\nれい：\n・これは　なんの　ざっしですか。\nĐây là tạp chí về cái gì?\n・これは　コンピューターの　ざっしです。\nĐây là quyển tạp chí về máy tính.\n",
+      "n": "なんの　Nですか。"
+    }, {
+      "m": "Cho tôi  ～ cái　N\n\nれい：\n　　　A：すみません、　ちゅうもんをおねがいします。\nてんいん：はい、どうぞ。\n　　　A：カレーを　ひとつ（１つ）ください。\nてんいん：はい。\nDịch:\nA： Xin lỗi, vui lòng cho tôi gọi món.\nNhân viên： Vâng, xin mời.\nA： Cho tôi 1 Cà-ri.\nNhân viên： Vâng.\n----\n　　　A：　すみません、　ちゅうもんをおねがいします。\nてんいん：　はい、どうぞ。\n　　　A：　このビールは　どこのビールですか。\nてんいん：　ドイツのビールです。\n　　　A：　じゃ、カレーを　ふたつ（２つ）と　ビールを　みっつ（３つ）　ください。\nてんいん：　カレーを２つとビールを３つですね。しょうしょうおまちください。\nDịch：\nA： Xin lỗi, vui lòng cho tôi gọi món.\nNhân viên：Vâng, xin mời.\nA： Bia này là bia của nước nào vậy?\nNhân viên： Bia của Đức.\nA： Vậy cho tôi 2 Cà-ri và 3 bia.\nNhân viên： 2 cà-ri và 3 bia đúng không nhỉ. Xin vui lòng chờ 1 chút.\n",
+      "n": "N  を　（～つ）ください。"
+    }, {
+      "m": "Trong ngôn ngữ ～ \n\nれい：\n・ぶたにくは　えいごで　なんですか。\nThịt lợn trong tiếng Anh là gì?\n・「Pork」 です。Là Pork\n----\n・「Beef」は　にほんごで　なんですか。\nBeef trong tiếng nhật là gì?\n\n・「ぎゅうにく」です。\nLà thịt bò (ぎゅうにく).\n",
+      "n": "N(～ご)で　～"
+    }],
+    "l6": [{
+      "m": "-Từ địa điểm N1 đến địa điểm N2 là khoảng bao lâu?\n-Từ địa điểm N1 đến địa điểm N2 là khoảng ~ thời gian／ phút, giờ…\n\nれい：\n・ハノイから　ホチミンし　まで　どのぐらいですか。\nTừ Hà Nội đến Tp HCM mất bao lâu?\n・ハノイから　ホチミンし　まで　２じかんはんぐらいです。\nTừ Hà Nội đến Tp HCM mất khoảng 2 tiếng rưỡi.\n",
+      "n": "N（ばしょ１）から　N（ばしょ２）まで　どのぐらいですか／　どのぐらいかかりますか。\nN（ばしょ１）から　N（ばしょ２）まで　(～じかん・ふん)です。"
+    }, {
+      "m": "Bằng phương tiện N\n\nれい：\n・ハノイから　ホアラクまで　バスで　１じかんぐらいかかります。\nTừ Hà Nội đến Hòa Lạc mất khoảng 1 tiếng đi bằng xe bus.\n",
+      "n": "N（のりもの）　で"
+    }, {
+      "m": "Cả 2 mẫu này đều là như thế nào ／ thế nào.\nNhưng　どう　thì đứng một mình còn　どんな　thì đi kèm với danh từ.\n\nれい：\n・ハノイは　どうですか。\nHà Nội thế nào?\n・・・ハノイは　あついです。\nHà Nội nóng!\n・ハノイは　どんなところですか。\nHà Nội là nơi như thế nào?\n・・・ハノイは　とてもあついところです。\nHà nội là 1 nơi rất nóng.\n",
+      "n": "どうですか。\nどんな　Nですか。"
+    }, {
+      "m": "どこ／どちら ở đây được dùng để hỏi địa điểm của danh từ N.\nここ／そこ／あそこ  : ở đây ／ ở đó ／ ở kia.\nこちら／そちら／あちら  : hướng này ／ hướng đó ／ hướng kia.\n\n例（れい）：\nA：　Bさん、きょうしつは　どこですか。\n          B ơi, lớp học ở đâu thế?\nB：　きょうしつは　あそこです。 \n          Lớp học ở đằng kia.\n----\n  　      A：　すみません、トイレは　どこですか。\n　　　　　　Xin lỗi cho tôi hỏi WC ở đâu thế?\nてんいん：　トイレは　あちらです。\n　　　　　　WC ở đằng kia.\n-----\nA：　せんせいは　どこですか。\n　　　Thầy giáo đang ở đâu thế?\nB：　きょうしつです。\n　　　Thầy giáo đang ở trong lớp.\nLưu ý không dịch: Thầy giáo là lớp học.\nCâu hỏi どこですか。Có câu trả lời là những từ ngữ chỉ vị trí như: ここ／そこ／あそこ\nNhưng lúc người trả lời muốn nói 1 cách lịch sự thì sẽ dùng　こちら／そちら／あちら　thay thế.\nNgoài ra còn có thể trả lời bằng những danh từ chỉ địa điểm như lớp học, nhà ăn,....\n",
+      "n": "Nは　どこですか。\nここ／そこ／あそこ \nこちら／そちら／あちら"
+    }, {
+      "m": "Động từ thể khẳng định／ phủ định.\n\nれい：\n・アンさんは　まいにち、あさごはんをたべますか。\nMỗi buổi sáng An có ăn sáng không?\n・・・はい、たべます。\nCó, có ăn.\n・・・いいえ、たべません。\nKhông, không ăn.\n",
+      "n": "Vます／ません"
+    }, {
+      "m": "N (Địa điểm)  へ　Động từ di chuyển.\nへ：trợ từ đi kèm với các động từ di chuyển, chỉ đứng sau các danh từ chỉ địa điểm hoặc hướng, chỉ hướng đến của hành động.\nへ　いきます　：đi\nへ　きます　　：đến\nへ　かえります：về\n\nれい：\n・わたしは　まいにち　がっこうへ　いきます。\nMỗi ngày tôi đi tới trường (đi học).\n・わたしは　まいばん　へやへ　かえります。\nMỗi tối tôi trở về phòng.\n・わたしは　まいあさ　がっこうへ　きます。\nMỗi ngày tôi đến trường (đi học)\nLưu ý ví dụ 3 được nói lúc đang đứng ở trường, còn ví dụ số 1 thì có được nói lúc không ở trường.\n",
+      "n": "N（ばしょ）へ    Vます"
+    }, {
+      "m": "Động từ V tác động trực tiếp lên sự vật, đối tượng N. \nCác động từ này đi kèm với trợ từ　を　(đọc là ô).\nMột số động từ đi kèm trợ từ 　を：\nたべます：　　　　ăn\nのみます：　　　　uống\nみます：　　　　　xem\nします：　　　　　làm／chơi\nべんきょうします：học\nかきます：　　　　viết／ vẽ\nよみます：　　　　đọc….\nMột số danh từ chỉ hành động đi kèm với　します　trở thành danh động từ\nサッカーを　します：　đá bóng\nダンスを　　します：　nhảy\nしょくじを　します：　ăn, dùng bữa\nテニスを　　します：　chơi tennis\nスポッツを　します：　chơi thể thao\n\nれい：\n・まいあさ　わたしは　パンを　たべます。\nMỗi sáng tôi ăn bánh mì.\n・まいばん　わたしは　はちじに　にっきを　かきます。\nMỗi tối tôi đều viết nhật kí vào lúc 8h.\n・あした　わたしは　サッカを　します。\nNgày mai tôi sẽ chơi đá bóng.\n",
+      "n": "N　を　Vます"
+    }, {
+      "m": "Cho tôi  ～ cái　N\n\nれい：\n　　　A：すみません、　ちゅうもんをおねがいします。\nてんいん：はい、どうぞ。\n　　　A：カレーを　ひとつ（１つ）ください。\nてんいん：はい。\nDịch:\nA： Xin lỗi, vui lòng cho tôi gọi món.\nNhân viên： Vâng, xin mời.\nA： Cho tôi 1 Cà-ri.\nNhân viên： Vâng.\n----\n　　　A：　すみません、　ちゅうもんをおねがいします。\nてんいん：　はい、どうぞ。\n　　　A：　このビールは　どこのビールですか。\nてんいん：　ドイツのビールです。\n　　　A：　じゃ、カレーを　ふたつ（２つ）と　ビールを　みっつ（３つ）　ください。\nてんいん：　カレーを２つとビールを３つですね。しょうしょうおまちください。\nDịch：\nA： Xin lỗi, vui lòng cho tôi gọi món.\nNhân viên：Vâng, xin mời.\nA： Bia này là bia của nước nào vậy?\nNhân viên： Bia của Đức.\nA： Vậy cho tôi 2 Cà-ri và 3 bia.\nNhân viên： 2 cà-ri và 3 bia đúng không nhỉ. Xin vui lòng chờ 1 chút.\n",
+      "n": "N  を　（～つ）ください。"
+    }, {
+      "m": "Trong ngôn ngữ ～ \n\nれい：\n・ぶたにくは　えいごで　なんですか。\nThịt lợn trong tiếng Anh là gì?\n・「Pork」 です。Là Pork\n----\n・「Beef」は　にほんごで　なんですか。\nBeef trong tiếng nhật là gì?\n\n・「ぎゅうにく」です。\nLà thịt bò (ぎゅうにく).\n",
+      "n": "N(～ご)で　～"
+    }],
+    "l7": [{
+      "m": "～　nhưng　～\n\nれい：\n・わたしのまちは　おおきくないですが、いいところです。\nThành phố của tôi không lớn, nhưng mà là một nơi tốt.\n",
+      "n": "_________が、____________"
+    }, {
+      "m": "～ nhỉ\n\nれい：\n・あつですね。\nNóng nhỉ!!\n・そうですね。\nUhm, nóng thật.\n",
+      "n": "___________ね"
+    }, {
+      "m": "どこ／どちら ở đây được dùng để hỏi địa điểm của danh từ N.\nここ／そこ／あそこ  : ở đây ／ ở đó ／ ở kia.\nこちら／そちら／あちら  : hướng này ／ hướng đó ／ hướng kia.\n\n例（れい）：\nA：　Bさん、きょうしつは　どこですか。\n          B ơi, lớp học ở đâu thế?\nB：　きょうしつは　あそこです。 \n          Lớp học ở đằng kia.\n----\n  　      A：　すみません、トイレは　どこですか。\n　　　　　　Xin lỗi cho tôi hỏi WC ở đâu thế?\nてんいん：　トイレは　あちらです。\n　　　　　　WC ở đằng kia.\n-----\nA：　せんせいは　どこですか。\n　　　Thầy giáo đang ở đâu thế?\nB：　きょうしつです。\n　　　Thầy giáo đang ở trong lớp.\nLưu ý không dịch: Thầy giáo là lớp học.\nCâu hỏi どこですか。Có câu trả lời là những từ ngữ chỉ vị trí như: ここ／そこ／あそこ\nNhưng lúc người trả lời muốn nói 1 cách lịch sự thì sẽ dùng　こちら／そちら／あちら　thay thế.\nNgoài ra còn có thể trả lời bằng những danh từ chỉ địa điểm như lớp học, nhà ăn,....\n",
+      "n": "Nは　どこですか。\nここ／そこ／あそこ \nこちら／そちら／あちら"
+    }, {
+      "m": "Giá bao nhiêu?\n\nれい：\n・そのほんは　いくらですか。\nQuyển sách đó giá bao nhiêu?\n・５５００えんです。\n5500 Yên.\n・これは　いくらですか。\nCái này bao nhiêu tiền thế?\n・それは　１まんえんです。\nCái đó giá 10000Yên.\nSố đếm + えん　＝　～Yên\nSố đếm + ドル　＝　～Dolla\nSố đếm + ドン　＝　～VNĐ\n",
+      "n": "いくらですか。"
+    }, {
+      "m": "Bằng phương tiện N\n\nれい：\n・ハノイから　ホアラクまで　バスで　１じかんぐらいかかります。\nTừ Hà Nội đến Hòa Lạc mất khoảng 1 tiếng đi bằng xe bus.\n",
+      "n": "N（のりもの）　で"
+    }, {
+      "m": "Cả 2 mẫu này đều là như thế nào ／ thế nào.\nNhưng　どう　thì đứng một mình còn　どんな　thì đi kèm với danh từ.\n\nれい：\n・ハノイは　どうですか。\nHà Nội thế nào?\n・・・ハノイは　あついです。\nHà Nội nóng!\n・ハノイは　どんなところですか。\nHà Nội là nơi như thế nào?\n・・・ハノイは　とてもあついところです。\nHà nội là 1 nơi rất nóng.\n",
+      "n": "どうですか。\nどんな　Nですか。"
+    }, {
+      "m": "どこ／どちら ở đây được dùng để hỏi địa điểm của danh từ N.\nここ／そこ／あそこ  : ở đây ／ ở đó ／ ở kia.\nこちら／そちら／あちら  : hướng này ／ hướng đó ／ hướng kia.\n\n例（れい）：\nA：　Bさん、きょうしつは　どこですか。\n          B ơi, lớp học ở đâu thế?\nB：　きょうしつは　あそこです。 \n          Lớp học ở đằng kia.\n----\n  　      A：　すみません、トイレは　どこですか。\n　　　　　　Xin lỗi cho tôi hỏi WC ở đâu thế?\nてんいん：　トイレは　あちらです。\n　　　　　　WC ở đằng kia.\n-----\nA：　せんせいは　どこですか。\n　　　Thầy giáo đang ở đâu thế?\nB：　きょうしつです。\n　　　Thầy giáo đang ở trong lớp.\nLưu ý không dịch: Thầy giáo là lớp học.\nCâu hỏi どこですか。Có câu trả lời là những từ ngữ chỉ vị trí như: ここ／そこ／あそこ\nNhưng lúc người trả lời muốn nói 1 cách lịch sự thì sẽ dùng　こちら／そちら／あちら　thay thế.\nNgoài ra còn có thể trả lời bằng những danh từ chỉ địa điểm như lớp học, nhà ăn,....\n",
+      "n": "Nは　どこですか。\nここ／そこ／あそこ \nこちら／そちら／あちら"
+    }, {
+      "m": "Cho tôi  ～ cái　N\n\nれい：\n　　　A：すみません、　ちゅうもんをおねがいします。\nてんいん：はい、どうぞ。\n　　　A：カレーを　ひとつ（１つ）ください。\nてんいん：はい。\nDịch:\nA： Xin lỗi, vui lòng cho tôi gọi món.\nNhân viên： Vâng, xin mời.\nA： Cho tôi 1 Cà-ri.\nNhân viên： Vâng.\n----\n　　　A：　すみません、　ちゅうもんをおねがいします。\nてんいん：　はい、どうぞ。\n　　　A：　このビールは　どこのビールですか。\nてんいん：　ドイツのビールです。\n　　　A：　じゃ、カレーを　ふたつ（２つ）と　ビールを　みっつ（３つ）　ください。\nてんいん：　カレーを２つとビールを３つですね。しょうしょうおまちください。\nDịch：\nA： Xin lỗi, vui lòng cho tôi gọi món.\nNhân viên：Vâng, xin mời.\nA： Bia này là bia của nước nào vậy?\nNhân viên： Bia của Đức.\nA： Vậy cho tôi 2 Cà-ri và 3 bia.\nNhân viên： 2 cà-ri và 3 bia đúng không nhỉ. Xin vui lòng chờ 1 chút.\n",
+      "n": "N  を　（～つ）ください。"
+    }, {
+      "m": "Trong ngôn ngữ ～ \n\nれい：\n・ぶたにくは　えいごで　なんですか。\nThịt lợn trong tiếng Anh là gì?\n・「Pork」 です。Là Pork\n----\n・「Beef」は　にほんごで　なんですか。\nBeef trong tiếng nhật là gì?\n\n・「ぎゅうにく」です。\nLà thịt bò (ぎゅうにく).\n",
+      "n": "N(～ご)で　～"
+    }],
+    "l8": [{
+      "m": "どこ／どちら ở đây được dùng để hỏi địa điểm của danh từ N.\nここ／そこ／あそこ  : ở đây ／ ở đó ／ ở kia.\nこちら／そちら／あちら  : hướng này ／ hướng đó ／ hướng kia.\n\n例（れい）：\nA：　Bさん、きょうしつは　どこですか。\n          B ơi, lớp học ở đâu thế?\nB：　きょうしつは　あそこです。 \n          Lớp học ở đằng kia.\n----\n  　      A：　すみません、トイレは　どこですか。\n　　　　　　Xin lỗi cho tôi hỏi WC ở đâu thế?\nてんいん：　トイレは　あちらです。\n　　　　　　WC ở đằng kia.\n-----\nA：　せんせいは　どこですか。\n　　　Thầy giáo đang ở đâu thế?\nB：　きょうしつです。\n　　　Thầy giáo đang ở trong lớp.\nLưu ý không dịch: Thầy giáo là lớp học.\nCâu hỏi どこですか。Có câu trả lời là những từ ngữ chỉ vị trí như: ここ／そこ／あそこ\nNhưng lúc người trả lời muốn nói 1 cách lịch sự thì sẽ dùng　こちら／そちら／あちら　thay thế.\nNgoài ra còn có thể trả lời bằng những danh từ chỉ địa điểm như lớp học, nhà ăn,....\n",
+      "n": "Nは　どこですか。\nここ／そこ／あそこ \nこちら／そちら／あちら"
+    }, {
+      "m": "Giá bao nhiêu?\n\nれい：\n・そのほんは　いくらですか。\nQuyển sách đó giá bao nhiêu?\n・５５００えんです。\n5500 Yên.\n・これは　いくらですか。\nCái này bao nhiêu tiền thế?\n・それは　１まんえんです。\nCái đó giá 10000Yên.\nSố đếm + えん　＝　～Yên\nSố đếm + ドル　＝　～Dolla\nSố đếm + ドン　＝　～VNĐ\n",
+      "n": "いくらですか。"
+    }, {
+      "m": "Cả 2 mẫu này đều là như thế nào ／ thế nào.\nNhưng　どう　thì đứng một mình còn　どんな　thì đi kèm với danh từ.\n\nれい：\n・ハノイは　どうですか。\nHà Nội thế nào?\n・・・ハノイは　あついです。\nHà Nội nóng!\n・ハノイは　どんなところですか。\nHà Nội là nơi như thế nào?\n・・・ハノイは　とてもあついところです。\nHà nội là 1 nơi rất nóng.\n",
+      "n": "どうですか。\nどんな　Nですか。"
+    }, {
+      "m": "Giá bao nhiêu?\n\nれい：\n・そのほんは　いくらですか。\nQuyển sách đó giá bao nhiêu?\n・５５００えんです。\n5500 Yên.\n・これは　いくらですか。\nCái này bao nhiêu tiền thế?\n・それは　１まんえんです。\nCái đó giá 10000Yên.\nSố đếm + えん　＝　～Yên\nSố đếm + ドル　＝　～Dolla\nSố đếm + ドン　＝　～VNĐ\n",
+      "n": "いくらですか。"
+    }, {
+      "m": "とても：　　　　rất, lắm\nたいへん：　　　cực kì, vô cùng\nあまり：　　　　không ~ lắm\nぜんぜん：　　　hoàn toàn không\nすこし／ちょっと：một chút, một ít, hơi, hơi hơi\nĐây là các phó từ thường đứng trước tính từ và động từ để bổ nghĩa cho chúng.\nLưu ý　あまり　và　ぜんぜん　luôn đi với các động từ ở thể phủ định.\n\nれい：\n・ベトナムは　ふゆ、とても　さむいです。\nViệt Nam vào mùa đông thì rất lạnh.\n・とうきょうは　たいへん　にぎやかです。\nTokyo vô cùng nhộn nhịp.\n・このこうえんは　あまり　おおきくないです。\nCông viên này không to lắm.\n・わたしのせんせいは　ぜんぜん　ハンサムじゃありません。\nThầy giáo tôi hoàn toàn không đẹp trai.\n・このへやは　すこし　ふるいです。\nCăn phòng này hơi cũ.\n",
+      "n": "とても／たいへん　Aです。\nあまり／ぜんぜん　イAくないです／ナAじゃ　ありません。\nすこし／ちょっと　Aです。"
+    }, {
+      "m": "Ở vị trí N1 có vật thể N2.\n\nれい：\n・わたしのまちに　きれいなかわが　あります。\nỞ thành phố của tôi có con sông đẹp.\n",
+      "n": "N1（ばしょ）に　N2が　あります"
+    }, {
+      "m": "Cho tôi  ～ cái　N\n\nれい：\n　　　A：すみません、　ちゅうもんをおねがいします。\nてんいん：はい、どうぞ。\n　　　A：カレーを　ひとつ（１つ）ください。\nてんいん：はい。\nDịch:\nA： Xin lỗi, vui lòng cho tôi gọi món.\nNhân viên： Vâng, xin mời.\nA： Cho tôi 1 Cà-ri.\nNhân viên： Vâng.\n----\n　　　A：　すみません、　ちゅうもんをおねがいします。\nてんいん：　はい、どうぞ。\n　　　A：　このビールは　どこのビールですか。\nてんいん：　ドイツのビールです。\n　　　A：　じゃ、カレーを　ふたつ（２つ）と　ビールを　みっつ（３つ）　ください。\nてんいん：　カレーを２つとビールを３つですね。しょうしょうおまちください。\nDịch：\nA： Xin lỗi, vui lòng cho tôi gọi món.\nNhân viên：Vâng, xin mời.\nA： Bia này là bia của nước nào vậy?\nNhân viên： Bia của Đức.\nA： Vậy cho tôi 2 Cà-ri và 3 bia.\nNhân viên： 2 cà-ri và 3 bia đúng không nhỉ. Xin vui lòng chờ 1 chút.\n",
+      "n": "N  を　（～つ）ください。"
+    }, {
+      "m": "Trong ngôn ngữ ～ \n\nれい：\n・ぶたにくは　えいごで　なんですか。\nThịt lợn trong tiếng Anh là gì?\n・「Pork」 です。Là Pork\n----\n・「Beef」は　にほんごで　なんですか。\nBeef trong tiếng nhật là gì?\n\n・「ぎゅうにく」です。\nLà thịt bò (ぎゅうにく).\n",
+      "n": "N(～ご)で　～"
+    }],
+    "l9": [{
+      "m": "Bằng phương tiện N\n\nれい：\n・ハノイから　ホアラクまで　バスで　１じかんぐらいかかります。\nTừ Hà Nội đến Hòa Lạc mất khoảng 1 tiếng đi bằng xe bus.\n",
+      "n": "N（のりもの）　で"
+    }, {
+      "m": "Cả 2 mẫu này đều là như thế nào ／ thế nào.\nNhưng　どう　thì đứng một mình còn　どんな　thì đi kèm với danh từ.\n\nれい：\n・ハノイは　どうですか。\nHà Nội thế nào?\n・・・ハノイは　あついです。\nHà Nội nóng!\n・ハノイは　どんなところですか。\nHà Nội là nơi như thế nào?\n・・・ハノイは　とてもあついところです。\nHà nội là 1 nơi rất nóng.\n",
+      "n": "どうですか。\nどんな　Nですか。"
+    }, {
+      "m": "Và ／ hơn nữa.\n\nれい：\n・このまちは　しずかです。そして　きれいです。\nThành phố này yên tĩnh và đẹp.\n",
+      "n": "そして"
+    }, {
+      "m": "～　nhưng　～\n\nれい：\n・わたしのまちは　おおきくないですが、いいところです。\nThành phố của tôi không lớn, nhưng mà là một nơi tốt.\n",
+      "n": "_________が、____________"
+    }, {
+      "m": "Giá bao nhiêu?\n\nれい：\n・そのほんは　いくらですか。\nQuyển sách đó giá bao nhiêu?\n・５５００えんです。\n5500 Yên.\n・これは　いくらですか。\nCái này bao nhiêu tiền thế?\n・それは　１まんえんです。\nCái đó giá 10000Yên.\nSố đếm + えん　＝　～Yên\nSố đếm + ドル　＝　～Dolla\nSố đếm + ドン　＝　～VNĐ\n",
+      "n": "いくらですか。"
+    }, {
+      "m": "Thể hiện sự sở hữu\n・これは　だれのほんですか。\nĐây là quyển sách của ai?\n・これは　Nguyenさんのほんです。\nĐây là quyển sách của Nguyên\n----\n・こちらは　だれのこいびと／だれ　ですか。\nĐây là người yêu của ai／ là ai?\n・わたしの　こいびとです。\nLà người yêu của tôi.\n",
+      "n": "だれの　N　ですか。"
+    }, {
+      "m": "Thể hiện nguồn gốc, xuất xứ, hãng… của đồ vật\n\nれい：\n・これは　どこのけいたいでんわですか。\nCái này là đt của hãng nào／ nước nào?\n・これは　APPLEの（けいたいでんわ）です。\nCái này là(smartphone) của Apple.\n・これは　どこのくつですか。\nĐây là đôi giày của nước nào／ hãng nào?\n・このくつは　日本のです。\nĐôi giày này là của Nhật.\n",
+      "n": "どこの　Nですか。"
+    }, {
+      "m": "Thể hiện thuộc tính, chủng loại, lĩnh vực… của sự vật\n\nれい：\n・これは　なんの　ざっしですか。\nĐây là tạp chí về cái gì?\n・これは　コンピューターの　ざっしです。\nĐây là quyển tạp chí về máy tính.\n",
+      "n": "なんの　Nですか。"
+    }, {
+      "m": "Cho tôi  ～ cái　N\n\nれい：\n　　　A：すみません、　ちゅうもんをおねがいします。\nてんいん：はい、どうぞ。\n　　　A：カレーを　ひとつ（１つ）ください。\nてんいん：はい。\nDịch:\nA： Xin lỗi, vui lòng cho tôi gọi món.\nNhân viên： Vâng, xin mời.\nA： Cho tôi 1 Cà-ri.\nNhân viên： Vâng.\n----\n　　　A：　すみません、　ちゅうもんをおねがいします。\nてんいん：　はい、どうぞ。\n　　　A：　このビールは　どこのビールですか。\nてんいん：　ドイツのビールです。\n　　　A：　じゃ、カレーを　ふたつ（２つ）と　ビールを　みっつ（３つ）　ください。\nてんいん：　カレーを２つとビールを３つですね。しょうしょうおまちください。\nDịch：\nA： Xin lỗi, vui lòng cho tôi gọi món.\nNhân viên：Vâng, xin mời.\nA： Bia này là bia của nước nào vậy?\nNhân viên： Bia của Đức.\nA： Vậy cho tôi 2 Cà-ri và 3 bia.\nNhân viên： 2 cà-ri và 3 bia đúng không nhỉ. Xin vui lòng chờ 1 chút.\n",
+      "n": "N  を　（～つ）ください。"
+    }, {
+      "m": "Trong ngôn ngữ ～ \n\nれい：\n・ぶたにくは　えいごで　なんですか。\nThịt lợn trong tiếng Anh là gì?\n・「Pork」 です。Là Pork\n----\n・「Beef」は　にほんごで　なんですか。\nBeef trong tiếng nhật là gì?\n\n・「ぎゅうにく」です。\nLà thịt bò (ぎゅうにく).\n",
+      "n": "N(～ご)で　～"
+    }],
+    "l10": [{
+      "m": "Thực hiện hành động V tại thời điểm N.\nTrợ từ に dịch là vào, vào lúc.\nĐứng sau thời gian cụ thể, như giờ cụ thể, hoặc ngày cụ thể( những mốc thời gian có số) để thể hiện thời điểm hành động xảy ra.\nKhông dùng trợ từ に sau những thời gian k có số đi kèm.\nTrường hợp đặc biệt:\nVới các ngày trong tuần ～ようび　và kì nghỉ như kì nghỉ hè   なつやすみ　thì tùy vào ngữ cảnh của câu có thể là thời gian cụ thể ( T2 tuần này, kì nghỉ hè năm nay...) hoặc không, cho nên có thể có に ở phía sau hay không có đều được.\n\nれい：\n・わたしは　まいあさ　ろくじに　おきます\nMỗi buổi sáng tôi thức dậy lúc 6h.\n・わたしは　まいばん　じゅういちじに　ねます。\nMỗi tối tôi đi ngủ lúc 11h.\nỞ 2 câu trên thì sau   まいああさ   và   まいばん　thì không có   に　mặc dù chúng đều là từ chỉ thời gian, vì chúng không chỉ thời gian cụ thể ( không có số).\nLưu ý bảng cách đếm giờ và đếm ngày ở trang 286 sách   できるにほんご   quyển 1.\n",
+      "n": "N（じかん）に　Vます"
+    }, {
+      "m": "Từ thời điểm (giờ ／ ngày) đến thời điểm (giờ ／ ngày)\n\nれい：\n・みどりゆうびんきょくは　ごぜんくじから　ごご　ごじまでです。\nBưu điện Xanh hoạt động từ 9h sáng đến 5h chiều.\n",
+      "n": "N（じかん・ようび）から　N（じかん・ようび）まで"
+    }, {
+      "m": "Động từ thể khẳng định／ phủ định.\n\nれい：\n・アンさんは　まいにち、あさごはんをたべますか。\nMỗi buổi sáng An có ăn sáng không?\n・・・はい、たべます。\nCó, có ăn.\n・・・いいえ、たべません。\nKhông, không ăn.\n",
+      "n": "Vます／ません"
+    }, {
+      "m": "Giá bao nhiêu?\n\nれい：\n・そのほんは　いくらですか。\nQuyển sách đó giá bao nhiêu?\n・５５００えんです。\n5500 Yên.\n・これは　いくらですか。\nCái này bao nhiêu tiền thế?\n・それは　１まんえんです。\nCái đó giá 10000Yên.\nSố đếm + えん　＝　～Yên\nSố đếm + ドル　＝　～Dolla\nSố đếm + ドン　＝　～VNĐ\n",
+      "n": "いくらですか。"
+    }, {
+      "m": "Thể hiện sự sở hữu\n・これは　だれのほんですか。\nĐây là quyển sách của ai?\n・これは　Nguyenさんのほんです。\nĐây là quyển sách của Nguyên\n----\n・こちらは　だれのこいびと／だれ　ですか。\nĐây là người yêu của ai／ là ai?\n・わたしの　こいびとです。\nLà người yêu của tôi.\n",
+      "n": "だれの　N　ですか。"
+    }, {
+      "m": "Thể hiện nguồn gốc, xuất xứ, hãng… của đồ vật\n\nれい：\n・これは　どこのけいたいでんわですか。\nCái này là đt của hãng nào／ nước nào?\n・これは　APPLEの（けいたいでんわ）です。\nCái này là(smartphone) của Apple.\n・これは　どこのくつですか。\nĐây là đôi giày của nước nào／ hãng nào?\n・このくつは　日本のです。\nĐôi giày này là của Nhật.\n",
+      "n": "どこの　Nですか。"
+    }, {
+      "m": "Thể hiện thuộc tính, chủng loại, lĩnh vực… của sự vật\n\nれい：\n・これは　なんの　ざっしですか。\nĐây là tạp chí về cái gì?\n・これは　コンピューターの　ざっしです。\nĐây là quyển tạp chí về máy tính.\n",
+      "n": "なんの　Nですか。"
+    }, {
+      "m": "Cho tôi  ～ cái　N\n\nれい：\n　　　A：すみません、　ちゅうもんをおねがいします。\nてんいん：はい、どうぞ。\n　　　A：カレーを　ひとつ（１つ）ください。\nてんいん：はい。\nDịch:\nA： Xin lỗi, vui lòng cho tôi gọi món.\nNhân viên： Vâng, xin mời.\nA： Cho tôi 1 Cà-ri.\nNhân viên： Vâng.\n----\n　　　A：　すみません、　ちゅうもんをおねがいします。\nてんいん：　はい、どうぞ。\n　　　A：　このビールは　どこのビールですか。\nてんいん：　ドイツのビールです。\n　　　A：　じゃ、カレーを　ふたつ（２つ）と　ビールを　みっつ（３つ）　ください。\nてんいん：　カレーを２つとビールを３つですね。しょうしょうおまちください。\nDịch：\nA： Xin lỗi, vui lòng cho tôi gọi món.\nNhân viên：Vâng, xin mời.\nA： Bia này là bia của nước nào vậy?\nNhân viên： Bia của Đức.\nA： Vậy cho tôi 2 Cà-ri và 3 bia.\nNhân viên： 2 cà-ri và 3 bia đúng không nhỉ. Xin vui lòng chờ 1 chút.\n",
+      "n": "N  を　（～つ）ください。"
+    }, {
+      "m": "Trong ngôn ngữ ～ \n\nれい：\n・ぶたにくは　えいごで　なんですか。\nThịt lợn trong tiếng Anh là gì?\n・「Pork」 です。Là Pork\n----\n・「Beef」は　にほんごで　なんですか。\nBeef trong tiếng nhật là gì?\n\n・「ぎゅうにく」です。\nLà thịt bò (ぎゅうにく).\n",
+      "n": "N(～ご)で　～"
+    }],
+    "l11": [{
+      "m": "Cái này／ cái đó／ cái kia\nこの được dùng khi vật ở gần người nói, xa người nghe.\nその được dùng khi vật ở gần người nghe xa người nói. \nあの được dùng khi vật ở xa cả người nói và người nghe.\n\nれい：\n・これは　にほんごのほんです。\nĐây là quyển sách tiếng nhật.\n・それは　えんぴつです。\nĐó là cái bút chì.\n・あれは　けいたいでんわです。\nKia là cái điện thoại di động.\n",
+      "n": "これ／それ／あれ"
+    }, {
+      "m": "Cái N này／ đó／ kia\nDùng như この／その／あの nhưng vật ở đây được chỉ rõ ra bằng danh từ N.\n\nれい：\n・このほんは　ナムさんのほんです。\nQuyển sách này là sách của Nam.\n・そのほんは　にほんごのほんです。\nQuyển sách đó là sách tiếng Nhật.\n・あのぺんは　わたしのぺんです。\nCây bút kia là bút của tôi.\n",
+      "n": "この／その／あの　N"
+    }, {
+      "m": "どこ／どちら ở đây được dùng để hỏi địa điểm của danh từ N.\nここ／そこ／あそこ  : ở đây ／ ở đó ／ ở kia.\nこちら／そちら／あちら  : hướng này ／ hướng đó ／ hướng kia.\n\n例（れい）：\nA：　Bさん、きょうしつは　どこですか。\n          B ơi, lớp học ở đâu thế?\nB：　きょうしつは　あそこです。 \n          Lớp học ở đằng kia.\n----\n  　      A：　すみません、トイレは　どこですか。\n　　　　　　Xin lỗi cho tôi hỏi WC ở đâu thế?\nてんいん：　トイレは　あちらです。\n　　　　　　WC ở đằng kia.\n-----\nA：　せんせいは　どこですか。\n　　　Thầy giáo đang ở đâu thế?\nB：　きょうしつです。\n　　　Thầy giáo đang ở trong lớp.\nLưu ý không dịch: Thầy giáo là lớp học.\nCâu hỏi どこですか。Có câu trả lời là những từ ngữ chỉ vị trí như: ここ／そこ／あそこ\nNhưng lúc người trả lời muốn nói 1 cách lịch sự thì sẽ dùng　こちら／そちら／あちら　thay thế.\nNgoài ra còn có thể trả lời bằng những danh từ chỉ địa điểm như lớp học, nhà ăn,....\n",
+      "n": "Nは　どこですか。\nここ／そこ／あそこ \nこちら／そちら／あちら"
+    }, {
+      "m": "Giá bao nhiêu?\n\nれい：\n・そのほんは　いくらですか。\nQuyển sách đó giá bao nhiêu?\n・５５００えんです。\n5500 Yên.\n・これは　いくらですか。\nCái này bao nhiêu tiền thế?\n・それは　１まんえんです。\nCái đó giá 10000Yên.\nSố đếm + えん　＝　～Yên\nSố đếm + ドル　＝　～Dolla\nSố đếm + ドン　＝　～VNĐ\n",
+      "n": "いくらですか。"
+    }, {
+      "m": "Thể hiện sự sở hữu\n・これは　だれのほんですか。\nĐây là quyển sách của ai?\n・これは　Nguyenさんのほんです。\nĐây là quyển sách của Nguyên\n----\n・こちらは　だれのこいびと／だれ　ですか。\nĐây là người yêu của ai／ là ai?\n・わたしの　こいびとです。\nLà người yêu của tôi.\n",
+      "n": "だれの　N　ですか。"
+    }, {
+      "m": "Thể hiện nguồn gốc, xuất xứ, hãng… của đồ vật\n\nれい：\n・これは　どこのけいたいでんわですか。\nCái này là đt của hãng nào／ nước nào?\n・これは　APPLEの（けいたいでんわ）です。\nCái này là(smartphone) của Apple.\n・これは　どこのくつですか。\nĐây là đôi giày của nước nào／ hãng nào?\n・このくつは　日本のです。\nĐôi giày này là của Nhật.\n",
+      "n": "どこの　Nですか。"
+    }, {
+      "m": "Thể hiện thuộc tính, chủng loại, lĩnh vực… của sự vật\n\nれい：\n・これは　なんの　ざっしですか。\nĐây là tạp chí về cái gì?\n・これは　コンピューターの　ざっしです。\nĐây là quyển tạp chí về máy tính.\n",
+      "n": "なんの　Nですか。"
+    }, {
+      "m": "Cho tôi  ～ cái　N\n\nれい：\n　　　A：すみません、　ちゅうもんをおねがいします。\nてんいん：はい、どうぞ。\n　　　A：カレーを　ひとつ（１つ）ください。\nてんいん：はい。\nDịch:\nA： Xin lỗi, vui lòng cho tôi gọi món.\nNhân viên： Vâng, xin mời.\nA： Cho tôi 1 Cà-ri.\nNhân viên： Vâng.\n----\n　　　A：　すみません、　ちゅうもんをおねがいします。\nてんいん：　はい、どうぞ。\n　　　A：　このビールは　どこのビールですか。\nてんいん：　ドイツのビールです。\n　　　A：　じゃ、カレーを　ふたつ（２つ）と　ビールを　みっつ（３つ）　ください。\nてんいん：　カレーを２つとビールを３つですね。しょうしょうおまちください。\nDịch：\nA： Xin lỗi, vui lòng cho tôi gọi món.\nNhân viên：Vâng, xin mời.\nA： Bia này là bia của nước nào vậy?\nNhân viên： Bia của Đức.\nA： Vậy cho tôi 2 Cà-ri và 3 bia.\nNhân viên： 2 cà-ri và 3 bia đúng không nhỉ. Xin vui lòng chờ 1 chút.\n",
+      "n": "N  を　（～つ）ください。"
+    }, {
+      "m": "Trong ngôn ngữ ～ \n\nれい：\n・ぶたにくは　えいごで　なんですか。\nThịt lợn trong tiếng Anh là gì?\n・「Pork」 です。Là Pork\n----\n・「Beef」は　にほんごで　なんですか。\nBeef trong tiếng nhật là gì?\n\n・「ぎゅうにく」です。\nLà thịt bò (ぎゅうにく).\n",
+      "n": "N(～ご)で　～"
+    }],
+    "l12": [{
+      "m": "N1 là N2.\nThể khẳng định, hiện tại hoặc tương lai.\nN2 ở đây thể hiện 1 thuộc tính của N1.\n\nれい：\n・ミンさんは　がくせいです。\nMinh là học sinh.\n・クァンさんは　ベトナムじんです。\nQuang là người Việt Nam.\n・マイさんは　じゅうはっさいです。\nMai 18 tuổi.\n",
+      "n": "N1は　N2です"
+    }, {
+      "m": "はい、N2です。\nいいえ、N2では／じゃありません。\n\nれい：\n・ミンさんは　せんせいですか。\nMinh là giáo viên phải không?\n・・・はい、せんせいです。\nĐúng, là giáo viên.\n・・・いいえ、せんせいでは／じゃありません。\nKhông, không phải là giáo viên.\n",
+      "n": "N1は　N2ですか。"
+    }, {
+      "m": "N là nước nào, khi nào, cái gì?\n・どちら：có thể dùng hỏi đất nước, công ty, tập đoàn, hãng sản xuất…\n・いつ：hỏi thời gian, lúc nào, khi nào\n・なん：hỏi cái gì\n\nれい：\n・おくには　どちらですか。\nĐất nước／ quê hương của bạn là gì?\n・たんじょうには　いつですか。\nSinh nhật của bạn là khi nào?\n・しゅみは　なんですか。\nSở thích của bạn là gì?\n",
+      "n": "Nは　どちら／いつ／なんですか。"
+    }, {
+      "m": "Giá bao nhiêu?\n\nれい：\n・そのほんは　いくらですか。\nQuyển sách đó giá bao nhiêu?\n・５５００えんです。\n5500 Yên.\n・これは　いくらですか。\nCái này bao nhiêu tiền thế?\n・それは　１まんえんです。\nCái đó giá 10000Yên.\nSố đếm + えん　＝　～Yên\nSố đếm + ドル　＝　～Dolla\nSố đếm + ドン　＝　～VNĐ\n",
+      "n": "いくらですか。"
+    }, {
+      "m": "Thể hiện sự sở hữu\n・これは　だれのほんですか。\nĐây là quyển sách của ai?\n・これは　Nguyenさんのほんです。\nĐây là quyển sách của Nguyên\n----\n・こちらは　だれのこいびと／だれ　ですか。\nĐây là người yêu của ai／ là ai?\n・わたしの　こいびとです。\nLà người yêu của tôi.\n",
+      "n": "だれの　N　ですか。"
+    }, {
+      "m": "Thể hiện nguồn gốc, xuất xứ, hãng… của đồ vật\n\nれい：\n・これは　どこのけいたいでんわですか。\nCái này là đt của hãng nào／ nước nào?\n・これは　APPLEの（けいたいでんわ）です。\nCái này là(smartphone) của Apple.\n・これは　どこのくつですか。\nĐây là đôi giày của nước nào／ hãng nào?\n・このくつは　日本のです。\nĐôi giày này là của Nhật.\n",
+      "n": "どこの　Nですか。"
+    }, {
+      "m": "Thể hiện thuộc tính, chủng loại, lĩnh vực… của sự vật\n\nれい：\n・これは　なんの　ざっしですか。\nĐây là tạp chí về cái gì?\n・これは　コンピューターの　ざっしです。\nĐây là quyển tạp chí về máy tính.\n",
+      "n": "なんの　Nですか。"
+    }, {
+      "m": "Cho tôi  ～ cái　N\n\nれい：\n　　　A：すみません、　ちゅうもんをおねがいします。\nてんいん：はい、どうぞ。\n　　　A：カレーを　ひとつ（１つ）ください。\nてんいん：はい。\nDịch:\nA： Xin lỗi, vui lòng cho tôi gọi món.\nNhân viên： Vâng, xin mời.\nA： Cho tôi 1 Cà-ri.\nNhân viên： Vâng.\n----\n　　　A：　すみません、　ちゅうもんをおねがいします。\nてんいん：　はい、どうぞ。\n　　　A：　このビールは　どこのビールですか。\nてんいん：　ドイツのビールです。\n　　　A：　じゃ、カレーを　ふたつ（２つ）と　ビールを　みっつ（３つ）　ください。\nてんいん：　カレーを２つとビールを３つですね。しょうしょうおまちください。\nDịch：\nA： Xin lỗi, vui lòng cho tôi gọi món.\nNhân viên：Vâng, xin mời.\nA： Bia này là bia của nước nào vậy?\nNhân viên： Bia của Đức.\nA： Vậy cho tôi 2 Cà-ri và 3 bia.\nNhân viên： 2 cà-ri và 3 bia đúng không nhỉ. Xin vui lòng chờ 1 chút.\n",
+      "n": "N  を　（～つ）ください。"
+    }, {
+      "m": "Trong ngôn ngữ ～ \n\nれい：\n・ぶたにくは　えいごで　なんですか。\nThịt lợn trong tiếng Anh là gì?\n・「Pork」 です。Là Pork\n----\n・「Beef」は　にほんごで　なんですか。\nBeef trong tiếng nhật là gì?\n\n・「ぎゅうにく」です。\nLà thịt bò (ぎゅうにく).\n",
+      "n": "N(～ご)で　～"
+    }],
+    "l13": [{
+      "m": "Dịch là N2 của N1.\nN2 ở đây là thuộc sở hữu của N1, hoặc là 1 bộ phận, 1 nhánh, 1 phần nhỏ hơn của N1.\n\nれい：\n・ハノイは　ベトナムのしゅとです。\nHà Nội là thủ đô của Việt Nam.\n・わたしは　FPTだいがくの　がくせいです。\nTôi là sinh viên của trường ĐH FPT.\n",
+      "n": "N1の　N2"
+    }, {
+      "m": "N1 và N2. \nと ở đây dùng như AND của tiếng Anh.\n\nれい：\n・ナムさんのしゅみは　りょこうと　どくしょです。\nSở thích của Nam là du lịch và đọc sách.\n",
+      "n": "N1と　N2"
+    }, {
+      "m": "Cũng\n\nれい：\n・わたしはFPTだいがくの　がくせいです。ミンさんも　FPTだいがくの　がくせいです。\nTôi là sv ĐH FPT, Minh cũng là sv ĐH FPT.\n",
+      "n": "Nも"
+    }, {
+      "m": "Giá bao nhiêu?\n\nれい：\n・そのほんは　いくらですか。\nQuyển sách đó giá bao nhiêu?\n・５５００えんです。\n5500 Yên.\n・これは　いくらですか。\nCái này bao nhiêu tiền thế?\n・それは　１まんえんです。\nCái đó giá 10000Yên.\nSố đếm + えん　＝　～Yên\nSố đếm + ドル　＝　～Dolla\nSố đếm + ドン　＝　～VNĐ\n",
+      "n": "いくらですか。"
+    }, {
+      "m": "Thể hiện sự sở hữu\n・これは　だれのほんですか。\nĐây là quyển sách của ai?\n・これは　Nguyenさんのほんです。\nĐây là quyển sách của Nguyên\n----\n・こちらは　だれのこいびと／だれ　ですか。\nĐây là người yêu của ai／ là ai?\n・わたしの　こいびとです。\nLà người yêu của tôi.\n",
+      "n": "だれの　N　ですか。"
+    }, {
+      "m": "Thể hiện nguồn gốc, xuất xứ, hãng… của đồ vật\n\nれい：\n・これは　どこのけいたいでんわですか。\nCái này là đt của hãng nào／ nước nào?\n・これは　APPLEの（けいたいでんわ）です。\nCái này là(smartphone) của Apple.\n・これは　どこのくつですか。\nĐây là đôi giày của nước nào／ hãng nào?\n・このくつは　日本のです。\nĐôi giày này là của Nhật.\n",
+      "n": "どこの　Nですか。"
+    }, {
+      "m": "Thể hiện thuộc tính, chủng loại, lĩnh vực… của sự vật\n\nれい：\n・これは　なんの　ざっしですか。\nĐây là tạp chí về cái gì?\n・これは　コンピューターの　ざっしです。\nĐây là quyển tạp chí về máy tính.\n",
+      "n": "なんの　Nですか。"
+    }, {
+      "m": "Cho tôi  ～ cái　N\n\nれい：\n　　　A：すみません、　ちゅうもんをおねがいします。\nてんいん：はい、どうぞ。\n　　　A：カレーを　ひとつ（１つ）ください。\nてんいん：はい。\nDịch:\nA： Xin lỗi, vui lòng cho tôi gọi món.\nNhân viên： Vâng, xin mời.\nA： Cho tôi 1 Cà-ri.\nNhân viên： Vâng.\n----\n　　　A：　すみません、　ちゅうもんをおねがいします。\nてんいん：　はい、どうぞ。\n　　　A：　このビールは　どこのビールですか。\nてんいん：　ドイツのビールです。\n　　　A：　じゃ、カレーを　ふたつ（２つ）と　ビールを　みっつ（３つ）　ください。\nてんいん：　カレーを２つとビールを３つですね。しょうしょうおまちください。\nDịch：\nA： Xin lỗi, vui lòng cho tôi gọi món.\nNhân viên：Vâng, xin mời.\nA： Bia này là bia của nước nào vậy?\nNhân viên： Bia của Đức.\nA： Vậy cho tôi 2 Cà-ri và 3 bia.\nNhân viên： 2 cà-ri và 3 bia đúng không nhỉ. Xin vui lòng chờ 1 chút.\n",
+      "n": "N  を　（～つ）ください。"
+    }, {
+      "m": "Trong ngôn ngữ ～ \n\nれい：\n・ぶたにくは　えいごで　なんですか。\nThịt lợn trong tiếng Anh là gì?\n・「Pork」 です。Là Pork\n----\n・「Beef」は　にほんごで　なんですか。\nBeef trong tiếng nhật là gì?\n\n・「ぎゅうにく」です。\nLà thịt bò (ぎゅうにく).\n",
+      "n": "N(～ご)で　～"
+    }],
+    "l14": [{
+      "m": "Cái này／ cái đó／ cái kia\nこの được dùng khi vật ở gần người nói, xa người nghe.\nその được dùng khi vật ở gần người nghe xa người nói. \nあの được dùng khi vật ở xa cả người nói và người nghe.\n\nれい：\n・これは　にほんごのほんです。\nĐây là quyển sách tiếng nhật.\n・それは　えんぴつです。\nĐó là cái bút chì.\n・あれは　けいたいでんわです。\nKia là cái điện thoại di động.\n",
+      "n": "これ／それ／あれ"
+    }, {
+      "m": "Cái N này／ đó／ kia\nDùng như この／その／あの nhưng vật ở đây được chỉ rõ ra bằng danh từ N.\n\nれい：\n・このほんは　ナムさんのほんです。\nQuyển sách này là sách của Nam.\n・そのほんは　にほんごのほんです。\nQuyển sách đó là sách tiếng Nhật.\n・あのぺんは　わたしのぺんです。\nCây bút kia là bút của tôi.\n",
+      "n": "この／その／あの　N"
+    }, {
+      "m": "どこ／どちら ở đây được dùng để hỏi địa điểm của danh từ N.\nここ／そこ／あそこ  : ở đây ／ ở đó ／ ở kia.\nこちら／そちら／あちら  : hướng này ／ hướng đó ／ hướng kia.\n\n例（れい）：\nA：　Bさん、きょうしつは　どこですか。\n          B ơi, lớp học ở đâu thế?\nB：　きょうしつは　あそこです。 \n          Lớp học ở đằng kia.\n----\n  　      A：　すみません、トイレは　どこですか。\n　　　　　　Xin lỗi cho tôi hỏi WC ở đâu thế?\nてんいん：　トイレは　あちらです。\n　　　　　　WC ở đằng kia.\n-----\nA：　せんせいは　どこですか。\n　　　Thầy giáo đang ở đâu thế?\nB：　きょうしつです。\n　　　Thầy giáo đang ở trong lớp.\nLưu ý không dịch: Thầy giáo là lớp học.\nCâu hỏi どこですか。Có câu trả lời là những từ ngữ chỉ vị trí như: ここ／そこ／あそこ\nNhưng lúc người trả lời muốn nói 1 cách lịch sự thì sẽ dùng　こちら／そちら／あちら　thay thế.\nNgoài ra còn có thể trả lời bằng những danh từ chỉ địa điểm như lớp học, nhà ăn,....\n",
+      "n": "Nは　どこですか。\nここ／そこ／あそこ \nこちら／そちら／あちら"
+    }, {
+      "m": "Giá bao nhiêu?\n\nれい：\n・そのほんは　いくらですか。\nQuyển sách đó giá bao nhiêu?\n・５５００えんです。\n5500 Yên.\n・これは　いくらですか。\nCái này bao nhiêu tiền thế?\n・それは　１まんえんです。\nCái đó giá 10000Yên.\nSố đếm + えん　＝　～Yên\nSố đếm + ドル　＝　～Dolla\nSố đếm + ドン　＝　～VNĐ\n",
+      "n": "いくらですか。"
+    }, {
+      "m": "Thể hiện sự sở hữu\n・これは　だれのほんですか。\nĐây là quyển sách của ai?\n・これは　Nguyenさんのほんです。\nĐây là quyển sách của Nguyên\n----\n・こちらは　だれのこいびと／だれ　ですか。\nĐây là người yêu của ai／ là ai?\n・わたしの　こいびとです。\nLà người yêu của tôi.\n",
+      "n": "だれの　N　ですか。"
+    }, {
+      "m": "Thể hiện nguồn gốc, xuất xứ, hãng… của đồ vật\n\nれい：\n・これは　どこのけいたいでんわですか。\nCái này là đt của hãng nào／ nước nào?\n・これは　APPLEの（けいたいでんわ）です。\nCái này là(smartphone) của Apple.\n・これは　どこのくつですか。\nĐây là đôi giày của nước nào／ hãng nào?\n・このくつは　日本のです。\nĐôi giày này là của Nhật.\n",
+      "n": "どこの　Nですか。"
+    }, {
+      "m": "Thể hiện thuộc tính, chủng loại, lĩnh vực… của sự vật\n\nれい：\n・これは　なんの　ざっしですか。\nĐây là tạp chí về cái gì?\n・これは　コンピューターの　ざっしです。\nĐây là quyển tạp chí về máy tính.\n",
+      "n": "なんの　Nですか。"
+    }, {
+      "m": "Cho tôi  ～ cái　N\n\nれい：\n　　　A：すみません、　ちゅうもんをおねがいします。\nてんいん：はい、どうぞ。\n　　　A：カレーを　ひとつ（１つ）ください。\nてんいん：はい。\nDịch:\nA： Xin lỗi, vui lòng cho tôi gọi món.\nNhân viên： Vâng, xin mời.\nA： Cho tôi 1 Cà-ri.\nNhân viên： Vâng.\n----\n　　　A：　すみません、　ちゅうもんをおねがいします。\nてんいん：　はい、どうぞ。\n　　　A：　このビールは　どこのビールですか。\nてんいん：　ドイツのビールです。\n　　　A：　じゃ、カレーを　ふたつ（２つ）と　ビールを　みっつ（３つ）　ください。\nてんいん：　カレーを２つとビールを３つですね。しょうしょうおまちください。\nDịch：\nA： Xin lỗi, vui lòng cho tôi gọi món.\nNhân viên：Vâng, xin mời.\nA： Bia này là bia của nước nào vậy?\nNhân viên： Bia của Đức.\nA： Vậy cho tôi 2 Cà-ri và 3 bia.\nNhân viên： 2 cà-ri và 3 bia đúng không nhỉ. Xin vui lòng chờ 1 chút.\n",
+      "n": "N  を　（～つ）ください。"
+    }, {
+      "m": "Trong ngôn ngữ ～ \n\nれい：\n・ぶたにくは　えいごで　なんですか。\nThịt lợn trong tiếng Anh là gì?\n・「Pork」 です。Là Pork\n----\n・「Beef」は　にほんごで　なんですか。\nBeef trong tiếng nhật là gì?\n\n・「ぎゅうにく」です。\nLà thịt bò (ぎゅうにく).\n",
+      "n": "N(～ご)で　～"
+    }],
+    "l15": [{
+      "m": "Động từ V tác động trực tiếp lên sự vật, đối tượng N. \nCác động từ này đi kèm với trợ từ　を　(đọc là ô).\nMột số động từ đi kèm trợ từ 　を：\nたべます：　　　　ăn\nのみます：　　　　uống\nみます：　　　　　xem\nします：　　　　　làm／chơi\nべんきょうします：học\nかきます：　　　　viết／ vẽ\nよみます：　　　　đọc….\nMột số danh từ chỉ hành động đi kèm với　します　trở thành danh động từ\nサッカーを　します：　đá bóng\nダンスを　　します：　nhảy\nしょくじを　します：　ăn, dùng bữa\nテニスを　　します：　chơi tennis\nスポッツを　します：　chơi thể thao\n\nれい：\n・まいあさ　わたしは　パンを　たべます。\nMỗi sáng tôi ăn bánh mì.\n・まいばん　わたしは　はちじに　にっきを　かきます。\nMỗi tối tôi đều viết nhật kí vào lúc 8h.\n・あした　わたしは　サッカを　します。\nNgày mai tôi sẽ chơi đá bóng.\n",
+      "n": "N　を　Vます"
+    }, {
+      "m": "Nào là N1, nào là N2, Nào là N1, nào là N2, vânvân\n\nれい：\n・わたしは　まいあさ　パンや　サラダなどを　たべます。\nMỗi sáng tôi ăn nào là bánh mì, salad….\n・わたしは　サッカーや　テニスなどを　します。\nTôi chơi nào là bóng đá, tennis…..\n",
+      "n": "N1や N2など"
+    }, {
+      "m": "Không làm hành động V gì cả. Dịch là : không V gì cả\n何(なに)も　しません　　　　Không làm gì cả\n何も　たべません　　　　　　Không ăn gì cả\n何も　のみません　　　　　　Không uống gì cả\n何も　べんきょうしません　　Không học gì cả\n-----\nTương tự với những động từ khác, đây là mẫu câu không làm gì cả.\nTrợ từ 　を　được chuyển thành trợ từ　も.\n\n\nれい：\n・わたしは　なつやすみに　何(なに)も　べんきょうしません。\nVào kì nghỉ hè tôi không học gì cả.\n・私は　きょう　なにも　たべません。\nHôm nay tôi không ăn gì cả.\n- Với những động từ sử dụng trợ từ へ\nどこ(へ)も　いきません　　Không đi đâu cả\nどこ(へ)も　きません　　　Không đến đâu cả\nどこ(へ)も　かえりません　Không về đâu cả\n-----\nỞ đây có へ　hay không  có　へ　đều được.\n\nれい：\n・わたしは　しゅうまつ　どこ（へ）も　いきません。Cuối tuần tôi không đi đâu cả.\n",
+      "n": "なにも／どこ（へ）も　Vません"
+    }, {
+      "m": "Thể hiện sự sở hữu\n・これは　だれのほんですか。\nĐây là quyển sách của ai?\n・これは　Nguyenさんのほんです。\nĐây là quyển sách của Nguyên\n----\n・こちらは　だれのこいびと／だれ　ですか。\nĐây là người yêu của ai／ là ai?\n・わたしの　こいびとです。\nLà người yêu của tôi.\n",
+      "n": "だれの　N　ですか。"
+    }, {
+      "m": "Thể hiện nguồn gốc, xuất xứ, hãng… của đồ vật\n\nれい：\n・これは　どこのけいたいでんわですか。\nCái này là đt của hãng nào／ nước nào?\n・これは　APPLEの（けいたいでんわ）です。\nCái này là(smartphone) của Apple.\n・これは　どこのくつですか。\nĐây là đôi giày của nước nào／ hãng nào?\n・このくつは　日本のです。\nĐôi giày này là của Nhật.\n",
+      "n": "どこの　Nですか。"
+    }, {
+      "m": "Thể hiện thuộc tính, chủng loại, lĩnh vực… của sự vật\n\nれい：\n・これは　なんの　ざっしですか。\nĐây là tạp chí về cái gì?\n・これは　コンピューターの　ざっしです。\nĐây là quyển tạp chí về máy tính.\n",
+      "n": "なんの　Nですか。"
+    }, {
+      "m": "Cho tôi  ～ cái　N\n\nれい：\n　　　A：すみません、　ちゅうもんをおねがいします。\nてんいん：はい、どうぞ。\n　　　A：カレーを　ひとつ（１つ）ください。\nてんいん：はい。\nDịch:\nA： Xin lỗi, vui lòng cho tôi gọi món.\nNhân viên： Vâng, xin mời.\nA： Cho tôi 1 Cà-ri.\nNhân viên： Vâng.\n----\n　　　A：　すみません、　ちゅうもんをおねがいします。\nてんいん：　はい、どうぞ。\n　　　A：　このビールは　どこのビールですか。\nてんいん：　ドイツのビールです。\n　　　A：　じゃ、カレーを　ふたつ（２つ）と　ビールを　みっつ（３つ）　ください。\nてんいん：　カレーを２つとビールを３つですね。しょうしょうおまちください。\nDịch：\nA： Xin lỗi, vui lòng cho tôi gọi món.\nNhân viên：Vâng, xin mời.\nA： Bia này là bia của nước nào vậy?\nNhân viên： Bia của Đức.\nA： Vậy cho tôi 2 Cà-ri và 3 bia.\nNhân viên： 2 cà-ri và 3 bia đúng không nhỉ. Xin vui lòng chờ 1 chút.\n",
+      "n": "N  を　（～つ）ください。"
+    }, {
+      "m": "Trong ngôn ngữ ～ \n\nれい：\n・ぶたにくは　えいごで　なんですか。\nThịt lợn trong tiếng Anh là gì?\n・「Pork」 です。Là Pork\n----\n・「Beef」は　にほんごで　なんですか。\nBeef trong tiếng nhật là gì?\n\n・「ぎゅうにく」です。\nLà thịt bò (ぎゅうにく).\n",
+      "n": "N(～ご)で　～"
+    }]
+  },
+  "kan1": {
+    "l1": [{
+      "m": "Âm ON: シ\nÂm KUN: わたし／わたくし\nTừ ghép:\n私立大学（しりつだいがく）: đại học tư nhân\n",
+      "n": "私 - TƯ"
+    }, {
+      "m": "Âm ON: ジン／にん\nÂm KUN: ひと\nTừ ghép:\n日本人（にほんじん）: người Nhật\n3人（さんにん）: 3 người\n",
+      "n": "人 - NHÂN"
+    }, {
+      "m": "Âm ON: サイ\nÂm KUN: \nTừ ghép:\n４才（よんさい）:4 tuổi\n",
+      "n": "才 - TÀI"
+    }, {
+      "m": "Âm ON: ガク\nÂm KUN: \nTừ ghép: \n大学（だいがく） : trường đại học\n",
+      "n": "学 - HỌC"
+    }, {
+      "m": "Âm ON: セイ\nÂm KUN: \nTừ ghép: \n学生（がくせい） : học sinh\n先生（せんせい） : giáo viên\n",
+      "n": "生 - SINH"
+    }, {
+      "m": "Âm ON: コウ\nÂm KUN: \nTừ ghép: \n学校（がっこう） : trường học\n",
+      "n": "校 - HIỆU"
+    }, {
+      "m": "Âm ON: ジツ\nÂm KUN: ひ／び\nTừ ghép:\nー日（ついたち） : ngày mồng một\n",
+      "n": "日 - NHẬT"
+    }, {
+      "m": "Âm ON: ホン\nÂm KUN: \nTừ ghép: \n日本（にほん） : Nhật Bản\n",
+      "n": "本 - BẢN"
+    }, {
+      "m": "Âm ON: ゴ\nÂm KUN: \nTừ ghép: \n日本語（にほんご） : tiếng Nhật\n",
+      "n": "語 - NGỮ"
+    }],
+    "l2": [{
+      "m": "Âm ON: イチ\nÂm KUN: ひと・つ\nTừ ghép:\n一日（いちにち）：một ngày\n一日（ついたち）：ngày mùng 1\n一人（ひとり）：một người\n",
+      "n": "一 - NHẤT"
+    }, {
+      "m": "Âm ON: ニ\nÂm KUN: ふた・つ\nTừ ghép:\n二日（ふつか）：ngày mùng 2 , 2 ngày\n二人（ふたり）：2 người\n",
+      "n": "二 - NHỊ"
+    }, {
+      "m": "Âm ON: サン\nÂm KUN: みっ・つ\nTừ ghép:\n三日（みっか）：ngày mùng 3 , 3 ngày\n三人（さんにん）：3 cái\n",
+      "n": "三 - TAM"
+    }, {
+      "m": "Âm ON: ヨン／ヨ\nÂm KUN: よっ・つ\nTừ ghép:\n四日（よっか）：ngày mùng 4 , 4 ngày\n四人（よにん）：4 người\n",
+      "n": "四 - TỨ"
+    }, {
+      "m": "Âm ON: ゴ\nÂm KUN: いつ・つ\nTừ ghép:\n五日（いつか）：ngày mùng 5 , 5 ngày\n五人（ごにん）：4 người\n",
+      "n": "五 - NGŨ"
+    }, {
+      "m": "Âm ON: ロク\nÂm KUN: むっ・つ\nTừ ghép:\n六日（むいか）：ngày mùng 6 , 6 ngày\n六人（ろくにん）：6 người\n",
+      "n": "六 - LỤC"
+    }, {
+      "m": "Âm ON: シチ／ナナ\nÂm KUN: なな・つ\nTừ ghép:\n七時（しちじ）：7 giờ\n七人（ななにん）：7 người\n七日（なのか）：mùng 7 , 7 ngày\n",
+      "n": "七 - THẤT"
+    }, {
+      "m": "Âm ON: キュウ／ク\nÂm KUN: ここの・つ\nTừ ghép: \n九日（ここのか）：mùng 9 , 9 ngày\n九時（くじ）：9 giờ\n九番（きゅうばん）：số thứ 9\n",
+      "n": "九 - CỬU"
+    }, {
+      "m": "Âm ON: ジュウ\nÂm KUN: とお\nTừ ghép:\n十日（とおか）：ngày 10 , 10 ngày\n十時（じゅうじ）：10 giờ\n",
+      "n": "十 - THẬP"
+    }, {
+      "m": "Âm ON: ヒャク\nÂm KUN: \nTừ ghép:\n百(さんびゃく）：300\n八百（はっぴゃく）：800\n六百（ろっぴゃく）：600\n",
+      "n": "百 - BÁCH"
+    }, {
+      "m": "Âm ON: セン\nÂm KUN:\nTừ ghép:\n千円（せんえん）：1 nghìn Yen\n千年（せんねん）：1 nghìn năm\n",
+      "n": "千 - THIÊN"
+    }, {
+      "m": "Âm ON: マン\nÂm KUN: \nTừ ghép:\n一万（いちまん）：1 vạn\n",
+      "n": "万 - VẠN"
+    }, {
+      "m": "Âm ON: エン\nÂm KUN: \nTừ ghép:\n二千円（にせんえん）：2 nghìn Yen\n一万円（いちまんえん）：10 nghìn Yen\n",
+      "n": "円 - VIÊN"
+    }, {
+      "m": "Âm ON: ハチ\nÂm KUN:やっ・つ\nTừ ghép:\n八日（ようか）：mùng 8 , 8 ngày\n八ばん（はちばん）：số thứ 8\n",
+      "n": "八 - BÁT"
+    }],
+    "l3": [{
+      "m": "Âm ON: ガツ／ゲツ\nÂm KUN: つき\nTừ ghép: \n月よう日（げつようび）：Thứ hai\n",
+      "n": "月 - NGUYỆT"
+    }, {
+      "m": "Âm ON: カ\nÂm KUN: ひ\nTừ ghép: \n火じ（かじ）：hỏa hoạn\n火（ひ）：lửa\n火よう日（かようび）：Thứ ba\n",
+      "n": "火 - HỎA"
+    }, {
+      "m": "Âm ON: スイ\nÂm KUN: みず\nTừ ghép: \n水よう日（すいようび）：Thứ tư\n水えい（すいえい）：Bơi lội\n水（みず）：nước\n",
+      "n": "水 - THỦY"
+    }, {
+      "m": "Âm ON: モク\nÂm KUN: き\nTừ ghép: \n木（き）：cây\n木よう日（もくようび）：Thứ năm\n",
+      "n": "木 - MỘC"
+    }, {
+      "m": "Âm ON: キン\nÂm KUN: かね\nTừ ghép: \nお金（おかね）：tiền\n金よう日（きにょうび）：Thứ sáu\nお金もち（おかねもち）：người giàu\n",
+      "n": "金 - KIM"
+    }, {
+      "m": "Âm ON: ド／ト\nÂm KUN: つち\nTừ ghép: \n土（つち）：đất đai\n土よう日（どようび）：Thứ bảy\n",
+      "n": "土 - THỔ"
+    }, {
+      "m": "Âm ON: ヨウ\nÂm KUN: \nTừ ghép: \n日曜日（にちようび）：Chủ nhật\n～曜日（ようび）：ngày trong tuần\n",
+      "n": "曜 - DIỆU"
+    }, {
+      "m": "Âm ON: カ\nÂm KUN: なん／なに\nTừ ghép: \n何日（なんにち）：ngày bao nhiêu ／ bao nhiêu ngày\n何月（なんがつ）：tháng mấy\n",
+      "n": "何 - HÀ"
+    }, {
+      "m": "Âm ON: ネン\nÂm KUN: とし\nTừ ghép: \n一年生（いちねんせい）：sinh viên năm nhất, hs năm nhất\n今年（ことし）：năm nay\n去年（きょねん）：năm ngoái\n",
+      "n": "年 - NIÊN"
+    }, {
+      "m": "Âm ON: ジ\nÂm KUN: とき\nTừ ghép: \n時々（ときどき）：thỉnh thoảng\n時間（じかん）：thời gian\nこどもの時（こどものとき）：hồi còn bé, lúc nhỏ\n",
+      "n": "時 - THỜI, THÌ"
+    }, {
+      "m": "Âm ON: カン／ケン\nÂm KUN: あいだ、ま\nTừ ghép: \n人間（にんげん）：nhân gian, loài người\nこの間（このあいだ）：khoảng thời gian này, thời gian gần đây\n間に合う（まにあう）：kịp thời, kịp\n時間（じかん）：thời gian\n",
+      "n": "間 - GIAN"
+    }, {
+      "m": "Âm ON: ふん／ぶん\nÂm KUN: わ・かります／わ・かれます\nTừ ghép: \n五分（ごふん）：5 phút\n～分（～ふん）：~phút\n分かれます（わかれます）：chia tay\n",
+      "n": "分 - PHÂN"
+    }],
+    "l4": [{
+      "m": "Âm ON: イチ\nÂm KUN: ひと・つ\nTừ ghép:\n一日（いちにち）：một ngày\n一日（ついたち）：ngày mùng 1\n一人（ひとり）：một người\n",
+      "n": "一 - NHẤT"
+    }, {
+      "m": "Âm ON: ニ\nÂm KUN: ふた・つ\nTừ ghép:\n二日（ふつか）：ngày mùng 2 , 2 ngày\n二人（ふたり）：2 người\n",
+      "n": "二 - NHỊ"
+    }, {
+      "m": "Âm ON: サン\nÂm KUN: みっ・つ\nTừ ghép:\n三日（みっか）：ngày mùng 3 , 3 ngày\n三人（さんにん）：3 cái\n",
+      "n": "三 - TAM"
+    }, {
+      "m": "Âm ON: ヨン／ヨ\nÂm KUN: よっ・つ\nTừ ghép:\n四日（よっか）：ngày mùng 4 , 4 ngày\n四人（よにん）：4 người\n",
+      "n": "四 - TỨ"
+    }, {
+      "m": "Âm ON: セイ\nÂm KUN: \nTừ ghép: \n学生（がくせい） : học sinh\n先生（せんせい） : giáo viên\n",
+      "n": "生 - SINH"
+    }, {
+      "m": "Âm ON: コウ\nÂm KUN: \nTừ ghép: \n学校（がっこう） : trường học\n",
+      "n": "校 - HIỆU"
+    }, {
+      "m": "Âm ON: ジツ\nÂm KUN: ひ／び\nTừ ghép:\nー日（ついたち） : ngày mồng một\n",
+      "n": "日 - NHẬT"
+    }, {
+      "m": "Âm ON: ホン\nÂm KUN: \nTừ ghép: \n日本（にほん） : Nhật Bản\n",
+      "n": "本 - BẢN"
+    }, {
+      "m": "Âm ON: ゴ\nÂm KUN: \nTừ ghép: \n日本語（にほんご） : tiếng Nhật\n",
+      "n": "語 - NGỮ"
+    }],
+    "l5": [{
+      "m": "Âm ON: シ\nÂm KUN: わたし／わたくし\nTừ ghép:\n私立大学（しりつだいがく）: đại học tư nhân\n",
+      "n": "私 - TƯ"
+    }, {
+      "m": "Âm ON: ジン／にん\nÂm KUN: ひと\nTừ ghép:\n日本人（にほんじん）: người Nhật\n3人（さんにん）: 3 người\n",
+      "n": "人 - NHÂN"
+    }, {
+      "m": "Âm ON: サイ\nÂm KUN: \nTừ ghép:\n４才（よんさい）:4 tuổi\n",
+      "n": "才 - TÀI"
+    }, {
+      "m": "Âm ON: ガク\nÂm KUN: \nTừ ghép: \n大学（だいがく） : trường đại học\n",
+      "n": "学 - HỌC"
+    }, {
+      "m": "Âm ON: ジュウ\nÂm KUN: とお\nTừ ghép:\n十日（とおか）：ngày 10 , 10 ngày\n十時（じゅうじ）：10 giờ\n",
+      "n": "十 - THẬP"
+    }, {
+      "m": "Âm ON: ヒャク\nÂm KUN: \nTừ ghép:\n百(さんびゃく）：300\n八百（はっぴゃく）：800\n六百（ろっぴゃく）：600\n",
+      "n": "百 - BÁCH"
+    }, {
+      "m": "Âm ON: セン\nÂm KUN:\nTừ ghép:\n千円（せんえん）：1 nghìn Yen\n千年（せんねん）：1 nghìn năm\n",
+      "n": "千 - THIÊN"
+    }, {
+      "m": "Âm ON: マン\nÂm KUN: \nTừ ghép:\n一万（いちまん）：1 vạn\n",
+      "n": "万 - VẠN"
+    }, {
+      "m": "Âm ON: エン\nÂm KUN: \nTừ ghép:\n二千円（にせんえん）：2 nghìn Yen\n一万円（いちまんえん）：10 nghìn Yen\n",
+      "n": "円 - VIÊN"
+    }, {
+      "m": "Âm ON: ゴ\nÂm KUN: \nTừ ghép: \n日本語（にほんご） : tiếng Nhật\n",
+      "n": "語 - NGỮ"
+    }],
+    "l6": [{
+      "m": "Âm ON: ガツ／ゲツ\nÂm KUN: つき\nTừ ghép: \n月よう日（げつようび）：Thứ hai\n",
+      "n": "月 - NGUYỆT"
+    }, {
+      "m": "Âm ON: カ\nÂm KUN: ひ\nTừ ghép: \n火じ（かじ）：hỏa hoạn\n火（ひ）：lửa\n火よう日（かようび）：Thứ ba\n",
+      "n": "火 - HỎA"
+    }, {
+      "m": "Âm ON: スイ\nÂm KUN: みず\nTừ ghép: \n水よう日（すいようび）：Thứ tư\n水えい（すいえい）：Bơi lội\n水（みず）：nước\n",
+      "n": "水 - THỦY"
+    }, {
+      "m": "Âm ON: モク\nÂm KUN: き\nTừ ghép: \n木（き）：cây\n木よう日（もくようび）：Thứ năm\n",
+      "n": "木 - MỘC"
+    }, {
+      "m": "Âm ON: キン\nÂm KUN: かね\nTừ ghép: \nお金（おかね）：tiền\n金よう日（きにょうび）：Thứ sáu\nお金もち（おかねもち）：người giàu\n",
+      "n": "金 - KIM"
+    }, {
+      "m": "Âm ON: コウ\nÂm KUN: \nTừ ghép: \n学校（がっこう） : trường học\n",
+      "n": "校 - HIỆU"
+    }, {
+      "m": "Âm ON: ジツ\nÂm KUN: ひ／び\nTừ ghép:\nー日（ついたち） : ngày mồng một\n",
+      "n": "日 - NHẬT"
+    }, {
+      "m": "Âm ON: ホン\nÂm KUN: \nTừ ghép: \n日本（にほん） : Nhật Bản\n",
+      "n": "本 - BẢN"
+    }, {
+      "m": "Âm ON: ゴ\nÂm KUN: \nTừ ghép: \n日本語（にほんご） : tiếng Nhật\n",
+      "n": "語 - NGỮ"
+    }],
+    "l7": [{
+      "m": "Âm ON: シ\nÂm KUN: わたし／わたくし\nTừ ghép:\n私立大学（しりつだいがく）: đại học tư nhân\n",
+      "n": "私 - TƯ"
+    }, {
+      "m": "Âm ON: ジン／にん\nÂm KUN: ひと\nTừ ghép:\n日本人（にほんじん）: người Nhật\n3人（さんにん）: 3 người\n",
+      "n": "人 - NHÂN"
+    }, {
+      "m": "Âm ON: サイ\nÂm KUN: \nTừ ghép:\n４才（よんさい）:4 tuổi\n",
+      "n": "才 - TÀI"
+    }, {
+      "m": "Âm ON: ガク\nÂm KUN: \nTừ ghép: \n大学（だいがく） : trường đại học\n",
+      "n": "学 - HỌC"
+    }, {
+      "m": "Âm ON: ヨウ\nÂm KUN: \nTừ ghép: \n日曜日（にちようび）：Chủ nhật\n～曜日（ようび）：ngày trong tuần\n",
+      "n": "曜 - DIỆU"
+    }, {
+      "m": "Âm ON: カ\nÂm KUN: なん／なに\nTừ ghép: \n何日（なんにち）：ngày bao nhiêu ／ bao nhiêu ngày\n何月（なんがつ）：tháng mấy\n",
+      "n": "何 - HÀ"
+    }, {
+      "m": "Âm ON: ネン\nÂm KUN: とし\nTừ ghép: \n一年生（いちねんせい）：sinh viên năm nhất, hs năm nhất\n今年（ことし）：năm nay\n去年（きょねん）：năm ngoái\n",
+      "n": "年 - NIÊN"
+    }, {
+      "m": "Âm ON: ジ\nÂm KUN: とき\nTừ ghép: \n時々（ときどき）：thỉnh thoảng\n時間（じかん）：thời gian\nこどもの時（こどものとき）：hồi còn bé, lúc nhỏ\n",
+      "n": "時 - THỜI, THÌ"
+    }, {
+      "m": "Âm ON: カン／ケン\nÂm KUN: あいだ、ま\nTừ ghép: \n人間（にんげん）：nhân gian, loài người\nこの間（このあいだ）：khoảng thời gian này, thời gian gần đây\n間に合う（まにあう）：kịp thời, kịp\n時間（じかん）：thời gian\n",
+      "n": "間 - GIAN"
+    }, {
+      "m": "Âm ON: ふん／ぶん\nÂm KUN: わ・かります／わ・かれます\nTừ ghép: \n五分（ごふん）：5 phút\n～分（～ふん）：~phút\n分かれます（わかれます）：chia tay\n",
+      "n": "分 - PHÂN"
+    }],
+    "l8": [{
+      "m": "Âm ON: イチ\nÂm KUN: ひと・つ\nTừ ghép:\n一日（いちにち）：một ngày\n一日（ついたち）：ngày mùng 1\n一人（ひとり）：một người\n",
+      "n": "一 - NHẤT"
+    }, {
+      "m": "Âm ON: ニ\nÂm KUN: ふた・つ\nTừ ghép:\n二日（ふつか）：ngày mùng 2 , 2 ngày\n二人（ふたり）：2 người\n",
+      "n": "二 - NHỊ"
+    }, {
+      "m": "Âm ON: サン\nÂm KUN: みっ・つ\nTừ ghép:\n三日（みっか）：ngày mùng 3 , 3 ngày\n三人（さんにん）：3 cái\n",
+      "n": "三 - TAM"
+    }, {
+      "m": "Âm ON: ヨン／ヨ\nÂm KUN: よっ・つ\nTừ ghép:\n四日（よっか）：ngày mùng 4 , 4 ngày\n四人（よにん）：4 người\n",
+      "n": "四 - TỨ"
+    }, {
+      "m": "Âm ON: ゴ\nÂm KUN: いつ・つ\nTừ ghép:\n五日（いつか）：ngày mùng 5 , 5 ngày\n五人（ごにん）：4 người\n",
+      "n": "五 - NGŨ"
+    }, {
+      "m": "Âm ON: ロク\nÂm KUN: むっ・つ\nTừ ghép:\n六日（むいか）：ngày mùng 6 , 6 ngày\n六人（ろくにん）：6 người\n",
+      "n": "六 - LỤC"
+    }, {
+      "m": "Âm ON: コウ\nÂm KUN: \nTừ ghép: \n学校（がっこう） : trường học\n",
+      "n": "校 - HIỆU"
+    }, {
+      "m": "Âm ON: ジツ\nÂm KUN: ひ／び\nTừ ghép:\nー日（ついたち） : ngày mồng một\n",
+      "n": "日 - NHẬT"
+    }, {
+      "m": "Âm ON: ホン\nÂm KUN: \nTừ ghép: \n日本（にほん） : Nhật Bản\n",
+      "n": "本 - BẢN"
+    }, {
+      "m": "Âm ON: ゴ\nÂm KUN: \nTừ ghép: \n日本語（にほんご） : tiếng Nhật\n",
+      "n": "語 - NGỮ"
+    }],
+    "l9": [{
+      "m": "Âm ON: シ\nÂm KUN: わたし／わたくし\nTừ ghép:\n私立大学（しりつだいがく）: đại học tư nhân\n",
+      "n": "私 - TƯ"
+    }, {
+      "m": "Âm ON: ジン／にん\nÂm KUN: ひと\nTừ ghép:\n日本人（にほんじん）: người Nhật\n3人（さんにん）: 3 người\n",
+      "n": "人 - NHÂN"
+    }, {
+      "m": "Âm ON: サイ\nÂm KUN: \nTừ ghép:\n４才（よんさい）:4 tuổi\n",
+      "n": "才 - TÀI"
+    }, {
+      "m": "Âm ON: ガク\nÂm KUN: \nTừ ghép: \n大学（だいがく） : trường đại học\n",
+      "n": "学 - HỌC"
+    }, {
+      "m": "Âm ON: ジュウ\nÂm KUN: とお\nTừ ghép:\n十日（とおか）：ngày 10 , 10 ngày\n十時（じゅうじ）：10 giờ\n",
+      "n": "十 - THẬP"
+    }, {
+      "m": "Âm ON: ヒャク\nÂm KUN: \nTừ ghép:\n百(さんびゃく）：300\n八百（はっぴゃく）：800\n六百（ろっぴゃく）：600\n",
+      "n": "百 - BÁCH"
+    }, {
+      "m": "Âm ON: セン\nÂm KUN:\nTừ ghép:\n千円（せんえん）：1 nghìn Yen\n千年（せんねん）：1 nghìn năm\n",
+      "n": "千 - THIÊN"
+    }, {
+      "m": "Âm ON: マン\nÂm KUN: \nTừ ghép:\n一万（いちまん）：1 vạn\n",
+      "n": "万 - VẠN"
+    }, {
+      "m": "Âm ON: エン\nÂm KUN: \nTừ ghép:\n二千円（にせんえん）：2 nghìn Yen\n一万円（いちまんえん）：10 nghìn Yen\n",
+      "n": "円 - VIÊN"
+    }, {
+      "m": "Âm ON: ハチ\nÂm KUN:やっ・つ\nTừ ghép:\n八日（ようか）：mùng 8 , 8 ngày\n八ばん（はちばん）：số thứ 8\n",
+      "n": "八 - BÁT"
+    }],
+    "l10": [{
+      "m": "Âm ON: ガツ／ゲツ\nÂm KUN: つき\nTừ ghép: \n月よう日（げつようび）：Thứ hai\n",
+      "n": "月 - NGUYỆT"
+    }, {
+      "m": "Âm ON: カ\nÂm KUN: ひ\nTừ ghép: \n火じ（かじ）：hỏa hoạn\n火（ひ）：lửa\n火よう日（かようび）：Thứ ba\n",
+      "n": "火 - HỎA"
+    }, {
+      "m": "Âm ON: スイ\nÂm KUN: みず\nTừ ghép: \n水よう日（すいようび）：Thứ tư\n水えい（すいえい）：Bơi lội\n水（みず）：nước\n",
+      "n": "水 - THỦY"
+    }, {
+      "m": "Âm ON: モク\nÂm KUN: き\nTừ ghép: \n木（き）：cây\n木よう日（もくようび）：Thứ năm\n",
+      "n": "木 - MỘC"
+    }, {
+      "m": "Âm ON: キン\nÂm KUN: かね\nTừ ghép: \nお金（おかね）：tiền\n金よう日（きにょうび）：Thứ sáu\nお金もち（おかねもち）：người giàu\n",
+      "n": "金 - KIM"
+    }, {
+      "m": "Âm ON: コウ\nÂm KUN: \nTừ ghép: \n学校（がっこう） : trường học\n",
+      "n": "校 - HIỆU"
+    }, {
+      "m": "Âm ON: ジツ\nÂm KUN: ひ／び\nTừ ghép:\nー日（ついたち） : ngày mồng một\n",
+      "n": "日 - NHẬT"
+    }, {
+      "m": "Âm ON: ホン\nÂm KUN: \nTừ ghép: \n日本（にほん） : Nhật Bản\n",
+      "n": "本 - BẢN"
+    }, {
+      "m": "Âm ON: ゴ\nÂm KUN: \nTừ ghép: \n日本語（にほんご） : tiếng Nhật\n",
+      "n": "語 - NGỮ"
+    }],
+    "l11": [{
+      "m": "Âm ON: シ\nÂm KUN: わたし／わたくし\nTừ ghép:\n私立大学（しりつだいがく）: đại học tư nhân\n",
+      "n": "私 - TƯ"
+    }, {
+      "m": "Âm ON: ジン／にん\nÂm KUN: ひと\nTừ ghép:\n日本人（にほんじん）: người Nhật\n3人（さんにん）: 3 người\n",
+      "n": "人 - NHÂN"
+    }, {
+      "m": "Âm ON: サイ\nÂm KUN: \nTừ ghép:\n４才（よんさい）:4 tuổi\n",
+      "n": "才 - TÀI"
+    }, {
+      "m": "Âm ON: ガク\nÂm KUN: \nTừ ghép: \n大学（だいがく） : trường đại học\n",
+      "n": "学 - HỌC"
+    }, {
+      "m": "Âm ON: カ\nÂm KUN: なん／なに\nTừ ghép: \n何日（なんにち）：ngày bao nhiêu ／ bao nhiêu ngày\n何月（なんがつ）：tháng mấy\n",
+      "n": "何 - HÀ"
+    }, {
+      "m": "Âm ON: ネン\nÂm KUN: とし\nTừ ghép: \n一年生（いちねんせい）：sinh viên năm nhất, hs năm nhất\n今年（ことし）：năm nay\n去年（きょねん）：năm ngoái\n",
+      "n": "年 - NIÊN"
+    }, {
+      "m": "Âm ON: ジ\nÂm KUN: とき\nTừ ghép: \n時々（ときどき）：thỉnh thoảng\n時間（じかん）：thời gian\nこどもの時（こどものとき）：hồi còn bé, lúc nhỏ\n",
+      "n": "時 - THỜI, THÌ"
+    }, {
+      "m": "Âm ON: カン／ケン\nÂm KUN: あいだ、ま\nTừ ghép: \n人間（にんげん）：nhân gian, loài người\nこの間（このあいだ）：khoảng thời gian này, thời gian gần đây\n間に合う（まにあう）：kịp thời, kịp\n時間（じかん）：thời gian\n",
+      "n": "間 - GIAN"
+    }, {
+      "m": "Âm ON: ふん／ぶん\nÂm KUN: わ・かります／わ・かれます\nTừ ghép: \n五分（ごふん）：5 phút\n～分（～ふん）：~phút\n分かれます（わかれます）：chia tay\n",
+      "n": "分 - PHÂN"
+    }],
+    "l12": [{
+      "m": "Âm ON: キュウ／ク\nÂm KUN: ここの・つ\nTừ ghép: \n九日（ここのか）：mùng 9 , 9 ngày\n九時（くじ）：9 giờ\n九番（きゅうばん）：số thứ 9\n",
+      "n": "九 - CỬU"
+    }, {
+      "m": "Âm ON: ジュウ\nÂm KUN: とお\nTừ ghép:\n十日（とおか）：ngày 10 , 10 ngày\n十時（じゅうじ）：10 giờ\n",
+      "n": "十 - THẬP"
+    }, {
+      "m": "Âm ON: ヒャク\nÂm KUN: \nTừ ghép:\n百(さんびゃく）：300\n八百（はっぴゃく）：800\n六百（ろっぴゃく）：600\n",
+      "n": "百 - BÁCH"
+    }, {
+      "m": "Âm ON: セン\nÂm KUN:\nTừ ghép:\n千円（せんえん）：1 nghìn Yen\n千年（せんねん）：1 nghìn năm\n",
+      "n": "千 - THIÊN"
+    }, {
+      "m": "Âm ON: マン\nÂm KUN: \nTừ ghép:\n一万（いちまん）：1 vạn\n",
+      "n": "万 - VẠN"
+    }, {
+      "m": "Âm ON: エン\nÂm KUN: \nTừ ghép:\n二千円（にせんえん）：2 nghìn Yen\n一万円（いちまんえん）：10 nghìn Yen\n",
+      "n": "円 - VIÊN"
+    }, {
+      "m": "Âm ON: ハチ\nÂm KUN:やっ・つ\nTừ ghép:\n八日（ようか）：mùng 8 , 8 ngày\n八ばん（はちばん）：số thứ 8\n",
+      "n": "八 - BÁT"
+    }, {
+      "m": "Âm ON: コウ\nÂm KUN: \nTừ ghép: \n学校（がっこう） : trường học\n",
+      "n": "校 - HIỆU"
+    }, {
+      "m": "Âm ON: ジツ\nÂm KUN: ひ／び\nTừ ghép:\nー日（ついたち） : ngày mồng một\n",
+      "n": "日 - NHẬT"
+    }, {
+      "m": "Âm ON: ホン\nÂm KUN: \nTừ ghép: \n日本（にほん） : Nhật Bản\n",
+      "n": "本 - BẢN"
+    }, {
+      "m": "Âm ON: ゴ\nÂm KUN: \nTừ ghép: \n日本語（にほんご） : tiếng Nhật\n",
+      "n": "語 - NGỮ"
+    }],
+    "l13": [{
+      "m": "Âm ON: シ\nÂm KUN: わたし／わたくし\nTừ ghép:\n私立大学（しりつだいがく）: đại học tư nhân\n",
+      "n": "私 - TƯ"
+    }, {
+      "m": "Âm ON: ジン／にん\nÂm KUN: ひと\nTừ ghép:\n日本人（にほんじん）: người Nhật\n3人（さんにん）: 3 người\n",
+      "n": "人 - NHÂN"
+    }, {
+      "m": "Âm ON: サイ\nÂm KUN: \nTừ ghép:\n４才（よんさい）:4 tuổi\n",
+      "n": "才 - TÀI"
+    }, {
+      "m": "Âm ON: ガク\nÂm KUN: \nTừ ghép: \n大学（だいがく） : trường đại học\n",
+      "n": "学 - HỌC"
+    }, {
+      "m": "Âm ON: モク\nÂm KUN: き\nTừ ghép: \n木（き）：cây\n木よう日（もくようび）：Thứ năm\n",
+      "n": "木 - MỘC"
+    }, {
+      "m": "Âm ON: キン\nÂm KUN: かね\nTừ ghép: \nお金（おかね）：tiền\n金よう日（きにょうび）：Thứ sáu\nお金もち（おかねもち）：người giàu\n",
+      "n": "金 - KIM"
+    }, {
+      "m": "Âm ON: ド／ト\nÂm KUN: つち\nTừ ghép: \n土（つち）：đất đai\n土よう日（どようび）：Thứ bảy\n",
+      "n": "土 - THỔ"
+    }, {
+      "m": "Âm ON: ヨウ\nÂm KUN: \nTừ ghép: \n日曜日（にちようび）：Chủ nhật\n～曜日（ようび）：ngày trong tuần\n",
+      "n": "曜 - DIỆU"
+    }, {
+      "m": "Âm ON: カ\nÂm KUN: なん／なに\nTừ ghép: \n何日（なんにち）：ngày bao nhiêu ／ bao nhiêu ngày\n何月（なんがつ）：tháng mấy\n",
+      "n": "何 - HÀ"
+    }],
+    "l14": [{
+      "m": "Âm ON: イチ\nÂm KUN: ひと・つ\nTừ ghép:\n一日（いちにち）：một ngày\n一日（ついたち）：ngày mùng 1\n一人（ひとり）：một người\n",
+      "n": "一 - NHẤT"
+    }, {
+      "m": "Âm ON: ニ\nÂm KUN: ふた・つ\nTừ ghép:\n二日（ふつか）：ngày mùng 2 , 2 ngày\n二人（ふたり）：2 người\n",
+      "n": "二 - NHỊ"
+    }, {
+      "m": "Âm ON: サン\nÂm KUN: みっ・つ\nTừ ghép:\n三日（みっか）：ngày mùng 3 , 3 ngày\n三人（さんにん）：3 cái\n",
+      "n": "三 - TAM"
+    }, {
+      "m": "Âm ON: ヨン／ヨ\nÂm KUN: よっ・つ\nTừ ghép:\n四日（よっか）：ngày mùng 4 , 4 ngày\n四人（よにん）：4 người\n",
+      "n": "四 - TỨ"
+    }, {
+      "m": "Âm ON: ゴ\nÂm KUN: いつ・つ\nTừ ghép:\n五日（いつか）：ngày mùng 5 , 5 ngày\n五人（ごにん）：4 người\n",
+      "n": "五 - NGŨ"
+    }, {
+      "m": "Âm ON: ロク\nÂm KUN: むっ・つ\nTừ ghép:\n六日（むいか）：ngày mùng 6 , 6 ngày\n六人（ろくにん）：6 người\n",
+      "n": "六 - LỤC"
+    }, {
+      "m": "Âm ON: ジツ\nÂm KUN: ひ／び\nTừ ghép:\nー日（ついたち） : ngày mồng một\n",
+      "n": "日 - NHẬT"
+    }, {
+      "m": "Âm ON: ホン\nÂm KUN: \nTừ ghép: \n日本（にほん） : Nhật Bản\n",
+      "n": "本 - BẢN"
+    }, {
+      "m": "Âm ON: ゴ\nÂm KUN: \nTừ ghép: \n日本語（にほんご） : tiếng Nhật\n",
+      "n": "語 - NGỮ"
+    }],
+    "l15": [{
+      "m": "Âm ON: シ\nÂm KUN: わたし／わたくし\nTừ ghép:\n私立大学（しりつだいがく）: đại học tư nhân\n",
+      "n": "私 - TƯ"
+    }, {
+      "m": "Âm ON: ジン／にん\nÂm KUN: ひと\nTừ ghép:\n日本人（にほんじん）: người Nhật\n3人（さんにん）: 3 người\n",
+      "n": "人 - NHÂN"
+    }, {
+      "m": "Âm ON: サイ\nÂm KUN: \nTừ ghép:\n４才（よんさい）:4 tuổi\n",
+      "n": "才 - TÀI"
+    }, {
+      "m": "Âm ON: ガク\nÂm KUN: \nTừ ghép: \n大学（だいがく） : trường đại học\n",
+      "n": "学 - HỌC"
+    }, {
+      "m": "Âm ON: キュウ／ク\nÂm KUN: ここの・つ\nTừ ghép: \n九日（ここのか）：mùng 9 , 9 ngày\n九時（くじ）：9 giờ\n九番（きゅうばん）：số thứ 9\n",
+      "n": "九 - CỬU"
+    }, {
+      "m": "Âm ON: ジュウ\nÂm KUN: とお\nTừ ghép:\n十日（とおか）：ngày 10 , 10 ngày\n十時（じゅうじ）：10 giờ\n",
+      "n": "十 - THẬP"
+    }, {
+      "m": "Âm ON: ヒャク\nÂm KUN: \nTừ ghép:\n百(さんびゃく）：300\n八百（はっぴゃく）：800\n六百（ろっぴゃく）：600\n",
+      "n": "百 - BÁCH"
+    }, {
+      "m": "Âm ON: セン\nÂm KUN:\nTừ ghép:\n千円（せんえん）：1 nghìn Yen\n千年（せんねん）：1 nghìn năm\n",
+      "n": "千 - THIÊN"
+    }, {
+      "m": "Âm ON: マン\nÂm KUN: \nTừ ghép:\n一万（いちまん）：1 vạn\n",
+      "n": "万 - VẠN"
+    }, {
+      "m": "Âm ON: エン\nÂm KUN: \nTừ ghép:\n二千円（にせんえん）：2 nghìn Yen\n一万円（いちまんえん）：10 nghìn Yen\n",
+      "n": "円 - VIÊN"
+    }]
+  },
+  "list1": {
+    "b1": ["はじめまして", "かいもの・しょくじ", "スケジュール", "私の国・町", "休みの日", "一緒に", "ともだちといえで", "大切な人", "好きなこと", "バスツアー", "私の生活", "病気・けが", "私のおすすめ", "国のしゅうかん", "テレビ・ざっしから"],
+    "b2": ["新しい一歩", "楽しいショッピング", "私の目標", "住んでいる町で", "大変な一日", "旅行に行こう", "西川さんの家へ", "ありがとう", "アルバイト先で", "旅行に行って", "地域社会の中で", "私の健康法", "親の気持ち・子の気持ち", "イベント・行事", "気になるニュース"],
+    "b3": ["新たな出会い", "楽しい食事・上手な買い物", "時間を生かす", "地域を知って生活する", "緊急事態", "地図を広げる", "世代を超えた交流", "気持ちを伝える", "言葉を楽しむ", "日本を旅する", "ライフスタイル", "心と体の健康", "トレンドに乗ってつながる", "カレチャーションク", "情報会社に生きる", "学校生活", "働くということ", "地峡の生きる", "科学の力", "豊かさと幸せ"]
+  },
+  "list2": {
+    "b1": ["はじめまして", "かいもの・しょくじ", "スケジュール", "私の国・町"]
+  },
+  "list3": {
+    "b1": ["はじめまして", "かいもの・しょくじ", "スケジュール"]
+  },
+  "list4": {
+    "b1": ["はじめまして", "かいもの・しょくじ", "スケジュール"]
+  },
+  "quiz1": {
+    "l1": [{
+      "m": "いつ｜だれ｜なん｜どちら｜いつ",
+      "n": "あなたのたんじょうびは　＿ですか。\n・・・くがつよっかです。"
+    }, {
+      "m": "せんせい、きょうし｜きょうし、せんせい｜せんせい、せんせい｜きょうし、きょうし｜せんせい、きょうし",
+      "n": "いけだ＿　のしごとは　＿です。"
+    }, {
+      "m": "いつ｜だれ｜なん｜どちら｜なん",
+      "n": "これは　＿ですか。"
+    }, {
+      "m": "いつ｜だれ｜なん｜どちら｜どちら",
+      "n": "ナムさんの　おくには　＿ですか。"
+    }, {
+      "m": "は｜の｜と｜も｜も",
+      "n": "クァンさんは　ハンサムです。ハイさん＿　ハンサムです。"
+    }, {
+      "m": "も｜は｜の｜と｜は",
+      "n": "クィンちゃんの　いぬ＿　かわいいです。"
+    }, {
+      "m": "がくせい｜いぬ｜ねこ｜ハノイ｜がくせい",
+      "n": "キェンさんは　ベトナムの　＿です。"
+    }, {
+      "m": "がくせい｜せんせい｜しゃいん｜こうむいん｜しゃいん",
+      "n": "タインさんは　FPTの　＿ですか。\n・・・いいえ、しゃいんではありません。"
+    }, {
+      "m": "５月５日｜６がつ１日｜７がつ７日｜３月３日｜５月５日",
+      "n": "にほんの　こどものひは　いつですか。\n・・・＿です。"
+    }, {
+      "m": "の｜も｜は｜と｜と",
+      "n": "ハーさんの　しゅみは　なんですか。\n・・・どくしょ＿　サッカーです。"
+    },{
+      "m": "そうです｜がくせいです｜せんせいではありません｜ちがいます｜ちがいます",
+      "n": "いけださんは　がくせいですか。\n・・・いいえ、＿です。"
+    }, {
+      "m": "なんかい｜なんさい｜なんがつ｜なんにち｜なんさい",
+      "n": "ハイさんは　＿ですか。\n・・・１５です。"
+    }, {
+      "m": "これ｜この｜こちら｜ここ｜この",
+      "n": "すみません、＿ほんは　いくらですか。\n・・・１００えんです。"
+    }, {
+      "m": "おしごと｜おくに｜おかね｜おすし｜おしごと",
+      "n": "ハーさん、＿は　なんですか。\n・・・かいしゃいんです。"
+    }, {
+      "m": "どちら｜どこ｜いつ｜だれ｜どこ",
+      "n": "すみません、トイレは　＿ですか。\n・・・あちらです。"
+    }, {
+      "m": "だれ｜なん｜どこ｜いつ｜なん",
+      "n": "あれは　＿ですか。\n・・・あ、かばんです。"
+    }, {
+      "m": "だれの｜どこの｜なんの｜いくら｜だれの",
+      "n": "あのほんは　＿ですか。\n・・・ミンさんのです。"
+    }, {
+      "m": "アメリカご｜えいご｜フランスご｜ベトナムご｜えいご",
+      "n": "「にほんご」は　＿で　なんですか。\n・・・「Japanese」です。"
+    }, {
+      "m": "を、を、を｜を、を、は｜は、は、を｜を、を、X｜を、を、X",
+      "n": "カレー＿　ふたつと　すし＿　みっつ＿　ください。"
+    }, {
+      "m": "なんの｜どこの｜だれの｜なにの｜なんの",
+      "n": "そのほんは　＿ほんですか。\n・・・まんがです。"
+    },{
+      "m": "なんじ｜なんじに｜なんじで｜なんふん｜なんじに",
+      "n": "ハイさん、まいにち　＿　おきますか。\n・・・ろくじに　おきます。"
+    }, {
+      "m": "げつようび、きんようび｜どようび、にちようび｜ハノイ、ホーチミン｜きょう、きのう｜どようび、にちようび",
+      "n": "としょかんは　＿から　＿まで　やすみます。"
+    }, {
+      "m": "へ｜を｜で｜は｜へ",
+      "n": "ミンさんは　ハノイ＿　いきますか。\n・・・はい、いきます。"
+    }, {
+      "m": "へ｜を｜で｜は｜で",
+      "n": "きのう、こうえん＿　あそびましたか。\n・・・いいえ、あそびませんでした。"
+    }, {
+      "m": "と、と｜や、など｜と、を｜と、X｜と、X",
+      "n": "わたしのしゅみは　どくしょ＿　すいえい＿です。"
+    }, {
+      "m": "や、など｜と、と｜と、は｜は、と｜や、など",
+      "n": "わたしは　サッカー＿　テニス＿を　します。"
+    }, {
+      "m": "へ｜も｜に｜を｜も",
+      "n": "きのう、わたしは　どこ＿　いきませんでした。"
+    }, {
+      "m": "も｜を｜をも｜が｜も",
+      "n": "あした　やすみです。わたしは　なに＿　しません。うちに　います。"
+    }, {
+      "m": "へ｜で｜に｜は｜へ",
+      "n": "みなさん　あした　＿　あそびに　いきますか。"
+    }, {
+      "m": "で｜に｜へ｜は｜で",
+      "n": "あそこ＿　うたを　うたいましたか。"
+    }],
+    "l2": [{
+      "m": "いつ｜だれ｜なん｜どちら｜いつ",
+      "n": "あなたのたんじょうびは　＿ですか。\n・・・くがつよっかです。"
+    }, {
+      "m": "せんせい、きょうし｜きょうし、せんせい｜せんせい、せんせい｜きょうし、きょうし｜せんせい、きょうし",
+      "n": "いけだ＿　のしごとは　＿です。"
+    }, {
+      "m": "いつ｜だれ｜なん｜どちら｜なん",
+      "n": "これは　＿ですか。"
+    }, {
+      "m": "いつ｜だれ｜なん｜どちら｜どちら",
+      "n": "ナムさんの　おくには　＿ですか。"
+    }, {
+      "m": "は｜の｜と｜も｜も",
+      "n": "クァンさんは　ハンサムです。ハイさん＿　ハンサムです。"
+    }, {
+      "m": "も｜は｜の｜と｜は",
+      "n": "クィンちゃんの　いぬ＿　かわいいです。"
+    }, {
+      "m": "がくせい｜いぬ｜ねこ｜ハノイ｜がくせい",
+      "n": "キェンさんは　ベトナムの　＿です。"
+    }, {
+      "m": "がくせい｜せんせい｜しゃいん｜こうむいん｜しゃいん",
+      "n": "タインさんは　FPTの　＿ですか。\n・・・いいえ、しゃいんではありません。"
+    }, {
+      "m": "５月５日｜６がつ１日｜７がつ７日｜３月３日｜５月５日",
+      "n": "にほんの　こどものひは　いつですか。\n・・・＿です。"
+    }, {
+      "m": "の｜も｜は｜と｜と",
+      "n": "ハーさんの　しゅみは　なんですか。\n・・・どくしょ＿　サッカーです。"
+    },{
+      "m": "そうです｜がくせいです｜せんせいではありません｜ちがいます｜ちがいます",
+      "n": "いけださんは　がくせいですか。\n・・・いいえ、＿です。"
+    }, {
+      "m": "なんかい｜なんさい｜なんがつ｜なんにち｜なんさい",
+      "n": "ハイさんは　＿ですか。\n・・・１５です。"
+    }, {
+      "m": "これ｜この｜こちら｜ここ｜この",
+      "n": "すみません、＿ほんは　いくらですか。\n・・・１００えんです。"
+    }, {
+      "m": "おしごと｜おくに｜おかね｜おすし｜おしごと",
+      "n": "ハーさん、＿は　なんですか。\n・・・かいしゃいんです。"
+    }, {
+      "m": "どちら｜どこ｜いつ｜だれ｜どこ",
+      "n": "すみません、トイレは　＿ですか。\n・・・あちらです。"
+    }, {
+      "m": "だれ｜なん｜どこ｜いつ｜なん",
+      "n": "あれは　＿ですか。\n・・・あ、かばんです。"
+    }, {
+      "m": "だれの｜どこの｜なんの｜いくら｜だれの",
+      "n": "あのほんは　＿ですか。\n・・・ミンさんのです。"
+    }, {
+      "m": "アメリカご｜えいご｜フランスご｜ベトナムご｜えいご",
+      "n": "「にほんご」は　＿で　なんですか。\n・・・「Japanese」です。"
+    }, {
+      "m": "を、を、を｜を、を、は｜は、は、を｜を、を、X｜を、を、X",
+      "n": "カレー＿　ふたつと　すし＿　みっつ＿　ください。"
+    }, {
+      "m": "なんの｜どこの｜だれの｜なにの｜なんの",
+      "n": "そのほんは　＿ほんですか。\n・・・まんがです。"
+    },{
+      "m": "なんじ｜なんじに｜なんじで｜なんふん｜なんじに",
+      "n": "ハイさん、まいにち　＿　おきますか。\n・・・ろくじに　おきます。"
+    }, {
+      "m": "げつようび、きんようび｜どようび、にちようび｜ハノイ、ホーチミン｜きょう、きのう｜どようび、にちようび",
+      "n": "としょかんは　＿から　＿まで　やすみます。"
+    }, {
+      "m": "へ｜を｜で｜は｜へ",
+      "n": "ミンさんは　ハノイ＿　いきますか。\n・・・はい、いきます。"
+    }, {
+      "m": "へ｜を｜で｜は｜で",
+      "n": "きのう、こうえん＿　あそびましたか。\n・・・いいえ、あそびませんでした。"
+    }, {
+      "m": "と、と｜や、など｜と、を｜と、X｜と、X",
+      "n": "わたしのしゅみは　どくしょ＿　すいえい＿です。"
+    }, {
+      "m": "や、など｜と、と｜と、は｜は、と｜や、など",
+      "n": "わたしは　サッカー＿　テニス＿を　します。"
+    }, {
+      "m": "へ｜も｜に｜を｜も",
+      "n": "きのう、わたしは　どこ＿　いきませんでした。"
+    }, {
+      "m": "も｜を｜をも｜が｜も",
+      "n": "あした　やすみです。わたしは　なに＿　しません。うちに　います。"
+    }, {
+      "m": "へ｜で｜に｜は｜へ",
+      "n": "みなさん　あした　＿　あそびに　いきますか。"
+    }, {
+      "m": "で｜に｜へ｜は｜で",
+      "n": "あそこ＿　うたを　うたいましたか。"
+    }],
+    "l3": [{
+      "m": "いつ｜だれ｜なん｜どちら｜いつ",
+      "n": "あなたのたんじょうびは　＿ですか。\n・・・くがつよっかです。"
+    }, {
+      "m": "せんせい、きょうし｜きょうし、せんせい｜せんせい、せんせい｜きょうし、きょうし｜せんせい、きょうし",
+      "n": "いけだ＿　のしごとは　＿です。"
+    }, {
+      "m": "いつ｜だれ｜なん｜どちら｜なん",
+      "n": "これは　＿ですか。"
+    }, {
+      "m": "いつ｜だれ｜なん｜どちら｜どちら",
+      "n": "ナムさんの　おくには　＿ですか。"
+    }, {
+      "m": "は｜の｜と｜も｜も",
+      "n": "クァンさんは　ハンサムです。ハイさん＿　ハンサムです。"
+    }, {
+      "m": "も｜は｜の｜と｜は",
+      "n": "クィンちゃんの　いぬ＿　かわいいです。"
+    }, {
+      "m": "がくせい｜いぬ｜ねこ｜ハノイ｜がくせい",
+      "n": "キェンさんは　ベトナムの　＿です。"
+    }, {
+      "m": "がくせい｜せんせい｜しゃいん｜こうむいん｜しゃいん",
+      "n": "タインさんは　FPTの　＿ですか。\n・・・いいえ、しゃいんではありません。"
+    }, {
+      "m": "５月５日｜６がつ１日｜７がつ７日｜３月３日｜５月５日",
+      "n": "にほんの　こどものひは　いつですか。\n・・・＿です。"
+    }, {
+      "m": "の｜も｜は｜と｜と",
+      "n": "ハーさんの　しゅみは　なんですか。\n・・・どくしょ＿　サッカーです。"
+    },{
+      "m": "そうです｜がくせいです｜せんせいではありません｜ちがいます｜ちがいます",
+      "n": "いけださんは　がくせいですか。\n・・・いいえ、＿です。"
+    }, {
+      "m": "なんかい｜なんさい｜なんがつ｜なんにち｜なんさい",
+      "n": "ハイさんは　＿ですか。\n・・・１５です。"
+    }, {
+      "m": "これ｜この｜こちら｜ここ｜この",
+      "n": "すみません、＿ほんは　いくらですか。\n・・・１００えんです。"
+    }, {
+      "m": "おしごと｜おくに｜おかね｜おすし｜おしごと",
+      "n": "ハーさん、＿は　なんですか。\n・・・かいしゃいんです。"
+    }, {
+      "m": "どちら｜どこ｜いつ｜だれ｜どこ",
+      "n": "すみません、トイレは　＿ですか。\n・・・あちらです。"
+    }, {
+      "m": "だれ｜なん｜どこ｜いつ｜なん",
+      "n": "あれは　＿ですか。\n・・・あ、かばんです。"
+    }, {
+      "m": "だれの｜どこの｜なんの｜いくら｜だれの",
+      "n": "あのほんは　＿ですか。\n・・・ミンさんのです。"
+    }, {
+      "m": "アメリカご｜えいご｜フランスご｜ベトナムご｜えいご",
+      "n": "「にほんご」は　＿で　なんですか。\n・・・「Japanese」です。"
+    }, {
+      "m": "を、を、を｜を、を、は｜は、は、を｜を、を、X｜を、を、X",
+      "n": "カレー＿　ふたつと　すし＿　みっつ＿　ください。"
+    }, {
+      "m": "なんの｜どこの｜だれの｜なにの｜なんの",
+      "n": "そのほんは　＿ほんですか。\n・・・まんがです。"
+    },{
+      "m": "なんじ｜なんじに｜なんじで｜なんふん｜なんじに",
+      "n": "ハイさん、まいにち　＿　おきますか。\n・・・ろくじに　おきます。"
+    }, {
+      "m": "げつようび、きんようび｜どようび、にちようび｜ハノイ、ホーチミン｜きょう、きのう｜どようび、にちようび",
+      "n": "としょかんは　＿から　＿まで　やすみます。"
+    }, {
+      "m": "へ｜を｜で｜は｜へ",
+      "n": "ミンさんは　ハノイ＿　いきますか。\n・・・はい、いきます。"
+    }, {
+      "m": "へ｜を｜で｜は｜で",
+      "n": "きのう、こうえん＿　あそびましたか。\n・・・いいえ、あそびませんでした。"
+    }, {
+      "m": "と、と｜や、など｜と、を｜と、X｜と、X",
+      "n": "わたしのしゅみは　どくしょ＿　すいえい＿です。"
+    }, {
+      "m": "や、など｜と、と｜と、は｜は、と｜や、など",
+      "n": "わたしは　サッカー＿　テニス＿を　します。"
+    }, {
+      "m": "へ｜も｜に｜を｜も",
+      "n": "きのう、わたしは　どこ＿　いきませんでした。"
+    }, {
+      "m": "も｜を｜をも｜が｜も",
+      "n": "あした　やすみです。わたしは　なに＿　しません。うちに　います。"
+    }, {
+      "m": "へ｜で｜に｜は｜へ",
+      "n": "みなさん　あした　＿　あそびに　いきますか。"
+    }, {
+      "m": "で｜に｜へ｜は｜で",
+      "n": "あそこ＿　うたを　うたいましたか。"
+    }],
+    "l4": [{
+      "m": "いつ｜だれ｜なん｜どちら｜いつ",
+      "n": "あなたのたんじょうびは　＿ですか。\n・・・くがつよっかです。"
+    }, {
+      "m": "せんせい、きょうし｜きょうし、せんせい｜せんせい、せんせい｜きょうし、きょうし｜せんせい、きょうし",
+      "n": "いけだ＿　のしごとは　＿です。"
+    }, {
+      "m": "いつ｜だれ｜なん｜どちら｜なん",
+      "n": "これは　＿ですか。"
+    }, {
+      "m": "いつ｜だれ｜なん｜どちら｜どちら",
+      "n": "ナムさんの　おくには　＿ですか。"
+    }, {
+      "m": "は｜の｜と｜も｜も",
+      "n": "クァンさんは　ハンサムです。ハイさん＿　ハンサムです。"
+    }, {
+      "m": "も｜は｜の｜と｜は",
+      "n": "クィンちゃんの　いぬ＿　かわいいです。"
+    }, {
+      "m": "がくせい｜いぬ｜ねこ｜ハノイ｜がくせい",
+      "n": "キェンさんは　ベトナムの　＿です。"
+    }, {
+      "m": "がくせい｜せんせい｜しゃいん｜こうむいん｜しゃいん",
+      "n": "タインさんは　FPTの　＿ですか。\n・・・いいえ、しゃいんではありません。"
+    }, {
+      "m": "５月５日｜６がつ１日｜７がつ７日｜３月３日｜５月５日",
+      "n": "にほんの　こどものひは　いつですか。\n・・・＿です。"
+    }, {
+      "m": "の｜も｜は｜と｜と",
+      "n": "ハーさんの　しゅみは　なんですか。\n・・・どくしょ＿　サッカーです。"
+    },{
+      "m": "そうです｜がくせいです｜せんせいではありません｜ちがいます｜ちがいます",
+      "n": "いけださんは　がくせいですか。\n・・・いいえ、＿です。"
+    }, {
+      "m": "なんかい｜なんさい｜なんがつ｜なんにち｜なんさい",
+      "n": "ハイさんは　＿ですか。\n・・・１５です。"
+    }, {
+      "m": "これ｜この｜こちら｜ここ｜この",
+      "n": "すみません、＿ほんは　いくらですか。\n・・・１００えんです。"
+    }, {
+      "m": "おしごと｜おくに｜おかね｜おすし｜おしごと",
+      "n": "ハーさん、＿は　なんですか。\n・・・かいしゃいんです。"
+    }, {
+      "m": "どちら｜どこ｜いつ｜だれ｜どこ",
+      "n": "すみません、トイレは　＿ですか。\n・・・あちらです。"
+    }, {
+      "m": "だれ｜なん｜どこ｜いつ｜なん",
+      "n": "あれは　＿ですか。\n・・・あ、かばんです。"
+    }, {
+      "m": "だれの｜どこの｜なんの｜いくら｜だれの",
+      "n": "あのほんは　＿ですか。\n・・・ミンさんのです。"
+    }, {
+      "m": "アメリカご｜えいご｜フランスご｜ベトナムご｜えいご",
+      "n": "「にほんご」は　＿で　なんですか。\n・・・「Japanese」です。"
+    }, {
+      "m": "を、を、を｜を、を、は｜は、は、を｜を、を、X｜を、を、X",
+      "n": "カレー＿　ふたつと　すし＿　みっつ＿　ください。"
+    }, {
+      "m": "なんの｜どこの｜だれの｜なにの｜なんの",
+      "n": "そのほんは　＿ほんですか。\n・・・まんがです。"
+    },{
+      "m": "なんじ｜なんじに｜なんじで｜なんふん｜なんじに",
+      "n": "ハイさん、まいにち　＿　おきますか。\n・・・ろくじに　おきます。"
+    }, {
+      "m": "げつようび、きんようび｜どようび、にちようび｜ハノイ、ホーチミン｜きょう、きのう｜どようび、にちようび",
+      "n": "としょかんは　＿から　＿まで　やすみます。"
+    }, {
+      "m": "へ｜を｜で｜は｜へ",
+      "n": "ミンさんは　ハノイ＿　いきますか。\n・・・はい、いきます。"
+    }, {
+      "m": "へ｜を｜で｜は｜で",
+      "n": "きのう、こうえん＿　あそびましたか。\n・・・いいえ、あそびませんでした。"
+    }, {
+      "m": "と、と｜や、など｜と、を｜と、X｜と、X",
+      "n": "わたしのしゅみは　どくしょ＿　すいえい＿です。"
+    }, {
+      "m": "や、など｜と、と｜と、は｜は、と｜や、など",
+      "n": "わたしは　サッカー＿　テニス＿を　します。"
+    }, {
+      "m": "へ｜も｜に｜を｜も",
+      "n": "きのう、わたしは　どこ＿　いきませんでした。"
+    }, {
+      "m": "も｜を｜をも｜が｜も",
+      "n": "あした　やすみです。わたしは　なに＿　しません。うちに　います。"
+    }, {
+      "m": "へ｜で｜に｜は｜へ",
+      "n": "みなさん　あした　＿　あそびに　いきますか。"
+    }, {
+      "m": "で｜に｜へ｜は｜で",
+      "n": "あそこ＿　うたを　うたいましたか。"
+    }],
+    "l5": [{
+      "m": "いつ｜だれ｜なん｜どちら｜いつ",
+      "n": "あなたのたんじょうびは　＿ですか。\n・・・くがつよっかです。"
+    }, {
+      "m": "せんせい、きょうし｜きょうし、せんせい｜せんせい、せんせい｜きょうし、きょうし｜せんせい、きょうし",
+      "n": "いけだ＿　のしごとは　＿です。"
+    }, {
+      "m": "いつ｜だれ｜なん｜どちら｜なん",
+      "n": "これは　＿ですか。"
+    }, {
+      "m": "いつ｜だれ｜なん｜どちら｜どちら",
+      "n": "ナムさんの　おくには　＿ですか。"
+    }, {
+      "m": "は｜の｜と｜も｜も",
+      "n": "クァンさんは　ハンサムです。ハイさん＿　ハンサムです。"
+    }, {
+      "m": "も｜は｜の｜と｜は",
+      "n": "クィンちゃんの　いぬ＿　かわいいです。"
+    }, {
+      "m": "がくせい｜いぬ｜ねこ｜ハノイ｜がくせい",
+      "n": "キェンさんは　ベトナムの　＿です。"
+    }, {
+      "m": "がくせい｜せんせい｜しゃいん｜こうむいん｜しゃいん",
+      "n": "タインさんは　FPTの　＿ですか。\n・・・いいえ、しゃいんではありません。"
+    }, {
+      "m": "５月５日｜６がつ１日｜７がつ７日｜３月３日｜５月５日",
+      "n": "にほんの　こどものひは　いつですか。\n・・・＿です。"
+    }, {
+      "m": "の｜も｜は｜と｜と",
+      "n": "ハーさんの　しゅみは　なんですか。\n・・・どくしょ＿　サッカーです。"
+    },{
+      "m": "そうです｜がくせいです｜せんせいではありません｜ちがいます｜ちがいます",
+      "n": "いけださんは　がくせいですか。\n・・・いいえ、＿です。"
+    }, {
+      "m": "なんかい｜なんさい｜なんがつ｜なんにち｜なんさい",
+      "n": "ハイさんは　＿ですか。\n・・・１５です。"
+    }, {
+      "m": "これ｜この｜こちら｜ここ｜この",
+      "n": "すみません、＿ほんは　いくらですか。\n・・・１００えんです。"
+    }, {
+      "m": "おしごと｜おくに｜おかね｜おすし｜おしごと",
+      "n": "ハーさん、＿は　なんですか。\n・・・かいしゃいんです。"
+    }, {
+      "m": "どちら｜どこ｜いつ｜だれ｜どこ",
+      "n": "すみません、トイレは　＿ですか。\n・・・あちらです。"
+    }, {
+      "m": "だれ｜なん｜どこ｜いつ｜なん",
+      "n": "あれは　＿ですか。\n・・・あ、かばんです。"
+    }, {
+      "m": "だれの｜どこの｜なんの｜いくら｜だれの",
+      "n": "あのほんは　＿ですか。\n・・・ミンさんのです。"
+    }, {
+      "m": "アメリカご｜えいご｜フランスご｜ベトナムご｜えいご",
+      "n": "「にほんご」は　＿で　なんですか。\n・・・「Japanese」です。"
+    }, {
+      "m": "を、を、を｜を、を、は｜は、は、を｜を、を、X｜を、を、X",
+      "n": "カレー＿　ふたつと　すし＿　みっつ＿　ください。"
+    }, {
+      "m": "なんの｜どこの｜だれの｜なにの｜なんの",
+      "n": "そのほんは　＿ほんですか。\n・・・まんがです。"
+    },{
+      "m": "なんじ｜なんじに｜なんじで｜なんふん｜なんじに",
+      "n": "ハイさん、まいにち　＿　おきますか。\n・・・ろくじに　おきます。"
+    }, {
+      "m": "げつようび、きんようび｜どようび、にちようび｜ハノイ、ホーチミン｜きょう、きのう｜どようび、にちようび",
+      "n": "としょかんは　＿から　＿まで　やすみます。"
+    }, {
+      "m": "へ｜を｜で｜は｜へ",
+      "n": "ミンさんは　ハノイ＿　いきますか。\n・・・はい、いきます。"
+    }, {
+      "m": "へ｜を｜で｜は｜で",
+      "n": "きのう、こうえん＿　あそびましたか。\n・・・いいえ、あそびませんでした。"
+    }, {
+      "m": "と、と｜や、など｜と、を｜と、X｜と、X",
+      "n": "わたしのしゅみは　どくしょ＿　すいえい＿です。"
+    }, {
+      "m": "や、など｜と、と｜と、は｜は、と｜や、など",
+      "n": "わたしは　サッカー＿　テニス＿を　します。"
+    }, {
+      "m": "へ｜も｜に｜を｜も",
+      "n": "きのう、わたしは　どこ＿　いきませんでした。"
+    }, {
+      "m": "も｜を｜をも｜が｜も",
+      "n": "あした　やすみです。わたしは　なに＿　しません。うちに　います。"
+    }, {
+      "m": "へ｜で｜に｜は｜へ",
+      "n": "みなさん　あした　＿　あそびに　いきますか。"
+    }, {
+      "m": "で｜に｜へ｜は｜で",
+      "n": "あそこ＿　うたを　うたいましたか。"
+    }],
+    "l6": [{
+      "m": "いつ｜だれ｜なん｜どちら｜いつ",
+      "n": "あなたのたんじょうびは　＿ですか。\n・・・くがつよっかです。"
+    }, {
+      "m": "せんせい、きょうし｜きょうし、せんせい｜せんせい、せんせい｜きょうし、きょうし｜せんせい、きょうし",
+      "n": "いけだ＿　のしごとは　＿です。"
+    }, {
+      "m": "いつ｜だれ｜なん｜どちら｜なん",
+      "n": "これは　＿ですか。"
+    }, {
+      "m": "いつ｜だれ｜なん｜どちら｜どちら",
+      "n": "ナムさんの　おくには　＿ですか。"
+    }, {
+      "m": "は｜の｜と｜も｜も",
+      "n": "クァンさんは　ハンサムです。ハイさん＿　ハンサムです。"
+    }, {
+      "m": "も｜は｜の｜と｜は",
+      "n": "クィンちゃんの　いぬ＿　かわいいです。"
+    }, {
+      "m": "がくせい｜いぬ｜ねこ｜ハノイ｜がくせい",
+      "n": "キェンさんは　ベトナムの　＿です。"
+    }, {
+      "m": "がくせい｜せんせい｜しゃいん｜こうむいん｜しゃいん",
+      "n": "タインさんは　FPTの　＿ですか。\n・・・いいえ、しゃいんではありません。"
+    }, {
+      "m": "５月５日｜６がつ１日｜７がつ７日｜３月３日｜５月５日",
+      "n": "にほんの　こどものひは　いつですか。\n・・・＿です。"
+    }, {
+      "m": "の｜も｜は｜と｜と",
+      "n": "ハーさんの　しゅみは　なんですか。\n・・・どくしょ＿　サッカーです。"
+    },{
+      "m": "そうです｜がくせいです｜せんせいではありません｜ちがいます｜ちがいます",
+      "n": "いけださんは　がくせいですか。\n・・・いいえ、＿です。"
+    }, {
+      "m": "なんかい｜なんさい｜なんがつ｜なんにち｜なんさい",
+      "n": "ハイさんは　＿ですか。\n・・・１５です。"
+    }, {
+      "m": "これ｜この｜こちら｜ここ｜この",
+      "n": "すみません、＿ほんは　いくらですか。\n・・・１００えんです。"
+    }, {
+      "m": "おしごと｜おくに｜おかね｜おすし｜おしごと",
+      "n": "ハーさん、＿は　なんですか。\n・・・かいしゃいんです。"
+    }, {
+      "m": "どちら｜どこ｜いつ｜だれ｜どこ",
+      "n": "すみません、トイレは　＿ですか。\n・・・あちらです。"
+    }, {
+      "m": "だれ｜なん｜どこ｜いつ｜なん",
+      "n": "あれは　＿ですか。\n・・・あ、かばんです。"
+    }, {
+      "m": "だれの｜どこの｜なんの｜いくら｜だれの",
+      "n": "あのほんは　＿ですか。\n・・・ミンさんのです。"
+    }, {
+      "m": "アメリカご｜えいご｜フランスご｜ベトナムご｜えいご",
+      "n": "「にほんご」は　＿で　なんですか。\n・・・「Japanese」です。"
+    }, {
+      "m": "を、を、を｜を、を、は｜は、は、を｜を、を、X｜を、を、X",
+      "n": "カレー＿　ふたつと　すし＿　みっつ＿　ください。"
+    }, {
+      "m": "なんの｜どこの｜だれの｜なにの｜なんの",
+      "n": "そのほんは　＿ほんですか。\n・・・まんがです。"
+    },{
+      "m": "なんじ｜なんじに｜なんじで｜なんふん｜なんじに",
+      "n": "ハイさん、まいにち　＿　おきますか。\n・・・ろくじに　おきます。"
+    }, {
+      "m": "げつようび、きんようび｜どようび、にちようび｜ハノイ、ホーチミン｜きょう、きのう｜どようび、にちようび",
+      "n": "としょかんは　＿から　＿まで　やすみます。"
+    }, {
+      "m": "へ｜を｜で｜は｜へ",
+      "n": "ミンさんは　ハノイ＿　いきますか。\n・・・はい、いきます。"
+    }, {
+      "m": "へ｜を｜で｜は｜で",
+      "n": "きのう、こうえん＿　あそびましたか。\n・・・いいえ、あそびませんでした。"
+    }, {
+      "m": "と、と｜や、など｜と、を｜と、X｜と、X",
+      "n": "わたしのしゅみは　どくしょ＿　すいえい＿です。"
+    }, {
+      "m": "や、など｜と、と｜と、は｜は、と｜や、など",
+      "n": "わたしは　サッカー＿　テニス＿を　します。"
+    }, {
+      "m": "へ｜も｜に｜を｜も",
+      "n": "きのう、わたしは　どこ＿　いきませんでした。"
+    }, {
+      "m": "も｜を｜をも｜が｜も",
+      "n": "あした　やすみです。わたしは　なに＿　しません。うちに　います。"
+    }, {
+      "m": "へ｜で｜に｜は｜へ",
+      "n": "みなさん　あした　＿　あそびに　いきますか。"
+    }, {
+      "m": "で｜に｜へ｜は｜で",
+      "n": "あそこ＿　うたを　うたいましたか。"
+    }],
+    "l7": [{
+      "m": "いつ｜だれ｜なん｜どちら｜いつ",
+      "n": "あなたのたんじょうびは　＿ですか。\n・・・くがつよっかです。"
+    }, {
+      "m": "せんせい、きょうし｜きょうし、せんせい｜せんせい、せんせい｜きょうし、きょうし｜せんせい、きょうし",
+      "n": "いけだ＿　のしごとは　＿です。"
+    }, {
+      "m": "いつ｜だれ｜なん｜どちら｜なん",
+      "n": "これは　＿ですか。"
+    }, {
+      "m": "いつ｜だれ｜なん｜どちら｜どちら",
+      "n": "ナムさんの　おくには　＿ですか。"
+    }, {
+      "m": "は｜の｜と｜も｜も",
+      "n": "クァンさんは　ハンサムです。ハイさん＿　ハンサムです。"
+    }, {
+      "m": "も｜は｜の｜と｜は",
+      "n": "クィンちゃんの　いぬ＿　かわいいです。"
+    }, {
+      "m": "がくせい｜いぬ｜ねこ｜ハノイ｜がくせい",
+      "n": "キェンさんは　ベトナムの　＿です。"
+    }, {
+      "m": "がくせい｜せんせい｜しゃいん｜こうむいん｜しゃいん",
+      "n": "タインさんは　FPTの　＿ですか。\n・・・いいえ、しゃいんではありません。"
+    }, {
+      "m": "５月５日｜６がつ１日｜７がつ７日｜３月３日｜５月５日",
+      "n": "にほんの　こどものひは　いつですか。\n・・・＿です。"
+    }, {
+      "m": "の｜も｜は｜と｜と",
+      "n": "ハーさんの　しゅみは　なんですか。\n・・・どくしょ＿　サッカーです。"
+    },{
+      "m": "そうです｜がくせいです｜せんせいではありません｜ちがいます｜ちがいます",
+      "n": "いけださんは　がくせいですか。\n・・・いいえ、＿です。"
+    }, {
+      "m": "なんかい｜なんさい｜なんがつ｜なんにち｜なんさい",
+      "n": "ハイさんは　＿ですか。\n・・・１５です。"
+    }, {
+      "m": "これ｜この｜こちら｜ここ｜この",
+      "n": "すみません、＿ほんは　いくらですか。\n・・・１００えんです。"
+    }, {
+      "m": "おしごと｜おくに｜おかね｜おすし｜おしごと",
+      "n": "ハーさん、＿は　なんですか。\n・・・かいしゃいんです。"
+    }, {
+      "m": "どちら｜どこ｜いつ｜だれ｜どこ",
+      "n": "すみません、トイレは　＿ですか。\n・・・あちらです。"
+    }, {
+      "m": "だれ｜なん｜どこ｜いつ｜なん",
+      "n": "あれは　＿ですか。\n・・・あ、かばんです。"
+    }, {
+      "m": "だれの｜どこの｜なんの｜いくら｜だれの",
+      "n": "あのほんは　＿ですか。\n・・・ミンさんのです。"
+    }, {
+      "m": "アメリカご｜えいご｜フランスご｜ベトナムご｜えいご",
+      "n": "「にほんご」は　＿で　なんですか。\n・・・「Japanese」です。"
+    }, {
+      "m": "を、を、を｜を、を、は｜は、は、を｜を、を、X｜を、を、X",
+      "n": "カレー＿　ふたつと　すし＿　みっつ＿　ください。"
+    }, {
+      "m": "なんの｜どこの｜だれの｜なにの｜なんの",
+      "n": "そのほんは　＿ほんですか。\n・・・まんがです。"
+    },{
+      "m": "なんじ｜なんじに｜なんじで｜なんふん｜なんじに",
+      "n": "ハイさん、まいにち　＿　おきますか。\n・・・ろくじに　おきます。"
+    }, {
+      "m": "げつようび、きんようび｜どようび、にちようび｜ハノイ、ホーチミン｜きょう、きのう｜どようび、にちようび",
+      "n": "としょかんは　＿から　＿まで　やすみます。"
+    }, {
+      "m": "へ｜を｜で｜は｜へ",
+      "n": "ミンさんは　ハノイ＿　いきますか。\n・・・はい、いきます。"
+    }, {
+      "m": "へ｜を｜で｜は｜で",
+      "n": "きのう、こうえん＿　あそびましたか。\n・・・いいえ、あそびませんでした。"
+    }, {
+      "m": "と、と｜や、など｜と、を｜と、X｜と、X",
+      "n": "わたしのしゅみは　どくしょ＿　すいえい＿です。"
+    }, {
+      "m": "や、など｜と、と｜と、は｜は、と｜や、など",
+      "n": "わたしは　サッカー＿　テニス＿を　します。"
+    }, {
+      "m": "へ｜も｜に｜を｜も",
+      "n": "きのう、わたしは　どこ＿　いきませんでした。"
+    }, {
+      "m": "も｜を｜をも｜が｜も",
+      "n": "あした　やすみです。わたしは　なに＿　しません。うちに　います。"
+    }, {
+      "m": "へ｜で｜に｜は｜へ",
+      "n": "みなさん　あした　＿　あそびに　いきますか。"
+    }, {
+      "m": "で｜に｜へ｜は｜で",
+      "n": "あそこ＿　うたを　うたいましたか。"
+    }],
+    "l8": [{
+      "m": "いつ｜だれ｜なん｜どちら｜いつ",
+      "n": "あなたのたんじょうびは　＿ですか。\n・・・くがつよっかです。"
+    }, {
+      "m": "せんせい、きょうし｜きょうし、せんせい｜せんせい、せんせい｜きょうし、きょうし｜せんせい、きょうし",
+      "n": "いけだ＿　のしごとは　＿です。"
+    }, {
+      "m": "いつ｜だれ｜なん｜どちら｜なん",
+      "n": "これは　＿ですか。"
+    }, {
+      "m": "いつ｜だれ｜なん｜どちら｜どちら",
+      "n": "ナムさんの　おくには　＿ですか。"
+    }, {
+      "m": "は｜の｜と｜も｜も",
+      "n": "クァンさんは　ハンサムです。ハイさん＿　ハンサムです。"
+    }, {
+      "m": "も｜は｜の｜と｜は",
+      "n": "クィンちゃんの　いぬ＿　かわいいです。"
+    }, {
+      "m": "がくせい｜いぬ｜ねこ｜ハノイ｜がくせい",
+      "n": "キェンさんは　ベトナムの　＿です。"
+    }, {
+      "m": "がくせい｜せんせい｜しゃいん｜こうむいん｜しゃいん",
+      "n": "タインさんは　FPTの　＿ですか。\n・・・いいえ、しゃいんではありません。"
+    }, {
+      "m": "５月５日｜６がつ１日｜７がつ７日｜３月３日｜５月５日",
+      "n": "にほんの　こどものひは　いつですか。\n・・・＿です。"
+    }, {
+      "m": "の｜も｜は｜と｜と",
+      "n": "ハーさんの　しゅみは　なんですか。\n・・・どくしょ＿　サッカーです。"
+    },{
+      "m": "そうです｜がくせいです｜せんせいではありません｜ちがいます｜ちがいます",
+      "n": "いけださんは　がくせいですか。\n・・・いいえ、＿です。"
+    }, {
+      "m": "なんかい｜なんさい｜なんがつ｜なんにち｜なんさい",
+      "n": "ハイさんは　＿ですか。\n・・・１５です。"
+    }, {
+      "m": "これ｜この｜こちら｜ここ｜この",
+      "n": "すみません、＿ほんは　いくらですか。\n・・・１００えんです。"
+    }, {
+      "m": "おしごと｜おくに｜おかね｜おすし｜おしごと",
+      "n": "ハーさん、＿は　なんですか。\n・・・かいしゃいんです。"
+    }, {
+      "m": "どちら｜どこ｜いつ｜だれ｜どこ",
+      "n": "すみません、トイレは　＿ですか。\n・・・あちらです。"
+    }, {
+      "m": "だれ｜なん｜どこ｜いつ｜なん",
+      "n": "あれは　＿ですか。\n・・・あ、かばんです。"
+    }, {
+      "m": "だれの｜どこの｜なんの｜いくら｜だれの",
+      "n": "あのほんは　＿ですか。\n・・・ミンさんのです。"
+    }, {
+      "m": "アメリカご｜えいご｜フランスご｜ベトナムご｜えいご",
+      "n": "「にほんご」は　＿で　なんですか。\n・・・「Japanese」です。"
+    }, {
+      "m": "を、を、を｜を、を、は｜は、は、を｜を、を、X｜を、を、X",
+      "n": "カレー＿　ふたつと　すし＿　みっつ＿　ください。"
+    }, {
+      "m": "なんの｜どこの｜だれの｜なにの｜なんの",
+      "n": "そのほんは　＿ほんですか。\n・・・まんがです。"
+    },{
+      "m": "なんじ｜なんじに｜なんじで｜なんふん｜なんじに",
+      "n": "ハイさん、まいにち　＿　おきますか。\n・・・ろくじに　おきます。"
+    }, {
+      "m": "げつようび、きんようび｜どようび、にちようび｜ハノイ、ホーチミン｜きょう、きのう｜どようび、にちようび",
+      "n": "としょかんは　＿から　＿まで　やすみます。"
+    }, {
+      "m": "へ｜を｜で｜は｜へ",
+      "n": "ミンさんは　ハノイ＿　いきますか。\n・・・はい、いきます。"
+    }, {
+      "m": "へ｜を｜で｜は｜で",
+      "n": "きのう、こうえん＿　あそびましたか。\n・・・いいえ、あそびませんでした。"
+    }, {
+      "m": "と、と｜や、など｜と、を｜と、X｜と、X",
+      "n": "わたしのしゅみは　どくしょ＿　すいえい＿です。"
+    }, {
+      "m": "や、など｜と、と｜と、は｜は、と｜や、など",
+      "n": "わたしは　サッカー＿　テニス＿を　します。"
+    }, {
+      "m": "へ｜も｜に｜を｜も",
+      "n": "きのう、わたしは　どこ＿　いきませんでした。"
+    }, {
+      "m": "も｜を｜をも｜が｜も",
+      "n": "あした　やすみです。わたしは　なに＿　しません。うちに　います。"
+    }, {
+      "m": "へ｜で｜に｜は｜へ",
+      "n": "みなさん　あした　＿　あそびに　いきますか。"
+    }, {
+      "m": "で｜に｜へ｜は｜で",
+      "n": "あそこ＿　うたを　うたいましたか。"
+    }],
+    "l9": [{
+      "m": "いつ｜だれ｜なん｜どちら｜いつ",
+      "n": "あなたのたんじょうびは　＿ですか。\n・・・くがつよっかです。"
+    }, {
+      "m": "せんせい、きょうし｜きょうし、せんせい｜せんせい、せんせい｜きょうし、きょうし｜せんせい、きょうし",
+      "n": "いけだ＿　のしごとは　＿です。"
+    }, {
+      "m": "いつ｜だれ｜なん｜どちら｜なん",
+      "n": "これは　＿ですか。"
+    }, {
+      "m": "いつ｜だれ｜なん｜どちら｜どちら",
+      "n": "ナムさんの　おくには　＿ですか。"
+    }, {
+      "m": "は｜の｜と｜も｜も",
+      "n": "クァンさんは　ハンサムです。ハイさん＿　ハンサムです。"
+    }, {
+      "m": "も｜は｜の｜と｜は",
+      "n": "クィンちゃんの　いぬ＿　かわいいです。"
+    }, {
+      "m": "がくせい｜いぬ｜ねこ｜ハノイ｜がくせい",
+      "n": "キェンさんは　ベトナムの　＿です。"
+    }, {
+      "m": "がくせい｜せんせい｜しゃいん｜こうむいん｜しゃいん",
+      "n": "タインさんは　FPTの　＿ですか。\n・・・いいえ、しゃいんではありません。"
+    }, {
+      "m": "５月５日｜６がつ１日｜７がつ７日｜３月３日｜５月５日",
+      "n": "にほんの　こどものひは　いつですか。\n・・・＿です。"
+    }, {
+      "m": "の｜も｜は｜と｜と",
+      "n": "ハーさんの　しゅみは　なんですか。\n・・・どくしょ＿　サッカーです。"
+    },{
+      "m": "そうです｜がくせいです｜せんせいではありません｜ちがいます｜ちがいます",
+      "n": "いけださんは　がくせいですか。\n・・・いいえ、＿です。"
+    }, {
+      "m": "なんかい｜なんさい｜なんがつ｜なんにち｜なんさい",
+      "n": "ハイさんは　＿ですか。\n・・・１５です。"
+    }, {
+      "m": "これ｜この｜こちら｜ここ｜この",
+      "n": "すみません、＿ほんは　いくらですか。\n・・・１００えんです。"
+    }, {
+      "m": "おしごと｜おくに｜おかね｜おすし｜おしごと",
+      "n": "ハーさん、＿は　なんですか。\n・・・かいしゃいんです。"
+    }, {
+      "m": "どちら｜どこ｜いつ｜だれ｜どこ",
+      "n": "すみません、トイレは　＿ですか。\n・・・あちらです。"
+    }, {
+      "m": "だれ｜なん｜どこ｜いつ｜なん",
+      "n": "あれは　＿ですか。\n・・・あ、かばんです。"
+    }, {
+      "m": "だれの｜どこの｜なんの｜いくら｜だれの",
+      "n": "あのほんは　＿ですか。\n・・・ミンさんのです。"
+    }, {
+      "m": "アメリカご｜えいご｜フランスご｜ベトナムご｜えいご",
+      "n": "「にほんご」は　＿で　なんですか。\n・・・「Japanese」です。"
+    }, {
+      "m": "を、を、を｜を、を、は｜は、は、を｜を、を、X｜を、を、X",
+      "n": "カレー＿　ふたつと　すし＿　みっつ＿　ください。"
+    }, {
+      "m": "なんの｜どこの｜だれの｜なにの｜なんの",
+      "n": "そのほんは　＿ほんですか。\n・・・まんがです。"
+    },{
+      "m": "なんじ｜なんじに｜なんじで｜なんふん｜なんじに",
+      "n": "ハイさん、まいにち　＿　おきますか。\n・・・ろくじに　おきます。"
+    }, {
+      "m": "げつようび、きんようび｜どようび、にちようび｜ハノイ、ホーチミン｜きょう、きのう｜どようび、にちようび",
+      "n": "としょかんは　＿から　＿まで　やすみます。"
+    }, {
+      "m": "へ｜を｜で｜は｜へ",
+      "n": "ミンさんは　ハノイ＿　いきますか。\n・・・はい、いきます。"
+    }, {
+      "m": "へ｜を｜で｜は｜で",
+      "n": "きのう、こうえん＿　あそびましたか。\n・・・いいえ、あそびませんでした。"
+    }, {
+      "m": "と、と｜や、など｜と、を｜と、X｜と、X",
+      "n": "わたしのしゅみは　どくしょ＿　すいえい＿です。"
+    }, {
+      "m": "や、など｜と、と｜と、は｜は、と｜や、など",
+      "n": "わたしは　サッカー＿　テニス＿を　します。"
+    }, {
+      "m": "へ｜も｜に｜を｜も",
+      "n": "きのう、わたしは　どこ＿　いきませんでした。"
+    }, {
+      "m": "も｜を｜をも｜が｜も",
+      "n": "あした　やすみです。わたしは　なに＿　しません。うちに　います。"
+    }, {
+      "m": "へ｜で｜に｜は｜へ",
+      "n": "みなさん　あした　＿　あそびに　いきますか。"
+    }, {
+      "m": "で｜に｜へ｜は｜で",
+      "n": "あそこ＿　うたを　うたいましたか。"
+    }],
+    "l10": [{
+      "m": "いつ｜だれ｜なん｜どちら｜いつ",
+      "n": "あなたのたんじょうびは　＿ですか。\n・・・くがつよっかです。"
+    }, {
+      "m": "せんせい、きょうし｜きょうし、せんせい｜せんせい、せんせい｜きょうし、きょうし｜せんせい、きょうし",
+      "n": "いけだ＿　のしごとは　＿です。"
+    }, {
+      "m": "いつ｜だれ｜なん｜どちら｜なん",
+      "n": "これは　＿ですか。"
+    }, {
+      "m": "いつ｜だれ｜なん｜どちら｜どちら",
+      "n": "ナムさんの　おくには　＿ですか。"
+    }, {
+      "m": "は｜の｜と｜も｜も",
+      "n": "クァンさんは　ハンサムです。ハイさん＿　ハンサムです。"
+    }, {
+      "m": "も｜は｜の｜と｜は",
+      "n": "クィンちゃんの　いぬ＿　かわいいです。"
+    }, {
+      "m": "がくせい｜いぬ｜ねこ｜ハノイ｜がくせい",
+      "n": "キェンさんは　ベトナムの　＿です。"
+    }, {
+      "m": "がくせい｜せんせい｜しゃいん｜こうむいん｜しゃいん",
+      "n": "タインさんは　FPTの　＿ですか。\n・・・いいえ、しゃいんではありません。"
+    }, {
+      "m": "５月５日｜６がつ１日｜７がつ７日｜３月３日｜５月５日",
+      "n": "にほんの　こどものひは　いつですか。\n・・・＿です。"
+    }, {
+      "m": "の｜も｜は｜と｜と",
+      "n": "ハーさんの　しゅみは　なんですか。\n・・・どくしょ＿　サッカーです。"
+    },{
+      "m": "そうです｜がくせいです｜せんせいではありません｜ちがいます｜ちがいます",
+      "n": "いけださんは　がくせいですか。\n・・・いいえ、＿です。"
+    }, {
+      "m": "なんかい｜なんさい｜なんがつ｜なんにち｜なんさい",
+      "n": "ハイさんは　＿ですか。\n・・・１５です。"
+    }, {
+      "m": "これ｜この｜こちら｜ここ｜この",
+      "n": "すみません、＿ほんは　いくらですか。\n・・・１００えんです。"
+    }, {
+      "m": "おしごと｜おくに｜おかね｜おすし｜おしごと",
+      "n": "ハーさん、＿は　なんですか。\n・・・かいしゃいんです。"
+    }, {
+      "m": "どちら｜どこ｜いつ｜だれ｜どこ",
+      "n": "すみません、トイレは　＿ですか。\n・・・あちらです。"
+    }, {
+      "m": "だれ｜なん｜どこ｜いつ｜なん",
+      "n": "あれは　＿ですか。\n・・・あ、かばんです。"
+    }, {
+      "m": "だれの｜どこの｜なんの｜いくら｜だれの",
+      "n": "あのほんは　＿ですか。\n・・・ミンさんのです。"
+    }, {
+      "m": "アメリカご｜えいご｜フランスご｜ベトナムご｜えいご",
+      "n": "「にほんご」は　＿で　なんですか。\n・・・「Japanese」です。"
+    }, {
+      "m": "を、を、を｜を、を、は｜は、は、を｜を、を、X｜を、を、X",
+      "n": "カレー＿　ふたつと　すし＿　みっつ＿　ください。"
+    }, {
+      "m": "なんの｜どこの｜だれの｜なにの｜なんの",
+      "n": "そのほんは　＿ほんですか。\n・・・まんがです。"
+    },{
+      "m": "なんじ｜なんじに｜なんじで｜なんふん｜なんじに",
+      "n": "ハイさん、まいにち　＿　おきますか。\n・・・ろくじに　おきます。"
+    }, {
+      "m": "げつようび、きんようび｜どようび、にちようび｜ハノイ、ホーチミン｜きょう、きのう｜どようび、にちようび",
+      "n": "としょかんは　＿から　＿まで　やすみます。"
+    }, {
+      "m": "へ｜を｜で｜は｜へ",
+      "n": "ミンさんは　ハノイ＿　いきますか。\n・・・はい、いきます。"
+    }, {
+      "m": "へ｜を｜で｜は｜で",
+      "n": "きのう、こうえん＿　あそびましたか。\n・・・いいえ、あそびませんでした。"
+    }, {
+      "m": "と、と｜や、など｜と、を｜と、X｜と、X",
+      "n": "わたしのしゅみは　どくしょ＿　すいえい＿です。"
+    }, {
+      "m": "や、など｜と、と｜と、は｜は、と｜や、など",
+      "n": "わたしは　サッカー＿　テニス＿を　します。"
+    }, {
+      "m": "へ｜も｜に｜を｜も",
+      "n": "きのう、わたしは　どこ＿　いきませんでした。"
+    }, {
+      "m": "も｜を｜をも｜が｜も",
+      "n": "あした　やすみです。わたしは　なに＿　しません。うちに　います。"
+    }, {
+      "m": "へ｜で｜に｜は｜へ",
+      "n": "みなさん　あした　＿　あそびに　いきますか。"
+    }, {
+      "m": "で｜に｜へ｜は｜で",
+      "n": "あそこ＿　うたを　うたいましたか。"
+    }],
+    "l11": [{
+      "m": "いつ｜だれ｜なん｜どちら｜いつ",
+      "n": "あなたのたんじょうびは　＿ですか。\n・・・くがつよっかです。"
+    }, {
+      "m": "せんせい、きょうし｜きょうし、せんせい｜せんせい、せんせい｜きょうし、きょうし｜せんせい、きょうし",
+      "n": "いけだ＿　のしごとは　＿です。"
+    }, {
+      "m": "いつ｜だれ｜なん｜どちら｜なん",
+      "n": "これは　＿ですか。"
+    }, {
+      "m": "いつ｜だれ｜なん｜どちら｜どちら",
+      "n": "ナムさんの　おくには　＿ですか。"
+    }, {
+      "m": "は｜の｜と｜も｜も",
+      "n": "クァンさんは　ハンサムです。ハイさん＿　ハンサムです。"
+    }, {
+      "m": "も｜は｜の｜と｜は",
+      "n": "クィンちゃんの　いぬ＿　かわいいです。"
+    }, {
+      "m": "がくせい｜いぬ｜ねこ｜ハノイ｜がくせい",
+      "n": "キェンさんは　ベトナムの　＿です。"
+    }, {
+      "m": "がくせい｜せんせい｜しゃいん｜こうむいん｜しゃいん",
+      "n": "タインさんは　FPTの　＿ですか。\n・・・いいえ、しゃいんではありません。"
+    }, {
+      "m": "５月５日｜６がつ１日｜７がつ７日｜３月３日｜５月５日",
+      "n": "にほんの　こどものひは　いつですか。\n・・・＿です。"
+    }, {
+      "m": "の｜も｜は｜と｜と",
+      "n": "ハーさんの　しゅみは　なんですか。\n・・・どくしょ＿　サッカーです。"
+    },{
+      "m": "そうです｜がくせいです｜せんせいではありません｜ちがいます｜ちがいます",
+      "n": "いけださんは　がくせいですか。\n・・・いいえ、＿です。"
+    }, {
+      "m": "なんかい｜なんさい｜なんがつ｜なんにち｜なんさい",
+      "n": "ハイさんは　＿ですか。\n・・・１５です。"
+    }, {
+      "m": "これ｜この｜こちら｜ここ｜この",
+      "n": "すみません、＿ほんは　いくらですか。\n・・・１００えんです。"
+    }, {
+      "m": "おしごと｜おくに｜おかね｜おすし｜おしごと",
+      "n": "ハーさん、＿は　なんですか。\n・・・かいしゃいんです。"
+    }, {
+      "m": "どちら｜どこ｜いつ｜だれ｜どこ",
+      "n": "すみません、トイレは　＿ですか。\n・・・あちらです。"
+    }, {
+      "m": "だれ｜なん｜どこ｜いつ｜なん",
+      "n": "あれは　＿ですか。\n・・・あ、かばんです。"
+    }, {
+      "m": "だれの｜どこの｜なんの｜いくら｜だれの",
+      "n": "あのほんは　＿ですか。\n・・・ミンさんのです。"
+    }, {
+      "m": "アメリカご｜えいご｜フランスご｜ベトナムご｜えいご",
+      "n": "「にほんご」は　＿で　なんですか。\n・・・「Japanese」です。"
+    }, {
+      "m": "を、を、を｜を、を、は｜は、は、を｜を、を、X｜を、を、X",
+      "n": "カレー＿　ふたつと　すし＿　みっつ＿　ください。"
+    }, {
+      "m": "なんの｜どこの｜だれの｜なにの｜なんの",
+      "n": "そのほんは　＿ほんですか。\n・・・まんがです。"
+    },{
+      "m": "なんじ｜なんじに｜なんじで｜なんふん｜なんじに",
+      "n": "ハイさん、まいにち　＿　おきますか。\n・・・ろくじに　おきます。"
+    }, {
+      "m": "げつようび、きんようび｜どようび、にちようび｜ハノイ、ホーチミン｜きょう、きのう｜どようび、にちようび",
+      "n": "としょかんは　＿から　＿まで　やすみます。"
+    }, {
+      "m": "へ｜を｜で｜は｜へ",
+      "n": "ミンさんは　ハノイ＿　いきますか。\n・・・はい、いきます。"
+    }, {
+      "m": "へ｜を｜で｜は｜で",
+      "n": "きのう、こうえん＿　あそびましたか。\n・・・いいえ、あそびませんでした。"
+    }, {
+      "m": "と、と｜や、など｜と、を｜と、X｜と、X",
+      "n": "わたしのしゅみは　どくしょ＿　すいえい＿です。"
+    }, {
+      "m": "や、など｜と、と｜と、は｜は、と｜や、など",
+      "n": "わたしは　サッカー＿　テニス＿を　します。"
+    }, {
+      "m": "へ｜も｜に｜を｜も",
+      "n": "きのう、わたしは　どこ＿　いきませんでした。"
+    }, {
+      "m": "も｜を｜をも｜が｜も",
+      "n": "あした　やすみです。わたしは　なに＿　しません。うちに　います。"
+    }, {
+      "m": "へ｜で｜に｜は｜へ",
+      "n": "みなさん　あした　＿　あそびに　いきますか。"
+    }, {
+      "m": "で｜に｜へ｜は｜で",
+      "n": "あそこ＿　うたを　うたいましたか。"
+    }],
+    "l12": [{
+      "m": "いつ｜だれ｜なん｜どちら｜いつ",
+      "n": "あなたのたんじょうびは　＿ですか。\n・・・くがつよっかです。"
+    }, {
+      "m": "せんせい、きょうし｜きょうし、せんせい｜せんせい、せんせい｜きょうし、きょうし｜せんせい、きょうし",
+      "n": "いけだ＿　のしごとは　＿です。"
+    }, {
+      "m": "いつ｜だれ｜なん｜どちら｜なん",
+      "n": "これは　＿ですか。"
+    }, {
+      "m": "いつ｜だれ｜なん｜どちら｜どちら",
+      "n": "ナムさんの　おくには　＿ですか。"
+    }, {
+      "m": "は｜の｜と｜も｜も",
+      "n": "クァンさんは　ハンサムです。ハイさん＿　ハンサムです。"
+    }, {
+      "m": "も｜は｜の｜と｜は",
+      "n": "クィンちゃんの　いぬ＿　かわいいです。"
+    }, {
+      "m": "がくせい｜いぬ｜ねこ｜ハノイ｜がくせい",
+      "n": "キェンさんは　ベトナムの　＿です。"
+    }, {
+      "m": "がくせい｜せんせい｜しゃいん｜こうむいん｜しゃいん",
+      "n": "タインさんは　FPTの　＿ですか。\n・・・いいえ、しゃいんではありません。"
+    }, {
+      "m": "５月５日｜６がつ１日｜７がつ７日｜３月３日｜５月５日",
+      "n": "にほんの　こどものひは　いつですか。\n・・・＿です。"
+    }, {
+      "m": "の｜も｜は｜と｜と",
+      "n": "ハーさんの　しゅみは　なんですか。\n・・・どくしょ＿　サッカーです。"
+    },{
+      "m": "そうです｜がくせいです｜せんせいではありません｜ちがいます｜ちがいます",
+      "n": "いけださんは　がくせいですか。\n・・・いいえ、＿です。"
+    }, {
+      "m": "なんかい｜なんさい｜なんがつ｜なんにち｜なんさい",
+      "n": "ハイさんは　＿ですか。\n・・・１５です。"
+    }, {
+      "m": "これ｜この｜こちら｜ここ｜この",
+      "n": "すみません、＿ほんは　いくらですか。\n・・・１００えんです。"
+    }, {
+      "m": "おしごと｜おくに｜おかね｜おすし｜おしごと",
+      "n": "ハーさん、＿は　なんですか。\n・・・かいしゃいんです。"
+    }, {
+      "m": "どちら｜どこ｜いつ｜だれ｜どこ",
+      "n": "すみません、トイレは　＿ですか。\n・・・あちらです。"
+    }, {
+      "m": "だれ｜なん｜どこ｜いつ｜なん",
+      "n": "あれは　＿ですか。\n・・・あ、かばんです。"
+    }, {
+      "m": "だれの｜どこの｜なんの｜いくら｜だれの",
+      "n": "あのほんは　＿ですか。\n・・・ミンさんのです。"
+    }, {
+      "m": "アメリカご｜えいご｜フランスご｜ベトナムご｜えいご",
+      "n": "「にほんご」は　＿で　なんですか。\n・・・「Japanese」です。"
+    }, {
+      "m": "を、を、を｜を、を、は｜は、は、を｜を、を、X｜を、を、X",
+      "n": "カレー＿　ふたつと　すし＿　みっつ＿　ください。"
+    }, {
+      "m": "なんの｜どこの｜だれの｜なにの｜なんの",
+      "n": "そのほんは　＿ほんですか。\n・・・まんがです。"
+    },{
+      "m": "なんじ｜なんじに｜なんじで｜なんふん｜なんじに",
+      "n": "ハイさん、まいにち　＿　おきますか。\n・・・ろくじに　おきます。"
+    }, {
+      "m": "げつようび、きんようび｜どようび、にちようび｜ハノイ、ホーチミン｜きょう、きのう｜どようび、にちようび",
+      "n": "としょかんは　＿から　＿まで　やすみます。"
+    }, {
+      "m": "へ｜を｜で｜は｜へ",
+      "n": "ミンさんは　ハノイ＿　いきますか。\n・・・はい、いきます。"
+    }, {
+      "m": "へ｜を｜で｜は｜で",
+      "n": "きのう、こうえん＿　あそびましたか。\n・・・いいえ、あそびませんでした。"
+    }, {
+      "m": "と、と｜や、など｜と、を｜と、X｜と、X",
+      "n": "わたしのしゅみは　どくしょ＿　すいえい＿です。"
+    }, {
+      "m": "や、など｜と、と｜と、は｜は、と｜や、など",
+      "n": "わたしは　サッカー＿　テニス＿を　します。"
+    }, {
+      "m": "へ｜も｜に｜を｜も",
+      "n": "きのう、わたしは　どこ＿　いきませんでした。"
+    }, {
+      "m": "も｜を｜をも｜が｜も",
+      "n": "あした　やすみです。わたしは　なに＿　しません。うちに　います。"
+    }, {
+      "m": "へ｜で｜に｜は｜へ",
+      "n": "みなさん　あした　＿　あそびに　いきますか。"
+    }, {
+      "m": "で｜に｜へ｜は｜で",
+      "n": "あそこ＿　うたを　うたいましたか。"
+    }],
+    "l13": [{
+      "m": "いつ｜だれ｜なん｜どちら｜いつ",
+      "n": "あなたのたんじょうびは　＿ですか。\n・・・くがつよっかです。"
+    }, {
+      "m": "せんせい、きょうし｜きょうし、せんせい｜せんせい、せんせい｜きょうし、きょうし｜せんせい、きょうし",
+      "n": "いけだ＿　のしごとは　＿です。"
+    }, {
+      "m": "いつ｜だれ｜なん｜どちら｜なん",
+      "n": "これは　＿ですか。"
+    }, {
+      "m": "いつ｜だれ｜なん｜どちら｜どちら",
+      "n": "ナムさんの　おくには　＿ですか。"
+    }, {
+      "m": "は｜の｜と｜も｜も",
+      "n": "クァンさんは　ハンサムです。ハイさん＿　ハンサムです。"
+    }, {
+      "m": "も｜は｜の｜と｜は",
+      "n": "クィンちゃんの　いぬ＿　かわいいです。"
+    }, {
+      "m": "がくせい｜いぬ｜ねこ｜ハノイ｜がくせい",
+      "n": "キェンさんは　ベトナムの　＿です。"
+    }, {
+      "m": "がくせい｜せんせい｜しゃいん｜こうむいん｜しゃいん",
+      "n": "タインさんは　FPTの　＿ですか。\n・・・いいえ、しゃいんではありません。"
+    }, {
+      "m": "５月５日｜６がつ１日｜７がつ７日｜３月３日｜５月５日",
+      "n": "にほんの　こどものひは　いつですか。\n・・・＿です。"
+    }, {
+      "m": "の｜も｜は｜と｜と",
+      "n": "ハーさんの　しゅみは　なんですか。\n・・・どくしょ＿　サッカーです。"
+    },{
+      "m": "そうです｜がくせいです｜せんせいではありません｜ちがいます｜ちがいます",
+      "n": "いけださんは　がくせいですか。\n・・・いいえ、＿です。"
+    }, {
+      "m": "なんかい｜なんさい｜なんがつ｜なんにち｜なんさい",
+      "n": "ハイさんは　＿ですか。\n・・・１５です。"
+    }, {
+      "m": "これ｜この｜こちら｜ここ｜この",
+      "n": "すみません、＿ほんは　いくらですか。\n・・・１００えんです。"
+    }, {
+      "m": "おしごと｜おくに｜おかね｜おすし｜おしごと",
+      "n": "ハーさん、＿は　なんですか。\n・・・かいしゃいんです。"
+    }, {
+      "m": "どちら｜どこ｜いつ｜だれ｜どこ",
+      "n": "すみません、トイレは　＿ですか。\n・・・あちらです。"
+    }, {
+      "m": "だれ｜なん｜どこ｜いつ｜なん",
+      "n": "あれは　＿ですか。\n・・・あ、かばんです。"
+    }, {
+      "m": "だれの｜どこの｜なんの｜いくら｜だれの",
+      "n": "あのほんは　＿ですか。\n・・・ミンさんのです。"
+    }, {
+      "m": "アメリカご｜えいご｜フランスご｜ベトナムご｜えいご",
+      "n": "「にほんご」は　＿で　なんですか。\n・・・「Japanese」です。"
+    }, {
+      "m": "を、を、を｜を、を、は｜は、は、を｜を、を、X｜を、を、X",
+      "n": "カレー＿　ふたつと　すし＿　みっつ＿　ください。"
+    }, {
+      "m": "なんの｜どこの｜だれの｜なにの｜なんの",
+      "n": "そのほんは　＿ほんですか。\n・・・まんがです。"
+    },{
+      "m": "なんじ｜なんじに｜なんじで｜なんふん｜なんじに",
+      "n": "ハイさん、まいにち　＿　おきますか。\n・・・ろくじに　おきます。"
+    }, {
+      "m": "げつようび、きんようび｜どようび、にちようび｜ハノイ、ホーチミン｜きょう、きのう｜どようび、にちようび",
+      "n": "としょかんは　＿から　＿まで　やすみます。"
+    }, {
+      "m": "へ｜を｜で｜は｜へ",
+      "n": "ミンさんは　ハノイ＿　いきますか。\n・・・はい、いきます。"
+    }, {
+      "m": "へ｜を｜で｜は｜で",
+      "n": "きのう、こうえん＿　あそびましたか。\n・・・いいえ、あそびませんでした。"
+    }, {
+      "m": "と、と｜や、など｜と、を｜と、X｜と、X",
+      "n": "わたしのしゅみは　どくしょ＿　すいえい＿です。"
+    }, {
+      "m": "や、など｜と、と｜と、は｜は、と｜や、など",
+      "n": "わたしは　サッカー＿　テニス＿を　します。"
+    }, {
+      "m": "へ｜も｜に｜を｜も",
+      "n": "きのう、わたしは　どこ＿　いきませんでした。"
+    }, {
+      "m": "も｜を｜をも｜が｜も",
+      "n": "あした　やすみです。わたしは　なに＿　しません。うちに　います。"
+    }, {
+      "m": "へ｜で｜に｜は｜へ",
+      "n": "みなさん　あした　＿　あそびに　いきますか。"
+    }, {
+      "m": "で｜に｜へ｜は｜で",
+      "n": "あそこ＿　うたを　うたいましたか。"
+    }],
+    "l14": [{
+      "m": "いつ｜だれ｜なん｜どちら｜いつ",
+      "n": "あなたのたんじょうびは　＿ですか。\n・・・くがつよっかです。"
+    }, {
+      "m": "せんせい、きょうし｜きょうし、せんせい｜せんせい、せんせい｜きょうし、きょうし｜せんせい、きょうし",
+      "n": "いけだ＿　のしごとは　＿です。"
+    }, {
+      "m": "いつ｜だれ｜なん｜どちら｜なん",
+      "n": "これは　＿ですか。"
+    }, {
+      "m": "いつ｜だれ｜なん｜どちら｜どちら",
+      "n": "ナムさんの　おくには　＿ですか。"
+    }, {
+      "m": "は｜の｜と｜も｜も",
+      "n": "クァンさんは　ハンサムです。ハイさん＿　ハンサムです。"
+    }, {
+      "m": "も｜は｜の｜と｜は",
+      "n": "クィンちゃんの　いぬ＿　かわいいです。"
+    }, {
+      "m": "がくせい｜いぬ｜ねこ｜ハノイ｜がくせい",
+      "n": "キェンさんは　ベトナムの　＿です。"
+    }, {
+      "m": "がくせい｜せんせい｜しゃいん｜こうむいん｜しゃいん",
+      "n": "タインさんは　FPTの　＿ですか。\n・・・いいえ、しゃいんではありません。"
+    }, {
+      "m": "５月５日｜６がつ１日｜７がつ７日｜３月３日｜５月５日",
+      "n": "にほんの　こどものひは　いつですか。\n・・・＿です。"
+    }, {
+      "m": "の｜も｜は｜と｜と",
+      "n": "ハーさんの　しゅみは　なんですか。\n・・・どくしょ＿　サッカーです。"
+    },{
+      "m": "そうです｜がくせいです｜せんせいではありません｜ちがいます｜ちがいます",
+      "n": "いけださんは　がくせいですか。\n・・・いいえ、＿です。"
+    }, {
+      "m": "なんかい｜なんさい｜なんがつ｜なんにち｜なんさい",
+      "n": "ハイさんは　＿ですか。\n・・・１５です。"
+    }, {
+      "m": "これ｜この｜こちら｜ここ｜この",
+      "n": "すみません、＿ほんは　いくらですか。\n・・・１００えんです。"
+    }, {
+      "m": "おしごと｜おくに｜おかね｜おすし｜おしごと",
+      "n": "ハーさん、＿は　なんですか。\n・・・かいしゃいんです。"
+    }, {
+      "m": "どちら｜どこ｜いつ｜だれ｜どこ",
+      "n": "すみません、トイレは　＿ですか。\n・・・あちらです。"
+    }, {
+      "m": "だれ｜なん｜どこ｜いつ｜なん",
+      "n": "あれは　＿ですか。\n・・・あ、かばんです。"
+    }, {
+      "m": "だれの｜どこの｜なんの｜いくら｜だれの",
+      "n": "あのほんは　＿ですか。\n・・・ミンさんのです。"
+    }, {
+      "m": "アメリカご｜えいご｜フランスご｜ベトナムご｜えいご",
+      "n": "「にほんご」は　＿で　なんですか。\n・・・「Japanese」です。"
+    }, {
+      "m": "を、を、を｜を、を、は｜は、は、を｜を、を、X｜を、を、X",
+      "n": "カレー＿　ふたつと　すし＿　みっつ＿　ください。"
+    }, {
+      "m": "なんの｜どこの｜だれの｜なにの｜なんの",
+      "n": "そのほんは　＿ほんですか。\n・・・まんがです。"
+    },{
+      "m": "なんじ｜なんじに｜なんじで｜なんふん｜なんじに",
+      "n": "ハイさん、まいにち　＿　おきますか。\n・・・ろくじに　おきます。"
+    }, {
+      "m": "げつようび、きんようび｜どようび、にちようび｜ハノイ、ホーチミン｜きょう、きのう｜どようび、にちようび",
+      "n": "としょかんは　＿から　＿まで　やすみます。"
+    }, {
+      "m": "へ｜を｜で｜は｜へ",
+      "n": "ミンさんは　ハノイ＿　いきますか。\n・・・はい、いきます。"
+    }, {
+      "m": "へ｜を｜で｜は｜で",
+      "n": "きのう、こうえん＿　あそびましたか。\n・・・いいえ、あそびませんでした。"
+    }, {
+      "m": "と、と｜や、など｜と、を｜と、X｜と、X",
+      "n": "わたしのしゅみは　どくしょ＿　すいえい＿です。"
+    }, {
+      "m": "や、など｜と、と｜と、は｜は、と｜や、など",
+      "n": "わたしは　サッカー＿　テニス＿を　します。"
+    }, {
+      "m": "へ｜も｜に｜を｜も",
+      "n": "きのう、わたしは　どこ＿　いきませんでした。"
+    }, {
+      "m": "も｜を｜をも｜が｜も",
+      "n": "あした　やすみです。わたしは　なに＿　しません。うちに　います。"
+    }, {
+      "m": "へ｜で｜に｜は｜へ",
+      "n": "みなさん　あした　＿　あそびに　いきますか。"
+    }, {
+      "m": "で｜に｜へ｜は｜で",
+      "n": "あそこ＿　うたを　うたいましたか。"
+    }],
+    "l15": [{
+      "m": "いつ｜だれ｜なん｜どちら｜いつ",
+      "n": "あなたのたんじょうびは　＿ですか。\n・・・くがつよっかです。"
+    }, {
+      "m": "せんせい、きょうし｜きょうし、せんせい｜せんせい、せんせい｜きょうし、きょうし｜せんせい、きょうし",
+      "n": "いけだ＿　のしごとは　＿です。"
+    }, {
+      "m": "いつ｜だれ｜なん｜どちら｜なん",
+      "n": "これは　＿ですか。"
+    }, {
+      "m": "いつ｜だれ｜なん｜どちら｜どちら",
+      "n": "ナムさんの　おくには　＿ですか。"
+    }, {
+      "m": "は｜の｜と｜も｜も",
+      "n": "クァンさんは　ハンサムです。ハイさん＿　ハンサムです。"
+    }, {
+      "m": "も｜は｜の｜と｜は",
+      "n": "クィンちゃんの　いぬ＿　かわいいです。"
+    }, {
+      "m": "がくせい｜いぬ｜ねこ｜ハノイ｜がくせい",
+      "n": "キェンさんは　ベトナムの　＿です。"
+    }, {
+      "m": "がくせい｜せんせい｜しゃいん｜こうむいん｜しゃいん",
+      "n": "タインさんは　FPTの　＿ですか。\n・・・いいえ、しゃいんではありません。"
+    }, {
+      "m": "５月５日｜６がつ１日｜７がつ７日｜３月３日｜５月５日",
+      "n": "にほんの　こどものひは　いつですか。\n・・・＿です。"
+    }, {
+      "m": "の｜も｜は｜と｜と",
+      "n": "ハーさんの　しゅみは　なんですか。\n・・・どくしょ＿　サッカーです。"
+    },{
+      "m": "そうです｜がくせいです｜せんせいではありません｜ちがいます｜ちがいます",
+      "n": "いけださんは　がくせいですか。\n・・・いいえ、＿です。"
+    }, {
+      "m": "なんかい｜なんさい｜なんがつ｜なんにち｜なんさい",
+      "n": "ハイさんは　＿ですか。\n・・・１５です。"
+    }, {
+      "m": "これ｜この｜こちら｜ここ｜この",
+      "n": "すみません、＿ほんは　いくらですか。\n・・・１００えんです。"
+    }, {
+      "m": "おしごと｜おくに｜おかね｜おすし｜おしごと",
+      "n": "ハーさん、＿は　なんですか。\n・・・かいしゃいんです。"
+    }, {
+      "m": "どちら｜どこ｜いつ｜だれ｜どこ",
+      "n": "すみません、トイレは　＿ですか。\n・・・あちらです。"
+    }, {
+      "m": "だれ｜なん｜どこ｜いつ｜なん",
+      "n": "あれは　＿ですか。\n・・・あ、かばんです。"
+    }, {
+      "m": "だれの｜どこの｜なんの｜いくら｜だれの",
+      "n": "あのほんは　＿ですか。\n・・・ミンさんのです。"
+    }, {
+      "m": "アメリカご｜えいご｜フランスご｜ベトナムご｜えいご",
+      "n": "「にほんご」は　＿で　なんですか。\n・・・「Japanese」です。"
+    }, {
+      "m": "を、を、を｜を、を、は｜は、は、を｜を、を、X｜を、を、X",
+      "n": "カレー＿　ふたつと　すし＿　みっつ＿　ください。"
+    }, {
+      "m": "なんの｜どこの｜だれの｜なにの｜なんの",
+      "n": "そのほんは　＿ほんですか。\n・・・まんがです。"
+    },{
+      "m": "なんじ｜なんじに｜なんじで｜なんふん｜なんじに",
+      "n": "ハイさん、まいにち　＿　おきますか。\n・・・ろくじに　おきます。"
+    }, {
+      "m": "げつようび、きんようび｜どようび、にちようび｜ハノイ、ホーチミン｜きょう、きのう｜どようび、にちようび",
+      "n": "としょかんは　＿から　＿まで　やすみます。"
+    }, {
+      "m": "へ｜を｜で｜は｜へ",
+      "n": "ミンさんは　ハノイ＿　いきますか。\n・・・はい、いきます。"
+    }, {
+      "m": "へ｜を｜で｜は｜で",
+      "n": "きのう、こうえん＿　あそびましたか。\n・・・いいえ、あそびませんでした。"
+    }, {
+      "m": "と、と｜や、など｜と、を｜と、X｜と、X",
+      "n": "わたしのしゅみは　どくしょ＿　すいえい＿です。"
+    }, {
+      "m": "や、など｜と、と｜と、は｜は、と｜や、など",
+      "n": "わたしは　サッカー＿　テニス＿を　します。"
+    }, {
+      "m": "へ｜も｜に｜を｜も",
+      "n": "きのう、わたしは　どこ＿　いきませんでした。"
+    }, {
+      "m": "も｜を｜をも｜が｜も",
+      "n": "あした　やすみです。わたしは　なに＿　しません。うちに　います。"
+    }, {
+      "m": "へ｜で｜に｜は｜へ",
+      "n": "みなさん　あした　＿　あそびに　いきますか。"
+    }, {
+      "m": "で｜に｜へ｜は｜で",
+      "n": "あそこ＿　うたを　うたいましたか。"
+    }]
+  },
+  "vocab1": {
+    "l1": [{
+      "m": "Tôi",
+      "n": "わたし"
+    }, {
+      "m": "Tên",
+      "n": "なまえ"
+    }, {
+      "m": "Đất nước",
+      "n": "くに"
+    }, {
+      "m": "Nhật Bản",
+      "n": "にほん"
+    }, {
+      "m": "Hàn Quốc",
+      "n": "かんこく"
+    }, {
+      "m": "Trung Quốc",
+      "n": "ちゅうごく"
+    }, {
+      "m": "Mỹ",
+      "n": "アメリカ"
+    }, {
+      "m": "Ý",
+      "n": "イタリア"
+    }, {
+      "m": "Úc",
+      "n": "オーストラリア"
+    }, {
+      "m": "Nga",
+      "n": "ロシア"
+    }, {
+      "m": "Thái Lan",
+      "n": "タイ"
+    }, {
+      "m": "Trường trung học phổ thông",
+      "n": "こうこう"
+    }, {
+      "m": "Trường đại học",
+      "n": "だいがく"
+    }, {
+      "m": "Trường tiếng Nhật",
+      "n": "にほんごがっこう"
+    }, {
+      "m": "Công việc",
+      "n": "しごと"
+    }, {
+      "m": "Học sinh",
+      "n": "がくせい"
+    }, {
+      "m": "Thầy ／ Cô giáo ( Thường dùng trong xưng hô , giao tiếp )",
+      "n": "せんせい"
+    }, {
+      "m": "Giáo viên",
+      "n": "きょうし"
+    }, {
+      "m": "Nhân viên văn phòng",
+      "n": "かいしゃいん"
+    }, {
+      "m": "Nhân viên ( của công ty nào đó )",
+      "n": "しゃいん"
+    }, {
+      "m": "Anh ／ Chị ／ Ông ／ Bà ／ Bạn ~",
+      "n": "さん"
+    }, {
+      "m": "Người nước ~",
+      "n": "じん"
+    }, {
+      "m": "Tiếng nước ~",
+      "n": "ご"
+    }, {
+      "m": "Ở đâu ／ Phía nào",
+      "n": "どちら"
+    }, {
+      "m": "Đất nước của bạn là nước nào ?",
+      "n": "おくにはどちらですか"
+    }, {
+      "m": "Xin chào ( lần đầu tiên gặp mặt )",
+      "n": "はじめまして"
+    }, {
+      "m": "Rất mong nhận được sự giúp đỡ của bạn",
+      "n": "どうぞよろしくおねがいします"
+    }, {
+      "m": "Tôi cũng vậy !",
+      "n": "こちらこそ"
+    }, {
+      "m": "Anh ／ Chị ơi !",
+      "n": "あのう"
+    }, {
+      "m": "Xin lỗi, cho tôi hỏi ...",
+      "n": "すみません"
+    }, {
+      "m": "Anh ／ Chị ơi, xin lỗi cho tôi hỏi ...",
+      "n": "あのう、すみません"
+    }, {
+      "m": "Thế à !",
+      "n": "そうですか"
+    }, {
+      "m": "Ngày sinh ／ Sinh nhật",
+      "n": "たんじょうび"
+    }, {
+      "m": "Brazil",
+      "n": "ブラジル"
+    }, {
+      "m": "Tháng ~",
+      "n": "がつ"
+    }, {
+      "m": "Ngày ( mùng ) ~",
+      "n": "にち／か"
+    }, {
+      "m": "~ tuổi",
+      "n": "さい"
+    }, {
+      "m": "Lúc nào ／ Khi nào",
+      "n": "いつ"
+    }, {
+      "m": "Sở thích",
+      "n": "しゅみ"
+    }, {
+      "m": "Thể thao",
+      "n": "スポーツ"
+    }, {
+      "m": "Bóng đá",
+      "n": "サッカー"
+    }, {
+      "m": "Tennis",
+      "n": "テニス"
+    }, {
+      "m": "Bơi lội",
+      "n": "すいえい"
+    }, {
+      "m": "Âm nhạc",
+      "n": "おんがく"
+    }, {
+      "m": "Đọc sách",
+      "n": "どくしょ"
+    }, {
+      "m": "Du Lịch",
+      "n": "りょこう"
+    }, {
+      "m": "Nấu ăn ／ Món ăn",
+      "n": "りょうり"
+    }, {
+      "m": "Cái gì",
+      "n": "なん"
+    }, {
+      "m": "A! ／ Á!",
+      "n": "あ"
+    }, {
+      "m": "Người kia",
+      "n": "あのひと"
+    }, {
+      "m": "Nhân viên nhà ga",
+      "n": "えきいん"
+    }, {
+      "m": "Công chức",
+      "n": "こうむいん"
+    }, {
+      "m": "Nhân viên ngân hàng",
+      "n": "ぎんこういん"
+    }, {
+      "m": "Ca sĩ",
+      "n": "かしゅ"
+    }, {
+      "m": "Luật sư",
+      "n": "べんごし"
+    }, {
+      "m": "Cầu thủ bóng đá",
+      "n": "サッカーせんしゅ"
+    }, {
+      "m": "Bóng chày",
+      "n": "やきゅう"
+    }, {
+      "m": "Bóng rổ",
+      "n": "バスケットボール"
+    }, {
+      "m": "Bóng bàn",
+      "n": "ピンポン（たっきゅう）"
+    }, {
+      "m": "Cầu lông",
+      "n": "バドミントン"
+    }],
+    "l10": [{
+      "m": "Âm thanh , tiếng động",
+      "n": "おと"
+    }, {
+      "m": "Giọng nói",
+      "n": "こえ"
+    }, {
+      "m": "Thuốc",
+      "n": "くすり"
+    }, {
+      "m": "Bên phải",
+      "n": "みぎ"
+    }, {
+      "m": "Bên trái",
+      "n": "ひだり"
+    }, {
+      "m": "Góc đường",
+      "n": "かど"
+    }, {
+      "m": "Ngã tư",
+      "n": "こうさてん"
+    }, {
+      "m": "Tín hiệu ／ Đèn giao thông",
+      "n": "しんごう"
+    }, {
+      "m": "Cầu",
+      "n": "はし"
+    }, {
+      "m": "Đường",
+      "n": "みち"
+    }, {
+      "m": "Thứ ~ ( Đếm thứ tự )",
+      "n": "～ つめ ／ ～ ばんめ"
+    }, {
+      "m": "Tìm kiếm",
+      "n": "さがします"
+    }, {
+      "m": "Rẽ , quẹo",
+      "n": "まがります"
+    }, {
+      "m": "Băng qua",
+      "n": "わたります"
+    }, {
+      "m": "Nghe thấy ／ Nghe được",
+      "n": "きこえます"
+    }, {
+      "m": "Nhìn thấy ／ nhìn được",
+      "n": "みえます"
+    }, {
+      "m": "Thẳng",
+      "n": "まっすぐ"
+    }, {
+      "m": "Rõ",
+      "n": "よく"
+    }, {
+      "m": "Không hiểu rõ",
+      "n": "よくわかりません"
+    }, {
+      "m": "Một chút",
+      "n": "ちょっと"
+    }, {
+      "m": "À , ờ",
+      "n": "ええと"
+    }, {
+      "m": "Rèm",
+      "n": "カーテン"
+    }, {
+      "m": "Khách",
+      "n": "おきゃくさん"
+    }, {
+      "m": "Rác",
+      "n": "ごみ"
+    }, {
+      "m": "Thùng rác",
+      "n": "ごみばこ"
+    }, {
+      "m": "Tay",
+      "n": "て"
+    }, {
+      "m": "Găng tay",
+      "n": "てぶくろ"
+    }, {
+      "m": "Hành lý ／ Bưu phẩm",
+      "n": "にもつ"
+    }, {
+      "m": "Tờ rơi ／ tờ quảng cáo",
+      "n": "パンフレット"
+    }, {
+      "m": "Khác",
+      "n": "ほか"
+    }, {
+      "m": "Mọi người",
+      "n": "みなさん"
+    }, {
+      "m": "Quà lưu niệm",
+      "n": "おみやげ"
+    }, {
+      "m": "Ấn , đẩy",
+      "n": "おします"
+    }, {
+      "m": "Ngồi",
+      "n": "すわります"
+    }, {
+      "m": "Đứng",
+      "n": "たちます"
+    }, {
+      "m": "Vào",
+      "n": "はいります"
+    }, {
+      "m": "Làm mất",
+      "n": "なくします"
+    }, {
+      "m": "Tự mất",
+      "n": "なくなります"
+    }, {
+      "m": "Mang về",
+      "n": "もってかえります"
+    }, {
+      "m": "Muộn , chậm chễ",
+      "n": "おくれます"
+    }, {
+      "m": "Vứt bỏ",
+      "n": "すてます"
+    }, {
+      "m": "Tập hợp , tụ họp",
+      "n": "しゅうごうします"
+    }, {
+      "m": "Tập trung , chú trọng",
+      "n": "しゅうちゅうします"
+    }, {
+      "m": "Nguy hiểm",
+      "n": "あぶない"
+    }, {
+      "m": "Quan trọng",
+      "n": "たいせつ"
+    }, {
+      "m": "Phiền phức",
+      "n": "めいわく"
+    }, {
+      "m": "Vườn bách thú",
+      "n": "どうぶつえん"
+    }, {
+      "m": "Gấu",
+      "n": "くま"
+    }, {
+      "m": "Gấu Kao-la",
+      "n": "コアラ"
+    }, {
+      "m": "Khỉ",
+      "n": "さる"
+    }, {
+      "m": "Voi",
+      "n": "ぞう"
+    }, {
+      "m": "Chim",
+      "n": "とり"
+    }, {
+      "m": "Gấu trúc",
+      "n": "パンダ"
+    }, {
+      "m": "Chim cánh cụt",
+      "n": "ペンギン"
+    }, {
+      "m": "Cửa vào ／ Lối vào",
+      "n": "いりぐち"
+    }, {
+      "m": "Cửa ra ／ Lối ra",
+      "n": "でぐち"
+    }, {
+      "m": "Mồi ／ Thức ăn cho động vật",
+      "n": "えさ"
+    }, {
+      "m": "Bụng",
+      "n": "おなか"
+    }, {
+      "m": "Xe tham quan",
+      "n": "かんらんしゃ"
+    }, {
+      "m": "Chuối",
+      "n": "バナナ"
+    }, {
+      "m": "Bóng",
+      "n": "ボール"
+    }, {
+      "m": "Các ~ ／ Bọn ~ ／ Chúng ~ ( Số nhiều )",
+      "n": "～ たち"
+    }, {
+      "m": "Đi bộ",
+      "n": "あるきます"
+    }, {
+      "m": "Bay",
+      "n": "とびます"
+    }, {
+      "m": "Trở lên ／ Trở thành",
+      "n": "なります"
+    }, {
+      "m": "Nghỉ",
+      "n": "やすみます"
+    }, {
+      "m": "Ghế băng",
+      "n": "ベンチ"
+    }, {
+      "m": "Cho ／ Làm",
+      "n": "やります"
+    }, {
+      "m": "Đói",
+      "n": "おなかがすきます"
+    }, {
+      "m": "Khát",
+      "n": "のどがかわきます"
+    }, {
+      "m": "Mệt",
+      "n": "つかれます"
+    }, {
+      "m": "Bị cảm",
+      "n": "かぜをひきます"
+    }, {
+      "m": "Đau",
+      "n": "いたい"
+    }, {
+      "m": "Tối",
+      "n": "くらい"
+    }, {
+      "m": "Sáng",
+      "n": "あかるい"
+    }, {
+      "m": "Sắp sửa ~ ／ Đến lúc phải ~",
+      "n": "そろそろ"
+    }, {
+      "m": "Thật ( thể thường )",
+      "n": "ほんとうだ"
+    }],
+    "l11": [{
+      "m": "Đầu",
+      "n": "あたま"
+    }, {
+      "m": "Hội thoại",
+      "n": "かいわ"
+    }, {
+      "m": "Viết văn",
+      "n": "さくぶん"
+    }, {
+      "m": "Bạn cùng lớp",
+      "n": "クラスメイト"
+    }, {
+      "m": "Tạp chí",
+      "n": "ざっし"
+    }, {
+      "m": "Chạy bộ ( tập thể dục )",
+      "n": "ジョギング"
+    }, {
+      "m": "Sinh hoạt , cuộc sống",
+      "n": "せいかつ"
+    }, {
+      "m": "Chủ cửa hàng",
+      "n": "てんちょう"
+    }, {
+      "m": "Nhật ký",
+      "n": "にっき"
+    }, {
+      "m": "Lúc đầu , ban đầu",
+      "n": "はじめ"
+    }, {
+      "m": "Sống 1 mình",
+      "n": "ひとりぐらし"
+    }, {
+      "m": "Ngày thường",
+      "n": "へいじつ"
+    }, {
+      "m": "Hàng tuần",
+      "n": "まいしゅう"
+    }, {
+      "m": "Kết thúc",
+      "n": "おわります"
+    }, {
+      "m": "Đi làm ( nghề nghiệp )",
+      "n": "かよいます"
+    }, {
+      "m": "Đánh , gảy , chơi ( nhạc cụ )",
+      "n": "ひきます"
+    }, {
+      "m": "Quen",
+      "n": "なれます"
+    }, {
+      "m": "Quên",
+      "n": "わすれます"
+    }, {
+      "m": "Đi dạo",
+      "n": "さんぽします"
+    }, {
+      "m": "Nghiêm khắc",
+      "n": "きびしい"
+    }, {
+      "m": "Buồn ngủ",
+      "n": "ねむい"
+    }, {
+      "m": "Đại để ／ Đại khái",
+      "n": "たいてい"
+    }, {
+      "m": "Mãi mà ~",
+      "n": "なかなか"
+    }, {
+      "m": "Ừ ／ Vâng",
+      "n": "ええ"
+    }, {
+      "m": "Buồn ( cô đơn , lẻ loi )",
+      "n": "さびしい"
+    }, {
+      "m": "Đại hội thể thao Olympic",
+      "n": "オリンピック"
+    }, {
+      "m": "Nước ngoài",
+      "n": "がいこく"
+    }, {
+      "m": "Học sinh tiểu học",
+      "n": "しょうがくせい"
+    }, {
+      "m": "Học sinh trung học",
+      "n": "ちゅうがくせい"
+    }, {
+      "m": "Tuyển thủ ／ Vận động viên",
+      "n": "せんしゅ"
+    }, {
+      "m": "Ông",
+      "n": "そふ"
+    }, {
+      "m": "Bắt đầu",
+      "n": "はじめます"
+    }, {
+      "m": "Chia tay",
+      "n": "わかれます"
+    }, {
+      "m": "Tốt nghiệp",
+      "n": "そつぎょうします"
+    }, {
+      "m": "Nhập học",
+      "n": "にゅうがくします"
+    }, {
+      "m": "Dần dần",
+      "n": "だんだん"
+    }, {
+      "m": "Lần đầu tiên",
+      "n": "はじめて"
+    }, {
+      "m": "Vì thế ／ Vì vậy",
+      "n": "それで"
+    }, {
+      "m": "Điều hòa",
+      "n": "エアコン"
+    }, {
+      "m": "Tin tức",
+      "n": "ニュース"
+    }, {
+      "m": "Bật",
+      "n": "つけます"
+    }, {
+      "m": "Tắt",
+      "n": "けします"
+    }, {
+      "m": "Chuyển nhà",
+      "n": "ひっこしします"
+    }, {
+      "m": "Vâng ( thân mật )",
+      "n": "うん"
+    }, {
+      "m": "Không ( thân mật )",
+      "n": "ううん"
+    }, {
+      "m": "Xin lỗi",
+      "n": "ごめん"
+    }, {
+      "m": "Thế à !",
+      "n": "そっか"
+    }, {
+      "m": "Lại",
+      "n": "また"
+    }],
+    "l12": [{
+      "m": "Vết thương",
+      "n": "けが"
+    }, {
+      "m": "Sự thèm ăn ／ Sự ngon miệng",
+      "n": "しょくよく"
+    }, {
+      "m": "Tình trạng ( sức khỏe , máy móc )",
+      "n": "ちょうし"
+    }, {
+      "m": "Nhiệt độ",
+      "n": "ねつ"
+    }, {
+      "m": "Bị sốt",
+      "n": "ねつがあります"
+    }, {
+      "m": "Bệnh ／ Ốm",
+      "n": "びょうき"
+    }, {
+      "m": "Họng",
+      "n": "のど"
+    }, {
+      "m": "Răng",
+      "n": "は"
+    }, {
+      "m": "Bữa nhậu",
+      "n": "のみかい"
+    }, {
+      "m": "~ độ",
+      "n": "～ ど"
+    }, {
+      "m": "Khỏi",
+      "n": "なおります"
+    }, {
+      "m": "Xấu , tồi",
+      "n": "わるい"
+    }, {
+      "m": "Khó chịu ( tâm trạng xấu )",
+      "n": "きもちがわるい"
+    }, {
+      "m": "Ổn , không sao",
+      "n": "だいじょうぶ"
+    }, {
+      "m": "Sớm",
+      "n": "はやく"
+    }, {
+      "m": "Ơn trời ／ Nhờ trời",
+      "n": "おかげさまで"
+    }, {
+      "m": "Mau khỏe nhé ! ( nói với người ốm )",
+      "n": "おだいじに"
+    }, {
+      "m": "Thế thì gay go vất vả quá nhỉ ! ( ý chia sẻ )",
+      "n": "それはいけませんね"
+    }, {
+      "m": "Vòi hoa sen",
+      "n": "シャワー"
+    }, {
+      "m": "Giấc ngủ ／ việc ngủ",
+      "n": "すいみん"
+    }, {
+      "m": "Nha sĩ",
+      "n": "はいしゃ"
+    }, {
+      "m": "Bỏng ／ Vết bỏng",
+      "n": "やけど"
+    }, {
+      "m": "Việc",
+      "n": "こと"
+    }, {
+      "m": "Vật ／ Đồ vật",
+      "n": "もの"
+    }, {
+      "m": "Trên ／ Hơn",
+      "n": "いじょう"
+    }, {
+      "m": "Lấy ra ／ Đưa ra ／ Nộp",
+      "n": "だします"
+    }, {
+      "m": "Lên tiếng",
+      "n": "こえをだします"
+    }, {
+      "m": "Sơn",
+      "n": "ぬります"
+    }, {
+      "m": "Tắm",
+      "n": "あびます"
+    }, {
+      "m": "Đi ra ngoài",
+      "n": "でかけます"
+    }, {
+      "m": "Tập thể dục",
+      "n": "うんどうします"
+    }, {
+      "m": "Cứng",
+      "n": "かたい"
+    }, {
+      "m": "Mềm",
+      "n": "やわらかい"
+    }, {
+      "m": "Tốt cho cơ thể",
+      "n": "からだにいい"
+    }, {
+      "m": "Tự mình",
+      "n": "じぶんで"
+    }, {
+      "m": "Cố gắng hết sức",
+      "n": "できるだけ"
+    }, {
+      "m": "Thong thả ／ Từ từ",
+      "n": "ゆっくり"
+    }, {
+      "m": "Dược sĩ",
+      "n": "やくざいし"
+    }, {
+      "m": "Áo khoác",
+      "n": "うわぎ"
+    }, {
+      "m": "Kính áp tròng",
+      "n": "コンタクトレンズ"
+    }, {
+      "m": "Sách hướng dẫn",
+      "n": "せつめいしょ"
+    }, {
+      "m": "Bồn tắm",
+      "n": "おふろ"
+    }, {
+      "m": "Thẻ bảo hiểm",
+      "n": "ほけんしょう"
+    }, {
+      "m": "Phòng chờ",
+      "n": "まちあいしつ"
+    }, {
+      "m": "Hiệu thuốc",
+      "n": "やっきょく"
+    }, {
+      "m": "Cởi",
+      "n": "ぬぎます"
+    }, {
+      "m": "Chạy",
+      "n": "はしります"
+    }, {
+      "m": "Đợi ／ chờ",
+      "n": "まちます"
+    }, {
+      "m": "Đánh ( răng )",
+      "n": "みがきます"
+    }, {
+      "m": "Nằm",
+      "n": "よこになります"
+    }, {
+      "m": "Chuẩn bị",
+      "n": "じゅんびします"
+    }, {
+      "m": "Ngứa",
+      "n": "かゆい"
+    }],
+    "l13": [{
+      "m": "Kinh nghiệm",
+      "n": "けいけん"
+    }, {
+      "m": "Lá đỏ",
+      "n": "こうよう"
+    }, {
+      "m": "Dịch vụ",
+      "n": "サービス"
+    }, {
+      "m": "Vật Sumo",
+      "n": "すもう"
+    }, {
+      "m": "Khách sạn",
+      "n": "ホテル"
+    }, {
+      "m": "Biết",
+      "n": "しります"
+    }, {
+      "m": "Hẹn hò",
+      "n": "デートします"
+    }, {
+      "m": "1 lần cũng ( không )",
+      "n": "いっかいも ／ いちども"
+    }, {
+      "m": "Rất nhiều lần",
+      "n": "なんかいも ／ なんども"
+    }, {
+      "m": "Đàn ông",
+      "n": "おとこのひと"
+    }, {
+      "m": "Phụ nữ",
+      "n": "おんなのひと"
+    }, {
+      "m": "Cửa hàng",
+      "n": "みせ"
+    }, {
+      "m": "Khu vui chơi",
+      "n": "ゆうえんち"
+    }, {
+      "m": "Tàu lượn",
+      "n": "ジェットコースター"
+    }, {
+      "m": "Đồ điện",
+      "n": "でんきせいひん"
+    }, {
+      "m": "Kính mát",
+      "n": "サングラス"
+    }, {
+      "m": "Kính",
+      "n": "めがね"
+    }, {
+      "m": "Áo sơ mi",
+      "n": "シャツ"
+    }, {
+      "m": "Váy ngắn , juyp",
+      "n": "スカート"
+    }, {
+      "m": "Cà vạt",
+      "n": "ネクタイ"
+    }, {
+      "m": "Mũ",
+      "n": "ぼうし"
+    }, {
+      "m": "Sự được yêu thích , sự được mễn mộ",
+      "n": "にんき"
+    }, {
+      "m": "Bán",
+      "n": "うります"
+    }, {
+      "m": "Đội ( mũ )",
+      "n": "かぶります"
+    }, {
+      "m": "Trọ lại , nghỉ lại",
+      "n": "とまります"
+    }, {
+      "m": "Đi , xỏ ( quần , tất , giầy , váy ... )",
+      "n": "はきます"
+    }, {
+      "m": "Đeo , treo",
+      "n": "かけます"
+    }, {
+      "m": "Mặc",
+      "n": "きます"
+    }, {
+      "m": "Thắt cà vạt",
+      "n": "ネクタイをします"
+    }, {
+      "m": "Xanh",
+      "n": "あおい"
+    }, {
+      "m": "Đỏ",
+      "n": "あかい"
+    }, {
+      "m": "Vàng",
+      "n": "きいろい"
+    }, {
+      "m": "Trẻ",
+      "n": "わかい"
+    }, {
+      "m": "Tươi , mới",
+      "n": "しんせん"
+    }, {
+      "m": "Tài liệu , vật liệu",
+      "n": "ざいりょう"
+    }, {
+      "m": "Địa điểm",
+      "n": "ばしょ"
+    }, {
+      "m": "Bóng rổ",
+      "n": "バスケットボール"
+    }, {
+      "m": "Trang phục Yukata ( kimono mùa hè )",
+      "n": "ゆかた"
+    }, {
+      "m": "Chỗ nào đó",
+      "n": "どこか"
+    }, {
+      "m": "Luyện tập",
+      "n": "れんしゅうします"
+    }, {
+      "m": "Tất cả mọi người",
+      "n": "みんなで"
+    }, {
+      "m": "Thực tập",
+      "n": "じっしゅう"
+    }, {
+      "m": "Nhà máy",
+      "n": "こうじょう"
+    }],
+    "l14": [{
+      "m": "Món mỳ udon",
+      "n": "うどん"
+    }, {
+      "m": "Món mỳ soba",
+      "n": "そば"
+    }, {
+      "m": "Kairo ( vật bỏ túi để làm ấm cơ thể )",
+      "n": "カイロ"
+    }, {
+      "m": "Bàn có lò sưởi, lò than được đặt dưới bàn",
+      "n": "こたつ"
+    }, {
+      "m": "Chữ, ký tự",
+      "n": "じ"
+    }, {
+      "m": "Phiếu ăn",
+      "n": "しょっけん"
+    }, {
+      "m": "Tiên thừa, tiền trả lại",
+      "n": "おつり"
+    }, {
+      "m": "Điện, đèn",
+      "n": "でんき"
+    }, {
+      "m": "Cửa ra vào",
+      "n": "ドア"
+    }, {
+      "m": "Ớt",
+      "n": "とうがらし"
+    }, {
+      "m": "Chuông gió",
+      "n": "ふうりん"
+    }, {
+      "m": "Chăn",
+      "n": "ふとん"
+    }, {
+      "m": "Túi quần, túi áo",
+      "n": "ポケット"
+    }, {
+      "m": "Nút bấm ／ Khuy áo",
+      "n": "ボタン"
+    }, {
+      "m": "Nước nóng",
+      "n": "おゆ"
+    }, {
+      "m": "Túi chườm ( ấm )",
+      "n": "ゆたんぽ"
+    }, {
+      "m": "Cần gạt, đòn bẩy",
+      "n": "レバー"
+    }, {
+      "m": "( cửa ) mở",
+      "n": "あきます"
+    }, {
+      "m": "Chạm, sờ",
+      "n": "さわります"
+    }, {
+      "m": "( Đèn , thiết bị ) Bật ／ Sáng",
+      "n": "つきます"
+    }, {
+      "m": "Xoay, quay",
+      "n": "まわします"
+    }, {
+      "m": "( Nước , t iền ) Chảy ra ／ chạy ra ／ chui ra",
+      "n": "でます"
+    }, {
+      "m": "Tiền thừa chui ra",
+      "n": "おつりがでます"
+    }, {
+      "m": "Ơ ? Gì vậy nhỉ ?",
+      "n": "あれ"
+    }, {
+      "m": "( Câu nói trước khi ăn uống )",
+      "n": "いただきます"
+    }, {
+      "m": "No bụng",
+      "n": "おなかがいっぱいです"
+    }, {
+      "m": "( Câu nói sau khi ăn uống )",
+      "n": "ごちそうさまでした"
+    }, {
+      "m": "Dưới đây, sau đây",
+      "n": "いか"
+    }, {
+      "m": "Hiên nhà, sảnh trong nhà",
+      "n": "げんかん"
+    }, {
+      "m": "Seat belt, dây an toàn",
+      "n": "シートベルト"
+    }, {
+      "m": "Mũ bảo hiểm",
+      "n": "ヘルメット"
+    }, {
+      "m": "Hộ chiếu",
+      "n": "パスポート"
+    }, {
+      "m": "Chứng minh thư, thẻ căn cước",
+      "n": "みぶんしょう"
+    }, {
+      "m": "Phí, cước",
+      "n": "りょうきん"
+    }, {
+      "m": "Phí vào cửa",
+      "n": "にゅうじょうりょう"
+    }, {
+      "m": "Xếp hàng, được xếp",
+      "n": "ならびます"
+    }, {
+      "m": "Dừng",
+      "n": "とめます"
+    }, {
+      "m": "Chia",
+      "n": "わけます"
+    }, {
+      "m": "Chỉn chu, cẩn thận",
+      "n": "きちんと"
+    }, {
+      "m": "Vậy à ?",
+      "n": "そうなんですか"
+    }, {
+      "m": "Này này ! Nhìn này !",
+      "n": "ほら"
+    }, {
+      "m": "Quê, nông thôn",
+      "n": "いなか"
+    }, {
+      "m": "Thành thị",
+      "n": "とかい"
+    }, {
+      "m": "Không khí",
+      "n": "くうき"
+    }, {
+      "m": "Giao thông",
+      "n": "こうつう"
+    }, {
+      "m": "Lương theo giờ",
+      "n": "じきゅう"
+    }, {
+      "m": "Tự do",
+      "n": "じゆう"
+    }, {
+      "m": "Thiết kế",
+      "n": "デザイン"
+    }, {
+      "m": "Chương trình",
+      "n": "ばんぐみ"
+    }, {
+      "m": "Đồ ăn nhanh",
+      "n": "ファストフード"
+    }, {
+      "m": "Thời trang",
+      "n": "ファッション"
+    }, {
+      "m": "Tour du lich ( chỉ có vé đi lại và chỗ ở )",
+      "n": "フリープラン"
+    }, {
+      "m": "Nghĩ rằng ／ Cho rằng",
+      "n": "おもいます"
+    }, {
+      "m": "Trang điểm",
+      "n": "けしょうします"
+    }, {
+      "m": "Trải nghiệm",
+      "n": "けいけんします"
+    }, {
+      "m": "Ầm ĩ, ồn ào",
+      "n": "うるさい"
+    }, {
+      "m": "Ăn diện , hợp thời trang ( ý chê bai thì thành Diêm dúa )",
+      "n": "おしゃれ"
+    }, {
+      "m": "Phức tạp",
+      "n": "ふくざつ"
+    }, {
+      "m": "Thuận tiện",
+      "n": "べんり"
+    }, {
+      "m": "Bất tiện",
+      "n": "ふべん"
+    }, {
+      "m": "Bất cứ khi nào",
+      "n": "いつでも"
+    }, {
+      "m": "Đến bất kỳ lúc nào ( MÃI MÃI )",
+      "n": "いつまでも"
+    }, {
+      "m": "Về ~",
+      "n": "～ について"
+    }, {
+      "m": "Tôi cũng nghĩ vậy .",
+      "n": "わたしもそうおもいます"
+    }, {
+      "m": "Đồng phục",
+      "n": "せいふく"
+    }, {
+      "m": "Xe máy",
+      "n": "バイク"
+    }],
+    "l15": [{
+      "m": "Kính ／ Cốc thủy tinh",
+      "n": "ガラス"
+    }, {
+      "m": "Trời nhiều mây",
+      "n": "くもり"
+    }, {
+      "m": "Bão",
+      "n": "たいふう"
+    }, {
+      "m": "Động đất",
+      "n": "じしん"
+    }, {
+      "m": "Sự cố, tai nạn",
+      "n": "じこ"
+    }, {
+      "m": "Đại hội, lễ hội",
+      "n": "たいかい"
+    }, {
+      "m": "Lễ hội pháo hoa",
+      "n": "はなびたいかい"
+    }, {
+      "m": "Đội, nhóm",
+      "n": "チーム"
+    }, {
+      "m": "Hoãn, tạm dừng",
+      "n": "ちゅうし"
+    }, {
+      "m": "Chợ trời",
+      "n": "フリーマーケット"
+    }, {
+      "m": "Sự thật",
+      "n": "ほんとう"
+    }, {
+      "m": "Ngày xưa",
+      "n": "むかし"
+    }, {
+      "m": "Miễn phí",
+      "n": "むりょう"
+    }, {
+      "m": "Chiều tối, hoàng hôn",
+      "n": "ゆうがた"
+    }, {
+      "m": "Chết",
+      "n": "しにます"
+    }, {
+      "m": "Mất, hết",
+      "n": "なくなります"
+    }, {
+      "m": "( máy )Dừng",
+      "n": "とまります"
+    }, {
+      "m": "Bắt đầu ( tự bắt đầu )",
+      "n": "はじまります"
+    }, {
+      "m": "Rơi ( mưa , tuyết )",
+      "n": "ふります"
+    }, {
+      "m": "Thắng, chiến thắng ( V )",
+      "n": "かちます"
+    }, {
+      "m": "Thua, thất bại ( V )",
+      "n": "まけます"
+    }, {
+      "m": "Đổ",
+      "n": "たおれます"
+    }, {
+      "m": "Được hoàn thành, xong",
+      "n": "できます"
+    }, {
+      "m": "Cửa hàng mới được hoàn thành",
+      "n": "あたらしいみせができます"
+    }, {
+      "m": "Vỡ ( V )",
+      "n": "われます"
+    }, {
+      "m": "Cưới, kết hôn",
+      "n": "けっこんします"
+    }, {
+      "m": "Nhập viện",
+      "n": "にゅういんします"
+    }, {
+      "m": "Sợ ／ Đáng sợ",
+      "n": "こわい"
+    }, {
+      "m": "Lo lắng",
+      "n": "しんぱい"
+    }, {
+      "m": "Gió",
+      "n": "かぜ"
+    }, {
+      "m": "Dây đeo vào điện thoại, máy ảnh",
+      "n": "ストラップ"
+    }, {
+      "m": "Chỗ ngồi",
+      "n": "せき"
+    }, {
+      "m": "Vội vàng ( V )",
+      "n": "いそぎます"
+    }, {
+      "m": "Đông ( V )",
+      "n": "こみます"
+    }, {
+      "m": "Kịp",
+      "n": "まにあいます"
+    }, {
+      "m": "Tạnh ( mưa )",
+      "n": "やみます"
+    }, {
+      "m": "Trời có nắng , trời đẹp ( V )",
+      "n": "はれます"
+    }, {
+      "m": "~ Phần trăm",
+      "n": "～ パーセント"
+    }, {
+      "m": "Giảm giá",
+      "n": "びき"
+    }, {
+      "m": "Giảm giá 10%",
+      "n": "１０パーセントびき"
+    }, {
+      "m": "Mạnh",
+      "n": "つよい"
+    }, {
+      "m": "Chắc chắn",
+      "n": "きっと"
+    }, {
+      "m": "Có lẽ",
+      "n": "たぶん"
+    }, {
+      "m": "Nếu",
+      "n": "もし"
+    }, {
+      "m": "Tập trung, tụ họp lại",
+      "n": "あつまります"
+    }, {
+      "m": "( cửa ) Đóng",
+      "n": "しまります"
+    }, {
+      "m": "Vắng ／ Rỗng ( V )",
+      "n": "すきます"
+    }, {
+      "m": "Rơi",
+      "n": "おちます"
+    }, {
+      "m": "( đèn ) Tắt ／ Biến mất",
+      "n": "きえます"
+    }, {
+      "m": "Hỏng ( V )",
+      "n": "こわれます"
+    }, {
+      "m": "Bẩn, vấy bẩn ( V )",
+      "n": "よごれます"
+    }],
+    "l2": [{
+      "m": "Đây, chỗ này ／ Phía này",
+      "n": "ここ／こちら"
+    }, {
+      "m": "Đó, chỗ đó ／ Phía đó",
+      "n": "そこ／そちら"
+    }, {
+      "m": "Kia, chỗ kia ／ Phía kia",
+      "n": "あそこ／あちら"
+    }, {
+      "m": "Quầy thông tin",
+      "n": "インフォメーション"
+    }, {
+      "m": "Thang cuốn",
+      "n": "エスカレーター"
+    }, {
+      "m": "Thang máy",
+      "n": "エレベーター"
+    }, {
+      "m": "Nơi hút thuốc",
+      "n": "きつえんじょ"
+    }, {
+      "m": "Nhà vệ sinh",
+      "n": "トイレ"
+    }, {
+      "m": "Quầy thu ngân",
+      "n": "レジ"
+    }, {
+      "m": "Quán giải khát",
+      "n": "きっさてん"
+    }, {
+      "m": "Cửa hàng 100 Yên",
+      "n": "１００えんショップ"
+    }, {
+      "m": "Nhà hàng, quán ăn",
+      "n": "レストラン"
+    }, {
+      "m": "Ngầm, dưới lòng đất",
+      "n": "ちか"
+    }, {
+      "m": "Máy ảnh",
+      "n": "カメラ"
+    }, {
+      "m": "Điện thoại di động",
+      "n": "けいたいでんわ"
+    }, {
+      "m": "Kim từ điển",
+      "n": "でんしじしょ"
+    }, {
+      "m": "Máy tính cá nhân",
+      "n": "パソコン"
+    }, {
+      "m": "Giầy",
+      "n": "くつ"
+    }, {
+      "m": "Tẩy",
+      "n": "ケシごむ"
+    }, {
+      "m": "Bút",
+      "n": "ペン"
+    }, {
+      "m": "Giấy vệ sinh",
+      "n": "トイレットペーパー"
+    }, {
+      "m": "Sách",
+      "n": "ほん"
+    }, {
+      "m": "Dầu",
+      "n": "あぶら"
+    }, {
+      "m": "Bánh ngọt",
+      "n": "ケーキ"
+    }, {
+      "m": "Gạo",
+      "n": "こめ"
+    }, {
+      "m": "Trứng",
+      "n": "たまご"
+    }, {
+      "m": "Bánh mỳ",
+      "n": "パン"
+    }, {
+      "m": "Nước",
+      "n": "みず"
+    }, {
+      "m": "Nhân viên bán hàng",
+      "n": "てんいん"
+    }, {
+      "m": "Tầng ~",
+      "n": "かい"
+    }, {
+      "m": "Cửa hàng ~,Hiệu ~",
+      "n": "や"
+    }, {
+      "m": "Kính chào quý khách",
+      "n": "いらっしゃいませ"
+    }, {
+      "m": "Cái này",
+      "n": "これ"
+    }, {
+      "m": "Cái đó",
+      "n": "それ"
+    }, {
+      "m": "Cái kia",
+      "n": "あれ"
+    }, {
+      "m": "Cái nào",
+      "n": "どれ"
+    }, {
+      "m": "Cái ~ này",
+      "n": "この"
+    }, {
+      "m": "Cái ~ đó",
+      "n": "その"
+    }, {
+      "m": "Cái ~ kia",
+      "n": "あの"
+    }, {
+      "m": "Cái ~ nào",
+      "n": "どの"
+    }, {
+      "m": "Cặp, túi sách",
+      "n": "かばん"
+    }, {
+      "m": "Quần dài",
+      "n": "ズボン"
+    }, {
+      "m": "Áo phông",
+      "n": "Tシャツ"
+    }, {
+      "m": "Đồng hồ",
+      "n": "とけい"
+    }, {
+      "m": "~ Yên",
+      "n": "えん"
+    }, {
+      "m": "Bao nhiêu",
+      "n": "いくら"
+    }, {
+      "m": "Thế thì ／ Thôi thì",
+      "n": "じゃ"
+    }, {
+      "m": "Cá",
+      "n": "さかな"
+    }, {
+      "m": "Thịt",
+      "n": "にく"
+    }, {
+      "m": "Thịt bò",
+      "n": "ぎゅうにく"
+    }, {
+      "m": "Thịt lợn",
+      "n": "ぶたにく"
+    }, {
+      "m": "Rau",
+      "n": "やさい"
+    }, {
+      "m": "Quả dâu",
+      "n": "イチゴ"
+    }, {
+      "m": "Quả táo",
+      "n": "りんご"
+    }, {
+      "m": "Đây là món cá",
+      "n": "これはさかなのりょうりです"
+    }, {
+      "m": "Món cà-ri",
+      "n": "カレー"
+    }, {
+      "m": "Canh, súp",
+      "n": "スープ"
+    }, {
+      "m": "Món thịt lợn chiên xù",
+      "n": "とんかつ"
+    }, {
+      "m": "Món thịt băm viên",
+      "n": "ハンバーグ"
+    }, {
+      "m": "Cơm",
+      "n": "ごはん"
+    }, {
+      "m": "Cho tôi 2 bát／xuất cơm",
+      "n": "ごはんを２つください"
+    }, {
+      "m": "Cơm, gạo ( phiên âm KATA )",
+      "n": "ライス"
+    }, {
+      "m": "Nước ngọt, nước trái cây",
+      "n": "ジュース"
+    }, {
+      "m": "Cà phê",
+      "n": "コーヒー"
+    }, {
+      "m": "Trà đen",
+      "n": "こうちゃ"
+    }, {
+      "m": "Trà, nước chè",
+      "n": "おちゃ"
+    }, {
+      "m": "Bia",
+      "n": "ビール"
+    }, {
+      "m": "Rượu vang",
+      "n": "ワイン"
+    }, {
+      "m": "Ấn Độ",
+      "n": "インド"
+    }, {
+      "m": "Đức",
+      "n": "ドイツ"
+    }, {
+      "m": "Pháp",
+      "n": "フランス"
+    }, {
+      "m": "Ví tiền",
+      "n": "さいふ"
+    }, {
+      "m": "Tiếng Anh",
+      "n": "えいご"
+    }, {
+      "m": "~ cái ／ ~ chiếc",
+      "n": "つ"
+    }, {
+      "m": "Ai",
+      "n": "だれ"
+    }, {
+      "m": "Cho tôi gọi đồ",
+      "n": "ちゅうもんをおねがいします"
+    }, {
+      "m": "Xin mời",
+      "n": "どうぞ"
+    }, {
+      "m": "quần áo",
+      "n": "ふく"
+    }, {
+      "m": "mũ",
+      "n": "ぼうし"
+    }, {
+      "m": "bút chì",
+      "n": "えんぴつ"
+    }, {
+      "m": "bút chì kim",
+      "n": "シャープペンシル"
+    }, {
+      "m": "bút bi",
+      "n": "ボールペン"
+    }, {
+      "m": "Cà rốt",
+      "n": "にんじん"
+    }, {
+      "m": "Hành tây",
+      "n": "たまねぎ"
+    }, {
+      "m": "khoai tây",
+      "n": "じゃがいも"
+    }],
+    "l3": [{
+      "m": "Bây giờ",
+      "n": "いま"
+    }, {
+      "m": "Buổi sáng ／ AM",
+      "n": "ごぜん"
+    }, {
+      "m": "Buổi chiều ／ PM",
+      "n": "ごご"
+    }, {
+      "m": "Buổi trưa",
+      "n": "ひる"
+    }, {
+      "m": "Ngân hàng",
+      "n": "ぎんこう"
+    }, {
+      "m": "Nhà thi đấu , nhà tập thể dục",
+      "n": "たいいくかん"
+    }, {
+      "m": "Thư viện",
+      "n": "としょかん"
+    }, {
+      "m": "Bệnh viện",
+      "n": "びょういん"
+    }, {
+      "m": "Bưu điện",
+      "n": "ゆうびんきょく"
+    }, {
+      "m": "Giờ học",
+      "n": "じゅぎょう"
+    }, {
+      "m": "Bài kiểm tra",
+      "n": "テスト"
+    }, {
+      "m": "Nghỉ ／ Ngày nghỉ",
+      "n": "やすみ"
+    }, {
+      "m": "Thời gian",
+      "n": "じかん"
+    }, {
+      "m": "~ giờ",
+      "n": "じ"
+    }, {
+      "m": "~ phút",
+      "n": "ふん"
+    }, {
+      "m": "9 giờ 20 phút",
+      "n": "９じ２０ぷんです"
+    }, {
+      "m": "~ giờ rưỡi",
+      "n": "じはん"
+    }, {
+      "m": "Thứ ~",
+      "n": "ようび"
+    }, {
+      "m": "Kế hoạch , lịch",
+      "n": "スケジュール"
+    }, {
+      "m": "Việc làm thêm",
+      "n": "アルバイト"
+    }, {
+      "m": "Trượt tuyết",
+      "n": "スキー"
+    }, {
+      "m": "Bữa tiệc",
+      "n": "パーティー"
+    }, {
+      "m": "Tiệc nướng ngoài trời",
+      "n": "バーベキュー"
+    }, {
+      "m": "Pháo hoa",
+      "n": "はなび"
+    }, {
+      "m": "Ngắm hoa",
+      "n": "はなみ"
+    }, {
+      "m": "Ở cùng gia đình bản địa",
+      "n": "ホームステイ"
+    }, {
+      "m": "Lễ hội",
+      "n": "まつり"
+    }, {
+      "m": "Biển",
+      "n": "うみ"
+    }, {
+      "m": "Công viên",
+      "n": "こうえん"
+    }, {
+      "m": "Hoa anh đào",
+      "n": "さくら"
+    }, {
+      "m": "Rượu",
+      "n": "さけ"
+    }, {
+      "m": "Món sushi",
+      "n": "すし"
+    }, {
+      "m": "Xe buýt",
+      "n": "バス"
+    }, {
+      "m": "Cơm hộp",
+      "n": "べんとう"
+    }, {
+      "m": "1 năm",
+      "n": "いちねん"
+    }, {
+      "m": "Mùa xuân",
+      "n": "はる"
+    }, {
+      "m": "Mùa hè",
+      "n": "なつ"
+    }, {
+      "m": "Mùa thu",
+      "n": "あき"
+    }, {
+      "m": "Mùa đông",
+      "n": "ふゆ"
+    }, {
+      "m": "Tuần lễ vàng",
+      "n": "ゴールデンウイーク"
+    }, {
+      "m": "Cái gì",
+      "n": "なに"
+    }, {
+      "m": "Đi",
+      "n": "いきます"
+    }, {
+      "m": "Đến",
+      "n": "きます"
+    }, {
+      "m": "Về, trở về",
+      "n": "かえります"
+    }, {
+      "m": "Uống",
+      "n": "のみます"
+    }, {
+      "m": "Ăn",
+      "n": "たべます"
+    }, {
+      "m": "Xem, nhìn",
+      "n": "みます"
+    }, {
+      "m": "Làm, chơi",
+      "n": "します"
+    }, {
+      "m": "Chơi trượt tuyết",
+      "n": "スキーをします"
+    }, {
+      "m": "Hay quá nhỉ !",
+      "n": "いいですね"
+    }, {
+      "m": "Buổi sáng",
+      "n": "あさ"
+    }, {
+      "m": "Buổi tối , đêm",
+      "n": "よる"
+    }, {
+      "m": "Hàng ngày",
+      "n": "まいにち"
+    }, {
+      "m": "Hàng sáng",
+      "n": "まいあさ"
+    }, {
+      "m": "Hàng tối",
+      "n": "まいばん"
+    }, {
+      "m": "Bữa sáng",
+      "n": "あさごはん"
+    }, {
+      "m": "Bữa trưa",
+      "n": "ひるごはん"
+    }, {
+      "m": "Nhà",
+      "n": "うち"
+    }, {
+      "m": "Công ty",
+      "n": "かいしゃ"
+    }, {
+      "m": "Cửa hàng tiện lợi",
+      "n": "コンビニ"
+    }, {
+      "m": "Sữa bò",
+      "n": "ぎゅうにゅう"
+    }, {
+      "m": "Hoa quả",
+      "n": "くだもの"
+    }, {
+      "m": "Món Salad",
+      "n": "サラダ"
+    }, {
+      "m": "Pho-mat",
+      "n": "チーズ"
+    }, {
+      "m": "Internet",
+      "n": "インターネット"
+    }, {
+      "m": "Báo, tờ báo",
+      "n": "しんぶん"
+    }, {
+      "m": "Tivi",
+      "n": "テレビ"
+    }, {
+      "m": "CD",
+      "n": "シーディー"
+    }, {
+      "m": "DVD",
+      "n": "ディーブイディー"
+    }, {
+      "m": "Cái gì cũng...",
+      "n": "なにも"
+    }, {
+      "m": "Đâu cũng...",
+      "n": "どこも"
+    }, {
+      "m": "Mua",
+      "n": "かいます"
+    }, {
+      "m": "Nghe ( còn có 1 nghĩa nữa là Hỏi )",
+      "n": "ききます"
+    }, {
+      "m": "Làm việc, lao động",
+      "n": "はたらきます"
+    }, {
+      "m": "Đọc",
+      "n": "よみます"
+    }, {
+      "m": "Thức dậy",
+      "n": "おきます"
+    }, {
+      "m": "Ngủ",
+      "n": "ねます"
+    }, {
+      "m": "Học",
+      "n": "べんきょうします"
+    }, {
+      "m": "Ơ! ／ Hả",
+      "n": "えっ"
+    }, {
+      "m": "Chà ／ Wow",
+      "n": "へえ"
+    }],
+    "l4": [{
+      "m": "Phía bắc",
+      "n": "きた"
+    }, {
+      "m": "Phía nam",
+      "n": "みなみ"
+    }, {
+      "m": "Phía đông",
+      "n": "ひがし"
+    }, {
+      "m": "Phía tây",
+      "n": "にし"
+    }, {
+      "m": "Chính giữa",
+      "n": "まんなか"
+    }, {
+      "m": "Ô tô",
+      "n": "くるま"
+    }, {
+      "m": "Tàu cao tốc Shinkansen",
+      "n": "しんかんせん"
+    }, {
+      "m": "Tàu điện",
+      "n": "でんしゃ"
+    }, {
+      "m": "Máy bay",
+      "n": "ひこうき"
+    }, {
+      "m": "Nhà ga",
+      "n": "えき"
+    }, {
+      "m": "Thành phố, thị trấn",
+      "n": "まち"
+    }, {
+      "m": "~ tiếng ( khoảng thời gian )",
+      "n": "じかん"
+    }, {
+      "m": "~ tiếng rưỡi ( khoảng thời gian )",
+      "n": "じかんはん"
+    }, {
+      "m": "~ phút ( khoảng thời gian )",
+      "n": "ふん"
+    }, {
+      "m": "Từ nhà đến trường mất 20 phút",
+      "n": "うちからがっこうまで２０ぷんです"
+    }, {
+      "m": "Đi bộ",
+      "n": "あるいて"
+    }, {
+      "m": "Khoảng",
+      "n": "くらい"
+    }, {
+      "m": "Bao lâu",
+      "n": "どのくらい"
+    }, {
+      "m": "Suối nước nóng",
+      "n": "おんせん"
+    }, {
+      "m": "Sông",
+      "n": "かわ"
+    }, {
+      "m": "Núi",
+      "n": "やま"
+    }, {
+      "m": "Nhà thờ",
+      "n": "きょうかい"
+    }, {
+      "m": "Lâu đài",
+      "n": "おしろ"
+    }, {
+      "m": "Ngôi đền",
+      "n": "じんじゃ"
+    }, {
+      "m": "Chùa",
+      "n": "おてら"
+    }, {
+      "m": "Tòa nhà",
+      "n": "ビル"
+    }, {
+      "m": "Nơi, chỗ",
+      "n": "ところ"
+    }, {
+      "m": "Người",
+      "n": "ひと"
+    }, {
+      "m": "Màu xanh lá, cây xanh",
+      "n": "みどり"
+    }, {
+      "m": "Có ( Chỉ sự tồn tại của sự vật viện tượng )",
+      "n": "あります"
+    }, {
+      "m": "Mới",
+      "n": "あたらしい"
+    }, {
+      "m": "Cũ",
+      "n": "ふるい"
+    }, {
+      "m": "Tốt",
+      "n": "いい"
+    }, {
+      "m": "Xấu",
+      "n": "わるい"
+    }, {
+      "m": "Nhiều , đông",
+      "n": "おおい"
+    }, {
+      "m": "Ít",
+      "n": "すくない"
+    }, {
+      "m": "To, lớn",
+      "n": "おおきい"
+    }, {
+      "m": "Nhỏ, bé",
+      "n": "ちいさい"
+    }, {
+      "m": "Cao, đắt",
+      "n": "たかい"
+    }, {
+      "m": "Núi Phú Sĩ",
+      "n": "ふじさん"
+    }, {
+      "m": "Núi Phú Sĩ cao",
+      "n": "ふじさんはたかいです"
+    }, {
+      "m": "Thấp",
+      "n": "ひくい"
+    }, {
+      "m": "Đẹp, sạch sẽ ( な )",
+      "n": "きれい"
+    }, {
+      "m": "Yên tĩnh ( な )",
+      "n": "しずか"
+    }, {
+      "m": "Náo nhiệt, nhộn nhịp ( な )",
+      "n": "にぎやか"
+    }, {
+      "m": "Nổi tiếng ( な )",
+      "n": "ゆうめい"
+    }, {
+      "m": "Như thế nào",
+      "n": "どんな"
+    }, {
+      "m": "Và",
+      "n": "そして"
+    }, {
+      "m": "Mưa",
+      "n": "あめ"
+    }, {
+      "m": "Tuyết",
+      "n": "ゆき"
+    }, {
+      "m": "Ngày ／ Mặt trời",
+      "n": "ひ"
+    }, {
+      "m": "Dưa gang",
+      "n": "メロン"
+    }, {
+      "m": "Ấm áp",
+      "n": "あたたかい"
+    }, {
+      "m": "Mát mẻ",
+      "n": "すずしい"
+    }, {
+      "m": "Nóng",
+      "n": "あつい"
+    }, {
+      "m": "Lạnh ( thời tiết )",
+      "n": "さむい"
+    }, {
+      "m": "Lạnh ( nhiệt độ , cảm giác )",
+      "n": "つめたい"
+    }, {
+      "m": "Thời tiết, trời",
+      "n": "てんき"
+    }, {
+      "m": "Thời tiết đẹp",
+      "n": "てんきがいい"
+    }, {
+      "m": "Thời tiết xấu",
+      "n": "てんきがわるい"
+    }, {
+      "m": "Ngon",
+      "n": "おいしい"
+    }, {
+      "m": "Ngọt",
+      "n": "あまい"
+    }, {
+      "m": "Cay",
+      "n": "からい"
+    }, {
+      "m": "Đắng",
+      "n": "にがい"
+    }, {
+      "m": "Chua",
+      "n": "すっぱい"
+    }, {
+      "m": "Suốt 1 năm",
+      "n": "いちねんじゅう"
+    }, {
+      "m": "Không ~ lắm",
+      "n": "あまり"
+    }, {
+      "m": "Một chút, ít",
+      "n": "すこし"
+    }, {
+      "m": "Rất",
+      "n": "とても"
+    }, {
+      "m": "Thế nào",
+      "n": "どう"
+    }, {
+      "m": "Câu nói thể hiện sự đồng tình với ý kiến người khác hoặc thể hiện đang suy nghĩ chuẩn bị nói tiếp",
+      "n": "そうですね"
+    }],
+    "l5": [{
+      "m": "Hôm nay",
+      "n": "きょう"
+    }, {
+      "m": "Ngày mai",
+      "n": "あした"
+    }, {
+      "m": "Ngày kia",
+      "n": "あさって"
+    }, {
+      "m": "Hôm qua",
+      "n": "きのう"
+    }, {
+      "m": "Hôm kia",
+      "n": "おととい"
+    }, {
+      "m": "Tuần trước",
+      "n": "せんしゅう"
+    }, {
+      "m": "Cuối tuần",
+      "n": "しゅうまつ"
+    }, {
+      "m": "Nhà",
+      "n": "いえ"
+    }, {
+      "m": "Phòng",
+      "n": "へや"
+    }, {
+      "m": "Trung tâm thương mại",
+      "n": "デパート"
+    }, {
+      "m": "Viện bảo tàng",
+      "n": "びじゅつかん"
+    }, {
+      "m": "Trò chơi",
+      "n": "ゲーム"
+    }, {
+      "m": "Gia đình",
+      "n": "かぞく"
+    }, {
+      "m": "Người yêu",
+      "n": "こいびと"
+    }, {
+      "m": "Bạn bè",
+      "n": "ともだち"
+    }, {
+      "m": "Bạn cùng phòng",
+      "n": "ルームメイト"
+    }, {
+      "m": "Nơi nào đó",
+      "n": "どこか"
+    }, {
+      "m": "Gặp gỡ",
+      "n": "あいます"
+    }, {
+      "m": "Làm, chế tạo",
+      "n": "つくります"
+    }, {
+      "m": "Mua sắm",
+      "n": "かいものします"
+    }, {
+      "m": "Dùng bữa, ăn uống",
+      "n": "しょくじします"
+    }, {
+      "m": "Giặt giũ",
+      "n": "せんたくします"
+    }, {
+      "m": "Hút bui, lau dọn nhà cửa",
+      "n": "そうじします"
+    }, {
+      "m": "Sau đó",
+      "n": "それから"
+    }, {
+      "m": "Một mình",
+      "n": "ひとりで"
+    }, {
+      "m": "Sáng nay",
+      "n": "けさ"
+    }, {
+      "m": "Tháng trước",
+      "n": "せんげつ"
+    }, {
+      "m": "Năm ngoái",
+      "n": "きょねん"
+    }, {
+      "m": "Cảm cúm",
+      "n": "かぜ"
+    }, {
+      "m": "Thời tiết, trời",
+      "n": "てんき"
+    }, {
+      "m": "Cơm tối",
+      "n": "ばんごはん"
+    }, {
+      "m": "Quần áo",
+      "n": "ふく"
+    }, {
+      "m": "Leo, trèo",
+      "n": "のぼります"
+    }, {
+      "m": "Vào ／ Bước vào",
+      "n": "はいります"
+    }, {
+      "m": "Tắm suối nước nóng",
+      "n": "おんせんにはいります"
+    }, {
+      "m": "Bận",
+      "n": "いそがしい"
+    }, {
+      "m": "Thú vị, hay, hấp dẫn",
+      "n": "おもしろい"
+    }, {
+      "m": "Cảm thấy thoải mái",
+      "n": "きもちがいい"
+    }, {
+      "m": "Máy tính đắt ( đã )",
+      "n": "パソコンはたかかったです"
+    }, {
+      "m": "Rẻ",
+      "n": "やすい"
+    }, {
+      "m": "Vui vẻ",
+      "n": "たのしい"
+    }, {
+      "m": "Khó",
+      "n": "むずかしい"
+    }, {
+      "m": "Dễ, đơn giản",
+      "n": "かんたん"
+    }, {
+      "m": "Vất vả",
+      "n": "たいへん"
+    }, {
+      "m": "Rảnh rỗi",
+      "n": "ひま"
+    }, {
+      "m": "Tại sao",
+      "n": "どうして"
+    }, {
+      "m": "Lần tới",
+      "n": "こんど"
+    }, {
+      "m": "Tối nay",
+      "n": "こんばん"
+    }, {
+      "m": "Năm nay",
+      "n": "ことし"
+    }, {
+      "m": "Năm sau",
+      "n": "らいねん"
+    }, {
+      "m": "Hoạt hình",
+      "n": "アニメ"
+    }, {
+      "m": "Tranh",
+      "n": "え"
+    }, {
+      "m": "Phong cảnh",
+      "n": "けしき"
+    }, {
+      "m": "Xe đạp",
+      "n": "じてんしゃ"
+    }, {
+      "m": "Ảnh",
+      "n": "しゃしん"
+    }, {
+      "m": "Chụp",
+      "n": "とります"
+    }, {
+      "m": "Vay, mượn",
+      "n": "かります"
+    }, {
+      "m": "Muốn có",
+      "n": "ほしい"
+    }, {
+      "m": "Thích",
+      "n": "すき"
+    }, {
+      "m": "Ghét",
+      "n": "きらい"
+    }],
+    "l6": [{
+      "m": "Tuần này",
+      "n": "こんしゅう"
+    }, {
+      "m": "Tuần sau",
+      "n": "らいしゅう"
+    }, {
+      "m": "Tháng này",
+      "n": "こんげつ"
+    }, {
+      "m": "Tháng sau",
+      "n": "らいげつ"
+    }, {
+      "m": "Karaoke",
+      "n": "カラオケ"
+    }, {
+      "m": "Hòa nhạc",
+      "n": "コンサート"
+    }, {
+      "m": "Trận đấy",
+      "n": "しあい"
+    }, {
+      "m": "Giảm giá",
+      "n": "セール"
+    }, {
+      "m": "Vé",
+      "n": "チケット"
+    }, {
+      "m": "Bản đồ",
+      "n": "ちず"
+    }, {
+      "m": "Lái xe",
+      "n": "ドライブ"
+    }, {
+      "m": "Đồ bơi",
+      "n": "みずぎ"
+    }, {
+      "m": "Bóng chày",
+      "n": "やきゅう"
+    }, {
+      "m": "Hứa, hẹn",
+      "n": "やくそく"
+    }, {
+      "m": "Việc bận",
+      "n": "ようじ"
+    }, {
+      "m": "Có ( Dùng cho sự vật, hiện tượng )",
+      "n": "あります"
+    }, {
+      "m": "Có 2 tờ vé",
+      "n": "チケットが２まいあります"
+    }, {
+      "m": "Tiếc",
+      "n": "ざんねん"
+    }, {
+      "m": "Cùng nhau, cùng với",
+      "n": "いっしょに"
+    }, {
+      "m": "Hay đấy, được đấy !",
+      "n": "いいですね"
+    }, {
+      "m": "Đi xem phim với tôi đi ?",
+      "n": "いっしょにえいがをみにいきませんか"
+    }, {
+      "m": "Đi nào !",
+      "n": "いきましょう"
+    }, {
+      "m": "A, chủ nhật thì ... ( ý từ chối )",
+      "n": "ああ、 にちようびはちょっと。。。"
+    }, {
+      "m": "Hẹn bạn lần sau",
+      "n": "またこんど"
+    }, {
+      "m": "Oa ... ( thể hiện sự ngạc nhiên )",
+      "n": "わお"
+    }, {
+      "m": "Đồ ăn",
+      "n": "たべもの"
+    }, {
+      "m": "Đồ uống",
+      "n": "のみもの"
+    }, {
+      "m": "Thịt nướng",
+      "n": "やきにく"
+    }, {
+      "m": "Mỳ Nhật",
+      "n": "ラーメン"
+    }, {
+      "m": "Ăn buffe",
+      "n": "たべほうだい"
+    }, {
+      "m": "Xuất ăn ／ Khóa học",
+      "n": "コース"
+    }, {
+      "m": "Quán rượu",
+      "n": "いざかや"
+    }, {
+      "m": "Rạp chiếu phim",
+      "n": "えいがかん"
+    }, {
+      "m": "Tàu điện ngầm",
+      "n": "ちかてつ"
+    }, {
+      "m": "Ca sĩ",
+      "n": "かしゅ"
+    }, {
+      "m": "Mùa",
+      "n": "きせつ"
+    }, {
+      "m": "Hài kịch",
+      "n": "コメディー"
+    }, {
+      "m": "Nhạc jazz",
+      "n": "ジャズ"
+    }, {
+      "m": "Tour du lịch",
+      "n": "ツアー"
+    }, {
+      "m": "Bên nào, phương nào",
+      "n": "どちら"
+    }, {
+      "m": "Bên nào cũng",
+      "n": "どちらも"
+    }, {
+      "m": "Gần",
+      "n": "ちかい"
+    }, {
+      "m": "Xa",
+      "n": "とおい"
+    }, {
+      "m": "Nhanh, sớm",
+      "n": "はやい"
+    }, {
+      "m": "Chậm, muộn",
+      "n": "おそい"
+    }, {
+      "m": "Rộng",
+      "n": "ひろい"
+    }, {
+      "m": "Hẹp",
+      "n": "せまい"
+    }, {
+      "m": "Nhất",
+      "n": "いちばん"
+    }, {
+      "m": "Toàn bộ",
+      "n": "ぜんぶ"
+    }, {
+      "m": "Món bánh xèo Nhật",
+      "n": "おこのみやき"
+    }, {
+      "m": "Món nhúng có thịt bò và rau",
+      "n": "すきやき"
+    }, {
+      "m": "Chơi",
+      "n": "あそびます"
+    }, {
+      "m": "Nhất định",
+      "n": "ぜひ"
+    }, {
+      "m": "Vẫn, chưa",
+      "n": "まだ"
+    }, {
+      "m": "Đã, rồi",
+      "n": "もう"
+    }, {
+      "m": "Làm như thế đi",
+      "n": "そうしましょう"
+    }, {
+      "m": "Tôi đã hiểu rồi",
+      "n": "わかりました"
+    }],
+    "l7": [{
+      "m": "Soát vé",
+      "n": "かいさつ"
+    }, {
+      "m": "Cây ／ gỗ",
+      "n": "き"
+    }, {
+      "m": "Đồn cảnh sát",
+      "n": "こうばん"
+    }, {
+      "m": "Máy bán hàng tự động",
+      "n": "じどうはんばいき"
+    }, {
+      "m": "Thùng thư",
+      "n": "ポスト"
+    }, {
+      "m": "Hoa",
+      "n": "はな"
+    }, {
+      "m": "Con chó",
+      "n": "いぬ"
+    }, {
+      "m": "Giữa, ở giữa",
+      "n": "あいだ"
+    }, {
+      "m": "Trên, bên trên",
+      "n": "うえ"
+    }, {
+      "m": "Dưới, phía dưới",
+      "n": "した"
+    }, {
+      "m": "Gần ( ở vị trí gần )",
+      "n": "ちかく"
+    }, {
+      "m": "Bên cạnh ( cạnh sát )",
+      "n": "となり"
+    }, {
+      "m": "Bên cạnh ( gần cạnh )",
+      "n": "そば"
+    }, {
+      "m": "Trong, bên trong",
+      "n": "なか"
+    }, {
+      "m": "Ngoài, bên ngoài",
+      "n": "そと"
+    }, {
+      "m": "Trước, phía trước",
+      "n": "まえ"
+    }, {
+      "m": "Sau, phía sau",
+      "n": "うしろ"
+    }, {
+      "m": "Bên cạnh ( chiều ngang )",
+      "n": "よこ"
+    }, {
+      "m": "Chào đón",
+      "n": "むかえます"
+    }, {
+      "m": "Có ( chỉ sự tồn tại của người, động vật )",
+      "n": "います"
+    }, {
+      "m": "Tôi ở trong hiệu sách",
+      "n": "わたしはほんやのなかにいます"
+    }, {
+      "m": "Alo Alo",
+      "n": "もしもし"
+    }, {
+      "m": "Cái ghế",
+      "n": "いす"
+    }, {
+      "m": "Cái bàn",
+      "n": "テーブル"
+    }, {
+      "m": "Lò vi sóng",
+      "n": "でんしれんじ"
+    }, {
+      "m": "Tủ lạnh",
+      "n": "れいぞうこ"
+    }, {
+      "m": "Đường ăn",
+      "n": "さとう"
+    }, {
+      "m": "Muối",
+      "n": "しお"
+    }, {
+      "m": "Xì dầu",
+      "n": "しょうゆ"
+    }, {
+      "m": "Cái cốc",
+      "n": "コップ"
+    }, {
+      "m": "Cái đĩa",
+      "n": "さら"
+    }, {
+      "m": "Thìa, muỗng",
+      "n": "スプーン"
+    }, {
+      "m": "Con dao",
+      "n": "ナイフ"
+    }, {
+      "m": "Đũa",
+      "n": "はし"
+    }, {
+      "m": "Chữ Hán",
+      "n": "かんじ"
+    }, {
+      "m": "Giặt, rửa, tắm",
+      "n": "あらいます"
+    }, {
+      "m": "Đặt, để",
+      "n": "おきます"
+    }, {
+      "m": "Viết",
+      "n": "かきます"
+    }, {
+      "m": "Cho vay, cho mượn",
+      "n": "かします"
+    }, {
+      "m": "Nghe, hỏi",
+      "n": "ききます"
+    }, {
+      "m": "Hỏi anh A số điện thoại",
+      "n": "Aさんにでんわばんごうをききます"
+    }, {
+      "m": "Cắt, gọt",
+      "n": "きります"
+    }, {
+      "m": "Dùng, sử dụng",
+      "n": "つかいます"
+    }, {
+      "m": "Giúp đỡ",
+      "n": "てつだいます"
+    }, {
+      "m": "Cầm, lấy, chụp",
+      "n": "とります"
+    }, {
+      "m": "Mang đi",
+      "n": "もっていきます"
+    }, {
+      "m": "Mang đến",
+      "n": "もってきます"
+    }, {
+      "m": "Hiểu, biết",
+      "n": "わかります"
+    }, {
+      "m": "Nộp, lấy ra",
+      "n": "だします"
+    }, {
+      "m": "Lấy nước trái cây từ tủ lạnh",
+      "n": "れいぞうこからジュースをだします"
+    }, {
+      "m": "Cho vào, bỏ vào",
+      "n": "いれます"
+    }, {
+      "m": "Dạy, chỉ bảo",
+      "n": "おしえます"
+    }, {
+      "m": "Nhiều",
+      "n": "たくさん"
+    }, {
+      "m": "Xin lỗi ( Có が )",
+      "n": "すみませんが"
+    }, {
+      "m": "Là cái này nhỉ !",
+      "n": "これですね"
+    }, {
+      "m": "Được đấy !",
+      "n": "いいですよ"
+    }, {
+      "m": "Bài hát",
+      "n": "うた"
+    }, {
+      "m": "Đàn ghita",
+      "n": "ギター"
+    }, {
+      "m": "Nhà bếp",
+      "n": "だいどころ"
+    }, {
+      "m": "Thuốc lá",
+      "n": "たばこ"
+    }, {
+      "m": "Điện thoại",
+      "n": "でんわ"
+    }, {
+      "m": "Bánh pizza",
+      "n": "ピザ"
+    }, {
+      "m": "Của sổ",
+      "n": "まど"
+    }, {
+      "m": "Hát",
+      "n": "うたいます"
+    }, {
+      "m": "Hút",
+      "n": "すいます"
+    }, {
+      "m": "Nói chuyện",
+      "n": "はなします"
+    }, {
+      "m": "Chơi, đánh, gảy ( nhạc cụ )",
+      "n": "ひきます"
+    }, {
+      "m": "Cầm, mang",
+      "n": "もちます"
+    }, {
+      "m": "Mở",
+      "n": "あけます"
+    }, {
+      "m": "Đóng",
+      "n": "しめます"
+    }, {
+      "m": "Gọi điện",
+      "n": "でんわをかけます"
+    }, {
+      "m": "Gọi điện cho bạn bè",
+      "n": "ともだちにでんわをかけます"
+    }],
+    "l8": [{
+      "m": "Bố mẹ ( mình )",
+      "n": "りょうしん"
+    }, {
+      "m": "Bố mẹ ( người khác )",
+      "n": "ごりょうしん"
+    }, {
+      "m": "Bố ( mình )",
+      "n": "ちち"
+    }, {
+      "m": "Bố ( người khác )",
+      "n": "おとうさん"
+    }, {
+      "m": "Mẹ ( mình )",
+      "n": "はは"
+    }, {
+      "m": "Mẹ ( người khác )",
+      "n": "おかあさん"
+    }, {
+      "m": "Bà ( mình )",
+      "n": "そぼ"
+    }, {
+      "m": "Anh chị em ruột",
+      "n": "きょうだい"
+    }, {
+      "m": "Anh trai ( mình )",
+      "n": "あに"
+    }, {
+      "m": "Anh trai ( người khác )",
+      "n": "おにいさん"
+    }, {
+      "m": "Chị gái ( mình )",
+      "n": "あね"
+    }, {
+      "m": "Chị gái ( người khác )",
+      "n": "おねえさん"
+    }, {
+      "m": "Em trai ( mình )",
+      "n": "おとうと"
+    }, {
+      "m": "Em trai ( người khác )",
+      "n": "おとうとさん"
+    }, {
+      "m": "Em gái ( mình )",
+      "n": "いもうと"
+    }, {
+      "m": "Em gái ( người khác )",
+      "n": "いもうとさん"
+    }, {
+      "m": "Chồng ( mình )",
+      "n": "おっと ／ しゅじん"
+    }, {
+      "m": "Chồng ( người khác )",
+      "n": "ごしゅじん"
+    }, {
+      "m": "Vợ ( mình )",
+      "n": "つま ／ かない"
+    }, {
+      "m": "Vợ ( người khác )",
+      "n": "おくさん"
+    }, {
+      "m": "Con ( mình )",
+      "n": "こども"
+    }, {
+      "m": "Con ( người khác )",
+      "n": "おこさん"
+    }, {
+      "m": "Con trai ( mình )",
+      "n": "むすこ"
+    }, {
+      "m": "Con trai ( người khác )",
+      "n": "むすこさん"
+    }, {
+      "m": "Con gái ( mình )",
+      "n": "むすめ"
+    }, {
+      "m": "Con gái ( người khác )",
+      "n": "むすめさん"
+    }, {
+      "m": "Thú nuôi",
+      "n": "ペット"
+    }, {
+      "m": "Con mèo",
+      "n": "ねこ"
+    }, {
+      "m": "Piano",
+      "n": "ピアノ"
+    }, {
+      "m": "Bác sĩ",
+      "n": "いしゃ"
+    }, {
+      "m": "Học sinh cấp 3",
+      "n": "こうこうせい"
+    }, {
+      "m": "Sinh viên đại học",
+      "n": "だいがくせい"
+    }, {
+      "m": "~ con ( đơn vị đếm các con vật nhỏ )",
+      "n": "～ ひき"
+    }, {
+      "m": "Sinh sống",
+      "n": "すみます"
+    }, {
+      "m": "Tôi có em trai",
+      "n": "わたしはおとうとがいます"
+    }, {
+      "m": "Tiền bối , đàn anh, đàn chị",
+      "n": "せんぱい"
+    }, {
+      "m": "Hậu bối, đàn em",
+      "n": "こうはい"
+    }, {
+      "m": "Con thỏ",
+      "n": "うさぎ"
+    }, {
+      "m": "Thân thể",
+      "n": "からだ"
+    }, {
+      "m": "Chân",
+      "n": "あし"
+    }, {
+      "m": "Mặt, khuôn mặt",
+      "n": "かお"
+    }, {
+      "m": "Tóc",
+      "n": "かみ"
+    }, {
+      "m": "Miệng",
+      "n": "くち"
+    }, {
+      "m": "Mũi",
+      "n": "はな"
+    }, {
+      "m": "Mắt",
+      "n": "め"
+    }, {
+      "m": "Tai",
+      "n": "みみ"
+    }, {
+      "m": "Thông minh",
+      "n": "あたまがいい"
+    }, {
+      "m": "Bảnh bao, đẹp trai",
+      "n": "かっこいい"
+    }, {
+      "m": "Đáng yêu, dễ thương",
+      "n": "かわいい"
+    }, {
+      "m": "Cao ( dáng người )",
+      "n": "せがたかい"
+    }, {
+      "m": "Dài",
+      "n": "ながい"
+    }, {
+      "m": "Ngắn",
+      "n": "みじかい"
+    }, {
+      "m": "Dễ tính, hiền lành",
+      "n": "やさしい"
+    }, {
+      "m": "Màu đen",
+      "n": "くろい"
+    }, {
+      "m": "Màu trắng",
+      "n": "しろい"
+    }, {
+      "m": "Màu nâu",
+      "n": "ちゃいろい"
+    }, {
+      "m": "Khỏe mạnh",
+      "n": "げんき"
+    }, {
+      "m": "Tử tế, tốt bụng",
+      "n": "しんせつ"
+    }, {
+      "m": "Ngoan, chăm chỉ, trung thưc... ( các đức tính tốt )",
+      "n": "まじめ"
+    }, {
+      "m": "Giỏi",
+      "n": "じょうず"
+    }, {
+      "m": "Kém, vụng",
+      "n": "へた"
+    }, {
+      "m": "Thẻ ／ Thiệp",
+      "n": "カード"
+    }, {
+      "m": "Tôi gửi thiệp mừng vào ngày sinh nhật bạn tôi",
+      "n": "ともだちのたんじょうびにカードをおくります"
+    }, {
+      "m": "Cái ô",
+      "n": "かさ"
+    }, {
+      "m": "Đôi tất",
+      "n": "くつした"
+    }, {
+      "m": "Từ điển",
+      "n": "じしょ"
+    }, {
+      "m": "Sô cô la",
+      "n": "チョコレート"
+    }, {
+      "m": "Thư",
+      "n": "てがみ"
+    }, {
+      "m": "Vòng cổ",
+      "n": "ネックレス"
+    }, {
+      "m": "Quyển vở",
+      "n": "ノート"
+    }, {
+      "m": "Quà, món quà",
+      "n": "プレゼント"
+    }, {
+      "m": "Thư điện tử",
+      "n": "メール"
+    }, {
+      "m": "Giáng sinh",
+      "n": "クリスマス"
+    }, {
+      "m": "Lễ kết hôn",
+      "n": "けっこんしき"
+    }, {
+      "m": "Ngày lễ tình nhân",
+      "n": "バレンタインデー"
+    }, {
+      "m": "Cái gì đó",
+      "n": "なにか"
+    }, {
+      "m": "Gửi ／ Tiễn",
+      "n": "おくります"
+    }, {
+      "m": "Nhận",
+      "n": "もらいます"
+    }, {
+      "m": "Tặng , biếu ( mình tặng biếu người khác )",
+      "n": "あげます"
+    }, {
+      "m": "Cho ( người khác cho mình )",
+      "n": "くれます"
+    }, {
+      "m": "Gọi điện",
+      "n": "でんわします"
+    }, {
+      "m": "Sắp, sắp sửa",
+      "n": "もうすぐ"
+    }, {
+      "m": "Tốt quá nhỉ !",
+      "n": "よかったですね"
+    }],
+    "l9": [{
+      "m": "Hành động",
+      "n": "アクション"
+    }, {
+      "m": "Bánh kẹo",
+      "n": "おかし"
+    }, {
+      "m": "Tem",
+      "n": "きって"
+    }, {
+      "m": "Nhạc cổ điển",
+      "n": "クラシック"
+    }, {
+      "m": "Nhạc Pop",
+      "n": "ポップス"
+    }, {
+      "m": "Tiểu thuyết",
+      "n": "しょうせつ"
+    }, {
+      "m": "Truyện tranh",
+      "n": "まんが"
+    }, {
+      "m": "Câu cá",
+      "n": "つり"
+    }, {
+      "m": "Phim truyền hình",
+      "n": "ドラマ"
+    }, {
+      "m": "Bể bơi",
+      "n": "プール"
+    }, {
+      "m": "Gần đây ( về tgian )",
+      "n": "さいきん"
+    }, {
+      "m": "~ ngày",
+      "n": "～ にち"
+    }, {
+      "m": "~ tuần",
+      "n": "～ しゅうかん"
+    }, {
+      "m": "~ tháng",
+      "n": "～ かげつ"
+    }, {
+      "m": "~ năm",
+      "n": "～ ねん"
+    }, {
+      "m": "~ lần",
+      "n": "～ かい"
+    }, {
+      "m": "~ cốc , ly",
+      "n": "～ はい"
+    }, {
+      "m": "Bơi",
+      "n": "およぎます"
+    }, {
+      "m": "Vẽ , tả",
+      "n": "かきます"
+    }, {
+      "m": "Thu thập , tập hợp",
+      "n": "あつめます"
+    }, {
+      "m": "Lái ( xe )",
+      "n": "うんてんします"
+    }, {
+      "m": "Đặc biệt",
+      "n": "とくに"
+    }, {
+      "m": "Luôn luôn , thường xuyên",
+      "n": "いつも"
+    }, {
+      "m": "Hay , thường",
+      "n": "よく"
+    }, {
+      "m": "Tôi thường xem phim",
+      "n": "わたしはよくえいがをみます"
+    }, {
+      "m": "Thỉnh thoảng , đôi khi",
+      "n": "ときどき"
+    }, {
+      "m": "Tôi không xem ti vi nhiều lắm",
+      "n": "あまりテレビをみません"
+    }, {
+      "m": "Nhưng , tuy nhiên",
+      "n": "でも"
+    }, {
+      "m": "Chỉ",
+      "n": "だけ"
+    }, {
+      "m": "Sự kiện",
+      "n": "イベント"
+    }, {
+      "m": "Cuộc thi",
+      "n": "コンテスト"
+    }, {
+      "m": "Nhà ăn",
+      "n": "しょくどう"
+    }, {
+      "m": "Lặn",
+      "n": "ダイビング"
+    }, {
+      "m": "Khiêu vũ",
+      "n": "ダンス"
+    }, {
+      "m": "Câu lạc bộ",
+      "n": "クラブ"
+    }, {
+      "m": "Phòng học",
+      "n": "きょうしつ"
+    }, {
+      "m": "Lớp học thư pháp",
+      "n": "しょどうきょうしつ"
+    }, {
+      "m": "Học ( có sự truyền dạy )",
+      "n": "ならいます"
+    }, {
+      "m": "Lên ( tàu xe )",
+      "n": "のります"
+    }, {
+      "m": "Vào , đi vào , gia nhập",
+      "n": "はいります"
+    }, {
+      "m": "Gia nhập câu lạc bộ khiêu vũ",
+      "n": "ダンスクラブにはいります"
+    }, {
+      "m": "Xin , thỉnh cầu , đăng ký",
+      "n": "もうしこみます"
+    }, {
+      "m": "Có thể",
+      "n": "できます"
+    }, {
+      "m": "Có thể trượt tuyết",
+      "n": "スキーができます"
+    }, {
+      "m": "Tham gia",
+      "n": "さんかします"
+    }, {
+      "m": "Tuyệt vời ／ Kinh khủng",
+      "n": "すごい"
+    }, {
+      "m": "Nhiều ( ý đa dạng về mặt chủng loại )",
+      "n": "いろいろ"
+    }, {
+      "m": "Quầy lễ tân",
+      "n": "うけつけ"
+    }, {
+      "m": "Thẻ",
+      "n": "カード"
+    }, {
+      "m": "Tôi sẽ làm thẻ thư viện",
+      "n": "としょかんのカードをつくります"
+    }, {
+      "m": "Chứng nhận đăng ký người nước ngoài",
+      "n": "がいこくじんとうろくしょう"
+    }, {
+      "m": "Địa chỉ",
+      "n": "じゅうしょ"
+    }, {
+      "m": "Bài tập về nhà",
+      "n": "しゅくだい"
+    }, {
+      "m": "Số điện thoại",
+      "n": "でんわばんごう"
+    }, {
+      "m": "Số ~",
+      "n": "～ ばん"
+    }, {
+      "m": "Nói",
+      "n": "いいます"
+    }, {
+      "m": "Thanh toán , chi trả",
+      "n": "はらいます"
+    }, {
+      "m": "Xuống ( tàu xe )",
+      "n": "おります"
+    }, {
+      "m": "Cho xem",
+      "n": "みせます"
+    }, {
+      "m": "Đặt trước",
+      "n": "よやくします"
+    }, {
+      "m": "Làm thế nào",
+      "n": "どうやって"
+    }]
+  }
+}
