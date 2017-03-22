@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0A43D768-C584-4456-966A-276409BAB7A3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Main</RootNamespace>
+    <AssemblyName>Main</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Customize\TransparentLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataAccessLayer\DataContext.cs" />
+    <Compile Include="DataAccessLayer\DataUsing.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Provider\Book.cs" />
+    <Compile Include="Provider\Grammar.cs" />
+    <Compile Include="Provider\Kanji.cs" />
+    <Compile Include="Provider\Lesson.cs" />
+    <Compile Include="Provider\Quiz.cs" />
+    <Compile Include="Provider\Vocabulary.cs" />
+    <Compile Include="WinForm\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForm\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Customize\TransparentLabel.resx">
+      <DependentUpon>TransparentLabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="WinForm\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hiragana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Katakana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Correct.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Remaining.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wrong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_A.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Chi.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_E.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Fu.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Ha.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_He.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Hi.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Ho.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_I.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Ka.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Ke.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Ki.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Ko.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Ku.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Ma.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Me.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Mi.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Mo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Mu.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_N.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Na.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Ne.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Ni.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_No.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Nu.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_O.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Ra.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Re.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Ri.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Ro.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Sa.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Se.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Shi.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_So.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Su.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Ta.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Te.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_To.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Tsu.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_U.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Wa.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Wo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Ya.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Yo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Yu.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Hira_Ru.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
