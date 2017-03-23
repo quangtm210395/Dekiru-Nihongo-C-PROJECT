@@ -204,7 +204,7 @@ namespace Main
                 user = new User(
                     Convert.ToInt16(data["ID"]),
                     Convert.ToString(data["Name"]),
-                    Convert.ToString(data["ImgLink"]));
+                    Convert.ToString(data["ImageLink"]));
             });
             return user;
         }
@@ -218,7 +218,7 @@ namespace Main
                 user = new User(
                     Convert.ToInt16(data["ID"]),
                     Convert.ToString(data["Name"]),
-                    Convert.ToString(data["ImgLink"]));
+                    Convert.ToString(data["ImageLink"]));
             });
             return user;
         }
