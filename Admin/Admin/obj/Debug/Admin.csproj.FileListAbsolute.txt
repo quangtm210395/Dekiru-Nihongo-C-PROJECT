@@ -1,1 +1,10 @@
 D:\Study\5 - PRN292\PROJECT\Admin\Admin\bin\Debug\Admin.exe.config
+D:\Study\5 - PRN292\PROJECT\Admin\Admin\obj\Debug\Admin.csprojResolveAssemblyReference.cache
+D:\Study\5 - PRN292\PROJECT\Admin\Admin\obj\Debug\Admin.Forms.FormLogin.resources
+D:\Study\5 - PRN292\PROJECT\Admin\Admin\obj\Debug\Admin.FormMain.resources
+D:\Study\5 - PRN292\PROJECT\Admin\Admin\obj\Debug\Admin.Properties.Resources.resources
+D:\Study\5 - PRN292\PROJECT\Admin\Admin\obj\Debug\Admin.csproj.GenerateResource.Cache
+D:\Study\5 - PRN292\PROJECT\Admin\Admin\bin\Debug\Admin.exe
+D:\Study\5 - PRN292\PROJECT\Admin\Admin\bin\Debug\Admin.pdb
+D:\Study\5 - PRN292\PROJECT\Admin\Admin\obj\Debug\Admin.exe
+D:\Study\5 - PRN292\PROJECT\Admin\Admin\obj\Debug\Admin.pdb

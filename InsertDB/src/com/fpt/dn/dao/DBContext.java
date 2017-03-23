@@ -107,10 +107,10 @@ public class DBContext {
             ps = getConnection().prepareStatement(sql);
             ps.setInt(1, lessonID);
             ps.setString(2, obj.getKey());
-            ps.setString(3, obj.getQuizAnswer()[0]);
-            ps.setString(4, obj.getQuizAnswer()[1]);
-            ps.setString(5, obj.getQuizAnswer()[2]);
-            ps.setString(6, obj.getQuizAnswer()[3]);
+            ps.setString(3, obj.getQuizAnswers().get(0));
+            ps.setString(4, obj.getQuizAnswers().get(1));
+            ps.setString(5, obj.getQuizAnswers().get(2));
+            ps.setString(6, obj.getWrightAnswer());
             ret = ps.executeUpdate();
             if (ret == 1) {
                 System.out.println("success");
