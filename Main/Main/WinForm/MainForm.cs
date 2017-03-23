@@ -61,14 +61,121 @@ namespace Main.WinForm
 
         private void buttonLogin_Click(object sender, EventArgs e)
         {
-            panelUser.Visible = true;
-            buttonLearn.BringToFront();
+            textBoxLoginUsername.Text = "";
+            textBoxLoginPassword.Text = "";
+            labelLoginFailed.Visible = false;
+            groupBoxLogin.Visible = true;
+            groupBoxLogin.BringToFront();
+            textBoxLoginUsername.Focus();
         }
 
-        private void buttonLogoutUser_Click(object sender, EventArgs e)
+        private void buttonLogout_Click(object sender, EventArgs e)
         {
             panelUser.Visible = false;
+            buttonRegister.Enabled = true;
             buttonLogin.BringToFront();
+            buttonLogin.Focus();
+        }
+
+        private void textBoxLoginUsername_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) textBoxLoginPassword.Focus();
+        }
+
+        private void textBoxLoginPassword_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) buttonLoginGo_Click(null, null);
+        }
+
+        private User user;
+
+        private void buttonLoginGo_Click(object sender, EventArgs e)
+        {
+            user = DataContext.Login(textBoxLoginUsername.Text, textBoxLoginPassword.Text);
+            if (user.ID == 0)
+            {
+                labelLoginFailed.Visible = true;
+                textBoxLoginUsername.Focus();
+            }
+            else
+            {
+                groupBoxLogin.Visible = false;
+                buttonRegister.Enabled = false;
+
+                labelUsername.Text = user.Name;
+                panelUser.Visible = true;
+
+                buttonLearn.BringToFront();
+                buttonLearn.Focus();
+            }
+        }
+
+        private void buttonLoginCancel_Click(object sender, EventArgs e)
+        {
+            groupBoxLogin.Visible = false;
+            textBoxLoginUsername.Text = "";
+            textBoxLoginPassword.Text = "";
+            buttonLogin.Focus();
+        }
+
+        // Register
+
+        private void buttonRegister_Click(object sender, EventArgs e)
+        {
+            textBoxRegisUsername.Text = "";
+            textBoxRegisPassword.Text = "";
+            textBoxRegisNickname.Text = "";
+            labelRegisterFailed.Visible = false;
+            groupBoxRegister.Visible = true;
+            groupBoxRegister.BringToFront();
+            textBoxRegisUsername.Focus();
+        }
+
+        private void textBoxRegisUsername_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) textBoxRegisPassword.Focus();
+        }
+
+        private void textBoxRegisPassword_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) textBoxRegisNickname.Focus();
+        }
+
+        private void textBoxRegisNickname_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) buttonRegisterGo.Focus();
+        }
+
+        private void buttonRegisterGo_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                user = DataContext.Register(textBoxRegisUsername.Text, textBoxRegisPassword.Text, textBoxRegisNickname.Text);
+            }
+            catch (Exception ex)
+            {
+                labelRegisterFailed.Text = ex.Message;
+                labelRegisterFailed.Visible = true;
+                labelLoginFailed.Visible = true;
+                textBoxRegisUsername.Focus();
+                return;
+            }
+            groupBoxRegister.Visible = false;
+            buttonRegister.Enabled = false;
+
+            labelUsername.Text = user.Name;
+            panelUser.Visible = true;
+
+            buttonLearn.BringToFront();
+            buttonLearn.Focus();
+        }
+
+        private void buttonRegisterCancel_Click(object sender, EventArgs e)
+        {
+            groupBoxRegister.Visible = false;
+            textBoxRegisUsername.Text = "";
+            textBoxRegisPassword.Text = "";
+            buttonLogin.Focus();
         }
 
         // Learn
@@ -76,6 +183,7 @@ namespace Main.WinForm
         private void buttonLearn_Click(object sender, EventArgs e)
         {
             panelLearn.BringToFront();
+            buttonBackLearn.Focus();
 
             stackPanelLearn.Push(panelLearnChooser);
             stackPanelLearn.Peek().BringToFront();
@@ -88,11 +196,17 @@ namespace Main.WinForm
         {
             stackPanelLearn.Pop();
             stackLabelLearn.Pop();
-            if (stackPanelLearn.Count == 0) panelLearn.SendToBack();
+
+            if (stackPanelLearn.Count == 0)
+            {
+                panelMenu.BringToFront();
+                buttonLearn.Focus();
+            }
             else
             {
                 stackPanelLearn.Peek().BringToFront();
                 labelLearn.Text = stackLabelLearn.Peek();
+                buttonBackLearn.Focus();
             }
         }
 
@@ -102,6 +216,7 @@ namespace Main.WinForm
         {
             stackPanelLearn.Push(panelLearnBasic);
             stackPanelLearn.Peek().BringToFront();
+            buttonBackLearn.Focus();
 
             stackLabelLearn.Push("Learning Basic Alphabet");
             labelLearn.Text = stackLabelLearn.Peek();
@@ -114,6 +229,7 @@ namespace Main.WinForm
 
             stackPanelLearn.Push(panelLearnHira);
             stackPanelLearn.Peek().BringToFront();
+            buttonBackLearn.Focus();
 
             stackLabelLearn.Push("Hiragana");
             labelLearn.Text = stackLabelLearn.Peek();
@@ -126,6 +242,7 @@ namespace Main.WinForm
 
             stackPanelLearn.Push(panelLearnKata);
             stackPanelLearn.Peek().BringToFront();
+            buttonBackLearn.Focus();
 
             stackLabelLearn.Push("Katakana");
             labelLearn.Text = stackLabelLearn.Peek();
@@ -265,12 +382,14 @@ namespace Main.WinForm
             if (hiragana == null) return;
             labelHiraChar.Image = hiragana;
             panelHiraAnime.BringToFront();
+            buttonBackLearn.Focus();
         }
 
         private void LabelHiraBackground_MouseClick(object sender, MouseEventArgs e)
         {
             labelHiraChar.Image = null;
             panelHiraTable.BringToFront();
+            buttonBackLearn.Focus();
         }
 
         private void labelKataTable_MouseClick(object sender, MouseEventArgs e)
@@ -279,12 +398,14 @@ namespace Main.WinForm
             if (katakana == null) return;
             labelKataChar.Image = katakana;
             panelKataAnime.BringToFront();
+            buttonBackLearn.Focus();
         }
 
         private void labelKataBackground_MouseClick(object sender, MouseEventArgs e)
         {
             labelKataChar.Image = null;
             panelKataTable.BringToFront();
+            buttonBackLearn.Focus();
         }
 
         // Learn Lesson
@@ -296,6 +417,7 @@ namespace Main.WinForm
 
             stackPanelLearn.Push(panelLearnLessonChooser);
             stackPanelLearn.Peek().BringToFront();
+            buttonBackLearn.Focus();
 
             stackLabelLearn.Push("Learning By Lesson");
             labelLearn.Text = stackLabelLearn.Peek();
@@ -334,6 +456,7 @@ namespace Main.WinForm
 
             stackPanelLearn.Push(panelLearnLesson);
             stackPanelLearn.Peek().BringToFront();
+            buttonBackLearn.Focus();
 
             stackLabelLearn.Push("- Lesson " + lesson.LessonNumber + " -");
             labelLearn.Text = stackLabelLearn.Peek();
@@ -353,6 +476,7 @@ namespace Main.WinForm
                 panelQuizChooser.BringToFront();
                 radioButtonQuick.Checked = true;
             }
+            buttonBackLearn.Focus();
         }
 
         private void dataGridViewGrammar_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
@@ -365,6 +489,7 @@ namespace Main.WinForm
             textBoxGrammarDef.Text = DataUsing.GetDefinitionText(grammar.Definition);
 
             panelGrammarDetail.BringToFront();
+            buttonGrammarBack.Focus();
         }
 
         private void dataGridViewKanji_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
@@ -377,6 +502,7 @@ namespace Main.WinForm
             textBoxKanjiDef.Text = DataUsing.GetDefinitionText(kanji.Definition);
 
             panelKanjiDetail.BringToFront();
+            buttonKanjiBack.Focus();
         }
 
         // Get back while Learning
@@ -384,21 +510,25 @@ namespace Main.WinForm
         private void buttonVocabBack_Click(object sender, EventArgs e)
         {
             panelVocabChooser.BringToFront();
+            dataGridViewVocabulary.Focus();
         }
 
         private void buttonGrammarBack_Click(object sender, EventArgs e)
         {
             panelGrammarChooser.BringToFront();
+            dataGridViewGrammar.Focus();
         }
 
         private void buttonKanjiBack_Click(object sender, EventArgs e)
         {
             panelKanjiChooser.BringToFront();
+            dataGridViewKanji.Focus();
         }
 
         private void buttonQuizBack_Click(object sender, EventArgs e)
         {
             panelQuizChooser.BringToFront();
+            buttonQuizStart.Focus();
         }
 
         // Learn Vocabulary
@@ -467,13 +597,18 @@ namespace Main.WinForm
             labelVocabWrongText.Text = "" + wrong;
 
             buttonVocabNext.Focus();
-            if (listVocab.Count == 0) buttonVocabNext.Enabled = false;
+            if (listVocab.Count == 0)
+            {
+                buttonVocabNext.Enabled = false;
+                buttonVocabAgain.Focus();
+            }
         }
 
         private void textBoxVocabAnswer_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == Convert.ToChar(Keys.Enter))
-                showAnswerLearnVocab();
+                if (!textBoxVocabAnswer.ReadOnly)
+                    showAnswerLearnVocab();
         }
 
         private void buttonVocabAgain_Click(object sender, EventArgs e)
@@ -509,6 +644,7 @@ namespace Main.WinForm
             startDoQuiz();
 
             panelQuizDetail.BringToFront();
+            buttonQuizBack.Focus();
         }
 
         private void startDoQuiz()
@@ -618,8 +754,11 @@ namespace Main.WinForm
             labelQuizCorrectText.Text = "" + correct;
             labelQuizWrongText.Text = "" + wrong;
 
-            buttonVocabNext.Focus();
-            if (listQuiz.Count == 0) buttonQuizNext.Enabled = false;
+            if (listQuiz.Count == 0)
+            {
+                buttonQuizNext.Enabled = false;
+                buttonQuizAgain.Focus();
+            }
         }
 
         private void buttonQuizAgain_Click(object sender, EventArgs e)
@@ -637,24 +776,16 @@ namespace Main.WinForm
 
         // Other
 
-        private void buttonSetting_Click(object sender, EventArgs e)
-        {
-            panelSetting.BringToFront();
-        }
-
-        private void buttonSettingBack_Click(object sender, EventArgs e)
-        {
-            panelSetting.SendToBack();
-        }
-
         private void buttonAbout_Click(object sender, EventArgs e)
         {
             panelAbout.BringToFront();
+            buttonBackAbout.Focus();
         }
 
         private void buttonAboutBack_Click(object sender, EventArgs e)
         {
             panelAbout.SendToBack();
+            buttonAbout.Focus();
         }
 
         private void buttonExit_Click(object sender, EventArgs e)

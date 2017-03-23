@@ -152,6 +152,78 @@ namespace Main
             return listQuiz;
         }
 
+        public static User Login(string username, string password)
+        {
+            username = username.ToLower();
+            string sql = "SELECT * FROM [dbo].[User] WHERE Username = '" + username + "' AND Password = '" + password + "'";
+            User user = new User(0, "Null", "");
+            ListDataRow(sql).ForEach((data) =>
+            {
+                user = new User(
+                    Convert.ToInt16(data["ID"]),
+                    Convert.ToString(data["Name"]),
+                    Convert.ToString(data["ImgLink"]));
+            });
+            return user;
+        }
+
+        public static User Login(int userID)
+        {
+            string sql = "SELECT * FROM [dbo].[User] WHERE ID = " + userID;
+            User user = new User(0, "Null", "");
+            ListDataRow(sql).ForEach((data) =>
+            {
+                user = new User(
+                    Convert.ToInt16(data["ID"]),
+                    Convert.ToString(data["Name"]),
+                    Convert.ToString(data["ImgLink"]));
+            });
+            return user;
+        }
+
+        public static User Register(string username, string password, string nickname)
+        {
+            username = username.ToLower();
+            bool validUser = true;
+            username.ToList().ForEach(c => validUser &= Char.IsLetterOrDigit(c));
+            validUser &= username.Length >= 6;
+            validUser &= !username.Contains(' ');
+            if (username.Length == 0) throw new Exception("Username is wrong format");
+            validUser &= Char.IsLetter(username[0]);
+            if (!validUser) throw new Exception("Username is wrong format");
+
+            bool validPass = true;
+            validPass &= password.Length >= 6;
+            validPass &= !password.Contains(' ');
+            if (!validPass) throw new Exception("Password is wrong format");
+
+            bool validName = true;
+            string ok = nickname.Trim();
+            for (int i = 0; i < 50; i++) ok = ok.Replace("  ", " ");
+            validName &= ok == nickname;
+            if (!validName) throw new Exception("Nickname is wrong format");
+
+            string sql = "INSERT INTO [dbo].[User] "
+                + "(Username, Password, Name) OUTPUT Inserted.ID "
+                + "VALUES (@Username, @Password, @Name)";
+            SqlConnection connection = getSqlConnection();
+            SqlCommand command = new SqlCommand(sql, connection);
+
+            AddParameter(command, "@Username", username);
+            AddParameter(command, "@Password", password);
+            AddParameter(command, "@Name", nickname);
+
+            try
+            {
+                int userID = Convert.ToInt16(ExecuteScalar(connection, command));
+                return Login(userID);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
         public static int ExecuteNonQuery(SqlConnection connection, SqlCommand command)
         {
             connection.Open();
@@ -162,10 +234,17 @@ namespace Main
 
         public static object ExecuteScalar(SqlConnection connection, SqlCommand command)
         {
-            connection.Open();
-            object ret = command.ExecuteScalar();
-            connection.Close();
-            return ret;
+            try
+            {
+                connection.Open();
+                object ret = command.ExecuteScalar();
+                connection.Close();
+                return ret;
+            }
+            catch (Exception)
+            {
+                throw new Exception("Username is existed");
+            }
         }
 
         public static void AddParameter(SqlCommand command, string name, object value)
