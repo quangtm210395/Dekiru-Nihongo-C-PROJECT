@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle73 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle74 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle75 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle76 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle77 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle78 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.buttonLearn = new System.Windows.Forms.Button();
             this.buttonLogin = new System.Windows.Forms.Button();
             this.buttonRegister = new System.Windows.Forms.Button();
@@ -43,6 +43,16 @@
             this.labelUsername = new System.Windows.Forms.Label();
             this.buttonLogout = new System.Windows.Forms.Button();
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.groupBoxRegister = new System.Windows.Forms.GroupBox();
+            this.labelRegisterFailed = new System.Windows.Forms.Label();
+            this.labelRegisNickname = new System.Windows.Forms.Label();
+            this.textBoxRegisNickname = new System.Windows.Forms.TextBox();
+            this.labelRegisPassword = new System.Windows.Forms.Label();
+            this.labelRegisUsername = new System.Windows.Forms.Label();
+            this.buttonRegisterCancel = new System.Windows.Forms.Button();
+            this.buttonRegisterGo = new System.Windows.Forms.Button();
+            this.textBoxRegisPassword = new System.Windows.Forms.TextBox();
+            this.textBoxRegisUsername = new System.Windows.Forms.TextBox();
             this.groupBoxLogin = new System.Windows.Forms.GroupBox();
             this.labelLoginFailed = new System.Windows.Forms.Label();
             this.labelLoginPassword = new System.Windows.Forms.Label();
@@ -138,18 +148,9 @@
             this.listBoxLesson = new System.Windows.Forms.ListBox();
             this.panelAbout = new System.Windows.Forms.Panel();
             this.buttonBackAbout = new System.Windows.Forms.Button();
-            this.groupBoxRegister = new System.Windows.Forms.GroupBox();
-            this.labelRegisPassword = new System.Windows.Forms.Label();
-            this.labelRegisUsername = new System.Windows.Forms.Label();
-            this.buttonRegisterCancel = new System.Windows.Forms.Button();
-            this.buttonRegisterGo = new System.Windows.Forms.Button();
-            this.textBoxRegisPassword = new System.Windows.Forms.TextBox();
-            this.textBoxRegisUsername = new System.Windows.Forms.TextBox();
-            this.labelRegisNickname = new System.Windows.Forms.Label();
-            this.textBoxRegisNickname = new System.Windows.Forms.TextBox();
-            this.labelRegisterFailed = new System.Windows.Forms.Label();
             this.panelUser.SuspendLayout();
             this.panelMenu.SuspendLayout();
+            this.groupBoxRegister.SuspendLayout();
             this.groupBoxLogin.SuspendLayout();
             this.panelLearn.SuspendLayout();
             this.panelLearnLesson.SuspendLayout();
@@ -182,7 +183,6 @@
             this.panelKataAnime.SuspendLayout();
             this.panelLearnLessonChooser.SuspendLayout();
             this.panelAbout.SuspendLayout();
-            this.groupBoxRegister.SuspendLayout();
             this.SuspendLayout();
             // 
             // buttonLearn
@@ -280,13 +280,117 @@
             this.panelMenu.Controls.Add(this.buttonRegister);
             this.panelMenu.Controls.Add(this.buttonLogin);
             this.panelMenu.Controls.Add(this.buttonLearn);
-            this.panelMenu.Controls.Add(this.groupBoxRegister);
             this.panelMenu.Controls.Add(this.groupBoxLogin);
+            this.panelMenu.Controls.Add(this.groupBoxRegister);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
             this.panelMenu.Name = "panelMenu";
             this.panelMenu.Size = new System.Drawing.Size(600, 400);
             this.panelMenu.TabIndex = 0;
+            // 
+            // groupBoxRegister
+            // 
+            this.groupBoxRegister.Controls.Add(this.labelRegisterFailed);
+            this.groupBoxRegister.Controls.Add(this.labelRegisNickname);
+            this.groupBoxRegister.Controls.Add(this.textBoxRegisNickname);
+            this.groupBoxRegister.Controls.Add(this.labelRegisPassword);
+            this.groupBoxRegister.Controls.Add(this.labelRegisUsername);
+            this.groupBoxRegister.Controls.Add(this.buttonRegisterCancel);
+            this.groupBoxRegister.Controls.Add(this.buttonRegisterGo);
+            this.groupBoxRegister.Controls.Add(this.textBoxRegisPassword);
+            this.groupBoxRegister.Controls.Add(this.textBoxRegisUsername);
+            this.groupBoxRegister.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBoxRegister.Location = new System.Drawing.Point(150, 80);
+            this.groupBoxRegister.Name = "groupBoxRegister";
+            this.groupBoxRegister.Size = new System.Drawing.Size(300, 215);
+            this.groupBoxRegister.TabIndex = 10;
+            this.groupBoxRegister.TabStop = false;
+            this.groupBoxRegister.Text = "Register";
+            this.groupBoxRegister.Visible = false;
+            // 
+            // labelRegisterFailed
+            // 
+            this.labelRegisterFailed.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelRegisterFailed.ForeColor = System.Drawing.Color.Red;
+            this.labelRegisterFailed.Location = new System.Drawing.Point(20, 150);
+            this.labelRegisterFailed.Name = "labelRegisterFailed";
+            this.labelRegisterFailed.Size = new System.Drawing.Size(260, 15);
+            this.labelRegisterFailed.TabIndex = 8;
+            this.labelRegisterFailed.Text = "Username is existed";
+            this.labelRegisterFailed.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelRegisNickname
+            // 
+            this.labelRegisNickname.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelRegisNickname.Location = new System.Drawing.Point(20, 120);
+            this.labelRegisNickname.Name = "labelRegisNickname";
+            this.labelRegisNickname.Size = new System.Drawing.Size(80, 20);
+            this.labelRegisNickname.TabIndex = 7;
+            this.labelRegisNickname.Text = "Nickname";
+            // 
+            // textBoxRegisNickname
+            // 
+            this.textBoxRegisNickname.Location = new System.Drawing.Point(110, 117);
+            this.textBoxRegisNickname.MaxLength = 50;
+            this.textBoxRegisNickname.Name = "textBoxRegisNickname";
+            this.textBoxRegisNickname.Size = new System.Drawing.Size(170, 27);
+            this.textBoxRegisNickname.TabIndex = 6;
+            this.textBoxRegisNickname.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxRegisNickname_KeyDown);
+            // 
+            // labelRegisPassword
+            // 
+            this.labelRegisPassword.Location = new System.Drawing.Point(20, 80);
+            this.labelRegisPassword.Name = "labelRegisPassword";
+            this.labelRegisPassword.Size = new System.Drawing.Size(80, 20);
+            this.labelRegisPassword.TabIndex = 5;
+            this.labelRegisPassword.Text = "Password";
+            // 
+            // labelRegisUsername
+            // 
+            this.labelRegisUsername.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelRegisUsername.Location = new System.Drawing.Point(20, 40);
+            this.labelRegisUsername.Name = "labelRegisUsername";
+            this.labelRegisUsername.Size = new System.Drawing.Size(80, 20);
+            this.labelRegisUsername.TabIndex = 4;
+            this.labelRegisUsername.Text = "Username";
+            // 
+            // buttonRegisterCancel
+            // 
+            this.buttonRegisterCancel.Location = new System.Drawing.Point(205, 175);
+            this.buttonRegisterCancel.Name = "buttonRegisterCancel";
+            this.buttonRegisterCancel.Size = new System.Drawing.Size(75, 30);
+            this.buttonRegisterCancel.TabIndex = 3;
+            this.buttonRegisterCancel.Text = "Cancel";
+            this.buttonRegisterCancel.UseVisualStyleBackColor = true;
+            this.buttonRegisterCancel.Click += new System.EventHandler(this.buttonRegisterCancel_Click);
+            // 
+            // buttonRegisterGo
+            // 
+            this.buttonRegisterGo.Location = new System.Drawing.Point(110, 175);
+            this.buttonRegisterGo.Name = "buttonRegisterGo";
+            this.buttonRegisterGo.Size = new System.Drawing.Size(75, 30);
+            this.buttonRegisterGo.TabIndex = 2;
+            this.buttonRegisterGo.Text = "Register";
+            this.buttonRegisterGo.UseVisualStyleBackColor = true;
+            this.buttonRegisterGo.Click += new System.EventHandler(this.buttonRegisterGo_Click);
+            // 
+            // textBoxRegisPassword
+            // 
+            this.textBoxRegisPassword.Location = new System.Drawing.Point(110, 77);
+            this.textBoxRegisPassword.Name = "textBoxRegisPassword";
+            this.textBoxRegisPassword.PasswordChar = '*';
+            this.textBoxRegisPassword.Size = new System.Drawing.Size(170, 27);
+            this.textBoxRegisPassword.TabIndex = 1;
+            this.textBoxRegisPassword.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxRegisPassword_KeyDown);
+            // 
+            // textBoxRegisUsername
+            // 
+            this.textBoxRegisUsername.Location = new System.Drawing.Point(110, 37);
+            this.textBoxRegisUsername.MaxLength = 16;
+            this.textBoxRegisUsername.Name = "textBoxRegisUsername";
+            this.textBoxRegisUsername.Size = new System.Drawing.Size(170, 27);
+            this.textBoxRegisUsername.TabIndex = 0;
+            this.textBoxRegisUsername.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxRegisUsername_KeyDown);
             // 
             // groupBoxLogin
             // 
@@ -593,28 +697,28 @@
             this.dataGridViewVocabulary.AllowUserToResizeColumns = false;
             this.dataGridViewVocabulary.AllowUserToResizeRows = false;
             this.dataGridViewVocabulary.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable;
-            dataGridViewCellStyle73.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle73.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle73.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle73.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle73.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle73.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle73.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewVocabulary.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle73;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewVocabulary.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridViewVocabulary.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridViewVocabulary.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
             this.dataGridViewVocabulary.Location = new System.Drawing.Point(0, 3);
             this.dataGridViewVocabulary.MultiSelect = false;
             this.dataGridViewVocabulary.Name = "dataGridViewVocabulary";
             this.dataGridViewVocabulary.ReadOnly = true;
-            dataGridViewCellStyle74.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle74.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle74.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle74.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle74.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle74.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle74.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewVocabulary.RowHeadersDefaultCellStyle = dataGridViewCellStyle74;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewVocabulary.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridViewVocabulary.RowHeadersVisible = false;
             this.dataGridViewVocabulary.RowHeadersWidth = 10;
             this.dataGridViewVocabulary.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
@@ -706,28 +810,28 @@
             this.dataGridViewGrammar.AllowUserToResizeColumns = false;
             this.dataGridViewGrammar.AllowUserToResizeRows = false;
             this.dataGridViewGrammar.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable;
-            dataGridViewCellStyle75.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle75.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle75.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle75.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle75.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle75.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle75.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewGrammar.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle75;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewGrammar.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridViewGrammar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridViewGrammar.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
             this.dataGridViewGrammar.Location = new System.Drawing.Point(0, 3);
             this.dataGridViewGrammar.MultiSelect = false;
             this.dataGridViewGrammar.Name = "dataGridViewGrammar";
             this.dataGridViewGrammar.ReadOnly = true;
-            dataGridViewCellStyle76.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle76.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle76.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle76.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle76.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle76.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle76.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewGrammar.RowHeadersDefaultCellStyle = dataGridViewCellStyle76;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewGrammar.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridViewGrammar.RowHeadersVisible = false;
             this.dataGridViewGrammar.RowHeadersWidth = 10;
             this.dataGridViewGrammar.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
@@ -808,28 +912,28 @@
             this.dataGridViewKanji.AllowUserToResizeColumns = false;
             this.dataGridViewKanji.AllowUserToResizeRows = false;
             this.dataGridViewKanji.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable;
-            dataGridViewCellStyle77.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle77.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle77.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle77.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle77.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle77.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle77.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewKanji.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle77;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewKanji.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridViewKanji.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridViewKanji.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
             this.dataGridViewKanji.Location = new System.Drawing.Point(0, 3);
             this.dataGridViewKanji.MultiSelect = false;
             this.dataGridViewKanji.Name = "dataGridViewKanji";
             this.dataGridViewKanji.ReadOnly = true;
-            dataGridViewCellStyle78.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle78.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle78.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle78.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle78.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle78.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle78.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewKanji.RowHeadersDefaultCellStyle = dataGridViewCellStyle78;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewKanji.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dataGridViewKanji.RowHeadersVisible = false;
             this.dataGridViewKanji.RowHeadersWidth = 10;
             this.dataGridViewKanji.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
@@ -1373,110 +1477,6 @@
             this.buttonBackAbout.UseVisualStyleBackColor = true;
             this.buttonBackAbout.Click += new System.EventHandler(this.buttonAboutBack_Click);
             // 
-            // groupBoxRegister
-            // 
-            this.groupBoxRegister.Controls.Add(this.labelRegisterFailed);
-            this.groupBoxRegister.Controls.Add(this.labelRegisNickname);
-            this.groupBoxRegister.Controls.Add(this.textBoxRegisNickname);
-            this.groupBoxRegister.Controls.Add(this.labelRegisPassword);
-            this.groupBoxRegister.Controls.Add(this.labelRegisUsername);
-            this.groupBoxRegister.Controls.Add(this.buttonRegisterCancel);
-            this.groupBoxRegister.Controls.Add(this.buttonRegisterGo);
-            this.groupBoxRegister.Controls.Add(this.textBoxRegisPassword);
-            this.groupBoxRegister.Controls.Add(this.textBoxRegisUsername);
-            this.groupBoxRegister.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBoxRegister.Location = new System.Drawing.Point(150, 80);
-            this.groupBoxRegister.Name = "groupBoxRegister";
-            this.groupBoxRegister.Size = new System.Drawing.Size(300, 215);
-            this.groupBoxRegister.TabIndex = 10;
-            this.groupBoxRegister.TabStop = false;
-            this.groupBoxRegister.Text = "Register";
-            this.groupBoxRegister.Visible = false;
-            // 
-            // labelRegisPassword
-            // 
-            this.labelRegisPassword.Location = new System.Drawing.Point(20, 80);
-            this.labelRegisPassword.Name = "labelRegisPassword";
-            this.labelRegisPassword.Size = new System.Drawing.Size(80, 20);
-            this.labelRegisPassword.TabIndex = 5;
-            this.labelRegisPassword.Text = "Password";
-            // 
-            // labelRegisUsername
-            // 
-            this.labelRegisUsername.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelRegisUsername.Location = new System.Drawing.Point(20, 40);
-            this.labelRegisUsername.Name = "labelRegisUsername";
-            this.labelRegisUsername.Size = new System.Drawing.Size(80, 20);
-            this.labelRegisUsername.TabIndex = 4;
-            this.labelRegisUsername.Text = "Username";
-            // 
-            // buttonRegisterCancel
-            // 
-            this.buttonRegisterCancel.Location = new System.Drawing.Point(205, 175);
-            this.buttonRegisterCancel.Name = "buttonRegisterCancel";
-            this.buttonRegisterCancel.Size = new System.Drawing.Size(75, 30);
-            this.buttonRegisterCancel.TabIndex = 3;
-            this.buttonRegisterCancel.Text = "Cancel";
-            this.buttonRegisterCancel.UseVisualStyleBackColor = true;
-            this.buttonRegisterCancel.Click += new System.EventHandler(this.buttonRegisterCancel_Click);
-            // 
-            // buttonRegisterGo
-            // 
-            this.buttonRegisterGo.Location = new System.Drawing.Point(110, 175);
-            this.buttonRegisterGo.Name = "buttonRegisterGo";
-            this.buttonRegisterGo.Size = new System.Drawing.Size(75, 30);
-            this.buttonRegisterGo.TabIndex = 2;
-            this.buttonRegisterGo.Text = "Register";
-            this.buttonRegisterGo.UseVisualStyleBackColor = true;
-            this.buttonRegisterGo.Click += new System.EventHandler(this.buttonRegisterGo_Click);
-            // 
-            // textBoxRegisPassword
-            // 
-            this.textBoxRegisPassword.Location = new System.Drawing.Point(110, 77);
-            this.textBoxRegisPassword.Name = "textBoxRegisPassword";
-            this.textBoxRegisPassword.PasswordChar = '*';
-            this.textBoxRegisPassword.Size = new System.Drawing.Size(170, 27);
-            this.textBoxRegisPassword.TabIndex = 1;
-            this.textBoxRegisPassword.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxRegisPassword_KeyDown);
-            // 
-            // textBoxRegisUsername
-            // 
-            this.textBoxRegisUsername.Location = new System.Drawing.Point(110, 37);
-            this.textBoxRegisUsername.MaxLength = 16;
-            this.textBoxRegisUsername.Name = "textBoxRegisUsername";
-            this.textBoxRegisUsername.Size = new System.Drawing.Size(170, 27);
-            this.textBoxRegisUsername.TabIndex = 0;
-            this.textBoxRegisUsername.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxRegisUsername_KeyDown);
-            // 
-            // labelRegisNickname
-            // 
-            this.labelRegisNickname.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelRegisNickname.Location = new System.Drawing.Point(20, 120);
-            this.labelRegisNickname.Name = "labelRegisNickname";
-            this.labelRegisNickname.Size = new System.Drawing.Size(80, 20);
-            this.labelRegisNickname.TabIndex = 7;
-            this.labelRegisNickname.Text = "Nickname";
-            // 
-            // textBoxRegisNickname
-            // 
-            this.textBoxRegisNickname.Location = new System.Drawing.Point(110, 117);
-            this.textBoxRegisNickname.MaxLength = 50;
-            this.textBoxRegisNickname.Name = "textBoxRegisNickname";
-            this.textBoxRegisNickname.Size = new System.Drawing.Size(170, 27);
-            this.textBoxRegisNickname.TabIndex = 6;
-            this.textBoxRegisNickname.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxRegisNickname_KeyDown);
-            // 
-            // labelRegisterFailed
-            // 
-            this.labelRegisterFailed.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelRegisterFailed.ForeColor = System.Drawing.Color.Red;
-            this.labelRegisterFailed.Location = new System.Drawing.Point(20, 150);
-            this.labelRegisterFailed.Name = "labelRegisterFailed";
-            this.labelRegisterFailed.Size = new System.Drawing.Size(260, 15);
-            this.labelRegisterFailed.TabIndex = 8;
-            this.labelRegisterFailed.Text = "Username is existed";
-            this.labelRegisterFailed.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1491,6 +1491,8 @@
             this.Text = "Main";
             this.panelUser.ResumeLayout(false);
             this.panelMenu.ResumeLayout(false);
+            this.groupBoxRegister.ResumeLayout(false);
+            this.groupBoxRegister.PerformLayout();
             this.groupBoxLogin.ResumeLayout(false);
             this.groupBoxLogin.PerformLayout();
             this.panelLearn.ResumeLayout(false);
@@ -1528,8 +1530,6 @@
             this.panelKataAnime.ResumeLayout(false);
             this.panelLearnLessonChooser.ResumeLayout(false);
             this.panelAbout.ResumeLayout(false);
-            this.groupBoxRegister.ResumeLayout(false);
-            this.groupBoxRegister.PerformLayout();
             this.ResumeLayout(false);
 
         }

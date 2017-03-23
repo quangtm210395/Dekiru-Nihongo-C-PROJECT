@@ -378,7 +378,10 @@ namespace Main.WinForm
 
         private void labelHiraTable_MouseClick(object sender, MouseEventArgs e)
         {
-            Bitmap hiragana = HiraBitmap[e.Location.Y / 58, e.Location.X / 49];
+            int x = e.Location.X + 2;
+            int y = e.Location.Y + 2;
+            Bitmap hiragana = HiraBitmap[y / 61, x / 49];
+            Console.WriteLine(e.Location);
             if (hiragana == null) return;
             labelHiraChar.Image = hiragana;
             panelHiraAnime.BringToFront();
@@ -394,11 +397,14 @@ namespace Main.WinForm
 
         private void labelKataTable_MouseClick(object sender, MouseEventArgs e)
         {
-            Bitmap katakana = KataBitmap[e.Location.Y / 58, e.Location.X / 49];
+            int x = e.Location.X + 2;
+            int y = e.Location.Y + 2;
+            Bitmap katakana = KataBitmap[y / 61, x / 49];
             if (katakana == null) return;
             labelKataChar.Image = katakana;
             panelKataAnime.BringToFront();
             buttonBackLearn.Focus();
+
         }
 
         private void labelKataBackground_MouseClick(object sender, MouseEventArgs e)
