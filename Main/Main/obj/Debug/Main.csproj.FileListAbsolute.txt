@@ -8,6 +8,7 @@ C:\Users\WindzLord\Documents\Visual Studio 2015\Projects\Main\Main\obj\Debug\Mai
 C:\Users\WindzLord\Documents\Visual Studio 2015\Projects\Main\Main\bin\Debug\Main.pdb
 C:\Users\WindzLord\Documents\Visual Studio 2015\Projects\Main\Main\obj\Debug\Main.csprojResolveAssemblyReference.cache
 C:\Users\WindzLord\Documents\Visual Studio 2015\Projects\Main\Main\obj\Debug\Main.TransparentLabel.resources
+<<<<<<< c0767b8f57b0df83b6778384151f62fb75352313
 C:\Users\WindzLord\Github\Dekiru-Nihongo-CSharp\Main\Main\bin\Debug\Main.exe.config
 C:\Users\WindzLord\Github\Dekiru-Nihongo-CSharp\Main\Main\obj\Debug\Main.exe
 C:\Users\WindzLord\Github\Dekiru-Nihongo-CSharp\Main\Main\obj\Debug\Main.pdb
@@ -18,3 +19,8 @@ C:\Users\WindzLord\Github\Dekiru-Nihongo-CSharp\Main\Main\obj\Debug\Main.Transpa
 C:\Users\WindzLord\Github\Dekiru-Nihongo-CSharp\Main\Main\obj\Debug\Main.Properties.Resources.resources
 C:\Users\WindzLord\Github\Dekiru-Nihongo-CSharp\Main\Main\obj\Debug\Main.WinForm.MainForm.resources
 C:\Users\WindzLord\Github\Dekiru-Nihongo-CSharp\Main\Main\obj\Debug\Main.csproj.GenerateResource.Cache
+=======
+D:\Study\5 - PRN292\PROJECT\Main\Main\bin\Debug\Main.exe.config
+D:\Study\5 - PRN292\PROJECT\Main\Main\obj\Debug\Main.exe
+D:\Study\5 - PRN292\PROJECT\Main\Main\obj\Debug\Main.pdb
+>>>>>>> fd708f782f43dc3513bd67b7e3e1b58054565e35

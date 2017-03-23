@@ -5,6 +5,8 @@
  */
 package com.fpt.dn.entity;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Tran Minh Quang
@@ -59,6 +61,16 @@ public class DNObject {
      */
     public String[] getQuizAnswer() {
         return value.split("｜");
+    }
+    
+    public ArrayList<String> getQuizAnswers() {
+        ArrayList<String> ans = new ArrayList<>();
+        for (String answer : getQuizAnswer()) {
+            if (!answer.equals(getWrightAnswer())){
+                ans.add(answer);
+            }
+        }
+        return ans;
     }
 
     /**
