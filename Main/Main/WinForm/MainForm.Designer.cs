@@ -34,6 +34,8 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.buttonLearn = new System.Windows.Forms.Button();
             this.buttonLogin = new System.Windows.Forms.Button();
             this.buttonRegister = new System.Windows.Forms.Button();
@@ -43,6 +45,14 @@
             this.labelUsername = new System.Windows.Forms.Label();
             this.buttonLogout = new System.Windows.Forms.Button();
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.groupBoxLogin = new System.Windows.Forms.GroupBox();
+            this.labelLoginFailed = new System.Windows.Forms.Label();
+            this.labelLoginPassword = new System.Windows.Forms.Label();
+            this.labelLoginUsername = new System.Windows.Forms.Label();
+            this.buttonLoginCancel = new System.Windows.Forms.Button();
+            this.buttonLoginGo = new System.Windows.Forms.Button();
+            this.textBoxLoginPassword = new System.Windows.Forms.TextBox();
+            this.textBoxLoginUsername = new System.Windows.Forms.TextBox();
             this.groupBoxRegister = new System.Windows.Forms.GroupBox();
             this.labelRegisterFailed = new System.Windows.Forms.Label();
             this.labelRegisNickname = new System.Windows.Forms.Label();
@@ -53,14 +63,6 @@
             this.buttonRegisterGo = new System.Windows.Forms.Button();
             this.textBoxRegisPassword = new System.Windows.Forms.TextBox();
             this.textBoxRegisUsername = new System.Windows.Forms.TextBox();
-            this.groupBoxLogin = new System.Windows.Forms.GroupBox();
-            this.labelLoginFailed = new System.Windows.Forms.Label();
-            this.labelLoginPassword = new System.Windows.Forms.Label();
-            this.labelLoginUsername = new System.Windows.Forms.Label();
-            this.buttonLoginCancel = new System.Windows.Forms.Button();
-            this.buttonLoginGo = new System.Windows.Forms.Button();
-            this.textBoxLoginPassword = new System.Windows.Forms.TextBox();
-            this.textBoxLoginUsername = new System.Windows.Forms.TextBox();
             this.panelLearn = new System.Windows.Forms.Panel();
             this.labelLearn = new System.Windows.Forms.Label();
             this.buttonBackLearn = new System.Windows.Forms.Button();
@@ -126,6 +128,23 @@
             this.labelQuizCorrectImage = new System.Windows.Forms.Label();
             this.labelQuizRemainImage = new System.Windows.Forms.Label();
             this.buttonQuizBack = new System.Windows.Forms.Button();
+            this.tabPageFavorite = new System.Windows.Forms.TabPage();
+            this.panelFovoriteDetail = new System.Windows.Forms.Panel();
+            this.buttonFavorNext = new System.Windows.Forms.Button();
+            this.labelFavorHint = new System.Windows.Forms.Label();
+            this.buttonFavorAgain = new System.Windows.Forms.Button();
+            this.textBoxFavorAnswer = new System.Windows.Forms.TextBox();
+            this.labelFavorQuestion = new System.Windows.Forms.Label();
+            this.labelFavorCorrectText = new System.Windows.Forms.Label();
+            this.labelFavorRemainText = new System.Windows.Forms.Label();
+            this.labelFavorWrongText = new System.Windows.Forms.Label();
+            this.labelFavorWrongImage = new System.Windows.Forms.Label();
+            this.labelFavorCorrectImage = new System.Windows.Forms.Label();
+            this.labelFavorRemainImage = new System.Windows.Forms.Label();
+            this.buttonFavorBack = new System.Windows.Forms.Button();
+            this.panelFovuriteChooser = new System.Windows.Forms.Panel();
+            this.dataGridViewFavorite = new System.Windows.Forms.DataGridView();
+            this.buttonFavorLearn = new System.Windows.Forms.Button();
             this.panelLearnChooser = new System.Windows.Forms.Panel();
             this.buttonLearnLesson = new System.Windows.Forms.Button();
             this.buttonLearnBasic = new System.Windows.Forms.Button();
@@ -150,8 +169,8 @@
             this.buttonBackAbout = new System.Windows.Forms.Button();
             this.panelUser.SuspendLayout();
             this.panelMenu.SuspendLayout();
-            this.groupBoxRegister.SuspendLayout();
             this.groupBoxLogin.SuspendLayout();
+            this.groupBoxRegister.SuspendLayout();
             this.panelLearn.SuspendLayout();
             this.panelLearnLesson.SuspendLayout();
             this.tabControlLearning.SuspendLayout();
@@ -173,6 +192,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownSize)).BeginInit();
             this.panelQuizDetail.SuspendLayout();
             this.groupBoxChoice.SuspendLayout();
+            this.tabPageFavorite.SuspendLayout();
+            this.panelFovoriteDetail.SuspendLayout();
+            this.panelFovuriteChooser.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewFavorite)).BeginInit();
             this.panelLearnChooser.SuspendLayout();
             this.panelLearnBasic.SuspendLayout();
             this.panelLearnHira.SuspendLayout();
@@ -288,6 +311,90 @@
             this.panelMenu.Size = new System.Drawing.Size(600, 400);
             this.panelMenu.TabIndex = 0;
             // 
+            // groupBoxLogin
+            // 
+            this.groupBoxLogin.Controls.Add(this.labelLoginFailed);
+            this.groupBoxLogin.Controls.Add(this.labelLoginPassword);
+            this.groupBoxLogin.Controls.Add(this.labelLoginUsername);
+            this.groupBoxLogin.Controls.Add(this.buttonLoginCancel);
+            this.groupBoxLogin.Controls.Add(this.buttonLoginGo);
+            this.groupBoxLogin.Controls.Add(this.textBoxLoginPassword);
+            this.groupBoxLogin.Controls.Add(this.textBoxLoginUsername);
+            this.groupBoxLogin.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBoxLogin.Location = new System.Drawing.Point(150, 100);
+            this.groupBoxLogin.Name = "groupBoxLogin";
+            this.groupBoxLogin.Size = new System.Drawing.Size(300, 180);
+            this.groupBoxLogin.TabIndex = 9;
+            this.groupBoxLogin.TabStop = false;
+            this.groupBoxLogin.Text = "Login";
+            this.groupBoxLogin.Visible = false;
+            // 
+            // labelLoginFailed
+            // 
+            this.labelLoginFailed.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelLoginFailed.ForeColor = System.Drawing.Color.Red;
+            this.labelLoginFailed.Location = new System.Drawing.Point(45, 110);
+            this.labelLoginFailed.Name = "labelLoginFailed";
+            this.labelLoginFailed.Size = new System.Drawing.Size(210, 15);
+            this.labelLoginFailed.TabIndex = 6;
+            this.labelLoginFailed.Text = "Wrong username or password";
+            this.labelLoginFailed.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelLoginPassword
+            // 
+            this.labelLoginPassword.Location = new System.Drawing.Point(20, 80);
+            this.labelLoginPassword.Name = "labelLoginPassword";
+            this.labelLoginPassword.Size = new System.Drawing.Size(80, 20);
+            this.labelLoginPassword.TabIndex = 5;
+            this.labelLoginPassword.Text = "Password";
+            // 
+            // labelLoginUsername
+            // 
+            this.labelLoginUsername.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelLoginUsername.Location = new System.Drawing.Point(20, 40);
+            this.labelLoginUsername.Name = "labelLoginUsername";
+            this.labelLoginUsername.Size = new System.Drawing.Size(80, 20);
+            this.labelLoginUsername.TabIndex = 4;
+            this.labelLoginUsername.Text = "Username";
+            // 
+            // buttonLoginCancel
+            // 
+            this.buttonLoginCancel.Location = new System.Drawing.Point(205, 135);
+            this.buttonLoginCancel.Name = "buttonLoginCancel";
+            this.buttonLoginCancel.Size = new System.Drawing.Size(75, 30);
+            this.buttonLoginCancel.TabIndex = 3;
+            this.buttonLoginCancel.Text = "Cancel";
+            this.buttonLoginCancel.UseVisualStyleBackColor = true;
+            this.buttonLoginCancel.Click += new System.EventHandler(this.buttonLoginCancel_Click);
+            // 
+            // buttonLoginGo
+            // 
+            this.buttonLoginGo.Location = new System.Drawing.Point(110, 135);
+            this.buttonLoginGo.Name = "buttonLoginGo";
+            this.buttonLoginGo.Size = new System.Drawing.Size(75, 30);
+            this.buttonLoginGo.TabIndex = 2;
+            this.buttonLoginGo.Text = "Login";
+            this.buttonLoginGo.UseVisualStyleBackColor = true;
+            this.buttonLoginGo.Click += new System.EventHandler(this.buttonLoginGo_Click);
+            // 
+            // textBoxLoginPassword
+            // 
+            this.textBoxLoginPassword.Location = new System.Drawing.Point(110, 77);
+            this.textBoxLoginPassword.Name = "textBoxLoginPassword";
+            this.textBoxLoginPassword.PasswordChar = '*';
+            this.textBoxLoginPassword.Size = new System.Drawing.Size(170, 27);
+            this.textBoxLoginPassword.TabIndex = 1;
+            this.textBoxLoginPassword.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxLoginPassword_KeyDown);
+            // 
+            // textBoxLoginUsername
+            // 
+            this.textBoxLoginUsername.Location = new System.Drawing.Point(110, 37);
+            this.textBoxLoginUsername.MaxLength = 16;
+            this.textBoxLoginUsername.Name = "textBoxLoginUsername";
+            this.textBoxLoginUsername.Size = new System.Drawing.Size(170, 27);
+            this.textBoxLoginUsername.TabIndex = 0;
+            this.textBoxLoginUsername.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxLoginUsername_KeyDown);
+            // 
             // groupBoxRegister
             // 
             this.groupBoxRegister.Controls.Add(this.labelRegisterFailed);
@@ -392,90 +499,6 @@
             this.textBoxRegisUsername.TabIndex = 0;
             this.textBoxRegisUsername.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxRegisUsername_KeyDown);
             // 
-            // groupBoxLogin
-            // 
-            this.groupBoxLogin.Controls.Add(this.labelLoginFailed);
-            this.groupBoxLogin.Controls.Add(this.labelLoginPassword);
-            this.groupBoxLogin.Controls.Add(this.labelLoginUsername);
-            this.groupBoxLogin.Controls.Add(this.buttonLoginCancel);
-            this.groupBoxLogin.Controls.Add(this.buttonLoginGo);
-            this.groupBoxLogin.Controls.Add(this.textBoxLoginPassword);
-            this.groupBoxLogin.Controls.Add(this.textBoxLoginUsername);
-            this.groupBoxLogin.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBoxLogin.Location = new System.Drawing.Point(150, 100);
-            this.groupBoxLogin.Name = "groupBoxLogin";
-            this.groupBoxLogin.Size = new System.Drawing.Size(300, 180);
-            this.groupBoxLogin.TabIndex = 9;
-            this.groupBoxLogin.TabStop = false;
-            this.groupBoxLogin.Text = "Login";
-            this.groupBoxLogin.Visible = false;
-            // 
-            // labelLoginFailed
-            // 
-            this.labelLoginFailed.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelLoginFailed.ForeColor = System.Drawing.Color.Red;
-            this.labelLoginFailed.Location = new System.Drawing.Point(45, 110);
-            this.labelLoginFailed.Name = "labelLoginFailed";
-            this.labelLoginFailed.Size = new System.Drawing.Size(210, 15);
-            this.labelLoginFailed.TabIndex = 6;
-            this.labelLoginFailed.Text = "Wrong username or password";
-            this.labelLoginFailed.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // labelLoginPassword
-            // 
-            this.labelLoginPassword.Location = new System.Drawing.Point(20, 80);
-            this.labelLoginPassword.Name = "labelLoginPassword";
-            this.labelLoginPassword.Size = new System.Drawing.Size(80, 20);
-            this.labelLoginPassword.TabIndex = 5;
-            this.labelLoginPassword.Text = "Password";
-            // 
-            // labelLoginUsername
-            // 
-            this.labelLoginUsername.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelLoginUsername.Location = new System.Drawing.Point(20, 40);
-            this.labelLoginUsername.Name = "labelLoginUsername";
-            this.labelLoginUsername.Size = new System.Drawing.Size(80, 20);
-            this.labelLoginUsername.TabIndex = 4;
-            this.labelLoginUsername.Text = "Username";
-            // 
-            // buttonLoginCancel
-            // 
-            this.buttonLoginCancel.Location = new System.Drawing.Point(205, 135);
-            this.buttonLoginCancel.Name = "buttonLoginCancel";
-            this.buttonLoginCancel.Size = new System.Drawing.Size(75, 30);
-            this.buttonLoginCancel.TabIndex = 3;
-            this.buttonLoginCancel.Text = "Cancel";
-            this.buttonLoginCancel.UseVisualStyleBackColor = true;
-            this.buttonLoginCancel.Click += new System.EventHandler(this.buttonLoginCancel_Click);
-            // 
-            // buttonLoginGo
-            // 
-            this.buttonLoginGo.Location = new System.Drawing.Point(110, 135);
-            this.buttonLoginGo.Name = "buttonLoginGo";
-            this.buttonLoginGo.Size = new System.Drawing.Size(75, 30);
-            this.buttonLoginGo.TabIndex = 2;
-            this.buttonLoginGo.Text = "Login";
-            this.buttonLoginGo.UseVisualStyleBackColor = true;
-            this.buttonLoginGo.Click += new System.EventHandler(this.buttonLoginGo_Click);
-            // 
-            // textBoxLoginPassword
-            // 
-            this.textBoxLoginPassword.Location = new System.Drawing.Point(110, 77);
-            this.textBoxLoginPassword.Name = "textBoxLoginPassword";
-            this.textBoxLoginPassword.PasswordChar = '*';
-            this.textBoxLoginPassword.Size = new System.Drawing.Size(170, 27);
-            this.textBoxLoginPassword.TabIndex = 1;
-            this.textBoxLoginPassword.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxLoginPassword_KeyDown);
-            // 
-            // textBoxLoginUsername
-            // 
-            this.textBoxLoginUsername.Location = new System.Drawing.Point(110, 37);
-            this.textBoxLoginUsername.MaxLength = 16;
-            this.textBoxLoginUsername.Name = "textBoxLoginUsername";
-            this.textBoxLoginUsername.Size = new System.Drawing.Size(170, 27);
-            this.textBoxLoginUsername.TabIndex = 0;
-            this.textBoxLoginUsername.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxLoginUsername_KeyDown);
-            // 
             // panelLearn
             // 
             this.panelLearn.Controls.Add(this.labelLearn);
@@ -527,8 +550,9 @@
             this.tabControlLearning.Controls.Add(this.tabPageGrammar);
             this.tabControlLearning.Controls.Add(this.tabPageKanji);
             this.tabControlLearning.Controls.Add(this.tabPageQuiz);
+            this.tabControlLearning.Controls.Add(this.tabPageFavorite);
             this.tabControlLearning.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabControlLearning.ItemSize = new System.Drawing.Size(144, 20);
+            this.tabControlLearning.ItemSize = new System.Drawing.Size(115, 20);
             this.tabControlLearning.Location = new System.Drawing.Point(10, 10);
             this.tabControlLearning.Name = "tabControlLearning";
             this.tabControlLearning.SelectedIndex = 0;
@@ -723,7 +747,7 @@
             this.dataGridViewVocabulary.RowHeadersWidth = 10;
             this.dataGridViewVocabulary.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.dataGridViewVocabulary.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.dataGridViewVocabulary.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridViewVocabulary.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
             this.dataGridViewVocabulary.Size = new System.Drawing.Size(572, 270);
             this.dataGridViewVocabulary.TabIndex = 1;
             // 
@@ -1261,6 +1285,208 @@
             this.buttonQuizBack.UseVisualStyleBackColor = true;
             this.buttonQuizBack.Click += new System.EventHandler(this.buttonQuizBack_Click);
             // 
+            // tabPageFavorite
+            // 
+            this.tabPageFavorite.Controls.Add(this.panelFovoriteDetail);
+            this.tabPageFavorite.Controls.Add(this.panelFovuriteChooser);
+            this.tabPageFavorite.Location = new System.Drawing.Point(4, 24);
+            this.tabPageFavorite.Name = "tabPageFavorite";
+            this.tabPageFavorite.Size = new System.Drawing.Size(572, 312);
+            this.tabPageFavorite.TabIndex = 3;
+            this.tabPageFavorite.Text = "Favorite";
+            this.tabPageFavorite.UseVisualStyleBackColor = true;
+            // 
+            // panelFovoriteDetail
+            // 
+            this.panelFovoriteDetail.Controls.Add(this.buttonFavorNext);
+            this.panelFovoriteDetail.Controls.Add(this.labelFavorHint);
+            this.panelFovoriteDetail.Controls.Add(this.buttonFavorAgain);
+            this.panelFovoriteDetail.Controls.Add(this.textBoxFavorAnswer);
+            this.panelFovoriteDetail.Controls.Add(this.labelFavorQuestion);
+            this.panelFovoriteDetail.Controls.Add(this.labelFavorCorrectText);
+            this.panelFovoriteDetail.Controls.Add(this.labelFavorRemainText);
+            this.panelFovoriteDetail.Controls.Add(this.labelFavorWrongText);
+            this.panelFovoriteDetail.Controls.Add(this.labelFavorWrongImage);
+            this.panelFovoriteDetail.Controls.Add(this.labelFavorCorrectImage);
+            this.panelFovoriteDetail.Controls.Add(this.labelFavorRemainImage);
+            this.panelFovoriteDetail.Controls.Add(this.buttonFavorBack);
+            this.panelFovoriteDetail.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelFovoriteDetail.Location = new System.Drawing.Point(0, 0);
+            this.panelFovoriteDetail.Name = "panelFovoriteDetail";
+            this.panelFovoriteDetail.Size = new System.Drawing.Size(572, 312);
+            this.panelFovoriteDetail.TabIndex = 1;
+            // 
+            // buttonFavorNext
+            // 
+            this.buttonFavorNext.Location = new System.Drawing.Point(336, 210);
+            this.buttonFavorNext.Name = "buttonFavorNext";
+            this.buttonFavorNext.Size = new System.Drawing.Size(125, 25);
+            this.buttonFavorNext.TabIndex = 25;
+            this.buttonFavorNext.Text = "Next";
+            this.buttonFavorNext.UseVisualStyleBackColor = true;
+            this.buttonFavorNext.Click += new System.EventHandler(this.buttonFavorNext_Click);
+            // 
+            // labelFavorHint
+            // 
+            this.labelFavorHint.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.labelFavorHint.Location = new System.Drawing.Point(50, 130);
+            this.labelFavorHint.Name = "labelFavorHint";
+            this.labelFavorHint.Size = new System.Drawing.Size(472, 20);
+            this.labelFavorHint.TabIndex = 24;
+            this.labelFavorHint.Text = "Hint";
+            this.labelFavorHint.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // buttonFavorAgain
+            // 
+            this.buttonFavorAgain.Location = new System.Drawing.Point(111, 210);
+            this.buttonFavorAgain.Name = "buttonFavorAgain";
+            this.buttonFavorAgain.Size = new System.Drawing.Size(125, 25);
+            this.buttonFavorAgain.TabIndex = 23;
+            this.buttonFavorAgain.Text = "Start Again";
+            this.buttonFavorAgain.UseVisualStyleBackColor = true;
+            this.buttonFavorAgain.Click += new System.EventHandler(this.buttonFavorAgain_Click);
+            // 
+            // textBoxFavorAnswer
+            // 
+            this.textBoxFavorAnswer.Location = new System.Drawing.Point(150, 160);
+            this.textBoxFavorAnswer.Name = "textBoxFavorAnswer";
+            this.textBoxFavorAnswer.Size = new System.Drawing.Size(272, 27);
+            this.textBoxFavorAnswer.TabIndex = 22;
+            this.textBoxFavorAnswer.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxFavorAnswer_KeyPress);
+            // 
+            // labelFavorQuestion
+            // 
+            this.labelFavorQuestion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFavorQuestion.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.labelFavorQuestion.Location = new System.Drawing.Point(10, 80);
+            this.labelFavorQuestion.Name = "labelFavorQuestion";
+            this.labelFavorQuestion.Size = new System.Drawing.Size(552, 30);
+            this.labelFavorQuestion.TabIndex = 21;
+            this.labelFavorQuestion.Text = "Question";
+            this.labelFavorQuestion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelFavorCorrectText
+            // 
+            this.labelFavorCorrectText.Location = new System.Drawing.Point(286, 30);
+            this.labelFavorCorrectText.Name = "labelFavorCorrectText";
+            this.labelFavorCorrectText.Size = new System.Drawing.Size(50, 30);
+            this.labelFavorCorrectText.TabIndex = 20;
+            this.labelFavorCorrectText.Text = "10";
+            this.labelFavorCorrectText.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // labelFavorRemainText
+            // 
+            this.labelFavorRemainText.Location = new System.Drawing.Point(186, 30);
+            this.labelFavorRemainText.Name = "labelFavorRemainText";
+            this.labelFavorRemainText.Size = new System.Drawing.Size(50, 30);
+            this.labelFavorRemainText.TabIndex = 19;
+            this.labelFavorRemainText.Text = "10";
+            this.labelFavorRemainText.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // labelFavorWrongText
+            // 
+            this.labelFavorWrongText.Location = new System.Drawing.Point(386, 30);
+            this.labelFavorWrongText.Name = "labelFavorWrongText";
+            this.labelFavorWrongText.Size = new System.Drawing.Size(50, 30);
+            this.labelFavorWrongText.TabIndex = 18;
+            this.labelFavorWrongText.Text = "10";
+            this.labelFavorWrongText.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // labelFavorWrongImage
+            // 
+            this.labelFavorWrongImage.Image = global::Main.Properties.Resources.Wrong;
+            this.labelFavorWrongImage.Location = new System.Drawing.Point(356, 30);
+            this.labelFavorWrongImage.Name = "labelFavorWrongImage";
+            this.labelFavorWrongImage.Size = new System.Drawing.Size(30, 30);
+            this.labelFavorWrongImage.TabIndex = 17;
+            // 
+            // labelFavorCorrectImage
+            // 
+            this.labelFavorCorrectImage.Image = global::Main.Properties.Resources.Correct;
+            this.labelFavorCorrectImage.Location = new System.Drawing.Point(256, 30);
+            this.labelFavorCorrectImage.Name = "labelFavorCorrectImage";
+            this.labelFavorCorrectImage.Size = new System.Drawing.Size(30, 30);
+            this.labelFavorCorrectImage.TabIndex = 16;
+            // 
+            // labelFavorRemainImage
+            // 
+            this.labelFavorRemainImage.Image = global::Main.Properties.Resources.Remaining;
+            this.labelFavorRemainImage.Location = new System.Drawing.Point(156, 30);
+            this.labelFavorRemainImage.Name = "labelFavorRemainImage";
+            this.labelFavorRemainImage.Size = new System.Drawing.Size(30, 30);
+            this.labelFavorRemainImage.TabIndex = 15;
+            // 
+            // buttonFavorBack
+            // 
+            this.buttonFavorBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonFavorBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonFavorBack.Location = new System.Drawing.Point(3, 279);
+            this.buttonFavorBack.Name = "buttonFavorBack";
+            this.buttonFavorBack.Size = new System.Drawing.Size(566, 30);
+            this.buttonFavorBack.TabIndex = 14;
+            this.buttonFavorBack.Text = "Back";
+            this.buttonFavorBack.UseVisualStyleBackColor = true;
+            this.buttonFavorBack.Click += new System.EventHandler(this.buttonFavorBack_Click);
+            // 
+            // panelFovuriteChooser
+            // 
+            this.panelFovuriteChooser.Controls.Add(this.dataGridViewFavorite);
+            this.panelFovuriteChooser.Controls.Add(this.buttonFavorLearn);
+            this.panelFovuriteChooser.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelFovuriteChooser.Location = new System.Drawing.Point(0, 0);
+            this.panelFovuriteChooser.Name = "panelFovuriteChooser";
+            this.panelFovuriteChooser.Size = new System.Drawing.Size(572, 312);
+            this.panelFovuriteChooser.TabIndex = 0;
+            // 
+            // dataGridViewFavorite
+            // 
+            this.dataGridViewFavorite.AllowUserToAddRows = false;
+            this.dataGridViewFavorite.AllowUserToDeleteRows = false;
+            this.dataGridViewFavorite.AllowUserToResizeColumns = false;
+            this.dataGridViewFavorite.AllowUserToResizeRows = false;
+            this.dataGridViewFavorite.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewFavorite.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            this.dataGridViewFavorite.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.dataGridViewFavorite.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
+            this.dataGridViewFavorite.Location = new System.Drawing.Point(0, 3);
+            this.dataGridViewFavorite.MultiSelect = false;
+            this.dataGridViewFavorite.Name = "dataGridViewFavorite";
+            this.dataGridViewFavorite.ReadOnly = true;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewFavorite.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            this.dataGridViewFavorite.RowHeadersVisible = false;
+            this.dataGridViewFavorite.RowHeadersWidth = 10;
+            this.dataGridViewFavorite.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.dataGridViewFavorite.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.dataGridViewFavorite.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
+            this.dataGridViewFavorite.Size = new System.Drawing.Size(572, 270);
+            this.dataGridViewFavorite.TabIndex = 3;
+            // 
+            // buttonFavorLearn
+            // 
+            this.buttonFavorLearn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonFavorLearn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonFavorLearn.Location = new System.Drawing.Point(3, 279);
+            this.buttonFavorLearn.Name = "buttonFavorLearn";
+            this.buttonFavorLearn.Size = new System.Drawing.Size(566, 30);
+            this.buttonFavorLearn.TabIndex = 2;
+            this.buttonFavorLearn.Text = "Learn Favorite";
+            this.buttonFavorLearn.UseVisualStyleBackColor = true;
+            this.buttonFavorLearn.Click += new System.EventHandler(this.buttonFavorLearn_Click);
+            // 
             // panelLearnChooser
             // 
             this.panelLearnChooser.Controls.Add(this.buttonLearnLesson);
@@ -1482,19 +1708,19 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(600, 400);
-            this.Controls.Add(this.panelMenu);
             this.Controls.Add(this.panelLearn);
             this.Controls.Add(this.panelAbout);
+            this.Controls.Add(this.panelMenu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximumSize = new System.Drawing.Size(616, 439);
             this.Name = "MainForm";
             this.Text = "Main";
             this.panelUser.ResumeLayout(false);
             this.panelMenu.ResumeLayout(false);
-            this.groupBoxRegister.ResumeLayout(false);
-            this.groupBoxRegister.PerformLayout();
             this.groupBoxLogin.ResumeLayout(false);
             this.groupBoxLogin.PerformLayout();
+            this.groupBoxRegister.ResumeLayout(false);
+            this.groupBoxRegister.PerformLayout();
             this.panelLearn.ResumeLayout(false);
             this.panelLearnLesson.ResumeLayout(false);
             this.tabControlLearning.ResumeLayout(false);
@@ -1520,6 +1746,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownSize)).EndInit();
             this.panelQuizDetail.ResumeLayout(false);
             this.groupBoxChoice.ResumeLayout(false);
+            this.tabPageFavorite.ResumeLayout(false);
+            this.panelFovoriteDetail.ResumeLayout(false);
+            this.panelFovoriteDetail.PerformLayout();
+            this.panelFovuriteChooser.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewFavorite)).EndInit();
             this.panelLearnChooser.ResumeLayout(false);
             this.panelLearnBasic.ResumeLayout(false);
             this.panelLearnHira.ResumeLayout(false);
@@ -1649,5 +1880,22 @@
         private System.Windows.Forms.Label labelRegisNickname;
         private System.Windows.Forms.TextBox textBoxRegisNickname;
         private System.Windows.Forms.Label labelRegisterFailed;
+        private System.Windows.Forms.TabPage tabPageFavorite;
+        private System.Windows.Forms.Panel panelFovuriteChooser;
+        private System.Windows.Forms.DataGridView dataGridViewFavorite;
+        private System.Windows.Forms.Button buttonFavorLearn;
+        private System.Windows.Forms.Panel panelFovoriteDetail;
+        private System.Windows.Forms.Button buttonFavorNext;
+        private System.Windows.Forms.Label labelFavorHint;
+        private System.Windows.Forms.Button buttonFavorAgain;
+        private System.Windows.Forms.TextBox textBoxFavorAnswer;
+        private System.Windows.Forms.Label labelFavorQuestion;
+        private System.Windows.Forms.Label labelFavorCorrectText;
+        private System.Windows.Forms.Label labelFavorRemainText;
+        private System.Windows.Forms.Label labelFavorWrongText;
+        private System.Windows.Forms.Label labelFavorWrongImage;
+        private System.Windows.Forms.Label labelFavorCorrectImage;
+        private System.Windows.Forms.Label labelFavorRemainImage;
+        private System.Windows.Forms.Button buttonFavorBack;
     }
 }

@@ -22,6 +22,9 @@ namespace Main.WinForm
             InitializeVariables();
         }
 
+        private User user;
+        private Lesson lesson;
+
         private void InitializeVariables()
         {
             radioChoices = new List<RadioButton> { radioButtonA, radioButtonB, radioButtonC, radioButtonD };
@@ -39,7 +42,13 @@ namespace Main.WinForm
             dataGridViewVocabulary.Columns["col_Term"].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
             dataGridViewVocabulary.Columns.Add("col_Def", "Definition");
             dataGridViewVocabulary.Columns["col_Def"].DataPropertyName = "Definition";
-            dataGridViewVocabulary.Columns["col_Def"].Width = 400;
+            dataGridViewVocabulary.Columns["col_Def"].Width = 380;
+            DataGridViewImageColumn imageColumn = new DataGridViewImageColumn();
+            imageColumn.Width = 20;
+            dataGridViewVocabulary.Columns.Add(imageColumn);
+            dataGridViewVocabulary.CellMouseEnter += DataGridViewVocabulary_CellMouseEnter;
+            dataGridViewVocabulary.CellClick += DataGridViewVocabulary_CellClick;
+            dataGridViewVocabulary.MouseLeave += DataGridViewVocabulary_MouseLeave;
 
             dataGridViewGrammar.AutoGenerateColumns = false;
             dataGridViewGrammar.Columns.Add("col_Term", "Term");
@@ -55,6 +64,67 @@ namespace Main.WinForm
             dataGridViewKanji.Columns.Add("col_Def", "Definition");
             dataGridViewKanji.Columns["col_Def"].DataPropertyName = "Term2";
             dataGridViewKanji.Columns["col_Def"].Width = 417;
+
+            dataGridViewFavorite.AutoGenerateColumns = false;
+            dataGridViewFavorite.Columns.Add("col_Term", "Term");
+            dataGridViewFavorite.Columns["col_Term"].DataPropertyName = "Term";
+            dataGridViewFavorite.Columns["col_Term"].Width = 152;
+            dataGridViewFavorite.Columns["col_Term"].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewFavorite.Columns.Add("col_Def", "Definition");
+            dataGridViewFavorite.Columns["col_Def"].DataPropertyName = "Definition";
+            dataGridViewFavorite.Columns["col_Def"].Width = 380;
+            DataGridViewImageColumn imageColumn2 = new DataGridViewImageColumn();
+            imageColumn2.Width = 20;
+            dataGridViewFavorite.Columns.Add(imageColumn2);
+            dataGridViewFavorite.CellMouseEnter += DataGridViewFavorite_CellMouseEnter;
+            dataGridViewFavorite.CellClick += DataGridViewFavorite_CellClick;
+            dataGridViewFavorite.MouseLeave += DataGridViewFavorite_MouseLeave;
+        }
+
+        private void DataGridViewVocabulary_MouseLeave(object sender, EventArgs e)
+        {
+            Cursor = Cursors.Arrow;
+        }
+
+        private void DataGridViewVocabulary_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.ColumnIndex == 2 & e.RowIndex != -1)
+            {
+                int vocabID = ((List<Vocabulary>)dataGridViewVocabulary.DataSource)[e.RowIndex].ID;
+                dataGridViewVocabulary.Rows[e.RowIndex].Cells[2].Value = DataContext.ChangeFavourite(user.ID, vocabID) ?
+                    Properties.Resources.Empty : Properties.Resources.Like;
+                dataGridViewVocabulary.SelectedCells[0].Selected = false;
+            }
+        }
+
+        private void DataGridViewVocabulary_CellMouseEnter(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.ColumnIndex == 2 & e.RowIndex != -1)
+                Cursor = Cursors.Hand;
+            else Cursor = Cursors.Arrow;
+        }
+
+        private void DataGridViewFavorite_MouseLeave(object sender, EventArgs e)
+        {
+            Cursor = Cursors.Arrow;
+        }
+
+        private void DataGridViewFavorite_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.ColumnIndex == 2 & e.RowIndex != -1)
+            {
+                int favorID = ((List<Vocabulary>)dataGridViewFavorite.DataSource)[e.RowIndex].ID;
+                dataGridViewFavorite.Rows[e.RowIndex].Cells[2].Value = DataContext.ChangeFavourite(user.ID, favorID) ?
+                    Properties.Resources.Empty : Properties.Resources.Like;
+                dataGridViewFavorite.SelectedCells[0].Selected = false;
+            }
+        }
+
+        private void DataGridViewFavorite_CellMouseEnter(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.ColumnIndex == 2 & e.RowIndex != -1)
+                Cursor = Cursors.Hand;
+            else Cursor = Cursors.Arrow;
         }
 
         // Login
@@ -86,8 +156,6 @@ namespace Main.WinForm
         {
             if (e.KeyCode == Keys.Enter) buttonLoginGo_Click(null, null);
         }
-
-        private User user;
 
         private void buttonLoginGo_Click(object sender, EventArgs e)
         {
@@ -434,25 +502,24 @@ namespace Main.WinForm
         private void listBoxLesson_MouseDoubleClick(object sender, MouseEventArgs e)
         {
             int index = listBoxLesson.IndexFromPoint(e.Location);
-            Lesson lesson = DataContext.GetListLessonByBookID(1)[index];
-            listBoxLesson_Chosen(lesson);
+            lesson = DataContext.GetListLessonByBookID(1)[index];
+            listBoxLesson_Chosen();
         }
 
         private void listBoxLesson_KeyDown(object sender, KeyEventArgs e)
         {
             int index = listBoxLesson.SelectedIndex;
             Lesson lesson = DataContext.GetListLessonByBookID(1)[index];
-            if (e.KeyCode == Keys.Enter) listBoxLesson_Chosen(lesson);
+            if (e.KeyCode == Keys.Enter) listBoxLesson_Chosen();
         }
 
-        private void listBoxLesson_Chosen(Lesson lesson)
+        private void listBoxLesson_Chosen()
         {
             tabControlLearning.SelectedIndex = 3;
             tabControlLearning.SelectedIndex = 2;
             tabControlLearning.SelectedIndex = 1;
             tabControlLearning.SelectedIndex = 0;
 
-            dataGridViewVocabulary.DataSource = DataContext.GetListVocabularyByLessonID(lesson.ID);
             dataGridViewGrammar.DataSource = DataContext.GetListGrammarByLessonID(lesson.ID);
             dataGridViewKanji.DataSource = DataContext.GetListKanjiByLessonID(lesson.ID);
 
@@ -466,21 +533,36 @@ namespace Main.WinForm
 
             stackLabelLearn.Push("- Lesson " + lesson.LessonNumber + " -");
             labelLearn.Text = stackLabelLearn.Peek();
-
-            lessonID = lesson.ID;
         }
 
         // Tab Control Setting
 
         private void tabControlLearning_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (tabControlLearning.SelectedIndex == 0) panelVocabChooser.BringToFront();
+            if (tabControlLearning.SelectedIndex == 0)
+            {
+                List<Vocabulary> listVocab = DataContext.GetListVocabularyByLessonID(lesson.ID);
+                dataGridViewVocabulary.DataSource = listVocab;
+                for (int i = 0; i < listVocab.Count; i++)
+                    dataGridViewVocabulary.Rows[i].Cells[2].Value = DataContext.CheckFavourite(user.ID, listVocab[i].ID) ?
+                        Properties.Resources.Empty : Properties.Resources.Like;
+
+                panelVocabChooser.BringToFront();
+            }
             if (tabControlLearning.SelectedIndex == 1) panelGrammarChooser.BringToFront();
             if (tabControlLearning.SelectedIndex == 2) panelKanjiChooser.BringToFront();
-            if (tabControlLearning.SelectedIndex == 3)
+            if (tabControlLearning.SelectedIndex == 3) panelQuizChooser.BringToFront();
+            if (tabControlLearning.SelectedIndex == 3) radioButtonQuick.Checked = true;
+
+            if (tabControlLearning.SelectedIndex == 4)
             {
-                panelQuizChooser.BringToFront();
-                radioButtonQuick.Checked = true;
+                List<Vocabulary> listFavor = DataContext.GetListFavoriteByLessonID(user.ID, lesson.ID);
+                dataGridViewFavorite.DataSource = listFavor;
+                for (int i = 0; i < listFavor.Count; i++)
+                    dataGridViewFavorite.Rows[i].Cells[2].Value = DataContext.CheckFavourite(user.ID, listFavor[i].ID) ?
+                        Properties.Resources.Empty : Properties.Resources.Like;
+
+                panelFovuriteChooser.BringToFront();
             }
             buttonBackLearn.Focus();
         }
@@ -537,14 +619,107 @@ namespace Main.WinForm
             buttonQuizStart.Focus();
         }
 
+        private void buttonFavorBack_Click(object sender, EventArgs e)
+        {
+            panelFovuriteChooser.BringToFront();
+            dataGridViewFavorite.Focus();
+        }
+
+        // Learn Favorite
+
+        private void buttonFavorLearn_Click(object sender, EventArgs e)
+        {
+            if (DataContext.GetListFavoriteByLessonID(user.ID, lesson.ID).Count == 0) return;
+            startLearnFavor();
+
+            panelFovoriteDetail.BringToFront();
+        }
+
+        private void startLearnFavor()
+        {
+            buttonFavorNext.Enabled = true;
+            listFavor = DataContext.GetListFavoriteRandomByLessonID(user.ID, lesson.ID);
+            correct = 0;
+            wrong = 0;
+
+            remain = listFavor.Count;
+            labelFavorRemainText.Text = "" + remain;
+            labelFavorCorrectText.Text = "" + correct;
+            labelFavorWrongText.Text = "" + wrong;
+
+            nextQuizLearnFavor();
+        }
+
+        private void nextQuizLearnFavor()
+        {
+            favor = listFavor[new Random().Next(listFavor.Count)];
+            listFavor.Remove(favor);
+
+            remain = listFavor.Count;
+            labelFavorRemainText.Text = "" + remain;
+
+            labelFavorQuestion.Text = favor.Definition;
+            textBoxFavorAnswer.Text = "";
+            textBoxFavorAnswer.ReadOnly = false;
+            labelFavorHint.Visible = false;
+
+            textBoxFavorAnswer.Focus();
+        }
+
+        private void showAnswerLearnFavor()
+        {
+            textBoxFavorAnswer.ReadOnly = true;
+            labelFavorHint.Text = favor.Term;
+            labelFavorHint.Visible = true;
+            if (textBoxFavorAnswer.Text == labelFavorHint.Text)
+            {
+                labelFavorHint.ForeColor = Color.Green;
+                correct++;
+            }
+            else
+            {
+                labelFavorHint.ForeColor = Color.Red;
+                wrong++;
+            }
+            labelFavorCorrectText.Text = "" + correct;
+            labelFavorWrongText.Text = "" + wrong;
+
+            buttonFavorNext.Focus();
+            if (listFavor.Count == 0)
+            {
+                buttonFavorNext.Enabled = false;
+                buttonFavorAgain.Focus();
+            }
+        }
+
+        private void textBoxFavorAnswer_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == Convert.ToChar(Keys.Enter))
+                if (!textBoxFavorAnswer.ReadOnly)
+                    showAnswerLearnFavor();
+        }
+
+        private void buttonFavorAgain_Click(object sender, EventArgs e)
+        {
+            startLearnFavor();
+        }
+
+        private void buttonFavorNext_Click(object sender, EventArgs e)
+        {
+            if (labelFavorHint.Visible)
+                nextQuizLearnFavor();
+            else showAnswerLearnFavor();
+        }
+
         // Learn Vocabulary
 
-        private int lessonID;
         private int remain, correct, wrong;
         private List<Vocabulary> listVocab;
         private Vocabulary vocab;
         private List<Quiz> listQuiz;
         private Quiz quiz;
+        private List<Vocabulary> listFavor;
+        private Vocabulary favor;
 
         private void buttonVocabLearn_Click(object sender, EventArgs e)
         {
@@ -556,7 +731,7 @@ namespace Main.WinForm
         private void startLearnVocab()
         {
             buttonVocabNext.Enabled = true;
-            listVocab = DataContext.GetListVocabularyRandomByLessonID(lessonID);
+            listVocab = DataContext.GetListVocabularyRandomByLessonID(lesson.ID);
             correct = 0;
             wrong = 0;
 
@@ -656,7 +831,7 @@ namespace Main.WinForm
         private void startDoQuiz()
         {
             buttonQuizNext.Enabled = true;
-            listQuiz = DataContext.GetListQuizRandomByLessonID(lessonID, quizSize);
+            listQuiz = DataContext.GetListQuizRandomByLessonID(lesson.ID, quizSize);
             listAgain.Clear();
             listQuiz.ForEach(quiz => listAgain.Add(quiz));
             correct = 0;

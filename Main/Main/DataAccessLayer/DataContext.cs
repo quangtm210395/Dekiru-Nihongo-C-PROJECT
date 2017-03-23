@@ -64,6 +64,22 @@ namespace Main
             return listLesson;
         }
 
+        public static Vocabulary GetVocabularyByID(int ID)
+        {
+            Vocabulary vocabulary = null;
+
+            string sql = "SELECT * FROM Vocabulary WHERE ID = " + ID;
+            ListDataRow(sql).ForEach((data) =>
+            {
+                vocabulary = new Vocabulary(
+                    Convert.ToInt16(data["ID"]),
+                    Convert.ToInt16(data["LessonID"]),
+                    Convert.ToString(data["Term"]),
+                    Convert.ToString(data["Definition"]));
+            });
+            return vocabulary;
+        }
+
         public static List<Vocabulary> GetListVocabularyByLessonID(int LessonID)
         {
             List<Vocabulary> listVocabulary = new List<Vocabulary>();
@@ -96,6 +112,32 @@ namespace Main
                 listVocabulary.Add(vocabulary);
             });
             return listVocabulary;
+        }
+
+        public static List<Vocabulary> GetListFavoriteByLessonID(int UserID, int LessonID)
+        {
+            List<Vocabulary> listFavorite = new List<Vocabulary>();
+
+            string sql = "SELECT VocabularyID FROM FavoriteWord JOIN Vocabulary ON VocabularyID = Vocabulary.ID WHERE UserID = " + UserID + " AND LessonID = " + LessonID + " ORDER BY VocabularyID";
+            ListDataRow(sql).ForEach((data) =>
+            {
+                Vocabulary favorite = GetVocabularyByID(Convert.ToInt16(data["VocabularyID"]));
+                listFavorite.Add(favorite);
+            });
+            return listFavorite;
+        }
+
+        public static List<Vocabulary> GetListFavoriteRandomByLessonID(int UserID, int LessonID)
+        {
+            List<Vocabulary> listFavorite = new List<Vocabulary>();
+
+            string sql = "SELECT VocabularyID FROM FavoriteWord JOIN Vocabulary ON VocabularyID = Vocabulary.ID WHERE UserID = " + UserID + " AND LessonID = " + LessonID + " ORDER BY NEWID()";
+            ListDataRow(sql).ForEach((data) =>
+            {
+                Vocabulary favorite = GetVocabularyByID(Convert.ToInt16(data["VocabularyID"]));
+                listFavorite.Add(favorite);
+            });
+            return listFavorite;
         }
 
         public static List<Grammar> GetListGrammarByLessonID(int LessonID)
@@ -222,6 +264,24 @@ namespace Main
             {
                 throw ex;
             }
+        }
+
+        public static bool ChangeFavourite(int userID, int vocabID)
+        {
+            string insert = "INSERT INTO FavoriteWord VALUES (" + userID + ", " + vocabID + ")";
+            string delete = "DELETE FROM FavoriteWord WHERE UserID = " + userID + " AND VocabularyID = " + vocabID;
+            string sql = CheckFavourite(userID, vocabID) ? insert : delete;
+            SqlConnection connection = getSqlConnection();
+            SqlCommand command = new SqlCommand(sql, connection);
+
+            ExecuteNonQuery(connection, command);
+            return CheckFavourite(userID, vocabID);
+        }
+
+        public static bool CheckFavourite(int userID, int vocabID)
+        {
+            string sql = "SELECT * FROM FavoriteWord WHERE UserID = " + userID + " AND VocabularyID = " + vocabID;
+            return ListDataRow(sql).Count == 0;
         }
 
         public static int ExecuteNonQuery(SqlConnection connection, SqlCommand command)
