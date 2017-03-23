@@ -132,7 +132,25 @@ namespace Main
             return listKanji;
         }
 
+        public static List<Quiz> GetListQuizRandomByLessonID(int LessonID, int size)
+        {
+            List<Quiz> listQuiz = new List<Quiz>();
 
+            string sql = "SELECT TOP " + size + " * FROM Quiz WHERE LessonID = " + LessonID + " ORDER BY NEWID()";
+            ListDataRow(sql).ForEach((data) =>
+            {
+                Quiz quiz = new Quiz(
+                    Convert.ToInt16(data["ID"]),
+                    Convert.ToInt16(data["LessonID"]),
+                    Convert.ToString(data["Question"]),
+                    Convert.ToString(data["CorrectAnswer"]),
+                    Convert.ToString(data["Answer1"]),
+                    Convert.ToString(data["Answer2"]),
+                    Convert.ToString(data["Answer3"]));
+                listQuiz.Add(quiz);
+            });
+            return listQuiz;
+        }
 
         public static int ExecuteNonQuery(SqlConnection connection, SqlCommand command)
         {

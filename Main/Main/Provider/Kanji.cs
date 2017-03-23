@@ -21,8 +21,8 @@ namespace Main
             this.Term = Term;
             this.Definition = Definition;
 
-            Term1 = Term.Substring(5, 1);
-            Term2 = Term.Substring(8);
+            Term1 = Term.Substring(0, 1);
+            Term2 = Term.Substring(4);
         }
     }
 }

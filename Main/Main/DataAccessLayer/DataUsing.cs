@@ -25,5 +25,15 @@ namespace Main
             return ret;
         }
 
+        public static int[] GetRandomArray()
+        {
+            int[] ret = new int[4];
+            ret[0] = random.Next(4);
+            for (ret[1] = ret[0]; ret[1] == ret[0]; ret[1] = random.Next(4)) ;
+            for (ret[2] = ret[0]; ret[2] == ret[0] | ret[2] == ret[1]; ret[2] = random.Next(4)) ;
+            ret[3] = 6 - ret[0] - ret[1] - ret[2];
+            return ret;
+        }
+
     }
 }

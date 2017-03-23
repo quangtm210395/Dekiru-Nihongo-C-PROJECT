@@ -10,7 +10,6 @@ namespace Main
         public int ID { get; set; }
         public int LessonID { get; set; }
         public string Term { get; set; }
-        public string Term1 { get; set; }
         public string Definition { get; set; }
 
         public Grammar(int ID, int LessonID, string Term, string Definition)
@@ -19,8 +18,6 @@ namespace Main
             this.LessonID = LessonID;
             this.Term = Term;
             this.Definition = Definition;
-
-            Term1 = Term.Substring(5);
         }
     }
 }

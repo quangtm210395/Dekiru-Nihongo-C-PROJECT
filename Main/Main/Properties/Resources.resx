@@ -117,158 +117,303 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="X_Hira_No" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_No.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="X_Kata_Mu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Mu.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="X_Hira_U" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_U.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="X_Kata_Na" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Na.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="X_Hira_Te" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_Te.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="X_Hira_Mo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_Mo.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Hiragana" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Hiragana.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="X_Hira_Ku" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_Ku.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Correct" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Correct.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="X_Hira_So" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_So.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="X_Hira_Na" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_Na.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="X_Hira_Sa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_Sa.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="X_Hira_To" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_To.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="X_Hira_Ki" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_Ki.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="X_Hira_A" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_A.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="X_Hira_Yo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_Yo.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="X_Hira_Chi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_Chi.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="X_Hira_Wa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_Wa.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="X_Hira_Ho" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_Ho.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CorrectSmaller" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CorrectSmaller.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="X_Hira_Ta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\X_Hira_Ta.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="X_Hira_Ra" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_Ra.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="X_Kata_Ka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Ka.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="X_Hira_Mi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_Mi.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="X_Kata_Ni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Ni.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Remaining" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Remaining.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="X_Hira_Wo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_Wo.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Katakana" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Katakana.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="X_Hira_Se" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_Se.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="X_Hira_Tsu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_Tsu.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="X_Hira_Me" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_Me.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="X_Hira_Ha" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_Ha.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="X_Hira_Nu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_Nu.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Wrong" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Wrong.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="X_Hira_Shi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_Shi.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="X_Hira_Ne" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_Ne.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="X_Hira_I" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_I.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="X_Hira_Ni" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_Ni.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="X_Hira_Yu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_Yu.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="X_Hira_Ya" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_Ya.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="X_Hira_Fu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_Fu.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="X_Hira_Ko" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_Ko.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="X_Hira_Hi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_Hi.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="X_Hira_O" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_O.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="X_Hira_E" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_E.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="X_Hira_Re" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_Re.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="X_Hira_Ri" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_Ri.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="X_Hira_N" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_N.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="X_Kata_Mi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Mi.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="X_Hira_Ka" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\X_Hira_Ka.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="X_Hira_He" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_He.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="X_Hira_Ke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_Ke.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="X_Hira_Su" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_Su.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="X_Kata_Sa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Sa.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_To" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_To.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_Yo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Yo.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="X_Hira_Ma" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\X_Hira_Ma.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="X_Hira_Tsu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_Tsu.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_O" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_O.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_Ha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_Ha.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_Shi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Shi.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_O" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_O.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_Ru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_Ru.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_Ko" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_Ko.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_Chi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_Chi.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="X_Hira_Mu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\X_Hira_Mu.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_No" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_No.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_A.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Katakana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Katakana.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_Hi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_Hi.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_U" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_U.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_Fu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_Fu.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_Su" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_Su.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_Mo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_Mo.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_Ne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Ne.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hiragana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hiragana.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Correct" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Correct.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_Wa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_Wa.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_Ki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_Ki.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_Ri" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_Ri.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_Hi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Hi.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_I" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_I.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_Na" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_Na.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wrong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Wrong.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_A.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_Mo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Mo.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_Su" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Su.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_Mi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_Mi.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_Ho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_Ho.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_Me" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Me.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_Chi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Chi.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="X_Hira_Ro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\X_Hira_Ro.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="X_Hira_Ke" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_Ke.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="X_Hira_Ya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_Ya.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="X_Hira_Ru" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\X_Hira_Ru.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="X_Hira_Re" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_Re.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_Re" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Re.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_He" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_He.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_Ku" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Ku.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_Ho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Ho.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_Ra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Ra.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_Ke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Ke.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_Ta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Ta.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_Me" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_Me.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_E.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_So" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_So.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_Wo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Wo.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_Ma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Ma.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_Nu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_Nu.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_Yu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_Yu.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_No" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_No.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_Ru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Ru.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_Shi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_Shi.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_Ha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Ha.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Remaining" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Remaining.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_Ko" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Ko.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_Ni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_Ni.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_N" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_N.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_I" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_I.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_Yu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Yu.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_Tsu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Tsu.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_Te" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Te.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_Ki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Ki.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_E.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_Ra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_Ra.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_So" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_So.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_Wo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_Wo.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_Yo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_Yo.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_Wa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Wa.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_Ri" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Ri.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_U" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_U.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_Ku" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_Ku.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_Te" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_Te.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_Se" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_Se.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_He" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_He.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_Fu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Fu.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_Sa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_Sa.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_Nu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Nu.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_To" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_To.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_Ya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Ya.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_N" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_N.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_Ro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Ro.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Kata_Se" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Kata_Se.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Hira_Ne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Hira_Ne.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="WrongSmaller" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WrongSmaller.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

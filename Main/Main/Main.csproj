@@ -243,6 +243,150 @@
   <ItemGroup>
     <None Include="Resources\X_Hira_Ru.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_A.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Chi.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_E.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Fu.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Ha.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_He.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Hi.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Ho.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_I.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Ka.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Ke.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Ki.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Ko.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Ku.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Ma.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Me.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Mi.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Mo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Mu.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_N.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Na.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Ne.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Ni.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_No.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Nu.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_O.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Ra.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Re.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Ri.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Ro.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Ru.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Sa.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Se.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Shi.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_So.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Su.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Ta.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Te.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_To.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Tsu.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_U.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Wa.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Wo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Ya.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Yo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X_Kata_Yu.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CorrectSmaller.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WrongSmaller.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

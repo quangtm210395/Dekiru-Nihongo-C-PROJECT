@@ -13,17 +13,22 @@ namespace Main.WinForm
     {
         private Stack<Panel> stackPanelLearn = new Stack<Panel>();
         private Stack<String> stackLabelLearn = new Stack<String>();
-        private TransparentLabel labelHiraBackground;
 
         public MainForm()
         {
             InitializeComponent();
-            InitializeSetting();
-
-            InitializeLabels();
+            InitializeLearnLessonDataGridViews();
+            InitializeLearnBasicLabelBackground();
+            InitializeVariables();
         }
 
-        private void InitializeSetting()
+        private void InitializeVariables()
+        {
+            radioChoices = new List<RadioButton> { radioButtonA, radioButtonB, radioButtonC, radioButtonD };
+            labelChoices = new List<Label> { labelChoiceA, labelChoiceB, labelChoiceC, labelChoiceD };
+        }
+
+        private void InitializeLearnLessonDataGridViews()
         {
             panelMenu.BringToFront();
 
@@ -38,7 +43,7 @@ namespace Main.WinForm
 
             dataGridViewGrammar.AutoGenerateColumns = false;
             dataGridViewGrammar.Columns.Add("col_Term", "Term");
-            dataGridViewGrammar.Columns["col_Term"].DataPropertyName = "Term1";
+            dataGridViewGrammar.Columns["col_Term"].DataPropertyName = "Term";
             dataGridViewGrammar.Columns["col_Term"].Width = 569;
 
             dataGridViewKanji.AutoGenerateColumns = false;
@@ -116,6 +121,9 @@ namespace Main.WinForm
 
         private void buttonKatakana_Click(object sender, EventArgs e)
         {
+            labelKataChar.Image = null;
+            panelKataTable.BringToFront();
+
             stackPanelLearn.Push(panelLearnKata);
             stackPanelLearn.Peek().BringToFront();
 
@@ -125,9 +133,12 @@ namespace Main.WinForm
 
         // Basic Deeper
 
+        private TransparentLabel labelHiraBackground;
         private Bitmap[,] HiraBitmap;
+        private TransparentLabel labelKataBackground;
+        private Bitmap[,] KataBitmap;
 
-        private void InitializeLabels()
+        private void InitializeLearnBasicLabelBackground()
         {
             labelHiraBackground = new TransparentLabel();
             panelHiraAnime.Controls.Add(labelHiraBackground);
@@ -187,9 +198,68 @@ namespace Main.WinForm
             HiraBitmap[4, 8] = Properties.Resources.X_Hira_So;
             HiraBitmap[4, 9] = Properties.Resources.X_Hira_Ko;
             HiraBitmap[4, 10] = Properties.Resources.X_Hira_O;
+
+            labelKataBackground = new TransparentLabel();
+            panelKataAnime.Controls.Add(labelKataBackground);
+            labelKataAnime.BringToFront();
+            labelKataBackground.BringToFront();
+            labelKataChar.BringToFront();
+
+            labelKataBackground.Dock = DockStyle.Fill;
+            labelKataBackground.Location = new Point(0, 0);
+            labelKataBackground.Size = new Size(600, 360);
+            labelKataBackground.MouseClick += labelKataBackground_MouseClick;
+
+            KataBitmap = new Bitmap[5, 11];
+            KataBitmap[0, 0] = Properties.Resources.X_Kata_N;
+            KataBitmap[0, 1] = Properties.Resources.X_Kata_Wa;
+            KataBitmap[0, 2] = Properties.Resources.X_Kata_Ra;
+            KataBitmap[0, 3] = Properties.Resources.X_Kata_Ya;
+            KataBitmap[0, 4] = Properties.Resources.X_Kata_Ma;
+            KataBitmap[0, 5] = Properties.Resources.X_Kata_Ha;
+            KataBitmap[0, 6] = Properties.Resources.X_Kata_Na;
+            KataBitmap[0, 7] = Properties.Resources.X_Kata_Ta;
+            KataBitmap[0, 8] = Properties.Resources.X_Kata_Sa;
+            KataBitmap[0, 9] = Properties.Resources.X_Kata_Ka;
+            KataBitmap[0, 10] = Properties.Resources.X_Kata_A;
+            KataBitmap[1, 2] = Properties.Resources.X_Kata_Ri;
+            KataBitmap[1, 4] = Properties.Resources.X_Kata_Mi;
+            KataBitmap[1, 5] = Properties.Resources.X_Kata_Hi;
+            KataBitmap[1, 6] = Properties.Resources.X_Kata_Ni;
+            KataBitmap[1, 7] = Properties.Resources.X_Kata_Chi;
+            KataBitmap[1, 8] = Properties.Resources.X_Kata_Shi;
+            KataBitmap[1, 9] = Properties.Resources.X_Kata_Ki;
+            KataBitmap[1, 10] = Properties.Resources.X_Kata_I;
+            KataBitmap[2, 2] = Properties.Resources.X_Kata_Ru;
+            KataBitmap[2, 3] = Properties.Resources.X_Kata_Yu;
+            KataBitmap[2, 4] = Properties.Resources.X_Kata_Mu;
+            KataBitmap[2, 5] = Properties.Resources.X_Kata_Fu;
+            KataBitmap[2, 6] = Properties.Resources.X_Kata_Nu;
+            KataBitmap[2, 7] = Properties.Resources.X_Kata_Tsu;
+            KataBitmap[2, 8] = Properties.Resources.X_Kata_Su;
+            KataBitmap[2, 9] = Properties.Resources.X_Kata_Ku;
+            KataBitmap[2, 10] = Properties.Resources.X_Kata_U;
+            KataBitmap[3, 2] = Properties.Resources.X_Kata_Re;
+            KataBitmap[3, 4] = Properties.Resources.X_Kata_Me;
+            KataBitmap[3, 5] = Properties.Resources.X_Kata_He;
+            KataBitmap[3, 6] = Properties.Resources.X_Kata_Ne;
+            KataBitmap[3, 7] = Properties.Resources.X_Kata_Te;
+            KataBitmap[3, 8] = Properties.Resources.X_Kata_Se;
+            KataBitmap[3, 9] = Properties.Resources.X_Kata_Ke;
+            KataBitmap[3, 10] = Properties.Resources.X_Kata_E;
+            KataBitmap[4, 1] = Properties.Resources.X_Kata_Wo;
+            KataBitmap[4, 2] = Properties.Resources.X_Kata_Ro;
+            KataBitmap[4, 3] = Properties.Resources.X_Kata_Yo;
+            KataBitmap[4, 4] = Properties.Resources.X_Kata_Mo;
+            KataBitmap[4, 5] = Properties.Resources.X_Kata_Ho;
+            KataBitmap[4, 6] = Properties.Resources.X_Kata_No;
+            KataBitmap[4, 7] = Properties.Resources.X_Kata_To;
+            KataBitmap[4, 8] = Properties.Resources.X_Kata_So;
+            KataBitmap[4, 9] = Properties.Resources.X_Kata_Ko;
+            KataBitmap[4, 10] = Properties.Resources.X_Kata_O;
         }
 
-        private void labelLearnHira_MouseClick(object sender, MouseEventArgs e)
+        private void labelHiraTable_MouseClick(object sender, MouseEventArgs e)
         {
             Bitmap hiragana = HiraBitmap[e.Location.Y / 58, e.Location.X / 49];
             if (hiragana == null) return;
@@ -201,6 +271,20 @@ namespace Main.WinForm
         {
             labelHiraChar.Image = null;
             panelHiraTable.BringToFront();
+        }
+
+        private void labelKataTable_MouseClick(object sender, MouseEventArgs e)
+        {
+            Bitmap katakana = KataBitmap[e.Location.Y / 58, e.Location.X / 49];
+            if (katakana == null) return;
+            labelKataChar.Image = katakana;
+            panelKataAnime.BringToFront();
+        }
+
+        private void labelKataBackground_MouseClick(object sender, MouseEventArgs e)
+        {
+            labelKataChar.Image = null;
+            panelKataTable.BringToFront();
         }
 
         // Learn Lesson
@@ -264,7 +348,11 @@ namespace Main.WinForm
             if (tabControlLearning.SelectedIndex == 0) panelVocabChooser.BringToFront();
             if (tabControlLearning.SelectedIndex == 1) panelGrammarChooser.BringToFront();
             if (tabControlLearning.SelectedIndex == 2) panelKanjiChooser.BringToFront();
-            if (tabControlLearning.SelectedIndex == 3) panelQuizChooser.BringToFront();
+            if (tabControlLearning.SelectedIndex == 3)
+            {
+                panelQuizChooser.BringToFront();
+                radioButtonQuick.Checked = true;
+            }
         }
 
         private void dataGridViewGrammar_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
@@ -273,7 +361,7 @@ namespace Main.WinForm
             if (index == -1) return;
 
             Grammar grammar = ((List<Grammar>)dataGridViewGrammar.DataSource)[index];
-            labelGrammarTerm.Text = grammar.Term1;
+            labelGrammarTerm.Text = grammar.Term;
             textBoxGrammarDef.Text = DataUsing.GetDefinitionText(grammar.Definition);
 
             panelGrammarDetail.BringToFront();
@@ -285,7 +373,7 @@ namespace Main.WinForm
             if (index == -1) return;
 
             Kanji kanji = ((List<Kanji>)dataGridViewKanji.DataSource)[index];
-            labelKanjiTerm.Text = kanji.Term.Substring(5);
+            labelKanjiTerm.Text = kanji.Term;
             textBoxKanjiDef.Text = DataUsing.GetDefinitionText(kanji.Definition);
 
             panelKanjiDetail.BringToFront();
@@ -317,8 +405,17 @@ namespace Main.WinForm
 
         private int lessonID;
         private int remain, correct, wrong;
-        List<Vocabulary> listVocab;
-        Vocabulary quizVocab;
+        private List<Vocabulary> listVocab;
+        private Vocabulary vocab;
+        private List<Quiz> listQuiz;
+        private Quiz quiz;
+
+        private void buttonVocabLearn_Click(object sender, EventArgs e)
+        {
+            startLearnVocab();
+
+            panelVocabDetail.BringToFront();
+        }
 
         private void startLearnVocab()
         {
@@ -337,13 +434,13 @@ namespace Main.WinForm
 
         private void nextQuizLearnVocab()
         {
-            quizVocab = listVocab[new Random().Next(listVocab.Count)];
-            listVocab.Remove(quizVocab);
+            vocab = listVocab[new Random().Next(listVocab.Count)];
+            listVocab.Remove(vocab);
 
             remain = listVocab.Count;
             labelVocabRemainText.Text = "" + remain;
 
-            labelVocabQuestion.Text = quizVocab.Definition;
+            labelVocabQuestion.Text = vocab.Definition;
             textBoxVocabAnswer.Text = "";
             textBoxVocabAnswer.ReadOnly = false;
             labelVocabHint.Visible = false;
@@ -354,7 +451,7 @@ namespace Main.WinForm
         private void showAnswerLearnVocab()
         {
             textBoxVocabAnswer.ReadOnly = true;
-            labelVocabHint.Text = quizVocab.Term;
+            labelVocabHint.Text = vocab.Term;
             labelVocabHint.Visible = true;
             if (textBoxVocabAnswer.Text == labelVocabHint.Text)
             {
@@ -371,13 +468,6 @@ namespace Main.WinForm
 
             buttonVocabNext.Focus();
             if (listVocab.Count == 0) buttonVocabNext.Enabled = false;
-        }
-
-        private void buttonVocabLearn_Click(object sender, EventArgs e)
-        {
-            startLearnVocab();
-
-            panelVocabDetail.BringToFront();
         }
 
         private void textBoxVocabAnswer_KeyPress(object sender, KeyPressEventArgs e)
@@ -398,25 +488,152 @@ namespace Main.WinForm
             else showAnswerLearnVocab();
         }
 
+        // Quiz Before
 
-
-
-
+        private void numericUpDownSize_Enter(object sender, EventArgs e)
+        {
+            radioButtonCustom.Checked = true;
+        }
 
         // Quiz
 
+        private int quizSize;
+        private List<Quiz> listAgain = new List<Quiz>();
+
         private void buttonQuizStart_Click(object sender, EventArgs e)
         {
-
+            if (radioButtonQuick.Checked) quizSize = 10;
+            if (radioButtonNormal.Checked) quizSize = 20;
+            if (radioButtonFull.Checked) quizSize = 30;
+            if (radioButtonCustom.Checked) quizSize = Convert.ToInt16(numericUpDownSize.Value);
+            startDoQuiz();
 
             panelQuizDetail.BringToFront();
         }
 
+        private void startDoQuiz()
+        {
+            buttonQuizNext.Enabled = true;
+            listQuiz = DataContext.GetListQuizRandomByLessonID(lessonID, quizSize);
+            listAgain.Clear();
+            listQuiz.ForEach(quiz => listAgain.Add(quiz));
+            correct = 0;
+            wrong = 0;
 
+            remain = listQuiz.Count;
+            labelQuizRemainText.Text = "" + remain;
+            labelQuizCorrectText.Text = "" + correct;
+            labelQuizWrongText.Text = "" + wrong;
 
+            nextQuizDoQuiz();
+        }
 
+        private void restartDoQuiz()
+        {
+            buttonQuizNext.Enabled = true;
+            listQuiz.Clear();
+            listAgain.ForEach(quiz => listQuiz.Add(quiz));
+            correct = 0;
+            wrong = 0;
 
+            remain = listQuiz.Count;
+            labelQuizRemainText.Text = "" + remain;
+            labelQuizCorrectText.Text = "" + correct;
+            labelQuizWrongText.Text = "" + wrong;
 
+            nextQuizDoQuiz();
+        }
+
+        List<RadioButton> radioChoices;
+        List<Label> labelChoices;
+        int[] arrayChoices;
+
+        private void nextQuizDoQuiz()
+        {
+            quiz = listQuiz[new Random().Next(listQuiz.Count)];
+            listQuiz.Remove(quiz);
+
+            remain = listQuiz.Count;
+            labelQuizRemainText.Text = "" + remain;
+
+            labelQuizQuestion.Text = quiz.Question;
+
+            arrayChoices = DataUsing.GetRandomArray();
+
+            radioChoices[arrayChoices[0]].Text = quiz.Correct;
+            radioChoices[arrayChoices[1]].Text = quiz.Answer1;
+            radioChoices[arrayChoices[2]].Text = quiz.Answer3;
+            radioChoices[arrayChoices[3]].Text = quiz.Answer2;
+
+            radioButtonA.Checked = false;
+            radioButtonB.Checked = false;
+            radioButtonC.Checked = false;
+            radioButtonD.Checked = false;
+
+            radioButtonA.Enabled = true;
+            radioButtonB.Enabled = true;
+            radioButtonC.Enabled = true;
+            radioButtonD.Enabled = true;
+
+            labelChoiceA.Visible = false;
+            labelChoiceB.Visible = false;
+            labelChoiceC.Visible = false;
+            labelChoiceD.Visible = false;
+        }
+
+        private void showAnswerDoQuiz()
+        {
+            radioButtonA.Enabled = false;
+            radioButtonB.Enabled = false;
+            radioButtonC.Enabled = false;
+            radioButtonD.Enabled = false;
+
+            if (radioButtonA.Checked)
+            {
+                labelChoiceA.Image = Properties.Resources.WrongSmaller;
+                labelChoiceA.Visible = true;
+            }
+            if (radioButtonB.Checked)
+            {
+                labelChoiceB.Image = Properties.Resources.WrongSmaller;
+                labelChoiceB.Visible = true;
+            }
+            if (radioButtonC.Checked)
+            {
+                labelChoiceC.Image = Properties.Resources.WrongSmaller;
+                labelChoiceC.Visible = true;
+            }
+            if (radioButtonD.Checked)
+            {
+                labelChoiceD.Image = Properties.Resources.WrongSmaller;
+                labelChoiceD.Visible = true;
+            }
+            labelChoices[arrayChoices[0]].Image = Properties.Resources.CorrectSmaller;
+            labelChoices[arrayChoices[0]].Visible = true;
+
+            if (radioChoices[arrayChoices[0]].Checked)
+                correct++;
+            else wrong++;
+
+            labelQuizCorrectText.Text = "" + correct;
+            labelQuizWrongText.Text = "" + wrong;
+
+            buttonVocabNext.Focus();
+            if (listQuiz.Count == 0) buttonQuizNext.Enabled = false;
+        }
+
+        private void buttonQuizAgain_Click(object sender, EventArgs e)
+        {
+            restartDoQuiz();
+        }
+
+        private void buttonQuizNext_Click(object sender, EventArgs e)
+        {
+            if (!radioButtonA.Checked & !radioButtonB.Checked & !radioButtonC.Checked & !radioButtonD.Checked) return;
+            if (labelChoiceA.Visible | labelChoiceB.Visible | labelChoiceC.Visible | labelChoiceD.Visible)
+                nextQuizDoQuiz();
+            else showAnswerDoQuiz();
+        }
 
         // Other
 

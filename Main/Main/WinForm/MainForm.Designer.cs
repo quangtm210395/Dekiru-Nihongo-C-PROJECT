@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             this.buttonLearn = new System.Windows.Forms.Button();
             this.buttonLogin = new System.Windows.Forms.Button();
             this.buttonSetting = new System.Windows.Forms.Button();
@@ -46,28 +46,16 @@
             this.panelLearn = new System.Windows.Forms.Panel();
             this.labelLearn = new System.Windows.Forms.Label();
             this.buttonBackLearn = new System.Windows.Forms.Button();
-            this.panelLearnHira = new System.Windows.Forms.Panel();
-            this.panelHiraAnime = new System.Windows.Forms.Panel();
-            this.panelHiraTable = new System.Windows.Forms.Panel();
-            this.panelLearnKata = new System.Windows.Forms.Panel();
-            this.labelLearnKata = new System.Windows.Forms.Label();
-            this.panelLearnLessonChooser = new System.Windows.Forms.Panel();
-            this.listBoxLesson = new System.Windows.Forms.ListBox();
             this.panelLearnLesson = new System.Windows.Forms.Panel();
             this.tabControlLearning = new System.Windows.Forms.TabControl();
             this.tabPageVocabulary = new System.Windows.Forms.TabPage();
             this.panelVocabDetail = new System.Windows.Forms.Panel();
             this.buttonVocabNext = new System.Windows.Forms.Button();
-            this.labelVocabHint = new System.Windows.Forms.Label();
             this.buttonVocabAgain = new System.Windows.Forms.Button();
-            this.textBoxVocabAnswer = new System.Windows.Forms.TextBox();
             this.labelVocabQuestion = new System.Windows.Forms.Label();
             this.labelVocabCorrectText = new System.Windows.Forms.Label();
             this.labelVocabRemainText = new System.Windows.Forms.Label();
             this.labelVocabWrongText = new System.Windows.Forms.Label();
-            this.labelVocabWrongImage = new System.Windows.Forms.Label();
-            this.labelVocabCorrectImage = new System.Windows.Forms.Label();
-            this.labelVocabRemainImage = new System.Windows.Forms.Label();
             this.buttonVocabBack = new System.Windows.Forms.Button();
             this.panelVocabChooser = new System.Windows.Forms.Panel();
             this.dataGridViewVocabulary = new System.Windows.Forms.DataGridView();
@@ -87,31 +75,66 @@
             this.panelKanjiChooser = new System.Windows.Forms.Panel();
             this.dataGridViewKanji = new System.Windows.Forms.DataGridView();
             this.tabPageQuiz = new System.Windows.Forms.TabPage();
-            this.panelQuizDetail = new System.Windows.Forms.Panel();
-            this.buttonQuizBack = new System.Windows.Forms.Button();
             this.panelQuizChooser = new System.Windows.Forms.Panel();
             this.buttonQuizStart = new System.Windows.Forms.Button();
+            this.panelQuizDetail = new System.Windows.Forms.Panel();
+            this.buttonQuizBack = new System.Windows.Forms.Button();
             this.panelLearnChooser = new System.Windows.Forms.Panel();
             this.buttonLearnLesson = new System.Windows.Forms.Button();
             this.buttonLearnBasic = new System.Windows.Forms.Button();
             this.panelLearnBasic = new System.Windows.Forms.Panel();
             this.buttonKatakana = new System.Windows.Forms.Button();
             this.buttonHiragana = new System.Windows.Forms.Button();
+            this.panelLearnHira = new System.Windows.Forms.Panel();
+            this.panelHiraTable = new System.Windows.Forms.Panel();
+            this.panelHiraAnime = new System.Windows.Forms.Panel();
+            this.labelHiraChar = new System.Windows.Forms.Label();
+            this.panelLearnKata = new System.Windows.Forms.Panel();
+            this.panelKataTable = new System.Windows.Forms.Panel();
+            this.panelKataAnime = new System.Windows.Forms.Panel();
+            this.labelKataChar = new System.Windows.Forms.Label();
+            this.panelLearnLessonChooser = new System.Windows.Forms.Panel();
+            this.listBoxLesson = new System.Windows.Forms.ListBox();
             this.panelAbout = new System.Windows.Forms.Panel();
             this.buttonBackAbout = new System.Windows.Forms.Button();
             this.panelSetting = new System.Windows.Forms.Panel();
             this.buttonBackSetting = new System.Windows.Forms.Button();
-            this.labelHiraChar = new System.Windows.Forms.Label();
+            this.buttonQuizNext = new System.Windows.Forms.Button();
+            this.buttonQuizAgain = new System.Windows.Forms.Button();
+            this.labelQuizQuestion = new System.Windows.Forms.Label();
+            this.labelQuizCorrectText = new System.Windows.Forms.Label();
+            this.labelQuizRemainText = new System.Windows.Forms.Label();
+            this.labelQuizWrongText = new System.Windows.Forms.Label();
+            this.textBoxVocabAnswer = new System.Windows.Forms.TextBox();
+            this.labelVocabHint = new System.Windows.Forms.Label();
+            this.radioButtonA = new System.Windows.Forms.RadioButton();
+            this.radioButtonB = new System.Windows.Forms.RadioButton();
+            this.radioButtonC = new System.Windows.Forms.RadioButton();
+            this.radioButtonD = new System.Windows.Forms.RadioButton();
+            this.groupBoxChoice = new System.Windows.Forms.GroupBox();
+            this.groupBoxSize = new System.Windows.Forms.GroupBox();
+            this.radioButtonQuick = new System.Windows.Forms.RadioButton();
+            this.radioButtonNormal = new System.Windows.Forms.RadioButton();
+            this.radioButtonCustom = new System.Windows.Forms.RadioButton();
+            this.numericUpDownSize = new System.Windows.Forms.NumericUpDown();
+            this.radioButtonFull = new System.Windows.Forms.RadioButton();
+            this.labelVocabWrongImage = new System.Windows.Forms.Label();
+            this.labelVocabCorrectImage = new System.Windows.Forms.Label();
+            this.labelVocabRemainImage = new System.Windows.Forms.Label();
+            this.labelChoiceD = new System.Windows.Forms.Label();
+            this.labelChoiceC = new System.Windows.Forms.Label();
+            this.labelChoiceB = new System.Windows.Forms.Label();
+            this.labelChoiceA = new System.Windows.Forms.Label();
+            this.labelQuizWrongImage = new System.Windows.Forms.Label();
+            this.labelQuizCorrectImage = new System.Windows.Forms.Label();
+            this.labelQuizRemainImage = new System.Windows.Forms.Label();
             this.labelHiraAnime = new System.Windows.Forms.Label();
             this.labelHiraTable = new System.Windows.Forms.Label();
+            this.labelKataTable = new System.Windows.Forms.Label();
+            this.labelKataAnime = new System.Windows.Forms.Label();
             this.panelUser.SuspendLayout();
             this.panelMenu.SuspendLayout();
             this.panelLearn.SuspendLayout();
-            this.panelLearnHira.SuspendLayout();
-            this.panelHiraAnime.SuspendLayout();
-            this.panelHiraTable.SuspendLayout();
-            this.panelLearnKata.SuspendLayout();
-            this.panelLearnLessonChooser.SuspendLayout();
             this.panelLearnLesson.SuspendLayout();
             this.tabControlLearning.SuspendLayout();
             this.tabPageVocabulary.SuspendLayout();
@@ -127,12 +150,22 @@
             this.panelKanjiChooser.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewKanji)).BeginInit();
             this.tabPageQuiz.SuspendLayout();
-            this.panelQuizDetail.SuspendLayout();
             this.panelQuizChooser.SuspendLayout();
+            this.panelQuizDetail.SuspendLayout();
             this.panelLearnChooser.SuspendLayout();
             this.panelLearnBasic.SuspendLayout();
+            this.panelLearnHira.SuspendLayout();
+            this.panelHiraTable.SuspendLayout();
+            this.panelHiraAnime.SuspendLayout();
+            this.panelLearnKata.SuspendLayout();
+            this.panelKataTable.SuspendLayout();
+            this.panelKataAnime.SuspendLayout();
+            this.panelLearnLessonChooser.SuspendLayout();
             this.panelAbout.SuspendLayout();
             this.panelSetting.SuspendLayout();
+            this.groupBoxChoice.SuspendLayout();
+            this.groupBoxSize.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownSize)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonLearn
@@ -242,12 +275,12 @@
             // 
             this.panelLearn.Controls.Add(this.labelLearn);
             this.panelLearn.Controls.Add(this.buttonBackLearn);
-            this.panelLearn.Controls.Add(this.panelLearnHira);
-            this.panelLearn.Controls.Add(this.panelLearnKata);
-            this.panelLearn.Controls.Add(this.panelLearnLessonChooser);
             this.panelLearn.Controls.Add(this.panelLearnLesson);
             this.panelLearn.Controls.Add(this.panelLearnChooser);
             this.panelLearn.Controls.Add(this.panelLearnBasic);
+            this.panelLearn.Controls.Add(this.panelLearnHira);
+            this.panelLearn.Controls.Add(this.panelLearnKata);
+            this.panelLearn.Controls.Add(this.panelLearnLessonChooser);
             this.panelLearn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelLearn.Location = new System.Drawing.Point(0, 0);
             this.panelLearn.Name = "panelLearn";
@@ -273,70 +306,6 @@
             this.buttonBackLearn.Text = "Back";
             this.buttonBackLearn.UseVisualStyleBackColor = true;
             this.buttonBackLearn.Click += new System.EventHandler(this.buttonLearnBack_Click);
-            // 
-            // panelLearnHira
-            // 
-            this.panelLearnHira.Controls.Add(this.panelHiraAnime);
-            this.panelLearnHira.Controls.Add(this.panelHiraTable);
-            this.panelLearnHira.Location = new System.Drawing.Point(0, 40);
-            this.panelLearnHira.Name = "panelLearnHira";
-            this.panelLearnHira.Size = new System.Drawing.Size(600, 360);
-            this.panelLearnHira.TabIndex = 6;
-            // 
-            // panelHiraAnime
-            // 
-            this.panelHiraAnime.Controls.Add(this.labelHiraChar);
-            this.panelHiraAnime.Controls.Add(this.labelHiraAnime);
-            this.panelHiraAnime.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelHiraAnime.Location = new System.Drawing.Point(0, 0);
-            this.panelHiraAnime.Name = "panelHiraAnime";
-            this.panelHiraAnime.Size = new System.Drawing.Size(600, 360);
-            this.panelHiraAnime.TabIndex = 2;
-            // 
-            // panelHiraTable
-            // 
-            this.panelHiraTable.Controls.Add(this.labelHiraTable);
-            this.panelHiraTable.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelHiraTable.Location = new System.Drawing.Point(0, 0);
-            this.panelHiraTable.Name = "panelHiraTable";
-            this.panelHiraTable.Size = new System.Drawing.Size(600, 360);
-            this.panelHiraTable.TabIndex = 1;
-            // 
-            // panelLearnKata
-            // 
-            this.panelLearnKata.Controls.Add(this.labelLearnKata);
-            this.panelLearnKata.Location = new System.Drawing.Point(0, 40);
-            this.panelLearnKata.Name = "panelLearnKata";
-            this.panelLearnKata.Size = new System.Drawing.Size(600, 360);
-            this.panelLearnKata.TabIndex = 5;
-            // 
-            // labelLearnKata
-            // 
-            this.labelLearnKata.Location = new System.Drawing.Point(30, 30);
-            this.labelLearnKata.Name = "labelLearnKata";
-            this.labelLearnKata.Size = new System.Drawing.Size(540, 306);
-            this.labelLearnKata.TabIndex = 0;
-            // 
-            // panelLearnLessonChooser
-            // 
-            this.panelLearnLessonChooser.Controls.Add(this.listBoxLesson);
-            this.panelLearnLessonChooser.Location = new System.Drawing.Point(0, 40);
-            this.panelLearnLessonChooser.Name = "panelLearnLessonChooser";
-            this.panelLearnLessonChooser.Size = new System.Drawing.Size(600, 360);
-            this.panelLearnLessonChooser.TabIndex = 3;
-            // 
-            // listBoxLesson
-            // 
-            this.listBoxLesson.BackColor = System.Drawing.SystemColors.Window;
-            this.listBoxLesson.Font = new System.Drawing.Font("Meiryo", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listBoxLesson.FormattingEnabled = true;
-            this.listBoxLesson.ItemHeight = 28;
-            this.listBoxLesson.Location = new System.Drawing.Point(10, 10);
-            this.listBoxLesson.Name = "listBoxLesson";
-            this.listBoxLesson.Size = new System.Drawing.Size(580, 340);
-            this.listBoxLesson.TabIndex = 0;
-            this.listBoxLesson.KeyDown += new System.Windows.Forms.KeyEventHandler(this.listBoxLesson_KeyDown);
-            this.listBoxLesson.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.listBoxLesson_MouseDoubleClick);
             // 
             // panelLearnLesson
             // 
@@ -403,16 +372,6 @@
             this.buttonVocabNext.UseVisualStyleBackColor = true;
             this.buttonVocabNext.Click += new System.EventHandler(this.buttonVocabNext_Click);
             // 
-            // labelVocabHint
-            // 
-            this.labelVocabHint.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.labelVocabHint.Location = new System.Drawing.Point(50, 130);
-            this.labelVocabHint.Name = "labelVocabHint";
-            this.labelVocabHint.Size = new System.Drawing.Size(472, 20);
-            this.labelVocabHint.TabIndex = 12;
-            this.labelVocabHint.Text = "Hint";
-            this.labelVocabHint.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // buttonVocabAgain
             // 
             this.buttonVocabAgain.Location = new System.Drawing.Point(111, 210);
@@ -422,14 +381,6 @@
             this.buttonVocabAgain.Text = "Start Again";
             this.buttonVocabAgain.UseVisualStyleBackColor = true;
             this.buttonVocabAgain.Click += new System.EventHandler(this.buttonVocabAgain_Click);
-            // 
-            // textBoxVocabAnswer
-            // 
-            this.textBoxVocabAnswer.Location = new System.Drawing.Point(150, 160);
-            this.textBoxVocabAnswer.Name = "textBoxVocabAnswer";
-            this.textBoxVocabAnswer.Size = new System.Drawing.Size(272, 27);
-            this.textBoxVocabAnswer.TabIndex = 9;
-            this.textBoxVocabAnswer.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxVocabAnswer_KeyPress);
             // 
             // labelVocabQuestion
             // 
@@ -469,27 +420,6 @@
             this.labelVocabWrongText.Text = "10";
             this.labelVocabWrongText.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // labelVocabWrongImage
-            // 
-            this.labelVocabWrongImage.Location = new System.Drawing.Point(356, 30);
-            this.labelVocabWrongImage.Name = "labelVocabWrongImage";
-            this.labelVocabWrongImage.Size = new System.Drawing.Size(30, 30);
-            this.labelVocabWrongImage.TabIndex = 4;
-            // 
-            // labelVocabCorrectImage
-            // 
-            this.labelVocabCorrectImage.Location = new System.Drawing.Point(256, 30);
-            this.labelVocabCorrectImage.Name = "labelVocabCorrectImage";
-            this.labelVocabCorrectImage.Size = new System.Drawing.Size(30, 30);
-            this.labelVocabCorrectImage.TabIndex = 3;
-            // 
-            // labelVocabRemainImage
-            // 
-            this.labelVocabRemainImage.Location = new System.Drawing.Point(156, 30);
-            this.labelVocabRemainImage.Name = "labelVocabRemainImage";
-            this.labelVocabRemainImage.Size = new System.Drawing.Size(30, 30);
-            this.labelVocabRemainImage.TabIndex = 2;
-            // 
             // buttonVocabBack
             // 
             this.buttonVocabBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -519,28 +449,28 @@
             this.dataGridViewVocabulary.AllowUserToResizeColumns = false;
             this.dataGridViewVocabulary.AllowUserToResizeRows = false;
             this.dataGridViewVocabulary.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewVocabulary.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewVocabulary.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.dataGridViewVocabulary.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridViewVocabulary.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
             this.dataGridViewVocabulary.Location = new System.Drawing.Point(0, 3);
             this.dataGridViewVocabulary.MultiSelect = false;
             this.dataGridViewVocabulary.Name = "dataGridViewVocabulary";
             this.dataGridViewVocabulary.ReadOnly = true;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewVocabulary.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewVocabulary.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.dataGridViewVocabulary.RowHeadersVisible = false;
             this.dataGridViewVocabulary.RowHeadersWidth = 10;
             this.dataGridViewVocabulary.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
@@ -632,28 +562,28 @@
             this.dataGridViewGrammar.AllowUserToResizeColumns = false;
             this.dataGridViewGrammar.AllowUserToResizeRows = false;
             this.dataGridViewGrammar.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewGrammar.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewGrammar.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.dataGridViewGrammar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridViewGrammar.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
             this.dataGridViewGrammar.Location = new System.Drawing.Point(0, 3);
             this.dataGridViewGrammar.MultiSelect = false;
             this.dataGridViewGrammar.Name = "dataGridViewGrammar";
             this.dataGridViewGrammar.ReadOnly = true;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewGrammar.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle10.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle10.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewGrammar.RowHeadersDefaultCellStyle = dataGridViewCellStyle10;
             this.dataGridViewGrammar.RowHeadersVisible = false;
             this.dataGridViewGrammar.RowHeadersWidth = 10;
             this.dataGridViewGrammar.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
@@ -734,28 +664,28 @@
             this.dataGridViewKanji.AllowUserToResizeColumns = false;
             this.dataGridViewKanji.AllowUserToResizeRows = false;
             this.dataGridViewKanji.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewKanji.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewKanji.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
             this.dataGridViewKanji.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridViewKanji.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
             this.dataGridViewKanji.Location = new System.Drawing.Point(0, 3);
             this.dataGridViewKanji.MultiSelect = false;
             this.dataGridViewKanji.Name = "dataGridViewKanji";
             this.dataGridViewKanji.ReadOnly = true;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewKanji.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewKanji.RowHeadersDefaultCellStyle = dataGridViewCellStyle12;
             this.dataGridViewKanji.RowHeadersVisible = false;
             this.dataGridViewKanji.RowHeadersWidth = 10;
             this.dataGridViewKanji.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
@@ -776,8 +706,38 @@
             this.tabPageQuiz.Text = "Quiz";
             this.tabPageQuiz.UseVisualStyleBackColor = true;
             // 
+            // panelQuizChooser
+            // 
+            this.panelQuizChooser.Controls.Add(this.groupBoxSize);
+            this.panelQuizChooser.Controls.Add(this.buttonQuizStart);
+            this.panelQuizChooser.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelQuizChooser.Location = new System.Drawing.Point(0, 0);
+            this.panelQuizChooser.Name = "panelQuizChooser";
+            this.panelQuizChooser.Size = new System.Drawing.Size(572, 312);
+            this.panelQuizChooser.TabIndex = 0;
+            // 
+            // buttonQuizStart
+            // 
+            this.buttonQuizStart.Location = new System.Drawing.Point(351, 69);
+            this.buttonQuizStart.Name = "buttonQuizStart";
+            this.buttonQuizStart.Size = new System.Drawing.Size(100, 30);
+            this.buttonQuizStart.TabIndex = 0;
+            this.buttonQuizStart.Text = "Start";
+            this.buttonQuizStart.UseVisualStyleBackColor = true;
+            this.buttonQuizStart.Click += new System.EventHandler(this.buttonQuizStart_Click);
+            // 
             // panelQuizDetail
             // 
+            this.panelQuizDetail.Controls.Add(this.groupBoxChoice);
+            this.panelQuizDetail.Controls.Add(this.buttonQuizNext);
+            this.panelQuizDetail.Controls.Add(this.buttonQuizAgain);
+            this.panelQuizDetail.Controls.Add(this.labelQuizQuestion);
+            this.panelQuizDetail.Controls.Add(this.labelQuizCorrectText);
+            this.panelQuizDetail.Controls.Add(this.labelQuizRemainText);
+            this.panelQuizDetail.Controls.Add(this.labelQuizWrongText);
+            this.panelQuizDetail.Controls.Add(this.labelQuizWrongImage);
+            this.panelQuizDetail.Controls.Add(this.labelQuizCorrectImage);
+            this.panelQuizDetail.Controls.Add(this.labelQuizRemainImage);
             this.panelQuizDetail.Controls.Add(this.buttonQuizBack);
             this.panelQuizDetail.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelQuizDetail.Location = new System.Drawing.Point(0, 0);
@@ -796,25 +756,6 @@
             this.buttonQuizBack.Text = "Back";
             this.buttonQuizBack.UseVisualStyleBackColor = true;
             this.buttonQuizBack.Click += new System.EventHandler(this.buttonQuizBack_Click);
-            // 
-            // panelQuizChooser
-            // 
-            this.panelQuizChooser.Controls.Add(this.buttonQuizStart);
-            this.panelQuizChooser.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelQuizChooser.Location = new System.Drawing.Point(0, 0);
-            this.panelQuizChooser.Name = "panelQuizChooser";
-            this.panelQuizChooser.Size = new System.Drawing.Size(572, 312);
-            this.panelQuizChooser.TabIndex = 0;
-            // 
-            // buttonQuizStart
-            // 
-            this.buttonQuizStart.Location = new System.Drawing.Point(236, 100);
-            this.buttonQuizStart.Name = "buttonQuizStart";
-            this.buttonQuizStart.Size = new System.Drawing.Size(100, 30);
-            this.buttonQuizStart.TabIndex = 0;
-            this.buttonQuizStart.Text = "Start";
-            this.buttonQuizStart.UseVisualStyleBackColor = true;
-            this.buttonQuizStart.Click += new System.EventHandler(this.buttonQuizStart_Click);
             // 
             // panelLearnChooser
             // 
@@ -878,6 +819,97 @@
             this.buttonHiragana.UseVisualStyleBackColor = true;
             this.buttonHiragana.Click += new System.EventHandler(this.buttonHiragana_Click);
             // 
+            // panelLearnHira
+            // 
+            this.panelLearnHira.Controls.Add(this.panelHiraAnime);
+            this.panelLearnHira.Controls.Add(this.panelHiraTable);
+            this.panelLearnHira.Location = new System.Drawing.Point(0, 40);
+            this.panelLearnHira.Name = "panelLearnHira";
+            this.panelLearnHira.Size = new System.Drawing.Size(600, 360);
+            this.panelLearnHira.TabIndex = 6;
+            // 
+            // panelHiraTable
+            // 
+            this.panelHiraTable.Controls.Add(this.labelHiraTable);
+            this.panelHiraTable.Location = new System.Drawing.Point(0, 0);
+            this.panelHiraTable.Name = "panelHiraTable";
+            this.panelHiraTable.Size = new System.Drawing.Size(600, 340);
+            this.panelHiraTable.TabIndex = 1;
+            // 
+            // panelHiraAnime
+            // 
+            this.panelHiraAnime.Controls.Add(this.labelHiraChar);
+            this.panelHiraAnime.Controls.Add(this.labelHiraAnime);
+            this.panelHiraAnime.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelHiraAnime.Location = new System.Drawing.Point(0, 0);
+            this.panelHiraAnime.Name = "panelHiraAnime";
+            this.panelHiraAnime.Size = new System.Drawing.Size(600, 340);
+            this.panelHiraAnime.TabIndex = 2;
+            // 
+            // labelHiraChar
+            // 
+            this.labelHiraChar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.labelHiraChar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.labelHiraChar.Location = new System.Drawing.Point(220, 120);
+            this.labelHiraChar.Name = "labelHiraChar";
+            this.labelHiraChar.Size = new System.Drawing.Size(160, 120);
+            this.labelHiraChar.TabIndex = 2;
+            // 
+            // panelLearnKata
+            // 
+            this.panelLearnKata.Controls.Add(this.panelKataTable);
+            this.panelLearnKata.Controls.Add(this.panelKataAnime);
+            this.panelLearnKata.Location = new System.Drawing.Point(0, 40);
+            this.panelLearnKata.Name = "panelLearnKata";
+            this.panelLearnKata.Size = new System.Drawing.Size(600, 360);
+            this.panelLearnKata.TabIndex = 5;
+            // 
+            // panelKataTable
+            // 
+            this.panelKataTable.Controls.Add(this.labelKataTable);
+            this.panelKataTable.Location = new System.Drawing.Point(0, 0);
+            this.panelKataTable.Name = "panelKataTable";
+            this.panelKataTable.Size = new System.Drawing.Size(600, 340);
+            this.panelKataTable.TabIndex = 1;
+            // 
+            // panelKataAnime
+            // 
+            this.panelKataAnime.Controls.Add(this.labelKataChar);
+            this.panelKataAnime.Controls.Add(this.labelKataAnime);
+            this.panelKataAnime.Location = new System.Drawing.Point(0, 0);
+            this.panelKataAnime.Name = "panelKataAnime";
+            this.panelKataAnime.Size = new System.Drawing.Size(600, 340);
+            this.panelKataAnime.TabIndex = 2;
+            // 
+            // labelKataChar
+            // 
+            this.labelKataChar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.labelKataChar.Location = new System.Drawing.Point(220, 120);
+            this.labelKataChar.Name = "labelKataChar";
+            this.labelKataChar.Size = new System.Drawing.Size(160, 120);
+            this.labelKataChar.TabIndex = 2;
+            // 
+            // panelLearnLessonChooser
+            // 
+            this.panelLearnLessonChooser.Controls.Add(this.listBoxLesson);
+            this.panelLearnLessonChooser.Location = new System.Drawing.Point(0, 40);
+            this.panelLearnLessonChooser.Name = "panelLearnLessonChooser";
+            this.panelLearnLessonChooser.Size = new System.Drawing.Size(600, 360);
+            this.panelLearnLessonChooser.TabIndex = 3;
+            // 
+            // listBoxLesson
+            // 
+            this.listBoxLesson.BackColor = System.Drawing.SystemColors.Window;
+            this.listBoxLesson.Font = new System.Drawing.Font("Meiryo", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBoxLesson.FormattingEnabled = true;
+            this.listBoxLesson.ItemHeight = 28;
+            this.listBoxLesson.Location = new System.Drawing.Point(10, 10);
+            this.listBoxLesson.Name = "listBoxLesson";
+            this.listBoxLesson.Size = new System.Drawing.Size(580, 340);
+            this.listBoxLesson.TabIndex = 0;
+            this.listBoxLesson.KeyDown += new System.Windows.Forms.KeyEventHandler(this.listBoxLesson_KeyDown);
+            this.listBoxLesson.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.listBoxLesson_MouseDoubleClick);
+            // 
             // panelAbout
             // 
             this.panelAbout.Controls.Add(this.buttonBackAbout);
@@ -916,16 +948,307 @@
             this.buttonBackSetting.UseVisualStyleBackColor = true;
             this.buttonBackSetting.Click += new System.EventHandler(this.buttonSettingBack_Click);
             // 
-            // labelHiraChar
+            // buttonQuizNext
             // 
-            this.labelHiraChar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.labelHiraChar.Location = new System.Drawing.Point(220, 120);
-            this.labelHiraChar.Name = "labelHiraChar";
-            this.labelHiraChar.Size = new System.Drawing.Size(160, 120);
-            this.labelHiraChar.TabIndex = 2;
+            this.buttonQuizNext.Location = new System.Drawing.Point(336, 210);
+            this.buttonQuizNext.Name = "buttonQuizNext";
+            this.buttonQuizNext.Size = new System.Drawing.Size(125, 25);
+            this.buttonQuizNext.TabIndex = 24;
+            this.buttonQuizNext.Text = "Next";
+            this.buttonQuizNext.UseVisualStyleBackColor = true;
+            this.buttonQuizNext.Click += new System.EventHandler(this.buttonQuizNext_Click);
+            // 
+            // buttonQuizAgain
+            // 
+            this.buttonQuizAgain.Location = new System.Drawing.Point(111, 210);
+            this.buttonQuizAgain.Name = "buttonQuizAgain";
+            this.buttonQuizAgain.Size = new System.Drawing.Size(125, 25);
+            this.buttonQuizAgain.TabIndex = 22;
+            this.buttonQuizAgain.Text = "Start Again";
+            this.buttonQuizAgain.UseVisualStyleBackColor = true;
+            this.buttonQuizAgain.Click += new System.EventHandler(this.buttonQuizAgain_Click);
+            // 
+            // labelQuizQuestion
+            // 
+            this.labelQuizQuestion.Font = new System.Drawing.Font("Meiryo", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelQuizQuestion.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.labelQuizQuestion.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.labelQuizQuestion.Location = new System.Drawing.Point(10, 70);
+            this.labelQuizQuestion.Name = "labelQuizQuestion";
+            this.labelQuizQuestion.Size = new System.Drawing.Size(552, 40);
+            this.labelQuizQuestion.TabIndex = 20;
+            this.labelQuizQuestion.Text = "Question";
+            this.labelQuizQuestion.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // labelQuizCorrectText
+            // 
+            this.labelQuizCorrectText.Location = new System.Drawing.Point(286, 30);
+            this.labelQuizCorrectText.Name = "labelQuizCorrectText";
+            this.labelQuizCorrectText.Size = new System.Drawing.Size(50, 30);
+            this.labelQuizCorrectText.TabIndex = 19;
+            this.labelQuizCorrectText.Text = "10";
+            this.labelQuizCorrectText.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // labelQuizRemainText
+            // 
+            this.labelQuizRemainText.Location = new System.Drawing.Point(186, 30);
+            this.labelQuizRemainText.Name = "labelQuizRemainText";
+            this.labelQuizRemainText.Size = new System.Drawing.Size(50, 30);
+            this.labelQuizRemainText.TabIndex = 18;
+            this.labelQuizRemainText.Text = "10";
+            this.labelQuizRemainText.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // labelQuizWrongText
+            // 
+            this.labelQuizWrongText.Location = new System.Drawing.Point(386, 30);
+            this.labelQuizWrongText.Name = "labelQuizWrongText";
+            this.labelQuizWrongText.Size = new System.Drawing.Size(50, 30);
+            this.labelQuizWrongText.TabIndex = 17;
+            this.labelQuizWrongText.Text = "10";
+            this.labelQuizWrongText.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // textBoxVocabAnswer
+            // 
+            this.textBoxVocabAnswer.Location = new System.Drawing.Point(150, 160);
+            this.textBoxVocabAnswer.Name = "textBoxVocabAnswer";
+            this.textBoxVocabAnswer.Size = new System.Drawing.Size(272, 27);
+            this.textBoxVocabAnswer.TabIndex = 9;
+            this.textBoxVocabAnswer.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxVocabAnswer_KeyPress);
+            // 
+            // labelVocabHint
+            // 
+            this.labelVocabHint.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.labelVocabHint.Location = new System.Drawing.Point(50, 130);
+            this.labelVocabHint.Name = "labelVocabHint";
+            this.labelVocabHint.Size = new System.Drawing.Size(472, 20);
+            this.labelVocabHint.TabIndex = 12;
+            this.labelVocabHint.Text = "Hint";
+            this.labelVocabHint.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // radioButtonA
+            // 
+            this.radioButtonA.Checked = true;
+            this.radioButtonA.Location = new System.Drawing.Point(41, 22);
+            this.radioButtonA.Name = "radioButtonA";
+            this.radioButtonA.Size = new System.Drawing.Size(170, 24);
+            this.radioButtonA.TabIndex = 25;
+            this.radioButtonA.TabStop = true;
+            this.radioButtonA.Text = "A";
+            this.radioButtonA.UseVisualStyleBackColor = true;
+            // 
+            // radioButtonB
+            // 
+            this.radioButtonB.Location = new System.Drawing.Point(261, 22);
+            this.radioButtonB.Name = "radioButtonB";
+            this.radioButtonB.Size = new System.Drawing.Size(170, 24);
+            this.radioButtonB.TabIndex = 26;
+            this.radioButtonB.TabStop = true;
+            this.radioButtonB.Text = "B";
+            this.radioButtonB.UseVisualStyleBackColor = true;
+            // 
+            // radioButtonC
+            // 
+            this.radioButtonC.Location = new System.Drawing.Point(41, 57);
+            this.radioButtonC.Name = "radioButtonC";
+            this.radioButtonC.Size = new System.Drawing.Size(170, 24);
+            this.radioButtonC.TabIndex = 27;
+            this.radioButtonC.TabStop = true;
+            this.radioButtonC.Text = "C";
+            this.radioButtonC.UseVisualStyleBackColor = true;
+            // 
+            // radioButtonD
+            // 
+            this.radioButtonD.Location = new System.Drawing.Point(261, 57);
+            this.radioButtonD.Name = "radioButtonD";
+            this.radioButtonD.Size = new System.Drawing.Size(170, 24);
+            this.radioButtonD.TabIndex = 28;
+            this.radioButtonD.TabStop = true;
+            this.radioButtonD.Text = "D";
+            this.radioButtonD.UseVisualStyleBackColor = true;
+            // 
+            // groupBoxChoice
+            // 
+            this.groupBoxChoice.Controls.Add(this.radioButtonA);
+            this.groupBoxChoice.Controls.Add(this.labelChoiceD);
+            this.groupBoxChoice.Controls.Add(this.radioButtonB);
+            this.groupBoxChoice.Controls.Add(this.labelChoiceC);
+            this.groupBoxChoice.Controls.Add(this.radioButtonC);
+            this.groupBoxChoice.Controls.Add(this.labelChoiceB);
+            this.groupBoxChoice.Controls.Add(this.radioButtonD);
+            this.groupBoxChoice.Controls.Add(this.labelChoiceA);
+            this.groupBoxChoice.Location = new System.Drawing.Point(60, 110);
+            this.groupBoxChoice.Name = "groupBoxChoice";
+            this.groupBoxChoice.Size = new System.Drawing.Size(452, 90);
+            this.groupBoxChoice.TabIndex = 33;
+            this.groupBoxChoice.TabStop = false;
+            this.groupBoxChoice.Text = "Answer";
+            // 
+            // groupBoxSize
+            // 
+            this.groupBoxSize.Controls.Add(this.radioButtonFull);
+            this.groupBoxSize.Controls.Add(this.numericUpDownSize);
+            this.groupBoxSize.Controls.Add(this.radioButtonCustom);
+            this.groupBoxSize.Controls.Add(this.radioButtonNormal);
+            this.groupBoxSize.Controls.Add(this.radioButtonQuick);
+            this.groupBoxSize.Location = new System.Drawing.Point(121, 60);
+            this.groupBoxSize.Name = "groupBoxSize";
+            this.groupBoxSize.Size = new System.Drawing.Size(200, 153);
+            this.groupBoxSize.TabIndex = 1;
+            this.groupBoxSize.TabStop = false;
+            this.groupBoxSize.Text = "Size";
+            // 
+            // radioButtonQuick
+            // 
+            this.radioButtonQuick.AutoSize = true;
+            this.radioButtonQuick.Location = new System.Drawing.Point(15, 25);
+            this.radioButtonQuick.Name = "radioButtonQuick";
+            this.radioButtonQuick.Size = new System.Drawing.Size(99, 24);
+            this.radioButtonQuick.TabIndex = 0;
+            this.radioButtonQuick.TabStop = true;
+            this.radioButtonQuick.Text = "Quick (10)";
+            this.radioButtonQuick.UseVisualStyleBackColor = true;
+            // 
+            // radioButtonNormal
+            // 
+            this.radioButtonNormal.AutoSize = true;
+            this.radioButtonNormal.Location = new System.Drawing.Point(15, 55);
+            this.radioButtonNormal.Name = "radioButtonNormal";
+            this.radioButtonNormal.Size = new System.Drawing.Size(111, 24);
+            this.radioButtonNormal.TabIndex = 1;
+            this.radioButtonNormal.TabStop = true;
+            this.radioButtonNormal.Text = "Normal (20)";
+            this.radioButtonNormal.UseVisualStyleBackColor = true;
+            // 
+            // radioButtonCustom
+            // 
+            this.radioButtonCustom.AutoSize = true;
+            this.radioButtonCustom.Location = new System.Drawing.Point(15, 115);
+            this.radioButtonCustom.Name = "radioButtonCustom";
+            this.radioButtonCustom.Size = new System.Drawing.Size(79, 24);
+            this.radioButtonCustom.TabIndex = 2;
+            this.radioButtonCustom.TabStop = true;
+            this.radioButtonCustom.Text = "Custom";
+            this.radioButtonCustom.UseVisualStyleBackColor = true;
+            // 
+            // numericUpDownSize
+            // 
+            this.numericUpDownSize.Font = new System.Drawing.Font("Meiryo", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numericUpDownSize.Location = new System.Drawing.Point(140, 115);
+            this.numericUpDownSize.Maximum = new decimal(new int[] {
+            30,
+            0,
+            0,
+            0});
+            this.numericUpDownSize.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numericUpDownSize.Name = "numericUpDownSize";
+            this.numericUpDownSize.Size = new System.Drawing.Size(45, 25);
+            this.numericUpDownSize.TabIndex = 4;
+            this.numericUpDownSize.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.numericUpDownSize.Value = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
+            this.numericUpDownSize.Enter += new System.EventHandler(this.numericUpDownSize_Enter);
+            // 
+            // radioButtonFull
+            // 
+            this.radioButtonFull.AutoSize = true;
+            this.radioButtonFull.Location = new System.Drawing.Point(15, 85);
+            this.radioButtonFull.Name = "radioButtonFull";
+            this.radioButtonFull.Size = new System.Drawing.Size(86, 24);
+            this.radioButtonFull.TabIndex = 5;
+            this.radioButtonFull.TabStop = true;
+            this.radioButtonFull.Text = "Full (30)";
+            this.radioButtonFull.UseVisualStyleBackColor = true;
+            // 
+            // labelVocabWrongImage
+            // 
+            this.labelVocabWrongImage.Image = global::Main.Properties.Resources.Wrong;
+            this.labelVocabWrongImage.Location = new System.Drawing.Point(356, 30);
+            this.labelVocabWrongImage.Name = "labelVocabWrongImage";
+            this.labelVocabWrongImage.Size = new System.Drawing.Size(30, 30);
+            this.labelVocabWrongImage.TabIndex = 4;
+            // 
+            // labelVocabCorrectImage
+            // 
+            this.labelVocabCorrectImage.Image = global::Main.Properties.Resources.Correct;
+            this.labelVocabCorrectImage.Location = new System.Drawing.Point(256, 30);
+            this.labelVocabCorrectImage.Name = "labelVocabCorrectImage";
+            this.labelVocabCorrectImage.Size = new System.Drawing.Size(30, 30);
+            this.labelVocabCorrectImage.TabIndex = 3;
+            // 
+            // labelVocabRemainImage
+            // 
+            this.labelVocabRemainImage.Image = global::Main.Properties.Resources.Remaining;
+            this.labelVocabRemainImage.Location = new System.Drawing.Point(156, 30);
+            this.labelVocabRemainImage.Name = "labelVocabRemainImage";
+            this.labelVocabRemainImage.Size = new System.Drawing.Size(30, 30);
+            this.labelVocabRemainImage.TabIndex = 2;
+            // 
+            // labelChoiceD
+            // 
+            this.labelChoiceD.Image = global::Main.Properties.Resources.WrongSmaller;
+            this.labelChoiceD.Location = new System.Drawing.Point(235, 59);
+            this.labelChoiceD.Name = "labelChoiceD";
+            this.labelChoiceD.Size = new System.Drawing.Size(20, 20);
+            this.labelChoiceD.TabIndex = 32;
+            // 
+            // labelChoiceC
+            // 
+            this.labelChoiceC.Image = global::Main.Properties.Resources.WrongSmaller;
+            this.labelChoiceC.Location = new System.Drawing.Point(15, 59);
+            this.labelChoiceC.Name = "labelChoiceC";
+            this.labelChoiceC.Size = new System.Drawing.Size(20, 20);
+            this.labelChoiceC.TabIndex = 31;
+            // 
+            // labelChoiceB
+            // 
+            this.labelChoiceB.Image = global::Main.Properties.Resources.WrongSmaller;
+            this.labelChoiceB.Location = new System.Drawing.Point(235, 24);
+            this.labelChoiceB.Name = "labelChoiceB";
+            this.labelChoiceB.Size = new System.Drawing.Size(20, 20);
+            this.labelChoiceB.TabIndex = 30;
+            // 
+            // labelChoiceA
+            // 
+            this.labelChoiceA.Image = global::Main.Properties.Resources.CorrectSmaller;
+            this.labelChoiceA.Location = new System.Drawing.Point(15, 24);
+            this.labelChoiceA.Name = "labelChoiceA";
+            this.labelChoiceA.Size = new System.Drawing.Size(20, 20);
+            this.labelChoiceA.TabIndex = 29;
+            // 
+            // labelQuizWrongImage
+            // 
+            this.labelQuizWrongImage.Image = global::Main.Properties.Resources.Wrong;
+            this.labelQuizWrongImage.Location = new System.Drawing.Point(356, 30);
+            this.labelQuizWrongImage.Name = "labelQuizWrongImage";
+            this.labelQuizWrongImage.Size = new System.Drawing.Size(30, 30);
+            this.labelQuizWrongImage.TabIndex = 16;
+            // 
+            // labelQuizCorrectImage
+            // 
+            this.labelQuizCorrectImage.Image = global::Main.Properties.Resources.Correct;
+            this.labelQuizCorrectImage.Location = new System.Drawing.Point(256, 30);
+            this.labelQuizCorrectImage.Name = "labelQuizCorrectImage";
+            this.labelQuizCorrectImage.Size = new System.Drawing.Size(30, 30);
+            this.labelQuizCorrectImage.TabIndex = 15;
+            // 
+            // labelQuizRemainImage
+            // 
+            this.labelQuizRemainImage.Image = global::Main.Properties.Resources.Remaining;
+            this.labelQuizRemainImage.Location = new System.Drawing.Point(156, 30);
+            this.labelQuizRemainImage.Name = "labelQuizRemainImage";
+            this.labelQuizRemainImage.Size = new System.Drawing.Size(30, 30);
+            this.labelQuizRemainImage.TabIndex = 14;
             // 
             // labelHiraAnime
             // 
+            this.labelHiraAnime.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.labelHiraAnime.Cursor = System.Windows.Forms.Cursors.Default;
             this.labelHiraAnime.Image = global::Main.Properties.Resources.Hiragana;
             this.labelHiraAnime.Location = new System.Drawing.Point(30, 30);
@@ -936,6 +1259,7 @@
             // 
             // labelHiraTable
             // 
+            this.labelHiraTable.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.labelHiraTable.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelHiraTable.Image = global::Main.Properties.Resources.Hiragana;
             this.labelHiraTable.Location = new System.Drawing.Point(30, 30);
@@ -943,7 +1267,27 @@
             this.labelHiraTable.Name = "labelHiraTable";
             this.labelHiraTable.Size = new System.Drawing.Size(537, 303);
             this.labelHiraTable.TabIndex = 0;
-            this.labelHiraTable.MouseClick += new System.Windows.Forms.MouseEventHandler(this.labelLearnHira_MouseClick);
+            this.labelHiraTable.MouseClick += new System.Windows.Forms.MouseEventHandler(this.labelHiraTable_MouseClick);
+            // 
+            // labelKataTable
+            // 
+            this.labelKataTable.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.labelKataTable.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.labelKataTable.Image = global::Main.Properties.Resources.Katakana;
+            this.labelKataTable.Location = new System.Drawing.Point(30, 30);
+            this.labelKataTable.Name = "labelKataTable";
+            this.labelKataTable.Size = new System.Drawing.Size(537, 303);
+            this.labelKataTable.TabIndex = 0;
+            this.labelKataTable.MouseClick += new System.Windows.Forms.MouseEventHandler(this.labelKataTable_MouseClick);
+            // 
+            // labelKataAnime
+            // 
+            this.labelKataAnime.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.labelKataAnime.Image = global::Main.Properties.Resources.Katakana;
+            this.labelKataAnime.Location = new System.Drawing.Point(30, 30);
+            this.labelKataAnime.Name = "labelKataAnime";
+            this.labelKataAnime.Size = new System.Drawing.Size(537, 303);
+            this.labelKataAnime.TabIndex = 1;
             // 
             // MainForm
             // 
@@ -963,11 +1307,6 @@
             this.panelMenu.ResumeLayout(false);
             this.panelMenu.PerformLayout();
             this.panelLearn.ResumeLayout(false);
-            this.panelLearnHira.ResumeLayout(false);
-            this.panelHiraAnime.ResumeLayout(false);
-            this.panelHiraTable.ResumeLayout(false);
-            this.panelLearnKata.ResumeLayout(false);
-            this.panelLearnLessonChooser.ResumeLayout(false);
             this.panelLearnLesson.ResumeLayout(false);
             this.tabControlLearning.ResumeLayout(false);
             this.tabPageVocabulary.ResumeLayout(false);
@@ -986,12 +1325,23 @@
             this.panelKanjiChooser.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewKanji)).EndInit();
             this.tabPageQuiz.ResumeLayout(false);
-            this.panelQuizDetail.ResumeLayout(false);
             this.panelQuizChooser.ResumeLayout(false);
+            this.panelQuizDetail.ResumeLayout(false);
             this.panelLearnChooser.ResumeLayout(false);
             this.panelLearnBasic.ResumeLayout(false);
+            this.panelLearnHira.ResumeLayout(false);
+            this.panelHiraTable.ResumeLayout(false);
+            this.panelHiraAnime.ResumeLayout(false);
+            this.panelLearnKata.ResumeLayout(false);
+            this.panelKataTable.ResumeLayout(false);
+            this.panelKataAnime.ResumeLayout(false);
+            this.panelLearnLessonChooser.ResumeLayout(false);
             this.panelAbout.ResumeLayout(false);
             this.panelSetting.ResumeLayout(false);
+            this.groupBoxChoice.ResumeLayout(false);
+            this.groupBoxSize.ResumeLayout(false);
+            this.groupBoxSize.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownSize)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1034,7 +1384,7 @@
         private System.Windows.Forms.Panel panelLearnHira;
         private System.Windows.Forms.Panel panelLearnKata;
         private System.Windows.Forms.Label labelHiraTable;
-        private System.Windows.Forms.Label labelLearnKata;
+        private System.Windows.Forms.Label labelKataTable;
         private System.Windows.Forms.Panel panelGrammarDetail;
         private System.Windows.Forms.Panel panelGrammarChooser;
         private System.Windows.Forms.Panel panelKanjiChooser;
@@ -1059,13 +1409,41 @@
         private System.Windows.Forms.Label labelVocabRemainText;
         private System.Windows.Forms.Label labelVocabWrongText;
         private System.Windows.Forms.Button buttonVocabNext;
-        private System.Windows.Forms.Label labelVocabHint;
         private System.Windows.Forms.Button buttonVocabAgain;
-        private System.Windows.Forms.TextBox textBoxVocabAnswer;
         private System.Windows.Forms.Label labelVocabQuestion;
         private System.Windows.Forms.Panel panelHiraAnime;
         private System.Windows.Forms.Panel panelHiraTable;
         private System.Windows.Forms.Label labelHiraChar;
         private System.Windows.Forms.Label labelHiraAnime;
+        private System.Windows.Forms.Panel panelKataAnime;
+        private System.Windows.Forms.Label labelKataChar;
+        private System.Windows.Forms.Label labelKataAnime;
+        private System.Windows.Forms.Panel panelKataTable;
+        private System.Windows.Forms.Label labelVocabHint;
+        private System.Windows.Forms.TextBox textBoxVocabAnswer;
+        private System.Windows.Forms.Button buttonQuizNext;
+        private System.Windows.Forms.Button buttonQuizAgain;
+        private System.Windows.Forms.Label labelQuizQuestion;
+        private System.Windows.Forms.Label labelQuizCorrectText;
+        private System.Windows.Forms.Label labelQuizRemainText;
+        private System.Windows.Forms.Label labelQuizWrongText;
+        private System.Windows.Forms.Label labelQuizWrongImage;
+        private System.Windows.Forms.Label labelQuizCorrectImage;
+        private System.Windows.Forms.Label labelQuizRemainImage;
+        private System.Windows.Forms.Label labelChoiceD;
+        private System.Windows.Forms.Label labelChoiceC;
+        private System.Windows.Forms.Label labelChoiceB;
+        private System.Windows.Forms.Label labelChoiceA;
+        private System.Windows.Forms.RadioButton radioButtonD;
+        private System.Windows.Forms.RadioButton radioButtonC;
+        private System.Windows.Forms.RadioButton radioButtonB;
+        private System.Windows.Forms.RadioButton radioButtonA;
+        private System.Windows.Forms.GroupBox groupBoxChoice;
+        private System.Windows.Forms.GroupBox groupBoxSize;
+        private System.Windows.Forms.NumericUpDown numericUpDownSize;
+        private System.Windows.Forms.RadioButton radioButtonCustom;
+        private System.Windows.Forms.RadioButton radioButtonNormal;
+        private System.Windows.Forms.RadioButton radioButtonQuick;
+        private System.Windows.Forms.RadioButton radioButtonFull;
     }
 }
