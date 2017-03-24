@@ -1,5 +1,4 @@
 D:\Study\5 - PRN292\PROJECT\Admin\Admin\bin\Debug\Admin.exe.config
-D:\Study\5 - PRN292\PROJECT\Admin\Admin\obj\Debug\Admin.csprojResolveAssemblyReference.cache
 D:\Study\5 - PRN292\PROJECT\Admin\Admin\obj\Debug\Admin.Forms.FormLogin.resources
 D:\Study\5 - PRN292\PROJECT\Admin\Admin\obj\Debug\Admin.FormMain.resources
 D:\Study\5 - PRN292\PROJECT\Admin\Admin\obj\Debug\Admin.Properties.Resources.resources
@@ -8,3 +7,11 @@ D:\Study\5 - PRN292\PROJECT\Admin\Admin\bin\Debug\Admin.exe
 D:\Study\5 - PRN292\PROJECT\Admin\Admin\bin\Debug\Admin.pdb
 D:\Study\5 - PRN292\PROJECT\Admin\Admin\obj\Debug\Admin.exe
 D:\Study\5 - PRN292\PROJECT\Admin\Admin\obj\Debug\Admin.pdb
+D:\Study\5 - PRN292\PROJECT\Admin\Admin\obj\Debug\Admin.Forms.FormEditVocabulary.resources
+D:\Study\5 - PRN292\PROJECT\Admin\Admin\obj\Debug\Admin.Forms.FormAddVocabulary.resources
+D:\Study\5 - PRN292\PROJECT\Admin\Admin\obj\Debug\Admin.Forms.FormAddGrammar.resources
+D:\Study\5 - PRN292\PROJECT\Admin\Admin\obj\Debug\Admin.Forms.FormAddKanji.resources
+D:\Study\5 - PRN292\PROJECT\Admin\Admin\obj\Debug\Admin.Forms.FormEditGrammar.resources
+D:\Study\5 - PRN292\PROJECT\Admin\Admin\obj\Debug\Admin.Forms.FormEditKanji.resources
+D:\Study\5 - PRN292\PROJECT\Admin\Admin\obj\Debug\Admin.Forms.FormAddQuiz.resources
+D:\Study\5 - PRN292\PROJECT\Admin\Admin\obj\Debug\Admin.Forms.FormEditQuiz.resources

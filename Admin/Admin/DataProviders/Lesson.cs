@@ -20,5 +20,11 @@ namespace Admin
             this.LessonNumber = LessonNumber;
         }
 
+        public Lesson(string Name, int BookID, int LessonNumber)
+        {
+            this.Name = Name;
+            this.BookID = BookID;
+            this.LessonNumber = LessonNumber;
+        }
     }
 }

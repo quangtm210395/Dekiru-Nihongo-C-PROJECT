@@ -21,8 +21,16 @@ namespace Admin
             this.Term = Term;
             this.Definition = Definition;
 
-            Term1 = Term.Substring(5, 1);
-            Term2 = Term.Substring(8);
+            Term1 = Term.Substring(0, 1);
+            Term2 = Term.Substring(4);
+        }
+
+        public Kanji( int LessonID, string Term, string Definition)
+        {
+            this.LessonID = LessonID;
+            this.Term = Term;
+            this.Definition = Definition;
+            
         }
     }
 }

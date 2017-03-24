@@ -48,6 +48,54 @@
   <ItemGroup>
     <Compile Include="DataAcessLayer\DataContext.cs" />
     <Compile Include="DataProviders\Admin.cs" />
+    <Compile Include="Forms\FormAddGrammar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAddGrammar.Designer.cs">
+      <DependentUpon>FormAddGrammar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAddKanji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAddKanji.Designer.cs">
+      <DependentUpon>FormAddKanji.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAddQuiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAddQuiz.Designer.cs">
+      <DependentUpon>FormAddQuiz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAddVocabulary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAddVocabulary.Designer.cs">
+      <DependentUpon>FormAddVocabulary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormEditGrammar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormEditGrammar.Designer.cs">
+      <DependentUpon>FormEditGrammar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormEditKanji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormEditKanji.Designer.cs">
+      <DependentUpon>FormEditKanji.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormEditQuiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormEditQuiz.Designer.cs">
+      <DependentUpon>FormEditQuiz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormEditVocabulary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormEditVocabulary.Designer.cs">
+      <DependentUpon>FormEditVocabulary.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +116,30 @@
     <Compile Include="DataProviders\Lesson.cs" />
     <Compile Include="DataProviders\Quiz.cs" />
     <Compile Include="DataProviders\Vocabulary.cs" />
+    <EmbeddedResource Include="Forms\FormAddGrammar.resx">
+      <DependentUpon>FormAddGrammar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAddKanji.resx">
+      <DependentUpon>FormAddKanji.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAddQuiz.resx">
+      <DependentUpon>FormAddQuiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAddVocabulary.resx">
+      <DependentUpon>FormAddVocabulary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormEditGrammar.resx">
+      <DependentUpon>FormEditGrammar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormEditKanji.resx">
+      <DependentUpon>FormEditKanji.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormEditQuiz.resx">
+      <DependentUpon>FormEditQuiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormEditVocabulary.resx">
+      <DependentUpon>FormEditVocabulary.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>

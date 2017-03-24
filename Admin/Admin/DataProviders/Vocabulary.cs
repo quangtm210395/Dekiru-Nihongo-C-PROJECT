@@ -19,5 +19,12 @@ namespace Admin
             this.Term = Term;
             this.Definition = Definition;
         }
+
+        public Vocabulary(int LessonID, string Term, string Definition)
+        {
+            this.LessonID = LessonID;
+            this.Term = Term;
+            this.Definition = Definition;
+        }
     }
 }
