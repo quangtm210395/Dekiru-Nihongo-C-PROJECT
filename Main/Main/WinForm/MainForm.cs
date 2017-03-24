@@ -20,6 +20,7 @@ namespace Main.WinForm
             InitializeLearnLessonDataGridViews();
             InitializeLearnBasicLabelBackground();
             InitializeVariables();
+            panelMenu.BringToFront();
         }
 
         private User user;
@@ -29,12 +30,33 @@ namespace Main.WinForm
         {
             radioChoices = new List<RadioButton> { radioButtonA, radioButtonB, radioButtonC, radioButtonD };
             labelChoices = new List<Label> { labelChoiceA, labelChoiceB, labelChoiceC, labelChoiceD };
+
+            InitializeLogin();
+        }
+
+        private void InitializeLogin()
+        {
+            int userID = Properties.Settings.Default.UserID;
+            user = DataContext.Login(userID);
+            if (user.ID == 0)
+            {
+                buttonLogin.BringToFront();
+                buttonLogin.Focus();
+                buttonRegister.Enabled = true;
+            }
+            else
+            {
+                buttonLearn.BringToFront();
+                buttonLearn.Focus();
+                buttonRegister.Enabled = false;
+
+                labelUsername.Text = user.Name;
+                panelUser.Visible = true;
+            }
         }
 
         private void InitializeLearnLessonDataGridViews()
         {
-            panelMenu.BringToFront();
-
             dataGridViewVocabulary.AutoGenerateColumns = false;
             dataGridViewVocabulary.Columns.Add("col_Term", "Term");
             dataGridViewVocabulary.Columns["col_Term"].DataPropertyName = "Term";
@@ -145,6 +167,9 @@ namespace Main.WinForm
             buttonRegister.Enabled = true;
             buttonLogin.BringToFront();
             buttonLogin.Focus();
+
+            Properties.Settings.Default.UserID = 0;
+            Properties.Settings.Default.Save();
         }
 
         private void textBoxLoginUsername_KeyDown(object sender, KeyEventArgs e)
@@ -154,7 +179,7 @@ namespace Main.WinForm
 
         private void textBoxLoginPassword_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Enter) buttonLoginGo_Click(null, null);
+            if (e.KeyCode == Keys.Enter) checkBoxRemember.Focus();
         }
 
         private void buttonLoginGo_Click(object sender, EventArgs e)
@@ -175,6 +200,9 @@ namespace Main.WinForm
 
                 buttonLearn.BringToFront();
                 buttonLearn.Focus();
+
+                if (checkBoxRemember.Checked) Properties.Settings.Default.UserID = user.ID;
+                Properties.Settings.Default.Save();
             }
         }
 
@@ -236,6 +264,9 @@ namespace Main.WinForm
 
             buttonLearn.BringToFront();
             buttonLearn.Focus();
+
+            Properties.Settings.Default.UserID = user.ID;
+            Properties.Settings.Default.Save();
         }
 
         private void buttonRegisterCancel_Click(object sender, EventArgs e)
@@ -535,96 +566,6 @@ namespace Main.WinForm
             labelLearn.Text = stackLabelLearn.Peek();
         }
 
-        // Tab Control Setting
-
-        private void tabControlLearning_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (tabControlLearning.SelectedIndex == 0)
-            {
-                List<Vocabulary> listVocab = DataContext.GetListVocabularyByLessonID(lesson.ID);
-                dataGridViewVocabulary.DataSource = listVocab;
-                for (int i = 0; i < listVocab.Count; i++)
-                    dataGridViewVocabulary.Rows[i].Cells[2].Value = DataContext.CheckFavourite(user.ID, listVocab[i].ID) ?
-                        Properties.Resources.Empty : Properties.Resources.Like;
-
-                panelVocabChooser.BringToFront();
-            }
-            if (tabControlLearning.SelectedIndex == 1) panelGrammarChooser.BringToFront();
-            if (tabControlLearning.SelectedIndex == 2) panelKanjiChooser.BringToFront();
-            if (tabControlLearning.SelectedIndex == 3) panelQuizChooser.BringToFront();
-            if (tabControlLearning.SelectedIndex == 3) radioButtonQuick.Checked = true;
-
-            if (tabControlLearning.SelectedIndex == 4)
-            {
-                List<Vocabulary> listFavor = DataContext.GetListFavoriteByLessonID(user.ID, lesson.ID);
-                dataGridViewFavorite.DataSource = listFavor;
-                for (int i = 0; i < listFavor.Count; i++)
-                    dataGridViewFavorite.Rows[i].Cells[2].Value = DataContext.CheckFavourite(user.ID, listFavor[i].ID) ?
-                        Properties.Resources.Empty : Properties.Resources.Like;
-
-                panelFovuriteChooser.BringToFront();
-            }
-            buttonBackLearn.Focus();
-        }
-
-        private void dataGridViewGrammar_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
-        {
-            int index = e.RowIndex;
-            if (index == -1) return;
-
-            Grammar grammar = ((List<Grammar>)dataGridViewGrammar.DataSource)[index];
-            labelGrammarTerm.Text = grammar.Term;
-            textBoxGrammarDef.Text = DataUsing.GetDefinitionText(grammar.Definition);
-
-            panelGrammarDetail.BringToFront();
-            buttonGrammarBack.Focus();
-        }
-
-        private void dataGridViewKanji_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
-        {
-            int index = e.RowIndex;
-            if (index == -1) return;
-
-            Kanji kanji = ((List<Kanji>)dataGridViewKanji.DataSource)[index];
-            labelKanjiTerm.Text = kanji.Term;
-            textBoxKanjiDef.Text = DataUsing.GetDefinitionText(kanji.Definition);
-
-            panelKanjiDetail.BringToFront();
-            buttonKanjiBack.Focus();
-        }
-
-        // Get back while Learning
-
-        private void buttonVocabBack_Click(object sender, EventArgs e)
-        {
-            panelVocabChooser.BringToFront();
-            dataGridViewVocabulary.Focus();
-        }
-
-        private void buttonGrammarBack_Click(object sender, EventArgs e)
-        {
-            panelGrammarChooser.BringToFront();
-            dataGridViewGrammar.Focus();
-        }
-
-        private void buttonKanjiBack_Click(object sender, EventArgs e)
-        {
-            panelKanjiChooser.BringToFront();
-            dataGridViewKanji.Focus();
-        }
-
-        private void buttonQuizBack_Click(object sender, EventArgs e)
-        {
-            panelQuizChooser.BringToFront();
-            buttonQuizStart.Focus();
-        }
-
-        private void buttonFavorBack_Click(object sender, EventArgs e)
-        {
-            panelFovuriteChooser.BringToFront();
-            dataGridViewFavorite.Focus();
-        }
-
         // Learn Favorite
 
         private void buttonFavorLearn_Click(object sender, EventArgs e)
@@ -804,14 +745,12 @@ namespace Main.WinForm
             else showAnswerLearnVocab();
         }
 
-        // Quiz Before
+        // Do Quiz
 
         private void numericUpDownSize_Enter(object sender, EventArgs e)
         {
             radioButtonCustom.Checked = true;
         }
-
-        // Quiz
 
         private int quizSize;
         private List<Quiz> listAgain = new List<Quiz>();
@@ -953,6 +892,96 @@ namespace Main.WinForm
             if (labelChoiceA.Visible | labelChoiceB.Visible | labelChoiceC.Visible | labelChoiceD.Visible)
                 nextQuizDoQuiz();
             else showAnswerDoQuiz();
+        }
+
+        // Tab Control Setting
+
+        private void tabControlLearning_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (tabControlLearning.SelectedIndex == 0)
+            {
+                List<Vocabulary> listVocab = DataContext.GetListVocabularyByLessonID(lesson.ID);
+                dataGridViewVocabulary.DataSource = listVocab;
+                for (int i = 0; i < listVocab.Count; i++)
+                    dataGridViewVocabulary.Rows[i].Cells[2].Value = DataContext.CheckFavourite(user.ID, listVocab[i].ID) ?
+                        Properties.Resources.Empty : Properties.Resources.Like;
+
+                panelVocabChooser.BringToFront();
+            }
+            if (tabControlLearning.SelectedIndex == 1) panelGrammarChooser.BringToFront();
+            if (tabControlLearning.SelectedIndex == 2) panelKanjiChooser.BringToFront();
+            if (tabControlLearning.SelectedIndex == 3) panelQuizChooser.BringToFront();
+            if (tabControlLearning.SelectedIndex == 3) radioButtonQuick.Checked = true;
+
+            if (tabControlLearning.SelectedIndex == 4)
+            {
+                List<Vocabulary> listFavor = DataContext.GetListFavoriteByLessonID(user.ID, lesson.ID);
+                dataGridViewFavorite.DataSource = listFavor;
+                for (int i = 0; i < listFavor.Count; i++)
+                    dataGridViewFavorite.Rows[i].Cells[2].Value = DataContext.CheckFavourite(user.ID, listFavor[i].ID) ?
+                        Properties.Resources.Empty : Properties.Resources.Like;
+
+                panelFovuriteChooser.BringToFront();
+            }
+            buttonBackLearn.Focus();
+        }
+
+        private void dataGridViewGrammar_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            int index = e.RowIndex;
+            if (index == -1) return;
+
+            Grammar grammar = ((List<Grammar>)dataGridViewGrammar.DataSource)[index];
+            labelGrammarTerm.Text = grammar.Term;
+            textBoxGrammarDef.Text = DataUsing.GetDefinitionText(grammar.Definition);
+
+            panelGrammarDetail.BringToFront();
+            buttonGrammarBack.Focus();
+        }
+
+        private void dataGridViewKanji_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            int index = e.RowIndex;
+            if (index == -1) return;
+
+            Kanji kanji = ((List<Kanji>)dataGridViewKanji.DataSource)[index];
+            labelKanjiTerm.Text = kanji.Term;
+            textBoxKanjiDef.Text = DataUsing.GetDefinitionText(kanji.Definition);
+
+            panelKanjiDetail.BringToFront();
+            buttonKanjiBack.Focus();
+        }
+
+        // Get back while Learning
+
+        private void buttonVocabBack_Click(object sender, EventArgs e)
+        {
+            panelVocabChooser.BringToFront();
+            dataGridViewVocabulary.Focus();
+        }
+
+        private void buttonGrammarBack_Click(object sender, EventArgs e)
+        {
+            panelGrammarChooser.BringToFront();
+            dataGridViewGrammar.Focus();
+        }
+
+        private void buttonKanjiBack_Click(object sender, EventArgs e)
+        {
+            panelKanjiChooser.BringToFront();
+            dataGridViewKanji.Focus();
+        }
+
+        private void buttonQuizBack_Click(object sender, EventArgs e)
+        {
+            panelQuizChooser.BringToFront();
+            buttonQuizStart.Focus();
+        }
+
+        private void buttonFavorBack_Click(object sender, EventArgs e)
+        {
+            panelFovuriteChooser.BringToFront();
+            dataGridViewFavorite.Focus();
         }
 
         // Other

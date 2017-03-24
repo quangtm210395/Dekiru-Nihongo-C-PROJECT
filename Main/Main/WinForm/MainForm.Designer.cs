@@ -167,6 +167,7 @@
             this.listBoxLesson = new System.Windows.Forms.ListBox();
             this.panelAbout = new System.Windows.Forms.Panel();
             this.buttonBackAbout = new System.Windows.Forms.Button();
+            this.checkBoxRemember = new System.Windows.Forms.CheckBox();
             this.panelUser.SuspendLayout();
             this.panelMenu.SuspendLayout();
             this.groupBoxLogin.SuspendLayout();
@@ -313,6 +314,7 @@
             // 
             // groupBoxLogin
             // 
+            this.groupBoxLogin.Controls.Add(this.checkBoxRemember);
             this.groupBoxLogin.Controls.Add(this.labelLoginFailed);
             this.groupBoxLogin.Controls.Add(this.labelLoginPassword);
             this.groupBoxLogin.Controls.Add(this.labelLoginUsername);
@@ -321,9 +323,9 @@
             this.groupBoxLogin.Controls.Add(this.textBoxLoginPassword);
             this.groupBoxLogin.Controls.Add(this.textBoxLoginUsername);
             this.groupBoxLogin.Font = new System.Drawing.Font("Meiryo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBoxLogin.Location = new System.Drawing.Point(150, 100);
+            this.groupBoxLogin.Location = new System.Drawing.Point(150, 80);
             this.groupBoxLogin.Name = "groupBoxLogin";
-            this.groupBoxLogin.Size = new System.Drawing.Size(300, 180);
+            this.groupBoxLogin.Size = new System.Drawing.Size(300, 215);
             this.groupBoxLogin.TabIndex = 9;
             this.groupBoxLogin.TabStop = false;
             this.groupBoxLogin.Text = "Login";
@@ -333,9 +335,9 @@
             // 
             this.labelLoginFailed.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelLoginFailed.ForeColor = System.Drawing.Color.Red;
-            this.labelLoginFailed.Location = new System.Drawing.Point(45, 110);
+            this.labelLoginFailed.Location = new System.Drawing.Point(20, 150);
             this.labelLoginFailed.Name = "labelLoginFailed";
-            this.labelLoginFailed.Size = new System.Drawing.Size(210, 15);
+            this.labelLoginFailed.Size = new System.Drawing.Size(260, 15);
             this.labelLoginFailed.TabIndex = 6;
             this.labelLoginFailed.Text = "Wrong username or password";
             this.labelLoginFailed.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -359,7 +361,7 @@
             // 
             // buttonLoginCancel
             // 
-            this.buttonLoginCancel.Location = new System.Drawing.Point(205, 135);
+            this.buttonLoginCancel.Location = new System.Drawing.Point(205, 175);
             this.buttonLoginCancel.Name = "buttonLoginCancel";
             this.buttonLoginCancel.Size = new System.Drawing.Size(75, 30);
             this.buttonLoginCancel.TabIndex = 3;
@@ -369,7 +371,7 @@
             // 
             // buttonLoginGo
             // 
-            this.buttonLoginGo.Location = new System.Drawing.Point(110, 135);
+            this.buttonLoginGo.Location = new System.Drawing.Point(110, 175);
             this.buttonLoginGo.Name = "buttonLoginGo";
             this.buttonLoginGo.Size = new System.Drawing.Size(75, 30);
             this.buttonLoginGo.TabIndex = 2;
@@ -1703,14 +1705,24 @@
             this.buttonBackAbout.UseVisualStyleBackColor = true;
             this.buttonBackAbout.Click += new System.EventHandler(this.buttonAboutBack_Click);
             // 
+            // checkBoxRemember
+            // 
+            this.checkBoxRemember.AutoSize = true;
+            this.checkBoxRemember.Location = new System.Drawing.Point(110, 117);
+            this.checkBoxRemember.Name = "checkBoxRemember";
+            this.checkBoxRemember.Size = new System.Drawing.Size(103, 24);
+            this.checkBoxRemember.TabIndex = 7;
+            this.checkBoxRemember.Text = "Remember";
+            this.checkBoxRemember.UseVisualStyleBackColor = true;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(600, 400);
+            this.Controls.Add(this.panelMenu);
             this.Controls.Add(this.panelLearn);
             this.Controls.Add(this.panelAbout);
-            this.Controls.Add(this.panelMenu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximumSize = new System.Drawing.Size(616, 439);
             this.Name = "MainForm";
@@ -1897,5 +1909,6 @@
         private System.Windows.Forms.Label labelFavorCorrectImage;
         private System.Windows.Forms.Label labelFavorRemainImage;
         private System.Windows.Forms.Button buttonFavorBack;
+        private System.Windows.Forms.CheckBox checkBoxRemember;
     }
 }
