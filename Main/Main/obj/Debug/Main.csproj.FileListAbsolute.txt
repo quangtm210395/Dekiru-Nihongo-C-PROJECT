@@ -1,7 +1,6 @@
 C:\Users\WindzLord\Github\Dekiru-Nihongo-CSharp\Main\Main\bin\Debug\Main.exe.config
 C:\Users\WindzLord\Github\Dekiru-Nihongo-CSharp\Main\Main\bin\Debug\Main.exe
 C:\Users\WindzLord\Github\Dekiru-Nihongo-CSharp\Main\Main\bin\Debug\Main.pdb
-C:\Users\WindzLord\Github\Dekiru-Nihongo-CSharp\Main\Main\obj\Debug\Main.csprojResolveAssemblyReference.cache
 C:\Users\WindzLord\Github\Dekiru-Nihongo-CSharp\Main\Main\obj\Debug\Main.TransparentLabel.resources
 C:\Users\WindzLord\Github\Dekiru-Nihongo-CSharp\Main\Main\obj\Debug\Main.Properties.Resources.resources
 C:\Users\WindzLord\Github\Dekiru-Nihongo-CSharp\Main\Main\obj\Debug\Main.WinForm.MainForm.resources

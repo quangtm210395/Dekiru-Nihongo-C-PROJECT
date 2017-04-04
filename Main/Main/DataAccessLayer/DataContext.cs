@@ -27,8 +27,14 @@ namespace Main
         public static List<DataRow> ListDataRow(string sql)
         {
             DataSet dataSet = new DataSet();
-            new SqlDataAdapter(new SqlCommand(sql, getSqlConnection())).Fill(dataSet);
-            return dataSet.Tables[0].Rows.Cast<DataRow>().AsEnumerable().ToList();
+            try
+            {
+                new SqlDataAdapter(new SqlCommand(sql, getSqlConnection())).Fill(dataSet);
+                return dataSet.Tables[0].Rows.Cast<DataRow>().AsEnumerable().ToList();
+            } catch (Exception)
+            {
+                return new List<DataRow>();
+            }
         }
 
         public static List<Book> GetListBook()
@@ -240,6 +246,7 @@ namespace Main
             if (!validPass) throw new Exception("Password is wrong format");
 
             bool validName = true;
+            validName &= nickname.Length > 0;
             string ok = nickname.Trim();
             for (int i = 0; i < 50; i++) ok = ok.Replace("  ", " ");
             validName &= ok == nickname;
